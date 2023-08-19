@@ -209,6 +209,38 @@
         "disable_bottom_spacing": false
       }
     },
+    "ba6502f0-39ee-4eb3-8945-7bae4d39ee3b": {
+      "type": "product-display-with-text",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "section_background": "#1f1f23",
+        "heading": "Each Huel Black Edition meal contains...",
+        "text_color": "#ffffff",
+        "heading_left1": "27 vitamins and minerals",
+        "text_left1": "",
+        "heading_left2": "40g protein",
+        "text_left2": "",
+        "heading_left3": "8g fiber & probiotics",
+        "text_left3": "",
+        "image_middle": "shopify:\/\/shop_images\/Black-Edition-No-Shadow_1000x_cb209449-1ea9-4358-ade9-f69f1f11afec.webp",
+        "heading_right1": "Gluten-free",
+        "text_right1": "",
+        "heading_right2": "No artificial sweeteners",
+        "text_right2": "",
+        "heading_right3": "Zinc",
+        "text_right3": "",
+        "button1_link": "",
+        "button1_color": "#1f1f23",
+        "button1_text_color": "#ffffff",
+        "button1_text": "Button 1",
+        "button2_link": "",
+        "button2_color": "#000000",
+        "button2_text_color": "#ffffff",
+        "button2_text": "Button 2"
+      }
+    },
     "05619a4f-436f-4d3b-bdea-56c97722e0c3": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -468,6 +500,41 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
+    },
+    "4228dd7b-3309-4c07-b857-0183644b0d83": {
+      "type": "comparison-table",
+      "blocks": {
+        "20040dca-15ba-4a27-85de-286d23127c85": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Functional Mushrooms",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "tick",
+            "product4_row_radio": "cross"
+          }
+        }
+      },
+      "block_order": [
+        "20040dca-15ba-4a27-85de-286d23127c85"
+      ],
+      "custom_css": [
+        ".custom-table table tr td:nth-child(2) {background: radial-gradient(circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1%);}"
+      ],
+      "settings": {
+        "table_heading": "Why are people choosing Suja?",
+        "product1_pic": "shopify:\/\/shop_images\/Organic_Greens_Landing_Page_Aamazing_Grass_Comparison_Chart_Deskop.webp",
+        "product1_title": "Suja Organic Greens Powder",
+        "product2_pic": "shopify:\/\/shop_images\/Organic_Greens_Landing_Page_AG1_Comparison_Chart_Deskop.webp",
+        "product2_title": "Suja Organic Greens Powder",
+        "product3_pic": "shopify:\/\/shop_images\/Organic_Greens_Landing_Page_AG1_Comparison_Chart_Deskop.webp",
+        "product3_title": "Suja Organic Greens Powder",
+        "product4_pic": "shopify:\/\/shop_images\/Organic_Greens_Landing_Page_AG1_Comparison_Chart_Deskop.webp",
+        "product4_title": "Suja Organic Greens Powder",
+        "background_color": "#1f1f23",
+        "font_color": "#ffffff",
+        "border_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -475,6 +542,7 @@
     "main-product",
     "58d44722-ab46-46eb-92b2-8febe4505129",
     "e2bcbf37-e737-4897-b537-292703633aaa",
+    "ba6502f0-39ee-4eb3-8945-7bae4d39ee3b",
     "05619a4f-436f-4d3b-bdea-56c97722e0c3",
     "c4204c3f-0267-4094-942b-cbef4c9c0a87",
     "081e2acc-aa6a-4a72-9347-fb8bb370af80",
@@ -484,6 +552,7 @@
     "1663667029efc274af",
     "16625458859c68803a",
     "1662552569cce2536d",
-    "product-recommendations"
+    "product-recommendations",
+    "4228dd7b-3309-4c07-b857-0183644b0d83"
   ]
 }

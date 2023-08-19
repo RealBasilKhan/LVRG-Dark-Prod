@@ -55,7 +55,7 @@
     "header-secondary-menu": {
       "type": "header-secondary-menu",
       "custom_css": [
-        ".subheader {background: #FFA001;background: linear-gradient(270deg, #FFA001, #FF8182);}"
+        ".subheader {background: radial-gradient(circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1%);}"
       ],
       "settings": {
         "secondary_menu": "",
@@ -84,7 +84,7 @@
     "header-mobile-navigation": {
       "type": "header-mobile-navigation",
       "custom_css": [
-        ".header-mobile-navigation {background: #ffa001; background: radial-gradient(at right center, #ffa001, #df7475);}"
+        ".header-mobile-navigation {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% );}"
       ],
       "settings": {
         "mobile_nav": "main-menu",
