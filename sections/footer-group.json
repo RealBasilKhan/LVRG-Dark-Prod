@@ -39,7 +39,7 @@
           "type": "signup",
           "settings": {
             "column_size": "large",
-            "title": "Subscribe to our newsletter",
+            "title": "Join The Tribe",
             "text": "<p>Subscription description<\/p>"
           }
         }
