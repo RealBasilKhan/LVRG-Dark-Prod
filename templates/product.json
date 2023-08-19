@@ -204,7 +204,7 @@
         "icon_position": "top",
         "icon_size": "large",
         "heading_size": "large",
-        "mobile_swipe": true,
+        "mobile_swipe": false,
         "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#ffffff",
         "color_text": "#ffffff",
@@ -268,15 +268,6 @@
       "settings": {
         "spacer_mobile": 0,
         "spacer_desktop": 50,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "d5ba2a2b-8bd0-4354-b15b-a335dd1b21ad": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 40,
-        "spacer_desktop": 70,
         "border_separator": false,
         "border_separator_full": false
       }
@@ -516,7 +507,6 @@
     "ba6502f0-39ee-4eb3-8945-7bae4d39ee3b",
     "05619a4f-436f-4d3b-bdea-56c97722e0c3",
     "c4204c3f-0267-4094-942b-cbef4c9c0a87",
-    "d5ba2a2b-8bd0-4354-b15b-a335dd1b21ad",
     "081e2acc-aa6a-4a72-9347-fb8bb370af80",
     "1248ec67-11cc-458d-b67b-97e43ce4f960",
     "1663667029efc274af",
