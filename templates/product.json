@@ -411,7 +411,7 @@
         "1c2b155f-fa55-47b7-b3ac-f2b66737ec17"
       ],
       "settings": {
-        "heading": "Collapsible content",
+        "heading": "|Collapsible content|",
         "marker_style": "style1",
         "description": "<p>Collapsible content description<\/p>",
         "color_bg": "#ffaa47",
