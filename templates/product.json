@@ -669,14 +669,14 @@
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-auto",
         "full_width": true,
-        "content_width": "medium",
+        "content_width": "large",
         "content_position": "bottom-center",
         "text_alignment": "center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     }
   },
