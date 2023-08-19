@@ -513,10 +513,32 @@
             "product3_row_radio": "tick",
             "product4_row_radio": "cross"
           }
+        },
+        "09112ab2-7a1d-47c0-b6a8-c05515bf9d20": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Functional Mushrooms",
+            "product1_row_radio": "cross",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "cross",
+            "product4_row_radio": "cross"
+          }
+        },
+        "7e2386e4-795c-4363-ae77-3f235ac1029a": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Functional Mushrooms",
+            "product1_row_radio": "cross",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "cross",
+            "product4_row_radio": "cross"
+          }
         }
       },
       "block_order": [
-        "20040dca-15ba-4a27-85de-286d23127c85"
+        "20040dca-15ba-4a27-85de-286d23127c85",
+        "09112ab2-7a1d-47c0-b6a8-c05515bf9d20",
+        "7e2386e4-795c-4363-ae77-3f235ac1029a"
       ],
       "custom_css": [
         ".custom-table table tr td:nth-child(2) {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% );}"
