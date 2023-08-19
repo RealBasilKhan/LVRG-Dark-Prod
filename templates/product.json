@@ -105,6 +105,58 @@
         "enable_video_looping": false
       }
     },
+    "58d44722-ab46-46eb-92b2-8febe4505129": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Rejuvinate",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "Add campaign text here.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "Add campaign text here.",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-1",
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-2",
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-3"
+      ],
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "rotation": 2,
+        "negative_rotation": false,
+        "font_family": "heading",
+        "text_size": 24,
+        "text_uppercase": true,
+        "image_size": "large",
+        "color_bg": "transparent",
+        "color_text": "#ffffff",
+        "overlay_color": "rgba(0,0,0,0)",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "e2bcbf37-e737-4897-b537-292703633aaa": {
       "type": "text-with-icons",
       "blocks": {
@@ -140,6 +192,9 @@
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-1",
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2",
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3"
+      ],
+      "custom_css": [
+        ".text-with-icons {background-color: }"
       ],
       "settings": {
         "text_alignment": "left",
@@ -418,6 +473,7 @@
   "order": [
     "breadcrumbs",
     "main-product",
+    "58d44722-ab46-46eb-92b2-8febe4505129",
     "e2bcbf37-e737-4897-b537-292703633aaa",
     "05619a4f-436f-4d3b-bdea-56c97722e0c3",
     "c4204c3f-0267-4094-942b-cbef4c9c0a87",
