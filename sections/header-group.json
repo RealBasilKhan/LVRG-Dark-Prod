@@ -82,7 +82,7 @@
       "type": "header-mobile-navigation",
       "settings": {
         "mobile_nav": "main-menu",
-        "color_links": "#d6d8d9",
+        "color_links": "#ffffff",
         "color_bg": "#787c80"
       }
     }
