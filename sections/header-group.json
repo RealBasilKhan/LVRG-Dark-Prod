@@ -54,6 +54,9 @@
     },
     "header-secondary-menu": {
       "type": "header-secondary-menu",
+      "custom_css": [
+        ".subheader {background: #FFA001;background: linear-gradient(135deg, #FFA001, #4501FF);}"
+      ],
       "settings": {
         "secondary_menu": "",
         "show_language_switcher": false,
