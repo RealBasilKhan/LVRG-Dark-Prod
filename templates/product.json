@@ -114,6 +114,52 @@
         "border_separator_full": false
       }
     },
+    "e2bcbf37-e737-4897-b537-292703633aaa": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "The 20% Testosterone Drop",
+            "text": "<p>Modern men face a staggering 20% testosterone decline compared to their fathers at the same age. Between toxins, junk diets, and sedentary habits, it's not just alarming—it's a crisis.<\/p>"
+          }
+        },
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "8 Out of 10 Men's Veggie Dilemma",
+            "text": "<p>An alarming 8 out of 10 men are dangerously lagging in their daily vegetable intake. Beyond missing essential nutrients, they're leaving hormone optimization on the table. Are you part of this majority?<\/p>"
+          }
+        },
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "3 Silent Estrogen Boosters in Your Greens",
+            "text": "<p>Beware: many greens supplements are secretly laced with soy, alfalfa, and flaxseed. These seemingly innocent ingredients ramp up estrogen, undermining testosterone. A trap many men unknowingly fall into.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-1",
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2",
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "transparent",
+        "color_heading": "#ffffff",
+        "color_text": "#ffffff",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "3a444c86-680e-4deb-b870-63aec684439f": {
       "type": "media-grid",
       "blocks": {
@@ -584,6 +630,7 @@
     "breadcrumbs",
     "main-product",
     "16623877721f33fb14",
+    "e2bcbf37-e737-4897-b537-292703633aaa",
     "3a444c86-680e-4deb-b870-63aec684439f",
     "0e93ba7e-195e-407f-9b80-7d265aa6e1e2",
     "16623873609e87da8b",
