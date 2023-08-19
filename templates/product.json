@@ -105,15 +105,6 @@
         "enable_video_looping": false
       }
     },
-    "16623877721f33fb14": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 35,
-        "spacer_desktop": 90,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
     "e2bcbf37-e737-4897-b537-292703633aaa": {
       "type": "text-with-icons",
       "blocks": {
@@ -121,6 +112,7 @@
           "type": "icon",
           "settings": {
             "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/Male-icon.png",
             "heading": "The 20% Testosterone Drop",
             "text": "<p>Modern men face a staggering 20% testosterone decline compared to their fathers at the same age. Between toxins, junk diets, and sedentary habits, it's not just alarming—it's a crisis.<\/p>"
           }
@@ -129,6 +121,7 @@
           "type": "icon",
           "settings": {
             "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/vegetable.png",
             "heading": "8 Out of 10 Men's Veggie Dilemma",
             "text": "<p>An alarming 8 out of 10 men are dangerously lagging in their daily vegetable intake. Beyond missing essential nutrients, they're leaving hormone optimization on the table. Are you part of this majority?<\/p>"
           }
@@ -137,6 +130,7 @@
           "type": "icon",
           "settings": {
             "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-08-19_at_3.29.27_PM.png",
             "heading": "3 Silent Estrogen Boosters in Your Greens",
             "text": "<p>Beware: many greens supplements are secretly laced with soy, alfalfa, and flaxseed. These seemingly innocent ingredients ramp up estrogen, undermining testosterone. A trap many men unknowingly fall into.<\/p>"
           }
@@ -157,211 +151,6 @@
         "color_heading": "#ffffff",
         "color_text": "#ffffff",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "3a444c86-680e-4deb-b870-63aec684439f": {
-      "type": "media-grid",
-      "blocks": {
-        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-0": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 2,
-            "row": 3,
-            "subheading": "",
-            "heading": "Block heading",
-            "heading_size": "h2",
-            "button_text": "Shop now",
-            "button_link": "",
-            "content_position": "top-left",
-            "text_alignment": "left",
-            "color_bg": "#303c43",
-            "color_bg_gradient": "",
-            "color_text": "#ffffff",
-            "color_link": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-1": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 1,
-            "row": 2,
-            "subheading": "",
-            "heading": "Block heading",
-            "heading_size": "h3",
-            "button_text": "",
-            "button_link": "",
-            "content_position": "top-center",
-            "text_alignment": "center",
-            "color_bg": "#3b63bd",
-            "color_bg_gradient": "",
-            "color_text": "#ffffff",
-            "color_link": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-2": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 1,
-            "row": 1,
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h3",
-            "button_text": "",
-            "button_link": "",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "color_bg": "#3f72e5",
-            "color_bg_gradient": "",
-            "color_text": "#151515",
-            "color_link": "#3f72e5",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "52402f74-ffbf-4ff7-96b3-6c6c30568c45": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 1,
-            "row": 2,
-            "subheading": "",
-            "heading": "Block heading",
-            "heading_size": "h4",
-            "button_text": "",
-            "button_link": "",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "color_bg": "#ffffff",
-            "color_bg_gradient": "",
-            "color_text": "#ffffff",
-            "color_link": "#3f72e5",
-            "overlay_color": "#392894",
-            "overlay_opacity": 52
-          }
-        },
-        "3595a460-057e-4e41-aab6-3ced52f76ef3": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 1,
-            "row": 1,
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h3",
-            "button_text": "",
-            "button_link": "",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "color_bg": "#1de1fe",
-            "color_bg_gradient": "",
-            "color_text": "#151515",
-            "color_link": "#3f72e5",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-0",
-        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-1",
-        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-2",
-        "52402f74-ffbf-4ff7-96b3-6c6c30568c45",
-        "3595a460-057e-4e41-aab6-3ced52f76ef3"
-      ],
-      "settings": {
-        "desktop_height": 220,
-        "mobile_height": 150,
-        "column_spacing": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#2c2d2e",
-        "color_link": "#3f72e5",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "0e93ba7e-195e-407f-9b80-7d265aa6e1e2": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 40,
-        "spacer_desktop": 70,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "16623873609e87da8b": {
-      "type": "multicolumn",
-      "blocks": {
-        "1662387360fb14d4f3-0": {
-          "type": "column",
-          "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "title": "Heading",
-            "text": "<p>Multicolumn description<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1662387360fb14d4f3-1": {
-          "type": "column",
-          "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "title": "Heading",
-            "text": "<p>Multicolumn description<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1662387360fb14d4f3-2": {
-          "type": "column",
-          "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "title": "Heading",
-            "text": "<p>Multicolumn description<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1662387360fb14d4f3-0",
-        "1662387360fb14d4f3-1",
-        "1662387360fb14d4f3-2"
-      ],
-      "settings": {
-        "heading": "",
-        "marker_style": "style1",
-        "description": "",
-        "columns_desktop": 3,
-        "mobile_swipe": true,
-        "image_ratio": "adapt",
-        "text_alignment": "left",
-        "heading_size": "h5",
-        "color_heading": "#1a1c1d",
-        "marker_color": "#fd6262",
-        "color_text": "#2c2d2e",
-        "color_links": "#2c2d2e",
-        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
@@ -629,11 +418,7 @@
   "order": [
     "breadcrumbs",
     "main-product",
-    "16623877721f33fb14",
     "e2bcbf37-e737-4897-b537-292703633aaa",
-    "3a444c86-680e-4deb-b870-63aec684439f",
-    "0e93ba7e-195e-407f-9b80-7d265aa6e1e2",
-    "16623873609e87da8b",
     "c4204c3f-0267-4094-942b-cbef4c9c0a87",
     "081e2acc-aa6a-4a72-9347-fb8bb370af80",
     "d5ba2a2b-8bd0-4354-b15b-a335dd1b21ad",
