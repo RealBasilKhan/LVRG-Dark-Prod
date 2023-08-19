@@ -80,7 +80,7 @@ h3.heading-section-block {
 
 .huel-button {
   min-width: 140px;
-  background-color: #0b0b0b;
+  background-color: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
   border-radius: 8px;
   line-height: 1.2;
   font-size: 12px;
@@ -93,6 +93,7 @@ h3.heading-section-block {
   cursor: pointer;
   transition: all 150ms linear;
   text-decoration: none;
+  animation: anime 16s linear infinite;
 }
 .huel-button:hover:not(:disabled) {
   background-color: #f58523 !important;
@@ -175,5 +176,17 @@ h3.heading-section-block {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
