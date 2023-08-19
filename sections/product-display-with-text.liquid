@@ -1,0 +1,311 @@
+{% comment %}
+  product-display-with-text.liquid
+  Section for a customizable product display with text.
+{% endcomment %}
+
+{{ 'product-display-with-text.css' | asset_url | stylesheet_tag }}
+
+<section class="huel-section" style="background: {{ section.settings.section_background }}">
+
+
+    <div class="product-section-wrapper" >
+    
+        <div class="product-headline-section">
+            <h2 style="color: {{ section.settings.text_color }}">{{ section.settings.heading }}</h2>
+            <div></div>
+        </div>
+
+
+      <div class="flex-wrapper">
+
+        <div class="product-nutrition-section-aside animationx">
+            <div class="product-nutrition-section-info-block animate--fade-in">  
+                <img class="icon" src="{{ section.settings.icon_left1 | img_url: 'small' }}" alt="icon"> 
+                <div class=product-nutrition-section-info>
+                    <h3 class="heading-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.heading_left1 }}</h3>
+                    <div class="text-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.text_left1 }}</div>
+                </div>
+            </div>
+
+            <div class="product-nutrition-section-info-block">  
+                <img class="icon" src="{{ section.settings.icon_left2 | img_url: 'small' }}" alt="icon"> 
+                <div class=product-nutrition-section-info>
+                    <h3 class="heading-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.heading_left2 }}</h3>
+                    <div class="text-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.text_left2 }}</div>
+                </div>
+            </div>
+
+            <div class="product-nutrition-section-info-block">  
+                <img class="icon" src="{{ section.settings.icon_left3 | img_url: 'small' }}" alt="icon"> 
+                <div class=product-nutrition-section-info>
+                    <h3 class="heading-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.heading_left3 }}</h3>
+                    <div class="text-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.text_left3 }}</div>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div class="product-nutrition-section-image animationx">
+            <img src="{{ section.settings.image_middle | img_url: 'large' }}" alt="Middle Image">
+        </div>
+
+
+
+        <div class="product-nutrition-section-aside product-nutrition-section-aside-right animationx">
+
+            <div class="product-nutrition-section-info-block">  
+                <img class="icon" src="{{ section.settings.icon_right1 | img_url: 'small' }}" alt="icon">
+                <div class=product-nutrition-section-info> 
+                    <h3 class="heading-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.heading_right1 }}</h3>
+                    <div class="text-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.text_right1 }}</div>
+                </div>
+            </div>
+            <div class="product-nutrition-section-info-block">  
+                <img class="icon" src="{{ section.settings.icon_right2 | img_url: 'small' }}" alt="icon"> 
+                <div class=product-nutrition-section-info>
+                    <h3 class="heading-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.heading_right2 }}</h3>
+                    <div class="text-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.text_right2 }}</div>
+                </div>
+            </div>  
+            <div class="product-nutrition-section-info-block">  
+                <img class="icon" src="{{ section.settings.icon_right3 | img_url: 'small' }}" alt="icon"> 
+                <div class=product-nutrition-section-info>
+                    <h3 class="heading-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.heading_right3 }}</h3>
+                    <div class="text-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.text_right3 }}</div>
+                </div>
+            </div>  
+            
+        </div>
+    </div>
+
+    <div class="wrap-buttons-centred">
+        <a class="huel-button" href="{{ section.settings.button1_link }}" style="background-color: {{ section.settings.button1_color }}; color: {{ section.settings.button1_text_color }}">{{ section.settings.button1_text }}</a>
+        <div></div>
+        <a class="huel-button" href="{{ section.settings.button2_link }}" style="background-color: {{ section.settings.button2_color }}; color: {{ section.settings.button2_text_color }}">{{ section.settings.button2_text }}</a>
+    </div>
+
+  </section>
+  
+  {% schema %}
+{
+  "name": "Product Display With Text",
+  "settings": [
+    {
+        "type": "color",
+        "label": "Section Background",
+        "id": "section_background",
+        "default": "#fff"
+    },
+    {
+      "type": "text",
+      "label": "Heading",
+      "id": "heading",
+      "default": "Each Huel Black Edition meal contains..."
+    },
+    {
+      "type": "color",
+      "label": "Text Color",
+      "id": "text_color",
+      "default": "#000"
+    },
+    {
+      "type": "image_picker",
+      "label": "Left Icon 1",
+      "id": "icon_left1"
+    },
+    {
+      "type": "text",
+      "label": "Left Heading 1",
+      "id": "heading_left1",
+      "default": "27 vitamins and minerals"
+    },
+    {
+      "type": "textarea",
+      "label": "Left Text 1",
+      "id": "text_left1"
+    },
+    {
+        "type": "image_picker",
+        "label": "Left Icon 2",
+        "id": "icon_left2"
+      },
+      {
+        "type": "text",
+        "label": "Left Heading 2",
+        "id": "heading_left2",
+        "default": "40g protein"
+      },
+      {
+        "type": "textarea",
+        "label": "Left Text 2",
+        "id": "text_left2"
+      },
+      {
+        "type": "image_picker",
+        "label": "Left Icon 3",
+        "id": "icon_left3"
+      },
+      {
+        "type": "text",
+        "label": "Left Heading 3",
+        "id": "heading_left3",
+        "default": "8g fiber & probiotics"
+      },
+      {
+        "type": "textarea",
+        "label": "Left Text 3",
+        "id": "text_left3"
+      },
+    {
+      "type": "image_picker",
+      "label": "Middle Image",
+      "id": "image_middle"
+    },
+    {
+      "type": "image_picker",
+      "label": "Right Icon 1",
+      "id": "icon_right1"
+    },
+    {
+      "type": "text",
+      "label": "Right Heading 1",
+      "id": "heading_right1",
+      "default": "Gluten-free"
+    },
+    {
+      "type": "textarea",
+      "label": "Right Text 1",
+      "id": "text_right1"
+    },
+    {
+        "type": "image_picker",
+        "label": "Right Icon 2",
+        "id": "icon_right2"
+      },
+      {
+        "type": "text",
+        "label": "Right Heading 2",
+        "id": "heading_right2",
+        "default": "No artificial sweeteners"
+      },
+      {
+        "type": "textarea",
+        "label": "Right Text 2",
+        "id": "text_right2"
+      },
+      {
+        "type": "image_picker",
+        "label": "Right Icon 3",
+        "id": "icon_right3"
+      },
+      {
+        "type": "text",
+        "label": "Right Heading 3",
+        "id": "heading_right3",
+        "default": "Zinc"
+      },
+      {
+        "type": "textarea",
+        "label": "Right Text 3",
+        "id": "text_right3"
+      },
+    {
+      "type": "url",
+      "label": "Button 1 Link",
+      "id": "button1_link"
+    },
+    {
+      "type": "color",
+      "label": "Button 1 Color",
+      "id": "button1_color",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "label": "Button 1 Text Color",
+      "id": "button1_text_color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "label": "Button 1 Text",
+      "id": "button1_text",
+      "default": "Button 1"
+    },
+    {
+      "type": "url",
+      "label": "Button 2 Link",
+      "id": "button2_link"
+    },
+    {
+      "type": "color",
+      "label": "Button 2 Color",
+      "id": "button2_color",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "label": "Button 2 Text Color",
+      "id": "button2_text_color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "label": "Button 2 Text",
+      "id": "button2_text",
+      "default": "Button 2"
+    }
+  ],
+  
+  "presets" : [
+    {
+        "category": "Custom Benefits",
+        "name": "Huel Section"
+    }
+  ]
+}
+{% endschema %}
+
+
+<script>
+    function isElementInViewport(el) {
+       
+      var top = el.offsetTop;
+      var left = el.offsetLeft;
+      var width = el.offsetWidth;
+      var height = el.offsetHeight;
+    
+      while(el.offsetParent) {
+        el = el.offsetParent;
+        top += el.offsetTop;
+        left += el.offsetLeft;
+      }
+    
+      return (
+        top < (window.pageYOffset + window.innerHeight) &&
+        left < (window.pageXOffset + window.innerWidth) &&
+        (top + height) > window.pageYOffset &&
+        (left + width) > window.pageXOffset
+      );
+    }
+
+    function addClass() {
+        var sections = document.querySelectorAll('.animationx');
+
+        sections.forEach(function(section) {
+
+            if (isElementInViewport(section)) {
+                if (section.classList.contains('active')) {
+                }else{
+                    section.classList.add('active')
+                }
+            } else {
+                section.classList.remove('active')
+            }
+        });
+    }
+
+    window.addEventListener('scroll', addClass);
+        addClass();
+    </script> 
