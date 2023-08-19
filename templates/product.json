@@ -519,8 +519,7 @@
         "20040dca-15ba-4a27-85de-286d23127c85"
       ],
       "custom_css": [
-        ".custom-table table tr td:nth-child(2) {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% );}",
-        ".custom-table table tr td:nth-child(2) p {fill: rgba(0, 0, 0, 0.75); stroke: rgba(1, 0, 0, 0.75);}"
+        ".custom-table table tr td:nth-child(2) {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% );}"
       ],
       "settings": {
         "table_heading": "Why are people choosing Suja?",
