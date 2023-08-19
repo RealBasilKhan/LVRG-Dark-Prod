@@ -20,8 +20,8 @@
             "icon": "serving_dish",
             "text": "Info box text",
             "link": "",
-            "info_box_bg": "#e9e7ed",
-            "info_box_color": "#2b1559"
+            "info_box_bg": "#1f1f23",
+            "info_box_color": "#ffffff"
           }
         },
         "quantity": {

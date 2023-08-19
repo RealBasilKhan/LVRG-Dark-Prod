@@ -55,7 +55,7 @@
     "header-secondary-menu": {
       "type": "header-secondary-menu",
       "custom_css": [
-        ".subheader {\/** Created with https:\/\/www.css-gradient.com* Gradient link: https:\/\/www.css-gradient.com\/?c1=ffa001&c2=df7475&gt=r&gd=dcr*\/ background: #ffa001; background: radial-gradient(at right center, #ffa001, #df7475);}"
+        ".subheader {background: #FFA001;background: linear-gradient(270deg, #FFA001, #FF8182);}"
       ],
       "settings": {
         "secondary_menu": "",
@@ -84,7 +84,7 @@
     "header-mobile-navigation": {
       "type": "header-mobile-navigation",
       "custom_css": [
-        ".header-mobile-navigation {background: #FFA001;background: radial-gradient(at right center, #FFA001, #DF7475);}"
+        ".header-mobile-navigation {background: #ffa001; background: radial-gradient(at right center, #ffa001, #df7475);}"
       ],
       "settings": {
         "mobile_nav": "main-menu",
