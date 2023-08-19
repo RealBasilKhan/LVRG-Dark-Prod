@@ -55,7 +55,7 @@
     "header-secondary-menu": {
       "type": "header-secondary-menu",
       "custom_css": [
-        ".subheader {background: radial-gradient(circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1%);}"
+        ".subheader {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% );}"
       ],
       "settings": {
         "secondary_menu": "",
