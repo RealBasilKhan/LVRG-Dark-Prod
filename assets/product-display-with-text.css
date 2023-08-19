@@ -80,7 +80,8 @@ h3.heading-section-block {
 
 .huel-button {
   min-width: 140px;
-  background-color: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+  background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+  background-size: 200% 200%;
   border-radius: 8px;
   line-height: 1.2;
   font-size: 12px;

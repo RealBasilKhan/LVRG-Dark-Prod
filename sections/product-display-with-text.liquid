@@ -1,101 +1,153 @@
-{% comment %}
-  product-display-with-text.liquid
-  Section for a customizable product display with text.
-{% endcomment %}
-
 {{ 'product-display-with-text.css' | asset_url | stylesheet_tag }}
 
-<section class="huel-section" style="background: {{ section.settings.section_background }}">
+{%- liquid
+  assign section_background = section.settings.section_background
+  assign text_color = section.settings.text_color
+  assign heading = section.settings.heading
+  assign icon_left1 = section.settings.icon_left1
+  assign heading_left1 = section.settings.heading_left1
+  assign text_left1 = section.settings.text_left1
+  assign icon_left2 = section.settings.icon_left2
+  assign heading_left2 = section.settings.heading_left2
+  assign text_left2 = section.settings.text_left2
+  assign icon_left3 = section.settings.icon_left3
+  assign heading_left3 = section.settings.heading_left3
+  assign text_left3 = section.settings.text_left3
+  assign image_middle = section.settings.image_middle
+  assign icon_right1 = section.settings.icon_right1
+  assign heading_right1 = section.settings.heading_right1
+  assign text_right1 = section.settings.text_right1
+  assign icon_right2 = section.settings.icon_right2
+  assign heading_right2 = section.settings.heading_right2
+  assign text_right2 = section.settings.text_right2
+  assign icon_right3 = section.settings.icon_right3
+  assign heading_right3 = section.settings.heading_right3
+  assign text_right3 = section.settings.text_right3
+  assign button1_link = section.settings.button1_link
+  assign button1_color = section.settings.button1_color
+  assign button1_text_color = section.settings.button1_text_color
+  assign button1_text = section.settings.button1_text
+  assign button2_link = section.settings.button2_link
+  assign button2_color = section.settings.button2_color
+  assign button2_text_color = section.settings.button2_text_color
+  assign button2_text = section.settings.button2_text
+-%}
 
+<section class="huel-section" style="background: {{ section_background }}">
+  <div class="product-section-wrapper">
+    <div class="product-headline-section">
+      <h2 style="color: {{ text_color }}">{{ heading }}</h2>
+    </div>
 
-    <div class="product-section-wrapper" >
-    
-        <div class="product-headline-section">
-            <h2 style="color: {{ section.settings.text_color }}">{{ section.settings.heading }}</h2>
-            <div></div>
+    <div class="flex-wrapper">
+      <div class="product-nutrition-section-aside animationx">
+        <div class="product-nutrition-section-info-block animate--fade-in">
+          <img class="icon" src="{{ icon_left1 | img_url: 'small' }}" alt="icon">
+          <div class="product-nutrition-section-info">
+            <h3 class="heading-section-block" style="color: {{ text_color }}">
+              {{ heading_left1 }}
+            </h3>
+            <div class="text-section-block" style="color: {{ text_color }}">
+              {{ text_left1 }}
+            </div>
+          </div>
         </div>
 
-
-      <div class="flex-wrapper">
-
-        <div class="product-nutrition-section-aside animationx">
-            <div class="product-nutrition-section-info-block animate--fade-in">  
-                <img class="icon" src="{{ section.settings.icon_left1 | img_url: 'small' }}" alt="icon"> 
-                <div class=product-nutrition-section-info>
-                    <h3 class="heading-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.heading_left1 }}</h3>
-                    <div class="text-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.text_left1 }}</div>
-                </div>
+        <div class="product-nutrition-section-info-block">
+          <img class="icon" src="{{ icon_left2 | img_url: 'small' }}" alt="icon">
+          <div class="product-nutrition-section-info">
+            <h3 class="heading-section-block" style="color: {{ text_color }}">
+              {{ heading_left2 }}
+            </h3>
+            <div class="text-section-block" style="color: {{ text_color }}">
+              {{ text_left2 }}
             </div>
-
-            <div class="product-nutrition-section-info-block">  
-                <img class="icon" src="{{ section.settings.icon_left2 | img_url: 'small' }}" alt="icon"> 
-                <div class=product-nutrition-section-info>
-                    <h3 class="heading-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.heading_left2 }}</h3>
-                    <div class="text-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.text_left2 }}</div>
-                </div>
-            </div>
-
-            <div class="product-nutrition-section-info-block">  
-                <img class="icon" src="{{ section.settings.icon_left3 | img_url: 'small' }}" alt="icon"> 
-                <div class=product-nutrition-section-info>
-                    <h3 class="heading-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.heading_left3 }}</h3>
-                    <div class="text-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.text_left3 }}</div>
-                </div>
-            </div>
-            
+          </div>
         </div>
 
-
-        <div class="product-nutrition-section-image animationx">
-            <img src="{{ section.settings.image_middle | img_url: 'large' }}" alt="Middle Image">
-        </div>
-
-
-
-        <div class="product-nutrition-section-aside product-nutrition-section-aside-right animationx">
-
-            <div class="product-nutrition-section-info-block">  
-                <img class="icon" src="{{ section.settings.icon_right1 | img_url: 'small' }}" alt="icon">
-                <div class=product-nutrition-section-info> 
-                    <h3 class="heading-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.heading_right1 }}</h3>
-                    <div class="text-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.text_right1 }}</div>
-                </div>
+        <div class="product-nutrition-section-info-block">
+          <img class="icon" src="{{ icon_left3 | img_url: 'small' }}" alt="icon">
+          <div class="product-nutrition-section-info">
+            <h3 class="heading-section-block" style="color: {{ text_color }}">
+              {{ heading_left3 }}
+            </h3>
+            <div class="text-section-block" style="color: {{ text_color }}">
+              {{ text_left3 }}
             </div>
-            <div class="product-nutrition-section-info-block">  
-                <img class="icon" src="{{ section.settings.icon_right2 | img_url: 'small' }}" alt="icon"> 
-                <div class=product-nutrition-section-info>
-                    <h3 class="heading-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.heading_right2 }}</h3>
-                    <div class="text-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.text_right2 }}</div>
-                </div>
-            </div>  
-            <div class="product-nutrition-section-info-block">  
-                <img class="icon" src="{{ section.settings.icon_right3 | img_url: 'small' }}" alt="icon"> 
-                <div class=product-nutrition-section-info>
-                    <h3 class="heading-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.heading_right3 }}</h3>
-                    <div class="text-section-block" style="color: {{ section.settings.text_color }}">{{ section.settings.text_right3 }}</div>
-                </div>
-            </div>  
-            
+          </div>
         </div>
+      </div>
+
+      <div class="product-nutrition-section-image animationx">
+        <img src="{{ image_middle | img_url: 'large' }}" alt="Middle Image">
+      </div>
+
+      <div class="product-nutrition-section-aside product-nutrition-section-aside-right animationx">
+        <div class="product-nutrition-section-info-block">
+          <img class="icon" src="{{ icon_right1 | img_url: 'small' }}" alt="icon">
+          <div class="product-nutrition-section-info">
+            <h3 class="heading-section-block" style="color: {{ text_color }}">
+              {{ heading_right1 }}
+            </h3>
+            <div class="text-section-block" style="color: {{ text_color }}">
+              {{ text_right1 }}
+            </div>
+          </div>
+        </div>
+        <div class="product-nutrition-section-info-block">
+          <img class="icon" src="{{ icon_right2 | img_url: 'small' }}" alt="icon">
+          <div class="product-nutrition-section-info">
+            <h3 class="heading-section-block" style="color: {{ text_color }}">
+              {{ heading_right2 }}
+            </h3>
+            <div class="text-section-block" style="color: {{ text_color }}">
+              {{ text_right2 }}
+            </div>
+          </div>
+        </div>
+
+        <div class="product-nutrition-section-info-block">
+          <img class="icon" src="{{ icon_right3 | img_url: 'small' }}" alt="icon">
+          <div class="product-nutrition-section-info">
+            <h3 class="heading-section-block" style="color: {{ text_color }}">
+              {{ heading_right3 }}
+            </h3>
+            <div class="text-section-block" style="color: {{ text_color }}">
+              {{ text_right3 }}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="wrap-buttons-centred">
-        <a class="huel-button" href="{{ section.settings.button1_link }}" style="background-color: {{ section.settings.button1_color }}; color: {{ section.settings.button1_text_color }}">{{ section.settings.button1_text }}</a>
-        <div></div>
-        <a class="huel-button" href="{{ section.settings.button2_link }}" style="background-color: {{ section.settings.button2_color }}; color: {{ section.settings.button2_text_color }}">{{ section.settings.button2_text }}</a>
+      <a
+        class="huel-button"
+        href="{{ button1_link }}"
+        style="background-color: {{ button1_color }}; color: {{ button1_text_color }}"
+      >
+        {{- button1_text -}}
+      </a>
+      <a
+        class="huel-button"
+        href="{{ button2_link }}"
+        style="background-color: {{ button2_color }}; color: {{ button2_text_color }}"
+      >
+        {{- button2_text -}}
+      </a>
     </div>
+  </div>
+</section>
 
-  </section>
-  
-  {% schema %}
+{% schema %}
 {
   "name": "Product Display With Text",
   "settings": [
     {
-        "type": "color",
-        "label": "Section Background",
-        "id": "section_background",
-        "default": "#fff"
+      "type": "color",
+      "label": "Section Background",
+      "id": "section_background",
+      "default": "#fff"
     },
     {
       "type": "text",
@@ -126,37 +178,37 @@
       "id": "text_left1"
     },
     {
-        "type": "image_picker",
-        "label": "Left Icon 2",
-        "id": "icon_left2"
-      },
-      {
-        "type": "text",
-        "label": "Left Heading 2",
-        "id": "heading_left2",
-        "default": "40g protein"
-      },
-      {
-        "type": "textarea",
-        "label": "Left Text 2",
-        "id": "text_left2"
-      },
-      {
-        "type": "image_picker",
-        "label": "Left Icon 3",
-        "id": "icon_left3"
-      },
-      {
-        "type": "text",
-        "label": "Left Heading 3",
-        "id": "heading_left3",
-        "default": "8g fiber & probiotics"
-      },
-      {
-        "type": "textarea",
-        "label": "Left Text 3",
-        "id": "text_left3"
-      },
+      "type": "image_picker",
+      "label": "Left Icon 2",
+      "id": "icon_left2"
+    },
+    {
+      "type": "text",
+      "label": "Left Heading 2",
+      "id": "heading_left2",
+      "default": "40g protein"
+    },
+    {
+      "type": "textarea",
+      "label": "Left Text 2",
+      "id": "text_left2"
+    },
+    {
+      "type": "image_picker",
+      "label": "Left Icon 3",
+      "id": "icon_left3"
+    },
+    {
+      "type": "text",
+      "label": "Left Heading 3",
+      "id": "heading_left3",
+      "default": "8g fiber & probiotics"
+    },
+    {
+      "type": "textarea",
+      "label": "Left Text 3",
+      "id": "text_left3"
+    },
     {
       "type": "image_picker",
       "label": "Middle Image",
@@ -179,37 +231,37 @@
       "id": "text_right1"
     },
     {
-        "type": "image_picker",
-        "label": "Right Icon 2",
-        "id": "icon_right2"
-      },
-      {
-        "type": "text",
-        "label": "Right Heading 2",
-        "id": "heading_right2",
-        "default": "No artificial sweeteners"
-      },
-      {
-        "type": "textarea",
-        "label": "Right Text 2",
-        "id": "text_right2"
-      },
-      {
-        "type": "image_picker",
-        "label": "Right Icon 3",
-        "id": "icon_right3"
-      },
-      {
-        "type": "text",
-        "label": "Right Heading 3",
-        "id": "heading_right3",
-        "default": "Zinc"
-      },
-      {
-        "type": "textarea",
-        "label": "Right Text 3",
-        "id": "text_right3"
-      },
+      "type": "image_picker",
+      "label": "Right Icon 2",
+      "id": "icon_right2"
+    },
+    {
+      "type": "text",
+      "label": "Right Heading 2",
+      "id": "heading_right2",
+      "default": "No artificial sweeteners"
+    },
+    {
+      "type": "textarea",
+      "label": "Right Text 2",
+      "id": "text_right2"
+    },
+    {
+      "type": "image_picker",
+      "label": "Right Icon 3",
+      "id": "icon_right3"
+    },
+    {
+      "type": "text",
+      "label": "Right Heading 3",
+      "id": "heading_right3",
+      "default": "Zinc"
+    },
+    {
+      "type": "textarea",
+      "label": "Right Text 3",
+      "id": "text_right3"
+    },
     {
       "type": "url",
       "label": "Button 1 Link",
@@ -257,55 +309,52 @@
       "default": "Button 2"
     }
   ],
-  
-  "presets" : [
+
+  "presets": [
     {
-        "category": "Custom Benefits",
-        "name": "Huel Section"
+      "category": "Product Display",
+      "name": "Product Display With Text"
     }
   ]
 }
 {% endschema %}
 
-
 <script>
-    function isElementInViewport(el) {
-       
-      var top = el.offsetTop;
-      var left = el.offsetLeft;
-      var width = el.offsetWidth;
-      var height = el.offsetHeight;
-    
-      while(el.offsetParent) {
-        el = el.offsetParent;
-        top += el.offsetTop;
-        left += el.offsetLeft;
+  function isElementInViewport(el) {
+    var top = el.offsetTop;
+    var left = el.offsetLeft;
+    var width = el.offsetWidth;
+    var height = el.offsetHeight;
+
+    while (el.offsetParent) {
+      el = el.offsetParent;
+      top += el.offsetTop;
+      left += el.offsetLeft;
+    }
+
+    return (
+      top < window.pageYOffset + window.innerHeight &&
+      left < window.pageXOffset + window.innerWidth &&
+      top + height > window.pageYOffset &&
+      left + width > window.pageXOffset
+    );
+  }
+
+  function addClass() {
+    var sections = document.querySelectorAll('.animationx');
+
+    sections.forEach(function (section) {
+      if (isElementInViewport(section)) {
+        if (section.classList.contains('active')) {
+        } else {
+          section.classList.add('active');
+        }
+      } else {
+        section.classList.remove('active');
       }
-    
-      return (
-        top < (window.pageYOffset + window.innerHeight) &&
-        left < (window.pageXOffset + window.innerWidth) &&
-        (top + height) > window.pageYOffset &&
-        (left + width) > window.pageXOffset
-      );
-    }
+    });
+  }
 
-    function addClass() {
-        var sections = document.querySelectorAll('.animationx');
-
-        sections.forEach(function(section) {
-
-            if (isElementInViewport(section)) {
-                if (section.classList.contains('active')) {
-                }else{
-                    section.classList.add('active')
-                }
-            } else {
-                section.classList.remove('active')
-            }
-        });
-    }
-
-    window.addEventListener('scroll', addClass);
-        addClass();
-    </script> 
+  window.addEventListener('scroll', addClass);
+  addClass();
+</script>
