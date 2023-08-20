@@ -14,24 +14,24 @@
             "show_products_rating": true
           }
         },
+        "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b": {
+          "type": "icon_list",
+          "settings": {
+            "icon_1_icon": "ruler",
+            "icon_1_text": "Delivers instant and sustained whole-body energy",
+            "icon_2_icon": "box",
+            "icon_2_text": "Combats mental fatigue and afternoon slump*",
+            "icon_3_icon": "star",
+            "icon_3_text": "Improves productivity and performance*",
+            "icon_4_icon": "washing",
+            "icon_4_text": "Supports mood-enhancing neurotransmitter production*"
+          }
+        },
         "3209aea5-2573-4044-a863-a0a6498a31e4": {
           "type": "text",
           "settings": {
             "text": "With just a single scoop, Morning Man Greens help men get their young brute energy back in their 30s, 40s, 50s, and beyond. ",
             "text_style": "style_body"
-          }
-        },
-        "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b": {
-          "type": "icon_list",
-          "settings": {
-            "icon_1_icon": "ruler",
-            "icon_1_text": "Icon list label 1",
-            "icon_2_icon": "box",
-            "icon_2_text": "Icon list label 2",
-            "icon_3_icon": "star",
-            "icon_3_text": "Icon list label 3",
-            "icon_4_icon": "washing",
-            "icon_4_text": "Icon list label 4"
           }
         },
         "quantity": {
@@ -84,8 +84,8 @@
       },
       "block_order": [
         "title",
-        "3209aea5-2573-4044-a863-a0a6498a31e4",
         "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b",
+        "3209aea5-2573-4044-a863-a0a6498a31e4",
         "quantity",
         "buy_buttons",
         "0b3e272b-c86a-4dba-946c-c6912251371c",
@@ -106,85 +106,6 @@
         "hide_variants": false,
         "lightbox": true,
         "enable_video_looping": false
-      }
-    },
-    "58d44722-ab46-46eb-92b2-8febe4505129": {
-      "type": "scrolling-text",
-      "blocks": {
-        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "No Fillers.",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-2": {
-          "type": "text",
-          "settings": {
-            "text": "No GMO.",
-            "link": "",
-            "outline_text": true
-          }
-        },
-        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-3": {
-          "type": "text",
-          "settings": {
-            "text": "No Soy.",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "cad9e4f9-f9c9-4bb3-84c8-c737ba6fbf9d": {
-          "type": "text",
-          "settings": {
-            "text": "No Artificial Anything.",
-            "link": "",
-            "outline_text": true
-          }
-        },
-        "167bd766-3db4-4574-83ff-0abb12a0eb19": {
-          "type": "text",
-          "settings": {
-            "text": "No Sugar.",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "0ada39e6-3ce6-4622-bf78-0260f7cf5a09": {
-          "type": "text",
-          "settings": {
-            "text": "No Gluten.",
-            "link": "",
-            "outline_text": true
-          }
-        }
-      },
-      "block_order": [
-        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-1",
-        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-2",
-        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-3",
-        "cad9e4f9-f9c9-4bb3-84c8-c737ba6fbf9d",
-        "167bd766-3db4-4574-83ff-0abb12a0eb19",
-        "0ada39e6-3ce6-4622-bf78-0260f7cf5a09"
-      ],
-      "settings": {
-        "height": "height-auto",
-        "full_width": true,
-        "direction": "left",
-        "speed": "20s",
-        "rotation": 2,
-        "negative_rotation": false,
-        "font_family": "heading",
-        "text_size": 28,
-        "text_uppercase": true,
-        "image_size": "large",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#ffffff",
-        "overlay_color": "#ff9450",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
       }
     },
     "1b2ac1d1-0347-4418-9a68-1529f48b220a": {
@@ -255,16 +176,95 @@
 
       ],
       "settings": {
-        "text_alignment": "left",
+        "text_alignment": "center",
         "icon_position": "top",
-        "icon_size": "large",
-        "heading_size": "large",
+        "icon_size": "medium",
+        "heading_size": "medium",
         "mobile_swipe": false,
         "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#ffffff",
-        "color_text": "#ffffff",
+        "color_text": "#dedede",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
+      }
+    },
+    "58d44722-ab46-46eb-92b2-8febe4505129": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "No Fillers",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "No GMO.",
+            "link": "",
+            "outline_text": true
+          }
+        },
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "No Soy.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "cad9e4f9-f9c9-4bb3-84c8-c737ba6fbf9d": {
+          "type": "text",
+          "settings": {
+            "text": "No Artificial Anything.",
+            "link": "",
+            "outline_text": true
+          }
+        },
+        "167bd766-3db4-4574-83ff-0abb12a0eb19": {
+          "type": "text",
+          "settings": {
+            "text": "No Sugar.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "0ada39e6-3ce6-4622-bf78-0260f7cf5a09": {
+          "type": "text",
+          "settings": {
+            "text": "No Gluten.",
+            "link": "",
+            "outline_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-1",
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-2",
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-3",
+        "cad9e4f9-f9c9-4bb3-84c8-c737ba6fbf9d",
+        "167bd766-3db4-4574-83ff-0abb12a0eb19",
+        "0ada39e6-3ce6-4622-bf78-0260f7cf5a09"
+      ],
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "rotation": 2,
+        "negative_rotation": false,
+        "font_family": "heading",
+        "text_size": 28,
+        "text_uppercase": true,
+        "image_size": "large",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#ffffff",
+        "overlay_color": "#ff9450",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "ba6502f0-39ee-4eb3-8945-7bae4d39ee3b": {
@@ -565,9 +565,9 @@
   "order": [
     "breadcrumbs",
     "main-product",
-    "58d44722-ab46-46eb-92b2-8febe4505129",
     "1b2ac1d1-0347-4418-9a68-1529f48b220a",
     "e2bcbf37-e737-4897-b537-292703633aaa",
+    "58d44722-ab46-46eb-92b2-8febe4505129",
     "ba6502f0-39ee-4eb3-8945-7bae4d39ee3b",
     "05619a4f-436f-4d3b-bdea-56c97722e0c3",
     "c4204c3f-0267-4094-942b-cbef4c9c0a87",
