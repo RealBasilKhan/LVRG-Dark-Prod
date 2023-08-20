@@ -138,7 +138,7 @@
         "cad9e4f9-f9c9-4bb3-84c8-c737ba6fbf9d": {
           "type": "text",
           "settings": {
-            "text": "No Artificial Anything",
+            "text": "No Artificial Anything.",
             "link": "",
             "outline_text": true
           }
@@ -151,12 +151,12 @@
             "outline_text": false
           }
         },
-        "ac0b474e-2094-41c1-bdf6-10f14ea0c8ff": {
+        "0ada39e6-3ce6-4622-bf78-0260f7cf5a09": {
           "type": "text",
           "settings": {
-            "text": "Add campaign text here.",
+            "text": "No Gluten.",
             "link": "",
-            "outline_text": false
+            "outline_text": true
           }
         }
       },
@@ -166,7 +166,7 @@
         "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-3",
         "cad9e4f9-f9c9-4bb3-84c8-c737ba6fbf9d",
         "167bd766-3db4-4574-83ff-0abb12a0eb19",
-        "ac0b474e-2094-41c1-bdf6-10f14ea0c8ff"
+        "0ada39e6-3ce6-4622-bf78-0260f7cf5a09"
       ],
       "settings": {
         "height": "height-auto",
