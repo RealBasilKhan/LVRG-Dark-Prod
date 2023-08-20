@@ -14,6 +14,22 @@
             "show_products_rating": true
           }
         },
+        "7f47d13e-a171-4707-a6f2-153c4ab0830a": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "b51da28f-975f-4f51-a8ce-ebd872a18326": {
+          "type": "inventory_level",
+          "settings": {
+            "show_inventory_notice": "always",
+            "show_inventory_count": "low",
+            "inventory_notice_pulse": true,
+            "inventory_notice_bar": false,
+            "inventory_notice_threshold": 10,
+            "inventory_notice_base": 20
+          }
+        },
         "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b": {
           "type": "icon_list",
           "settings": {
@@ -71,19 +87,29 @@
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
+          "disabled": true,
           "settings": {
           }
         },
-        "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
-          "type": "complementary",
+        "019bda93-d256-470c-ad9f-1d998696cf0a": {
+          "type": "side_panel",
           "settings": {
-            "block_heading": "Pairs well with",
-            "product_list_limit": 6
+            "side_panel_1_label": "Materials",
+            "side_panel_1_icon": "ruler",
+            "side_panel_1_page": "",
+            "side_panel_2_label": "Shipping & Returns",
+            "side_panel_2_icon": "box",
+            "side_panel_2_page": "",
+            "side_panel_3_label": "Care Guide",
+            "side_panel_3_icon": "washing",
+            "side_panel_3_page": ""
           }
         }
       },
       "block_order": [
         "title",
+        "7f47d13e-a171-4707-a6f2-153c4ab0830a",
+        "b51da28f-975f-4f51-a8ce-ebd872a18326",
         "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b",
         "3209aea5-2573-4044-a863-a0a6498a31e4",
         "quantity",
@@ -92,7 +118,7 @@
         "386f7e4a-6127-4141-928b-9cb4614ee18c",
         "d56924f2-0137-4e3b-8c33-49b1f28391c6",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
-        "fc6da228-45eb-4a6e-aa68-d6ec477bec34"
+        "019bda93-d256-470c-ad9f-1d998696cf0a"
       ],
       "custom_css": [
 
