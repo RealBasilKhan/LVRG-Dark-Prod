@@ -435,7 +435,7 @@
         "text_width": "medium",
         "text_position": "center",
         "text_alignment": "center",
-        "color_bg": "transparent",
+        "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#ffffff",
         "color_text": "#2c2d2e",
         "color_links": "#2c2d2e",
@@ -516,7 +516,7 @@
         "540aaec7-3408-4d54-a9b6-64b7ab053fbb"
       ],
       "custom_css": [
-        ".custom-table table tr td:nth-child(2) {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% );}"
+        ".custom-table table tr td:nth-child(2) {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% ); padding: 10px}"
       ],
       "settings": {
         "table_heading": "",
