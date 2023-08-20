@@ -50,53 +50,6 @@
         "disable_bottom_spacing": true
       }
     },
-    "975470f9-5dee-4228-b976-9e97bb62713b": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--20688427057450__975470f9-5dee-4228-b976-9e97bb62713b-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "Add a tagline"
-          }
-        },
-        "template--20688427057450__975470f9-5dee-4228-b976-9e97bb62713b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text",
-            "marker_style": "style1",
-            "heading_size": "h3",
-            "marker_color": "#FD6262"
-          }
-        },
-        "template--20688427057450__975470f9-5dee-4228-b976-9e97bb62713b-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--20688427057450__975470f9-5dee-4228-b976-9e97bb62713b-subheading-1",
-        "template--20688427057450__975470f9-5dee-4228-b976-9e97bb62713b-heading-1",
-        "template--20688427057450__975470f9-5dee-4228-b976-9e97bb62713b-text-1"
-      ],
-      "settings": {
-        "use_video": false,
-        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "video_autoplay": true,
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "full_width": true,
-        "layout": "image_first",
-        "content_position": "text-left",
-        "column_spacing": "small",
-        "color_bg": "#ffffff",
-        "color_text": "#2c2d2e",
-        "color_border": "#e2e2e2",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "8f6ed916-ced8-44f6-9ef8-b60fd327ae31": {
       "type": "spacer",
       "settings": {
@@ -681,7 +634,6 @@
   },
   "order": [
     "f80de3f9-4374-42eb-9722-e6cb271608d5",
-    "975470f9-5dee-4228-b976-9e97bb62713b",
     "8f6ed916-ced8-44f6-9ef8-b60fd327ae31",
     "8670c6b1-68f6-405f-bfff-2c6ff1e89099",
     "b6a221e5-6cbb-4160-83a7-a387a8f98553",
