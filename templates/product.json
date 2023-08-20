@@ -422,9 +422,9 @@
           "type": "heading",
           "settings": {
             "text": "| Us Vs. Them |",
-            "marker_style": "style1",
-            "size": "h3",
-            "marker_color": "#FD6262"
+            "marker_style": "style2",
+            "size": "h1",
+            "marker_color": "#ff9450"
           }
         }
       },
