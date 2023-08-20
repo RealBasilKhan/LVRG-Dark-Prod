@@ -415,6 +415,34 @@
         "disable_bottom_spacing": false
       }
     },
+    "caf6b442-01f9-4626-a023-fe54d7314439": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20688426926378__caf6b442-01f9-4626-a023-fe54d7314439-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Are People Choosing",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#FD6262"
+          }
+        }
+      },
+      "block_order": [
+        "template--20688426926378__caf6b442-01f9-4626-a023-fe54d7314439-heading-1"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "4228dd7b-3309-4c07-b857-0183644b0d83": {
       "type": "comparison-table",
       "blocks": {
@@ -491,7 +519,7 @@
         ".custom-table table tr td:nth-child(2) {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% );}"
       ],
       "settings": {
-        "table_heading": "Why are people choosing Suja?",
+        "table_heading": "",
         "product1_pic": "shopify:\/\/shop_images\/Organic_Greens_Landing_Page_Aamazing_Grass_Comparison_Chart_Deskop.webp",
         "product1_title": "Suja Organic Greens Powder",
         "product2_pic": "shopify:\/\/shop_images\/Organic_Greens_Landing_Page_AG1_Comparison_Chart_Deskop.webp",
@@ -520,6 +548,7 @@
     "16625458859c68803a",
     "1662552569cce2536d",
     "product-recommendations",
+    "caf6b442-01f9-4626-a023-fe54d7314439",
     "4228dd7b-3309-4c07-b857-0183644b0d83"
   ]
 }
