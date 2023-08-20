@@ -108,6 +108,85 @@
         "enable_video_looping": false
       }
     },
+    "58d44722-ab46-46eb-92b2-8febe4505129": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "No Fillers.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "No GMO.",
+            "link": "",
+            "outline_text": true
+          }
+        },
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "No Soy.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "cad9e4f9-f9c9-4bb3-84c8-c737ba6fbf9d": {
+          "type": "text",
+          "settings": {
+            "text": "No Artificial Anything",
+            "link": "",
+            "outline_text": true
+          }
+        },
+        "167bd766-3db4-4574-83ff-0abb12a0eb19": {
+          "type": "text",
+          "settings": {
+            "text": "No Sugar.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "ac0b474e-2094-41c1-bdf6-10f14ea0c8ff": {
+          "type": "text",
+          "settings": {
+            "text": "Add campaign text here.",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-1",
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-2",
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-3",
+        "cad9e4f9-f9c9-4bb3-84c8-c737ba6fbf9d",
+        "167bd766-3db4-4574-83ff-0abb12a0eb19",
+        "ac0b474e-2094-41c1-bdf6-10f14ea0c8ff"
+      ],
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "rotation": 2,
+        "negative_rotation": false,
+        "font_family": "heading",
+        "text_size": 28,
+        "text_uppercase": true,
+        "image_size": "large",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#ffffff",
+        "overlay_color": "#ff9450",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "1b2ac1d1-0347-4418-9a68-1529f48b220a": {
       "type": "rich-text",
       "blocks": {
@@ -218,58 +297,6 @@
         "button2_color": "#000000",
         "button2_text_color": "#ffffff",
         "button2_text": "Button 2"
-      }
-    },
-    "58d44722-ab46-46eb-92b2-8febe4505129": {
-      "type": "scrolling-text",
-      "blocks": {
-        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Rejuvinate",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-2": {
-          "type": "text",
-          "settings": {
-            "text": "Add campaign text here.",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-3": {
-          "type": "text",
-          "settings": {
-            "text": "Add campaign text here.",
-            "link": "",
-            "outline_text": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-1",
-        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-2",
-        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-3"
-      ],
-      "settings": {
-        "height": "height-auto",
-        "full_width": true,
-        "direction": "left",
-        "speed": "20s",
-        "rotation": 2,
-        "negative_rotation": false,
-        "font_family": "heading",
-        "text_size": 24,
-        "text_uppercase": true,
-        "image_size": "large",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#ffffff",
-        "overlay_color": "rgba(0,0,0,0)",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
       }
     },
     "05619a4f-436f-4d3b-bdea-56c97722e0c3": {
@@ -538,10 +565,10 @@
   "order": [
     "breadcrumbs",
     "main-product",
+    "58d44722-ab46-46eb-92b2-8febe4505129",
     "1b2ac1d1-0347-4418-9a68-1529f48b220a",
     "e2bcbf37-e737-4897-b537-292703633aaa",
     "ba6502f0-39ee-4eb3-8945-7bae4d39ee3b",
-    "58d44722-ab46-46eb-92b2-8febe4505129",
     "05619a4f-436f-4d3b-bdea-56c97722e0c3",
     "c4204c3f-0267-4094-942b-cbef4c9c0a87",
     "1248ec67-11cc-458d-b67b-97e43ce4f960",
