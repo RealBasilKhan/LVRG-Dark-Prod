@@ -24,6 +24,19 @@
             "info_box_color": "#ffffff"
           }
         },
+        "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b": {
+          "type": "icon_list",
+          "settings": {
+            "icon_1_icon": "ruler",
+            "icon_1_text": "Icon list label 1",
+            "icon_2_icon": "box",
+            "icon_2_text": "Icon list label 2",
+            "icon_3_icon": "star",
+            "icon_3_text": "Icon list label 3",
+            "icon_4_icon": "washing",
+            "icon_4_text": "Icon list label 4"
+          }
+        },
         "quantity": {
           "type": "quantity",
           "settings": {
@@ -85,6 +98,7 @@
       "block_order": [
         "title",
         "47f50ec7-2a76-44a7-bce6-b7895e0e8ca7",
+        "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b",
         "quantity",
         "buy_buttons",
         "0b3e272b-c86a-4dba-946c-c6912251371c",
