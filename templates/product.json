@@ -169,7 +169,7 @@
             "text": "Talk about your brand",
             "marker_style": "style1",
             "size": "h3",
-            "marker_color": "#FD6262"
+            "marker_color": "#fd6262"
           }
         }
       },
@@ -180,7 +180,7 @@
         "text_width": "medium",
         "text_position": "center",
         "text_alignment": "center",
-        "color_bg": "transparent",
+        "color_bg": "rgba(0,0,0,0)",
         "color_heading": "linear-gradient(320deg, rgba(56, 78, 197, 1) 16%, rgba(203, 68, 194, 1) 52%, rgba(255, 201, 104, 1) 87%)",
         "color_text": "#2c2d2e",
         "color_links": "#2c2d2e",
@@ -418,22 +418,32 @@
     "4228dd7b-3309-4c07-b857-0183644b0d83": {
       "type": "comparison-table",
       "blocks": {
+        "09112ab2-7a1d-47c0-b6a8-c05515bf9d20": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Supports Male Hormones",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "cross",
+            "product4_row_radio": "cross"
+          }
+        },
         "20040dca-15ba-4a27-85de-286d23127c85": {
           "type": "table_row",
           "settings": {
-            "row_title": "Functional Mushrooms",
+            "row_title": "USDA Organic",
             "product1_row_radio": "tick",
             "product2_row_radio": "cross",
             "product3_row_radio": "tick",
             "product4_row_radio": "cross"
           }
         },
-        "09112ab2-7a1d-47c0-b6a8-c05515bf9d20": {
+        "6a31708c-2934-42d6-93ef-e096e5e90082": {
           "type": "table_row",
           "settings": {
             "row_title": "Functional Mushrooms",
-            "product1_row_radio": "cross",
-            "product2_row_radio": "cross",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "tick",
             "product3_row_radio": "cross",
             "product4_row_radio": "cross"
           }
@@ -441,18 +451,41 @@
         "7e2386e4-795c-4363-ae77-3f235ac1029a": {
           "type": "table_row",
           "settings": {
-            "row_title": "Functional Mushrooms",
-            "product1_row_radio": "cross",
+            "row_title": "Full Serving of Vegetables",
+            "product1_row_radio": "tick",
             "product2_row_radio": "cross",
-            "product3_row_radio": "cross",
+            "product3_row_radio": "tick",
+            "product4_row_radio": "cross"
+          }
+        },
+        "c54f8bc0-e153-40a5-8fee-f3d61bdb3b4a": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Only $2 per Day",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "tick",
+            "product4_row_radio": "cross"
+          }
+        },
+        "540aaec7-3408-4d54-a9b6-64b7ab053fbb": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Free of Stevia",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "tick",
             "product4_row_radio": "cross"
           }
         }
       },
       "block_order": [
-        "20040dca-15ba-4a27-85de-286d23127c85",
         "09112ab2-7a1d-47c0-b6a8-c05515bf9d20",
-        "7e2386e4-795c-4363-ae77-3f235ac1029a"
+        "20040dca-15ba-4a27-85de-286d23127c85",
+        "6a31708c-2934-42d6-93ef-e096e5e90082",
+        "7e2386e4-795c-4363-ae77-3f235ac1029a",
+        "c54f8bc0-e153-40a5-8fee-f3d61bdb3b4a",
+        "540aaec7-3408-4d54-a9b6-64b7ab053fbb"
       ],
       "custom_css": [
         ".custom-table table tr td:nth-child(2) {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% );}"
@@ -462,11 +495,11 @@
         "product1_pic": "shopify:\/\/shop_images\/Organic_Greens_Landing_Page_Aamazing_Grass_Comparison_Chart_Deskop.webp",
         "product1_title": "Suja Organic Greens Powder",
         "product2_pic": "shopify:\/\/shop_images\/Organic_Greens_Landing_Page_AG1_Comparison_Chart_Deskop.webp",
-        "product2_title": "Suja Organic Greens Powder",
+        "product2_title": "Proprietary Blend Greens",
         "product3_pic": "shopify:\/\/shop_images\/Organic_Greens_Landing_Page_AG1_Comparison_Chart_Deskop.webp",
-        "product3_title": "Suja Organic Greens Powder",
+        "product3_title": "Grass Tasting Grass",
         "product4_pic": "shopify:\/\/shop_images\/Organic_Greens_Landing_Page_AG1_Comparison_Chart_Deskop.webp",
-        "product4_title": "Suja Organic Greens Powder",
+        "product4_title": "Blossom",
         "background_color": "#1f1f23",
         "font_color": "#ffffff",
         "border_color": "#ffffff"
