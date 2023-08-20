@@ -16,27 +16,36 @@
             "text": "<p>hi<\/p>",
             "description_size": "medium"
           }
+        },
+        "060da7d4-d311-4f81-8ac8-3ea109e28902": {
+          "type": "button",
+          "settings": {
+            "button_text": "Take The Quiz",
+            "button_link": "",
+            "button_color": "accent"
+          }
         }
       },
       "block_order": [
         "template--20688427057450__f80de3f9-4374-42eb-9722-e6cb271608d5-heading-1",
-        "template--20688427057450__f80de3f9-4374-42eb-9722-e6cb271608d5-text-1"
+        "template--20688427057450__f80de3f9-4374-42eb-9722-e6cb271608d5-text-1",
+        "060da7d4-d311-4f81-8ac8-3ea109e28902"
       ],
       "custom_css": [
         "image-with-text-overlay.h1-xlarge {font-size: 20px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2023-08-20_at_6.23.42_PM.png",
-        "image_parallax": false,
+        "image_parallax": true,
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-auto",
         "full_width": true,
-        "content_width": "medium",
+        "content_width": "small",
         "content_position": "middle-left",
         "text_alignment": "left",
         "text_color": "#FFFFFF",
         "overlay_color": "#000000",
-        "overlay_opacity": 35,
+        "overlay_opacity": 51,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
