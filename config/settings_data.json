@@ -32,7 +32,7 @@
     "social_twitter_link": "",
     "social_instagram_link": "",
     "social_tiktok_link": "",
-    "product_card_spacing": "medium",
+    "product_card_spacing": "small",
     "product_aspect_ratio": "adapt",
     "product_card_border": false,
     "product_card_shadow": false,

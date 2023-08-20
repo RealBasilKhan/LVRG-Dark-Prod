@@ -8,17 +8,6 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "show_products_rating": true
-          }
-        },
-        "7f47d13e-a171-4707-a6f2-153c4ab0830a": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        },
         "b51da28f-975f-4f51-a8ce-ebd872a18326": {
           "type": "inventory_level",
           "settings": {
@@ -30,10 +19,22 @@
             "inventory_notice_base": 20
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "7f47d13e-a171-4707-a6f2-153c4ab0830a": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b": {
           "type": "icon_list",
           "settings": {
             "icon_1_icon": "ruler",
+            "icon_1_image": "shopify:\/\/shop_images\/icon.png",
             "icon_1_text": "Delivers instant and sustained whole-body energy",
             "icon_2_icon": "box",
             "icon_2_text": "Combats mental fatigue and afternoon slump*",
@@ -107,9 +108,9 @@
         }
       },
       "block_order": [
+        "b51da28f-975f-4f51-a8ce-ebd872a18326",
         "title",
         "7f47d13e-a171-4707-a6f2-153c4ab0830a",
-        "b51da28f-975f-4f51-a8ce-ebd872a18326",
         "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b",
         "3209aea5-2573-4044-a863-a0a6498a31e4",
         "quantity",
