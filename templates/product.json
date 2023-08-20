@@ -160,6 +160,34 @@
         "disable_bottom_spacing": true
       }
     },
+    "1b2ac1d1-0347-4418-9a68-1529f48b220a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20688426926378__1b2ac1d1-0347-4418-9a68-1529f48b220a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Talk about your brand",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#FD6262"
+          }
+        }
+      },
+      "block_order": [
+        "template--20688426926378__1b2ac1d1-0347-4418-9a68-1529f48b220a-heading-1"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_heading": "linear-gradient(320deg, rgba(56, 78, 197, 1) 16%, rgba(203, 68, 194, 1) 52%, rgba(255, 201, 104, 1) 87%)",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "e2bcbf37-e737-4897-b537-292703633aaa": {
       "type": "text-with-icons",
       "blocks": {
@@ -169,7 +197,7 @@
             "icon": "ruler",
             "image": "shopify:\/\/shop_images\/Male-icon.png",
             "heading": "The 20% Testosterone Drop",
-            "text": "<p>Modern men face a staggering 20% testosterone decline compared to their fathers at the same age. Between toxins, junk diets, and sedentary habits, it's not just alarming—it's a crisis.<\/p>"
+            "text": "<p>Today's man? 20% less testosterone than our fathers. Blame it on toxins, poor diets, and lazy habits. This isn't just concerning—it's a full-blown emergency.<\/p>"
           }
         },
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2": {
@@ -219,7 +247,7 @@
       ],
       "settings": {
         "section_background": "#1f1f23",
-        "heading": "No Hidden Secrets, Just Pure Dedication",
+        "heading": "",
         "text_color": "#ffffff",
         "heading_left1": "PREMIUM INGREDIENTS",
         "text_left1": "Top-shelf, handpicked, and backed by science. It’s not just a blend, it’s a promise of unparalleled quality.",
@@ -270,60 +298,6 @@
         "spacer_desktop": 50,
         "border_separator": false,
         "border_separator_full": false
-      }
-    },
-    "081e2acc-aa6a-4a72-9347-fb8bb370af80": {
-      "type": "scrolling-content",
-      "blocks": {
-        "383ea750-0663-42e7-8ab5-faef83816d22": {
-          "type": "section",
-          "settings": {
-            "badge": "",
-            "subheading": "subheading",
-            "heading": "Heading",
-            "marker_style": "style1",
-            "heading_size": "small",
-            "content": "<p>Add a descriptive text here for your slide.<\/p>",
-            "description_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "marker_color": "#fd6262",
-            "color_bg_badge": "#3f72e5",
-            "color_badge": "#ffffff"
-          }
-        },
-        "ef30e1e6-7bf9-4deb-b04b-15075918ba61": {
-          "type": "section",
-          "settings": {
-            "badge": "",
-            "subheading": "subheading",
-            "heading": "Heading",
-            "marker_style": "style1",
-            "heading_size": "small",
-            "content": "<p>Add a descriptive text here for your slide.<\/p>",
-            "description_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "marker_color": "#fd6262",
-            "color_bg_badge": "#3f72e5",
-            "color_badge": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "383ea750-0663-42e7-8ab5-faef83816d22",
-        "ef30e1e6-7bf9-4deb-b04b-15075918ba61"
-      ],
-      "settings": {
-        "desktop_layout": "text_first",
-        "mobile_swipe": true,
-        "dots": false,
-        "color_bg": "#303c43",
-        "color_heading": "#ffffff",
-        "color_text": "#d3d9df",
-        "color_links": "#3f72e5",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
       }
     },
     "1248ec67-11cc-458d-b67b-97e43ce4f960": {
@@ -503,11 +477,11 @@
     "breadcrumbs",
     "main-product",
     "58d44722-ab46-46eb-92b2-8febe4505129",
+    "1b2ac1d1-0347-4418-9a68-1529f48b220a",
     "e2bcbf37-e737-4897-b537-292703633aaa",
     "ba6502f0-39ee-4eb3-8945-7bae4d39ee3b",
     "05619a4f-436f-4d3b-bdea-56c97722e0c3",
     "c4204c3f-0267-4094-942b-cbef4c9c0a87",
-    "081e2acc-aa6a-4a72-9347-fb8bb370af80",
     "1248ec67-11cc-458d-b67b-97e43ce4f960",
     "1663667029efc274af",
     "16625458859c68803a",
