@@ -14,16 +14,6 @@
             "show_products_rating": true
           }
         },
-        "47f50ec7-2a76-44a7-bce6-b7895e0e8ca7": {
-          "type": "info_box",
-          "settings": {
-            "icon": "serving_dish",
-            "text": "Info box text",
-            "link": "",
-            "info_box_bg": "#1f1f23",
-            "info_box_color": "#ffffff"
-          }
-        },
         "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b": {
           "type": "icon_list",
           "settings": {
@@ -35,6 +25,13 @@
             "icon_3_text": "Icon list label 3",
             "icon_4_icon": "washing",
             "icon_4_text": "Icon list label 4"
+          }
+        },
+        "3209aea5-2573-4044-a863-a0a6498a31e4": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "style_vendor"
           }
         },
         "quantity": {
@@ -63,16 +60,6 @@
             "page": ""
           }
         },
-        "561eac20-aae8-4774-91be-f5693346c253": {
-          "type": "info_box",
-          "settings": {
-            "icon": "ruler",
-            "text": "Info box text",
-            "link": "",
-            "info_box_bg": "#e9e5e2",
-            "info_box_color": "#592e15"
-          }
-        },
         "d56924f2-0137-4e3b-8c33-49b1f28391c6": {
           "type": "collapsible_tab",
           "settings": {
@@ -97,13 +84,12 @@
       },
       "block_order": [
         "title",
-        "47f50ec7-2a76-44a7-bce6-b7895e0e8ca7",
         "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b",
+        "3209aea5-2573-4044-a863-a0a6498a31e4",
         "quantity",
         "buy_buttons",
         "0b3e272b-c86a-4dba-946c-c6912251371c",
         "386f7e4a-6127-4141-928b-9cb4614ee18c",
-        "561eac20-aae8-4774-91be-f5693346c253",
         "d56924f2-0137-4e3b-8c33-49b1f28391c6",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
         "fc6da228-45eb-4a6e-aa68-d6ec477bec34"
