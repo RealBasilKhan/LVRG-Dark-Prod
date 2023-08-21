@@ -657,7 +657,7 @@
         "color_links": "#d2ff28",
         "color_border": "#2c2d2e",
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     }
   },
