@@ -336,6 +336,22 @@
             "link": "",
             "outline_text": true
           }
+        },
+        "92fa1868-114f-4ce4-a83e-1b7c333fac9a": {
+          "type": "text",
+          "settings": {
+            "text": "No Proprietary Blends.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "5d9dd7e6-842e-45c7-b36c-c301df8213df": {
+          "type": "text",
+          "settings": {
+            "text": "No B.S.",
+            "link": "",
+            "outline_text": true
+          }
         }
       },
       "block_order": [
@@ -344,7 +360,9 @@
         "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-3",
         "cad9e4f9-f9c9-4bb3-84c8-c737ba6fbf9d",
         "167bd766-3db4-4574-83ff-0abb12a0eb19",
-        "0ada39e6-3ce6-4622-bf78-0260f7cf5a09"
+        "0ada39e6-3ce6-4622-bf78-0260f7cf5a09",
+        "92fa1868-114f-4ce4-a83e-1b7c333fac9a",
+        "5d9dd7e6-842e-45c7-b36c-c301df8213df"
       ],
       "settings": {
         "height": "height-auto",
