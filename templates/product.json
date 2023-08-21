@@ -377,17 +377,17 @@
         "text_color": "#ffffff",
         "heading_left1": "PREMIUM INGREDIENTS",
         "text_left1": "Top-shelf, handpicked, and backed by science. It’s not just a blend, it’s a promise of unparalleled quality.",
-        "heading_left2": "100% TRANSPARENCY",
-        "text_left2": "Trust is built on truth. That's why we lay everything out in the open. Every ingredient, every percentage, no secrets.",
+        "heading_left2": "",
+        "text_left2": "",
         "heading_left3": "RESEARCH-BACKED FORMULA",
         "text_left3": "Real results backed by real research. No bro science, just hard facts.",
         "image_middle": "shopify:\/\/shop_images\/Black-Edition-No-Shadow_1000x_cb209449-1ea9-4358-ade9-f69f1f11afec.webp",
-        "heading_right1": "ZERO B.S",
-        "text_right1": "We say it as it is. No fillers, no fluff, no misleading claims. Just pure, potent, and powerful nutrition.",
-        "heading_right2": "THE IMPORTANCE OF ORGANIC",
-        "text_right2": "Why settle for less when you can have the best? We've ensured every veggie in Mushroom-Greens Metamix is 100% organic. Because your body deserves the purest.",
-        "heading_right3": "SUSTAINABILITY AT HEART",
-        "text_right3": "Beyond powerful nutrition, our organic approach supports sustainable farming. Every scoop is a step towards a healthier planet and a better you.",
+        "heading_right1": "100% TRANSPARENCY",
+        "text_right1": "100% TRANSPARENCY\nTrust is built on truth. That's why we lay everything out in the open. Every ingredient, every percentage, no secrets.",
+        "heading_right2": "",
+        "text_right2": "",
+        "heading_right3": "ZERO B.S",
+        "text_right3": "We say it as it is. No fillers, no fluff, no misleading claims. Just pure, potent, and powerful nutrition.",
         "button1_link": "",
         "button1_color": "#1f1f23",
         "button1_text_color": "#ffffff",
@@ -640,45 +640,45 @@
         "2c7b494a-c873-48e4-9060-663a70cebb2a": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "ARE WE TALKING ORGANIC HERE?",
             "open": false,
-            "content": "",
+            "content": "<p>Every bit of it. Pure, organic, and clean.<\/p>",
             "page": ""
           }
         },
         "233b3390-1fd4-45f9-9259-8dbb13400fef": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "GIVE ME A HINT. HOW DOES IT TASTE?",
             "open": false,
-            "content": "",
+            "content": "<p>Think earthy, fresh, with a hint of nature's goodness. A taste that grows on you.<\/p>",
             "page": ""
           }
         },
         "a3c751c4-66ff-41de-a34a-72fc4d4a7475": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "WHO'S YOUR TARGET AUDIENCE? CAN THE LADIES HAVE IT?",
             "open": false,
-            "content": "",
+            "content": "<p>While crafted with men in mind, it's beneficial for everyone. So, ladies, feel free to dive in.<\/p>",
             "page": ""
           }
         },
         "4c33cf1c-74ff-4a11-b7b2-70706ec4dd9f": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "WHAT DROVE YOU TO CRAFT THIS METAMIX?",
             "open": false,
-            "content": "",
+            "content": "<p>A desire to cater to the modern man's unique nutritional needs, with no compromises.<\/p>",
             "page": ""
           }
         },
         "91f4a562-54ac-4226-9c64-8cfd0f20339b": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "WORRIED ABOUT GASTRIC DISCOMFORT?",
             "open": false,
-            "content": "",
+            "content": "<p><strong>WORRIED ABOUT GASTRIC DISCOMFORT?<\/strong><\/p><p>While our mix is gentle on most stomachs, always start with a smaller portion to test the waters.<\/p>",
             "page": ""
           }
         }
