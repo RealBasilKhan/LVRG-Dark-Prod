@@ -92,13 +92,13 @@
         "019bda93-d256-470c-ad9f-1d998696cf0a": {
           "type": "side_panel",
           "settings": {
-            "side_panel_1_label": "Materials",
-            "side_panel_1_icon": "ruler",
+            "side_panel_1_label": "Nutritional Information",
+            "side_panel_1_icon": "star",
             "side_panel_1_page": "",
-            "side_panel_2_label": "Shipping & Returns",
+            "side_panel_2_label": "",
             "side_panel_2_icon": "box",
             "side_panel_2_page": "",
-            "side_panel_3_label": "Care Guide",
+            "side_panel_3_label": "",
             "side_panel_3_icon": "washing",
             "side_panel_3_page": ""
           }
