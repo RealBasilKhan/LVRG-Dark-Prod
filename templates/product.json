@@ -613,13 +613,31 @@
         "78977bda-88c1-4c5d-a57b-395a8e01f169": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "WHAT'S THE SCOOP ON SCOOPS?",
             "open": false,
-            "content": "",
+            "content": "<p>One scoop, and you're set. Blend it, shake it, drink it. Daily.<\/p>",
             "page": ""
           }
         },
         "6e96805a-0713-4c8f-98b5-f7f2996582ee": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "HOW DOES MUSHROOM-GREENS METAMIX STACK UP AGAINST OTHER BRAND GREENS?",
+            "open": false,
+            "content": "<p>While many brands offer nutritional support, Mushroom-Greens Metamix is designed for the male physique and its unique challenges. No estrogen-spiking ingredients like flax, soy, or alfalfa. And absolutely no hiding behind proprietary blends. We're all about transparency.<\/p>",
+            "page": ""
+          }
+        },
+        "1c2b155f-fa55-47b7-b3ac-f2b66737ec17": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "HOW DO RETURNS WORK WITH YOU GUYS?",
+            "open": false,
+            "content": "<p>Simple and straightforward. Reach out, and we'll guide you through.<\/p>",
+            "page": ""
+          }
+        },
+        "2c7b494a-c873-48e4-9060-663a70cebb2a": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Collapsible row",
@@ -628,7 +646,34 @@
             "page": ""
           }
         },
-        "1c2b155f-fa55-47b7-b3ac-f2b66737ec17": {
+        "233b3390-1fd4-45f9-9259-8dbb13400fef": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "a3c751c4-66ff-41de-a34a-72fc4d4a7475": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "4c33cf1c-74ff-4a11-b7b2-70706ec4dd9f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "91f4a562-54ac-4226-9c64-8cfd0f20339b": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Collapsible row",
@@ -644,18 +689,23 @@
         "6ca4af54-3f47-4d4d-9060-0ff238ab6d1a",
         "78977bda-88c1-4c5d-a57b-395a8e01f169",
         "6e96805a-0713-4c8f-98b5-f7f2996582ee",
-        "1c2b155f-fa55-47b7-b3ac-f2b66737ec17"
+        "1c2b155f-fa55-47b7-b3ac-f2b66737ec17",
+        "2c7b494a-c873-48e4-9060-663a70cebb2a",
+        "233b3390-1fd4-45f9-9259-8dbb13400fef",
+        "a3c751c4-66ff-41de-a34a-72fc4d4a7475",
+        "4c33cf1c-74ff-4a11-b7b2-70706ec4dd9f",
+        "91f4a562-54ac-4226-9c64-8cfd0f20339b"
       ],
       "settings": {
         "heading": "|FAQ|",
         "marker_style": "style2",
-        "description": "<p>Collapsible content description<\/p>",
+        "description": "",
         "color_bg": "#545454",
         "color_heading": "#ffffff",
         "marker_color": "#c62a32",
         "color_text": "#f1f1f1",
         "color_links": "#d2ff28",
-        "color_border": "#2c2d2e",
+        "color_border": "#ffffff",
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
