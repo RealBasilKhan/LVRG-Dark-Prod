@@ -586,27 +586,27 @@
         "cd3d35fb-4237-4e0c-b360-523aae405e51": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "WHAT EXACTLY IS MUSHROOM-GREENS METAMIX?",
             "open": false,
-            "content": "",
+            "content": "<p>It's not just another greens mix. It's a finely-crafted concoction that combines potent mushrooms with superior greens, designed especially for the modern gentleman's constitution.<\/p>",
             "page": ""
           }
         },
         "5586f39f-c9cc-41a5-9c79-494141a820e1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "WHAT'S THIS METAMIX GOING TO DO FOR ME?",
             "open": false,
-            "content": "",
+            "content": "<p>Beyond just feeding your body, it amplifies your masculinity. Expect improved energy, sharper cognitive functions, and an enhanced overall well-being. In short, it's your ticket to upping your game.<\/p>",
             "page": ""
           }
         },
         "6ca4af54-3f47-4d4d-9060-0ff238ab6d1a": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "WHY SHOULD I OPT FOR METAMIX INSTEAD OF AN ENERGY DRINK?",
             "open": false,
-            "content": "",
+            "content": "<p><strong>WHY SHOULD I OPT FOR METAMIX INSTEAD OF AN ENERGY DRINK?<\/strong><\/p><p>Energy drinks? Those fleeting boosts? Mushroom-Greens Metamix is a sustainable power source, without the crash. Plus, it's packed with nature's best, sans the artificial junk.<\/p>",
             "page": ""
           }
         },
@@ -650,7 +650,7 @@
         "heading": "|FAQ|",
         "marker_style": "style2",
         "description": "<p>Collapsible content description<\/p>",
-        "color_bg": "#ffaa47",
+        "color_bg": "#545454",
         "color_heading": "#ffffff",
         "marker_color": "#c62a32",
         "color_text": "#f1f1f1",
