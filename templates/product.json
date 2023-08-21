@@ -273,7 +273,7 @@
         "00d71c7d-6f87-4d90-bb06-fabdaf94b712"
       ],
       "custom_css": [
-        ".image-with-text--content.text-button {color:#23232 ;}"
+        ".image-with-text--content--inner.button {color: #fffff;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/hero.jpg",
