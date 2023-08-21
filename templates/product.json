@@ -218,6 +218,78 @@
         "disable_bottom_spacing": false
       }
     },
+    "fa29ec10-4697-4581-af5c-83af7c1ffbef": {
+      "type": "image-with-text",
+      "blocks": {
+        "c8a95762-2b19-4e02-b4a7-0c398b2062a5": {
+          "type": "heading",
+          "settings": {
+            "text": "✔ Increase Your Energy",
+            "marker_style": "style1",
+            "heading_size": "h3",
+            "marker_color": "#FD6262"
+          }
+        },
+        "8d629069-9d78-4013-8bf9-ce3fd8b69e71": {
+          "type": "heading",
+          "settings": {
+            "text": "✔ Improve |Nutrient Absorption|",
+            "marker_style": "style1",
+            "heading_size": "h4",
+            "marker_color": "#FD6262"
+          }
+        },
+        "de9790fd-71e0-4ea6-b178-f61f021fe9d2": {
+          "type": "heading",
+          "settings": {
+            "text": "✔ Improve your Mood",
+            "marker_style": "style1",
+            "heading_size": "h3",
+            "marker_color": "#FD6262"
+          }
+        },
+        "9a21ad94-80fa-4b37-83fb-bc2a88fce87e": {
+          "type": "heading",
+          "settings": {
+            "text": "✔ Image with text",
+            "marker_style": "style1",
+            "heading_size": "h3",
+            "marker_color": "#FD6262"
+          }
+        },
+        "00d71c7d-6f87-4d90-bb06-fabdaf94b712": {
+          "type": "button",
+          "settings": {
+            "button_text": "Add To Cart",
+            "button_link": "shopify:\/\/products\/lvrg-mushroom-greens-metamix"
+          }
+        }
+      },
+      "block_order": [
+        "c8a95762-2b19-4e02-b4a7-0c398b2062a5",
+        "8d629069-9d78-4013-8bf9-ce3fd8b69e71",
+        "de9790fd-71e0-4ea6-b178-f61f021fe9d2",
+        "9a21ad94-80fa-4b37-83fb-bc2a88fce87e",
+        "00d71c7d-6f87-4d90-bb06-fabdaf94b712"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hero.jpg",
+        "use_video": false,
+        "video": "",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "full_width": false,
+        "layout": "image_first",
+        "content_position": "text-left",
+        "column_spacing": "medium",
+        "color_bg": "#343436",
+        "color_text": "#dfdfdf",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "58d44722-ab46-46eb-92b2-8febe4505129": {
       "type": "scrolling-text",
       "blocks": {
@@ -590,6 +662,82 @@
         "font_color": "#ffffff",
         "border_color": "#ffffff"
       }
+    },
+    "dce68e87-190d-4dc7-a869-022b29766790": {
+      "type": "media-with-tabs",
+      "blocks": {
+        "template--20688426926378__dce68e87-190d-4dc7-a869-022b29766790-badge-1": {
+          "type": "badge",
+          "settings": {
+            "text": "Badge heading",
+            "color_bg": "#3f72e5",
+            "color_text": "#ffffff"
+          }
+        },
+        "template--20688426926378__dce68e87-190d-4dc7-a869-022b29766790-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Media with tabs",
+            "heading_size": "h3"
+          }
+        },
+        "template--20688426926378__dce68e87-190d-4dc7-a869-022b29766790-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--20688426926378__dce68e87-190d-4dc7-a869-022b29766790-tab-1": {
+          "type": "tab",
+          "settings": {
+            "use_video": false,
+            "heading_icon": "ruler",
+            "heading": "Tab",
+            "description": "Add a short description for this tab",
+            "video_autoplay": true
+          }
+        },
+        "template--20688426926378__dce68e87-190d-4dc7-a869-022b29766790-tab-2": {
+          "type": "tab",
+          "settings": {
+            "use_video": false,
+            "heading_icon": "ruler",
+            "heading": "Tab",
+            "description": "Add a short description for this tab",
+            "video_autoplay": true
+          }
+        },
+        "template--20688426926378__dce68e87-190d-4dc7-a869-022b29766790-tab-3": {
+          "type": "tab",
+          "settings": {
+            "use_video": false,
+            "heading_icon": "ruler",
+            "heading": "Tab",
+            "description": "Add a short description for this tab",
+            "video_autoplay": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20688426926378__dce68e87-190d-4dc7-a869-022b29766790-badge-1",
+        "template--20688426926378__dce68e87-190d-4dc7-a869-022b29766790-heading-1",
+        "template--20688426926378__dce68e87-190d-4dc7-a869-022b29766790-text-1",
+        "template--20688426926378__dce68e87-190d-4dc7-a869-022b29766790-tab-1",
+        "template--20688426926378__dce68e87-190d-4dc7-a869-022b29766790-tab-2",
+        "template--20688426926378__dce68e87-190d-4dc7-a869-022b29766790-tab-3"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "height": "adapt",
+        "desktop_layout": "image_first",
+        "color_bg": "#746461",
+        "color_text": "#ffffff",
+        "color_link": "#ffffff",
+        "color_border": "#827471",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -597,6 +745,7 @@
     "main-product",
     "1b2ac1d1-0347-4418-9a68-1529f48b220a",
     "e2bcbf37-e737-4897-b537-292703633aaa",
+    "fa29ec10-4697-4581-af5c-83af7c1ffbef",
     "58d44722-ab46-46eb-92b2-8febe4505129",
     "ba6502f0-39ee-4eb3-8945-7bae4d39ee3b",
     "05619a4f-436f-4d3b-bdea-56c97722e0c3",
@@ -607,6 +756,7 @@
     "1662552569cce2536d",
     "product-recommendations",
     "caf6b442-01f9-4626-a023-fe54d7314439",
-    "4228dd7b-3309-4c07-b857-0183644b0d83"
+    "4228dd7b-3309-4c07-b857-0183644b0d83",
+    "dce68e87-190d-4dc7-a869-022b29766790"
   ]
 }
