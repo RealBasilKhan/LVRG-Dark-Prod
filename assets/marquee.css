@@ -1,0 +1,55 @@
+.head-line {
+  background-color: #e27624;
+  padding: 10px;
+}
+
+.marquee {
+  display: flex;
+  overflow-x: hidden;
+  flex-wrap: nowrap;
+}
+
+.marquee:hover .marquee-content {
+  animation-play-state: paused;
+}
+
+.marquee-block {
+  display: flex;
+  cursor: pointer;
+}
+
+.marquee-logo {
+  word-spacing: 2px;
+  margin-right: 10px;
+  font-family: var(--para-font);
+}
+
+.marquee-content {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  animation: slide-left 10s linear infinite;
+}
+
+.marquee-content p {
+  font-family: "Nexa-Bold";
+  margin: 0px 50px;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+.marquee-content p i {
+  font-size: 20px;
+}
+
+@keyframes slide-left {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  to {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
