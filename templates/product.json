@@ -10,12 +10,13 @@
       "blocks": {
         "087c319e-b314-4bf0-a9d9-63bba8546643": {
           "type": "info_box",
+          "disabled": true,
           "settings": {
             "icon": "ruler",
             "text": "Info box text",
             "link": "",
-            "info_box_bg": "#E9E7ED",
-            "info_box_color": "#2B1559"
+            "info_box_bg": "#e9e7ed",
+            "info_box_color": "#2b1559"
           }
         },
         "b51da28f-975f-4f51-a8ce-ebd872a18326": {
