@@ -8,6 +8,16 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
+        "087c319e-b314-4bf0-a9d9-63bba8546643": {
+          "type": "info_box",
+          "settings": {
+            "icon": "ruler",
+            "text": "Info box text",
+            "link": "",
+            "info_box_bg": "#E9E7ED",
+            "info_box_color": "#2B1559"
+          }
+        },
         "b51da28f-975f-4f51-a8ce-ebd872a18326": {
           "type": "inventory_level",
           "settings": {
@@ -105,6 +115,7 @@
         }
       },
       "block_order": [
+        "087c319e-b314-4bf0-a9d9-63bba8546643",
         "b51da28f-975f-4f51-a8ce-ebd872a18326",
         "title",
         "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b",
@@ -269,7 +280,6 @@
         ".image-with-text--content--inner.button {color: #000000;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/hero.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
