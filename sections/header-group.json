@@ -8,8 +8,8 @@
         "955bb93b-7a65-4933-8023-83a64ee46bc2": {
           "type": "text",
           "settings": {
-            "icon": "none",
-            "text": "Add campaign text here.",
+            "icon": "leaf",
+            "text": "100% Vegan",
             "link": "",
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
@@ -18,8 +18,8 @@
         "acca6658-bd49-4cc7-be9a-c02394ef4917": {
           "type": "text",
           "settings": {
-            "icon": "none",
-            "text": "Add campaign text here.",
+            "icon": "plant",
+            "text": "All Natural",
             "link": "",
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
@@ -28,21 +28,43 @@
         "888fc484-50e5-4566-bad6-41e835d00d5f": {
           "type": "text",
           "settings": {
-            "icon": "none",
-            "text": "Add campaign text here.",
+            "icon": "check_mark",
+            "text": "No Proprietary Blends",
             "link": "",
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
+          }
+        },
+        "837d6722-ec16-45ae-a8db-12c22f3a295d": {
+          "type": "text",
+          "settings": {
+            "icon": "check_mark",
+            "text": "No B.S.",
+            "link": "",
+            "color_bg": "#3F72E5",
+            "color_text": "#FFFFFF"
+          }
+        },
+        "e94d5d4d-3ad5-4d70-bd2b-c73b9c750f33": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "Built For Men",
+            "link": "",
+            "color_bg": "#3F72E5",
+            "color_text": "#FFFFFF"
           }
         }
       },
       "block_order": [
         "955bb93b-7a65-4933-8023-83a64ee46bc2",
         "acca6658-bd49-4cc7-be9a-c02394ef4917",
-        "888fc484-50e5-4566-bad6-41e835d00d5f"
+        "888fc484-50e5-4566-bad6-41e835d00d5f",
+        "837d6722-ec16-45ae-a8db-12c22f3a295d",
+        "e94d5d4d-3ad5-4d70-bd2b-c73b9c750f33"
       ],
       "custom_css": [
-        ".announcement-bar {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% ); font-family: \"Nexa-Bold\"}"
+        ".announcement-bar {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% ); font-family: \"Nexa-Bold\";}"
       ],
       "settings": {
         "announcement_bar": true,
