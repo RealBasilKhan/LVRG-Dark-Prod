@@ -42,7 +42,7 @@
         "888fc484-50e5-4566-bad6-41e835d00d5f"
       ],
       "custom_css": [
-        ".announcement-bar {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% );}"
+        ".announcement-bar {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% ); font-family: \"Nexa-Bold\"}"
       ],
       "settings": {
         "announcement_bar": true,
