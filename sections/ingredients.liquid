@@ -1,0 +1,986 @@
+{{ 'ingredients.css' | asset_url | stylesheet_tag }}
+
+  <head>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+      /* This Code is Custom Code use in every Section Folders | CODE STARTS HERE | */
+      :root {
+        --primary-font: 'Manrope', sans-serif;
+      }
+
+      @font-face {
+        font-family: nexa-bold;
+        src: url(./nexa/Nexa\ Bold.otf);
+      }
+
+      @font-face {
+        font-family: nexa-lighter;
+        src: url(./nexa/Nexa\ Light.otf);
+      }
+
+      @font-face {
+        font-family: nexa-regular;
+        src: url(./nexa/Nexa\ Regular.otf);
+      }
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+      }
+
+      body {
+        background-color: #1f1f23;
+        color: white;
+      }
+
+      .right {
+        float: right;
+      }
+
+      /* If You Don't Want Max Width On Your Website SO, Remove This Container Code (FULL CODE) */
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 50px 0px;
+      }
+
+      .img-fluid {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* This Code is Custom Code use in every Section Folders | CODE ENDS HERE | */
+
+      .tabs-section {
+        padding: 50px 0px;
+        position: relative;
+      }
+
+      .tabs-section .main-heading {
+        font-family: nexa-bold;
+        margin-bottom: 10px;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        text-align: center;
+      }
+
+      .tabs-section .main-para {
+        width: 661px;
+        text-align: center;
+        font-size: 16px;
+        font-family: nexa-lighter;
+      }
+
+      .tabs-section .para-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 30px;
+      }
+
+      .tabs-section .row {
+        display: flex;
+        align-items: center;
+      }
+
+      .tabs-section .row.tabs {
+        justify-content: center;
+        margin-bottom: 50px;
+        padding: 10px;
+      }
+
+      .tabs-section .row.tabs .col-1 {
+        background-color: #343436;
+        padding: 15px 50px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .tabs-section .row.tabs .col-1 .flex-tag {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .tabs-section .row.tabs .col-1 a {
+        background-color: #565656;
+        padding: 12px 18px;
+        border-radius: 25px;
+        color: white;
+        font-family: nexa-bold !important;
+        font-size: 16px !important;
+        transition: 0.5s;
+      }
+
+      .tabs-section .row.tabs .col-1 a:hover {
+        color: #e27624;
+      }
+
+      :root {
+        --border-color: linear-gradient(180deg, #ff6c6f 0%, #ffb86f 100%);
+      }
+
+      .color-border {
+        --border-width: 2px !important;
+        --border-radius: 20px !important;
+        font: inherit !important;
+        background: var(--border-color) !important;
+        border: 0 !important;
+        position: relative !important;
+        border-radius: var(--border-radius) !important;
+        z-index: 1 !important;
+        font-family: nexa-bold;
+      }
+
+      .color-border::before {
+        content: '' !important;
+        display: block !important;
+        height: calc(100% - calc(var(--border-width) * 2)) !important;
+        width: calc(100% - calc(var(--border-width) * 2)) !important;
+        background: #565656;
+        position: absolute !important;
+        top: var(--border-width) !important;
+        left: var(--border-width) !important;
+        border-radius: calc(var(--border-radius) - var(--border-width)) !important;
+        z-index: -1 !important;
+      }
+
+      .tabs-section .flex-row {
+        display: flex;
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+      }
+
+      .tabs-section .flex-row .col-1 {
+        flex: 1;
+      }
+
+      .tabs-section .flex-row .col-2 {
+        flex: 2;
+      }
+
+      .tabs-section .flex-row .col-2 .box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        gap: 20px;
+      }
+
+      .tabs-section .flex-row .col-2 .box .items {
+        width: 148px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 180px;
+        border-radius: 30px;
+        background-color: #53535d !important;
+        position: relative;
+        text-align: center;
+      }
+
+      .tabs-section .flex-row .col-2 .box .items .main-img {
+        width: 90px;
+      }
+
+      .tabs-section .flex-row .col-2 .box .items h4 {
+        margin-top: 10px;
+        font-family: nexa-bold;
+      }
+
+      .flex-row .col-1 {
+        border-radius: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        background-color: #53535d;
+      }
+
+      .flex-row .col-1 .first-product img {
+        width: 114px;
+        height: 114px;
+      }
+
+      .flex-row .col-1 .first-product {
+        position: relative;
+      }
+
+      .flex-row .col-1 .first-product h1 {
+        font-family: nexa-bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .flex-row .col-1 .first-product p {
+        font-family: nexa-regular;
+        color: #ffffffcc;
+        font-size: 14px;
+      }
+
+      .tabs-section .para-btn {
+        display: flex;
+        gap: 30px;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+      }
+
+      .tabs-section .para-btn .col-1 {
+        flex: 1;
+      }
+
+      .tabs-section .para-btn .col-2 {
+        flex: 2;
+        display: flex;
+        gap: 100px;
+      }
+
+      .tabs-section .para-btn .col-2 .box h1 {
+        font-family: nexa-bold;
+        font-size: 24px;
+        line-height: 28.8px;
+      }
+
+      .tabs-section .para-btn .col-2 .box p {
+        color: #bababa;
+        font-family: nexa-regular;
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      .tabs-section .para-btn .col-1 .btn a {
+        color: white;
+        font-family: nexa-bold;
+
+        width: 100%;
+        text-align: center;
+        padding: 16px 0px;
+        border-radius: 35px;
+        background-color: #e27624;
+        width: 100%;
+        transition: 0.5s;
+        border: 1px solid transparent;
+        cursor: pointer;
+        display: block;
+      }
+      .tabs-section .para-btn .col-1 .btn a:hover {
+        border: 1px solid #e27624;
+        background-color: transparent;
+      }
+
+      /* this code for mobile swiper  */
+      .swiper {
+        width: 90%;
+        height: 100%;
+        margin-bottom: 50px;
+      }
+
+      .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: #343436;
+        border-radius: 20px;
+        padding: 26px 10px;
+        width: 90%;
+      }
+
+      .swiper-slide .content {
+        flex: 2;
+      }
+
+      .swiper-slide .content h1 {
+        font-family: nexa-bold;
+        margin-bottom: 5px;
+      }
+
+      .swiper-slide .content p {
+        font-family: nexa-regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: #ffffffcc;
+        margin-bottom: 3px;
+      }
+
+      .swiper-slide .content a {
+        font-family: nexa-bold;
+        font-size: 17px;
+        line-height: 21px;
+        background: linear-gradient(180deg, #ff6c6f 0%, #ffb86f 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+      }
+
+      .swiper-slide .logo img {
+        flex: 1;
+        width: 80px;
+        height: 80px;
+      }
+
+      .swiper-container {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+      .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        background: linear-gradient(180deg, #ff6c6f 0%, #ffb86f 100%);
+      }
+
+      .tabs-section .product-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+      }
+
+      .tabs-section .product-flex .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 160px;
+        height: 165px;
+        border-radius: 30px;
+        background-color: #53535d;
+        padding: 10px 16px;
+      }
+
+      .tabs-section .product-flex .box img {
+        margin-bottom: 15px;
+      }
+
+      .tabs-section .product-flex .box h2 {
+        font-family: var(--primary-font);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: center;
+      }
+
+      .content-box {
+        text-align: center;
+        padding: 0px 40px;
+      }
+
+      .content-box .box {
+        margin-bottom: 30px;
+      }
+
+      .content-box .box h1 {
+        font-family: nexa-bold;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 10px;
+      }
+
+      .content-box .box p {
+        font-family: nexa-regular;
+        font-size: 14px;
+        line-height: 17px;
+        color: #bababa;
+      }
+
+      .shadow-1 {
+        position: absolute;
+        top: 4%;
+        width: 300px;
+        right: 0px;
+        z-index: -1;
+      }
+
+      .shadow-2 {
+        position: absolute;
+        top: 56%;
+        width: 100px;
+        left: 0px;
+        z-index: -1;
+      }
+
+      .shadow-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 9999;
+      }
+
+      .shadow-flex .shadow {
+        position: absolute;
+        z-index: -1;
+        width: 100px;
+        height: 135px !important;
+      }
+
+      .flex-row .col-1 .first-product img.shadow {
+        width: 220px;
+        height: 220px !important;
+      }
+
+      /* THESE MEDIA QUARIES USED FOR RESPONSIVE YOUR WEBSITE IN ALL DEVICES  */
+      /* for mobile only  */
+      @media only screen and (max-width: 600px) {
+        .pc {
+          display: none !important;
+        }
+
+        .only-mobile {
+          display: none !important;
+        }
+
+        .tabs-section .main-para {
+          width: 100%;
+        }
+
+        .tabs-section .row {
+          flex-direction: column !important;
+          background-color: #343436;
+          padding: 20px 0px !important;
+        }
+
+        .tabs-section .main-heading {
+          font-size: 36px;
+          padding: 0px 10px;
+        }
+
+        .tabs-section .main-para {
+          padding: 0px 10px;
+        }
+
+        .tabs-section .row .col-1 {
+          background-color: transparent !important;
+          padding: 10px 5px !important;
+          gap: 6px !important;
+        }
+
+        .tabs-section .row.tabs .col-1 a {
+          padding: 12px 8px !important;
+          font-size: 13px !important;
+        }
+      }
+
+      /* for some mobile */
+
+      @media only screen and (min-width: 470px) and (max-width: 600px) {
+        .tabs-section .row.tabs .col-1 a {
+          font-size: 16px !important;
+        }
+
+        .tabs-section .row.tabs .col-1 {
+          gap: 12px !important;
+        }
+      }
+
+      /* for mini tabs  */
+
+      @media only screen and (min-width: 601px) and (max-width: 768px) {
+        .pc {
+          display: none !important;
+        }
+
+        .only-tab {
+          display: none !important;
+        }
+
+        .tabs-section {
+          padding: 10px;
+        }
+
+        .tabs-section .main-para {
+          width: 100%;
+        }
+
+        .tabs-section .row.tabs {
+          flex-direction: column;
+        }
+
+        .only-tab {
+          display: none !important;
+        }
+
+        .tabs-section .row.tabs {
+          background-color: #343436;
+        }
+
+        .tabs-section .row.tabs .col-1 {
+          padding: 10px;
+          background-color: transparent;
+        }
+
+        .tabs-section .row.tabs .col-1 a {
+          padding: 10px 15px;
+        }
+
+        .tabs-section .flex-row {
+          flex-direction: column;
+        }
+
+        .tabs-section .flex-row .col-2 .box {
+          gap: 20px;
+        }
+
+        .tabs-section .flex-row .col-2 .box .items {
+          width: 100%;
+        }
+
+        .tabs-section .para-btn {
+          flex-direction: column;
+        }
+
+        .tabs-section .para-btn .col-2 {
+          margin-bottom: 30px;
+        }
+
+        .shadow-1 {
+          position: absolute;
+          top: 4%;
+          width: 200px;
+          right: 0px;
+          z-index: -1;
+        }
+      }
+
+      /* for laptop and big screen tabs  */
+
+      @media only screen and (min-width: 769px) and (max-width: 1080px) {
+        .mobile {
+          display: none !important;
+        }
+
+        .tabs-section .flex-row .col-2 .box {
+          gap: 10px;
+        }
+
+        .only-laptop {
+          display: none !important;
+        }
+
+        .tabs-section {
+          padding: 10px;
+        }
+
+        .tabs-section .main-para {
+          width: 100%;
+        }
+
+        .tabs-section .row.tabs {
+          flex-direction: column;
+        }
+
+        .tabs-section .row.tabs .col-1 {
+          padding: 10px 70px;
+          width: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+
+        .tabs-section .row.tabs .col-1 a {
+          padding: 10px 30px;
+          font-size: 12px;
+        }
+
+        .tabs-section .flex-row {
+          flex-direction: column;
+        }
+
+        .tabs-section .flex-row .col-2 .box {
+          gap: 20px;
+        }
+
+        .tabs-section .flex-row .col-2 .box .items {
+          width: 100%;
+        }
+
+        .tabs-section .para-btn {
+          flex-direction: column;
+        }
+
+        .tabs-section .para-btn .col-2 {
+          margin-bottom: 30px;
+        }
+
+        .tabs-section .flex-row .col-2 .box .items .shadow {
+          top: -10px;
+          left: 0px;
+          width: 200px;
+          height: 200px;
+        }
+      }
+
+      /* for large screen (desktop) */
+      @media only screen and (min-width: 1080px) {
+        .mobile {
+          display: none !important;
+        }
+
+        .only-desktop {
+          display: none !important;
+        }
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="tabs-section ">
+      <div class="container">
+        <h1 class="main-heading">Your all-in-one mix</h1>
+        <div class="para-center">
+          <p class="main-para">
+            Promote daily immune health & energy with one convenient, delicious drink. Formulated by nutritionists, in
+            partnership with mother nature.
+          </p>
+        </div>
+        <div class="row tabs">
+          <div class="col-1">
+            <div class="flex-tag">
+              <a class="pc" href="#">All</a>
+              <a class="pc" href="#">Turmeric</a>
+              <a href="#" class="color-border pc">Elderberry</a>
+              <a class="pc" href="#">Astragalus</a>
+            </div>
+            <div class="flex-tag">
+              <a class="pc" href="#">Acerola Cherry</a>
+              <a class="pc" href="#">Ashwaganda</a>
+              <a class="pc" href="#">Black Pepper</a>
+            </div>
+            <a class="mobile" href="#">Stamina & Strength</a>
+            <a class="mobile" href="#">Greens & Veggie</a>
+            <a class="mobile color-border" href="#">Mushrooms</a>
+          </div>
+          <div class="col-1 mobile">
+            <a href="#" class="mobile">Gut Health</a>
+            <a href="#" class="mobile">Brain Boosters</a>
+          </div>
+        </div>
+        <div class="flex-row only-mobile">
+          <div class="col-2">
+            <div class="box-1 box">
+              <div class="item-1 items">
+                <div class="shadow-flex">
+                  <img src="{{ section.settings.icon_left1 | img_url: 'small' }}" alt="Products" class="img-fluid main-img">
+                  <img src="shadow.png" alt="Shadow" class="img-fluid shadow">
+                </div>
+                <h4>Elderberry</h4>
+              </div>
+              <div class="item-2 items">
+                <div class="shadow-flex">
+                  <img src="item-2.png" alt="Products" class="img-fluid main-img">
+                  <img src="shadow.png" alt="Shadow" class="img-fluid shadow">
+                </div>
+                <h4>Astragalus</h4>
+              </div>
+              <div class="item-3 items color-border">
+                <div class="shadow-flex">
+                  <img src="item-3.png" alt="Products" class="img-fluid main-img">
+                  <img src="shadow.png" alt="Shadow" class="img-fluid shadow">
+                </div>
+                <h4>Acerola Cherry</h4>
+              </div>
+              <div class="item-4 items only-tab">
+                <div class="shadow-flex">
+                  <img src="item-4.png" alt="Products" class="img-fluid main-img">
+                  <img src="shadow.png" alt="Shadow" class="img-fluid shadow">
+                </div>
+                <h4>Ashwaganda</h4>
+              </div>
+            </div>
+            <div class="box-1 box">
+              <div class="item-1 items">
+                <div class="shadow-flex">
+                  <img src="item-5.png" alt="Products" class="img-fluid main-img">
+                  <img src="shadow.png" alt="Shadow" class="img-fluid shadow">
+                </div>
+                <h4>Ginger</h4>
+              </div>
+              <div class="item-2 items">
+                <div class="shadow-flex">
+                  <img src="item-6.png" alt="Products" class="img-fluid main-img">
+                  <img src="shadow.png" alt="Shadow" class="img-fluid shadow">
+                </div>
+                <h4>Turmeric</h4>
+              </div>
+              <div class="item-3 items">
+                <div class="shadow-flex">
+                  <img src="item-7.png" alt="Products" class="img-fluid main-img">
+                  <img src="shadow.png" alt="Shadow" class="img-fluid shadow">
+                </div>
+                <h4>Black Pepper</h4>
+              </div>
+              <div class="item-4 items only-tab">
+                <div class="shadow-flex">
+                  <img src="item-8.png" alt="Products" class="img-fluid main-img">
+                  <img src="shadow.png" alt="Shadow" class="img-fluid shadow">
+                </div>
+                <h4>Goji Berry</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-1">
+            <div class="first-product">
+              <div class="shadow-flex">
+                <img src="item-3.png" alt="Products" class="img-fluid main-img">
+                <img src="shadow.png" alt="Shadow" class="img-fluid shadow">
+              </div>
+              <h1>Acerola Cherry</h1>
+              <p>
+                Our naturally sourced Vitamin C improves absorption and has vital polyphenols. It also boosts collagen
+                production for healthier hair, skin, and nails.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="para-btn only-mobile">
+          <div class="col-2">
+            <div class="box">
+              <h1>What it is?</h1>
+              <p>A mushroom that grows at high altitudes and is popular in Traditional Chinese Medicine.</p>
+            </div>
+            <div class="box">
+              <h1>What it does?</h1>
+              <p>Research indicates that cordyceps helps support energy utilization during exercise.</p>
+            </div>
+          </div>
+          <div class="col-1">
+            <div class="btn">
+              <a href="#">VIEW NUTRITION FACTS</a>
+            </div>
+          </div>
+        </div>
+        <div class="only-desktop only-laptop only-tab">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="logo">
+                  <img src="item-1.png" alt="Products" class="img-fluid">
+                </div>
+                <div class="content">
+                  <h1>Turmeric</h1>
+                  <p>
+                    Cold-and-flu-fighting berries and flowers brimming with antioxidants to help boost the immune
+                    system.
+                  </p>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Learn More</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="logo">
+                  <img src="item-3.png" alt="Products" class="img-fluid">
+                </div>
+                <div class="content">
+                  <h1>Acerola Cherry</h1>
+                  <p>
+                    Cold-and-flu-fighting berries and flowers brimming with antioxidants to help boost the immune
+                    system.
+                  </p>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Learn More</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="logo">
+                  <img src="item-7.png" alt="Products" class="img-fluid">
+                </div>
+                <div class="content">
+                  <h1>Black Pepper</h1>
+                  <p>
+                    Cold-and-flu-fighting berries and flowers brimming with antioxidants to help boost the immune
+                    system.
+                  </p>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Learn More</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="logo">
+                  <img src="item-2.png" alt="Products" class="img-fluid">
+                </div>
+                <div class="content">
+                  <h1>Astragalus</h1>
+                  <p>
+                    Cold-and-flu-fighting berries and flowers brimming with antioxidants to help boost the immune
+                    system.
+                  </p>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="only-desktop only-laptop only-tab">
+          <div class="content-box">
+            <div class="box-1 box">
+              <h1>What it is?</h1>
+              <p>A mushroom that grows at high altitudes and is popular in Traditional Chinese Medicine.</p>
+            </div>
+            <div class="box-2 box">
+              <h1>What it does?</h1>
+              <p>Research indicates that cordyceps helps support energy utilization during exercise.</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-flex">
+          <div class="box">
+            <img src="p-1.png" alt="Product" class="img-fluid">
+            <h2>Plant-Based, Vegan</h2>
+          </div>
+          <div class="box">
+            <img src="p-2.png" alt="Product" class="img-fluid">
+            <h2>Gluten Free</h2>
+          </div>
+
+          <div class="box">
+            <img src="p-3.png" alt="Product" class="img-fluid">
+            <h2>Dairy Free</h2>
+          </div>
+          <div class="box">
+            <img src="p-4.png" alt="Product" class="img-fluid">
+            <h2>Nut Free</h2>
+          </div>
+
+          <div class="box">
+            <img src="p-5.png" alt="Product" class="img-fluid">
+            <h2>No Artificial Colors, Flavors</h2>
+          </div>
+          <div class="box">
+            <img src="p-6.png" alt="Product" class="img-fluid">
+            <h2>0 Sugar</h2>
+          </div>
+        </div>
+      </div>
+      <img src="shadow-1.png" alt="Shadow" class="img-fluid shadow-1 pc">
+
+      <img src="shadow-2.png" alt="Shadow" class="img-fluid shadow-2 pc">
+    </section>
+
+    <!-- THIS JAVA SCRIPT FROM INTERNET -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Swiper JS -->
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        // Default parameters
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 10,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        // Responsive breakpoints
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
+
+{% schema %}
+{
+  "name": "Ingredients",
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Shadow Image",
+      "id": "shadow_image"
+    },
+    {
+      "type": "image_picker",
+      "label": "Elderberry Image",
+      "id": "elderberry_image"
+    },
+    {
+      "type": "image_picker",
+      "label": "Astragalus Image",
+      "id": "astragalus_image"
+    },
+    {
+      "type": "image_picker",
+      "label": "Acerola Cherry Image",
+      "id": "acerola_cherry_image"
+    },
+    {
+      "type": "image_picker",
+      "label": "Ashwaganda Image",
+      "id": "ashwaganda_image"
+    },
+    {
+      "type": "image_picker",
+      "label": "Ginger Image",
+      "id": "ginger_image"
+    },
+    {
+      "type": "image_picker",
+      "label": "Turmeric Image",
+      "id": "turmeric_image"
+    },
+    {
+      "type": "image_picker",
+      "label": "Black Pepper Image",
+      "id": "black_pepper_image"
+    },
+    {
+      "type": "image_picker",
+      "label": "Goji Berry Image",
+      "id": "goji_berry_image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ingredients",
+      "category": "Ingredients"
+    }
+  ]
+}
+{% endschema %}
