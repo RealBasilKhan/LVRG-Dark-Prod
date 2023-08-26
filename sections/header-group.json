@@ -41,8 +41,8 @@
             "icon": "check_mark",
             "text": "No B.S.",
             "link": "",
-            "color_bg": "#3F72E5",
-            "color_text": "#FFFFFF"
+            "color_bg": "#3f72e5",
+            "color_text": "#ffffff"
           }
         },
         "e94d5d4d-3ad5-4d70-bd2b-c73b9c750f33": {
@@ -51,8 +51,8 @@
             "icon": "check_mark",
             "text": "Built For Men",
             "link": "",
-            "color_bg": "#3F72E5",
-            "color_text": "#FFFFFF"
+            "color_bg": "#3f72e5",
+            "color_text": "#ffffff"
           }
         }
       },
@@ -64,7 +64,7 @@
         "e94d5d4d-3ad5-4d70-bd2b-c73b9c750f33"
       ],
       "custom_css": [
-        ".announcement-bar {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% ); font-family: \"Nexa-Bold\";}"
+        ".announcement-bar {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% );}"
       ],
       "settings": {
         "announcement_bar": true,
