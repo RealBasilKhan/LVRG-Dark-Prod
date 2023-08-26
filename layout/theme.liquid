@@ -49,10 +49,12 @@
 
     {{ 'app.css' | asset_url | stylesheet_tag }}
     {{ 'product-grid.css' | asset_url | stylesheet_tag }}
+    {{ 'ingredients.css' | asset_url | stylesheet_tag }}
 
     {% render 'head-variables' %}
 
     <script>
+      
       
       
 		window.theme = window.theme || {};
@@ -79,6 +81,7 @@
 				requiresTerms: `{{ 'sections.cart.terms_confirm' | t }}`,
 			}
 		};
+
 
 
 
