@@ -94,12 +94,6 @@
             "page": ""
           }
         },
-        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "019bda93-d256-470c-ad9f-1d998696cf0a": {
           "type": "side_panel",
           "settings": {
@@ -126,7 +120,6 @@
         "0b3e272b-c86a-4dba-946c-c6912251371c",
         "386f7e4a-6127-4141-928b-9cb4614ee18c",
         "d56924f2-0137-4e3b-8c33-49b1f28391c6",
-        "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
         "019bda93-d256-470c-ad9f-1d998696cf0a"
       ],
       "custom_css": [
