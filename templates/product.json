@@ -740,6 +740,7 @@
     },
     "f6b52662-3922-4bdf-b898-4a9478f0ed89": {
       "type": "background-video",
+      "disabled": true,
       "settings": {
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-500",
