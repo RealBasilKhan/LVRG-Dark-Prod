@@ -430,7 +430,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/gif-2_1.gif",
-        "mobile_image": "shopify:\/\/shop_images\/gif-2_1.gif",
+        "mobile_image": "shopify:\/\/shop_images\/Gif-v2_1.gif",
         "image_parallax": true,
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-400",
