@@ -431,9 +431,9 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/gif-2_1.gif",
         "mobile_image": "shopify:\/\/shop_images\/Gif-v2_1.gif",
-        "image_parallax": true,
+        "image_parallax": false,
         "desktop_height": "desktop-height-450",
-        "mobile_height": "mobile-height-400",
+        "mobile_height": "mobile-height-auto",
         "full_width": true,
         "content_width": "large",
         "content_position": "top-left",
