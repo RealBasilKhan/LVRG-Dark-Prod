@@ -105,7 +105,7 @@
           "settings": {
             "side_panel_1_label": "Nutritional Information",
             "side_panel_1_icon": "star",
-            "side_panel_1_page": "",
+            "side_panel_1_page": "nutritional-facts",
             "side_panel_2_label": "",
             "side_panel_2_icon": "box",
             "side_panel_2_page": "",
