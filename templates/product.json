@@ -737,6 +737,21 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
+    },
+    "f6b52662-3922-4bdf-b898-4a9478f0ed89": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "video_controls": false,
+        "video": "",
+        "video_hosted": "shopify:\/\/files\/videos\/WhatsApp Video 2023-08-19 at 1.01.43 PM.mp4",
+        "overlay_color": "#000000",
+        "overlay_opacity": 25,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -755,6 +770,7 @@
     "product-recommendations",
     "caf6b442-01f9-4626-a023-fe54d7314439",
     "4228dd7b-3309-4c07-b857-0183644b0d83",
-    "1663667029efc274af"
+    "1663667029efc274af",
+    "f6b52662-3922-4bdf-b898-4a9478f0ed89"
   ]
 }
