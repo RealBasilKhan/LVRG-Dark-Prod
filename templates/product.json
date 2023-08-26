@@ -213,7 +213,7 @@
       "settings": {
         "text_alignment": "center",
         "icon_position": "top",
-        "icon_size": "medium",
+        "icon_size": "large",
         "heading_size": "medium",
         "mobile_swipe": false,
         "color_bg": "rgba(0,0,0,0)",
