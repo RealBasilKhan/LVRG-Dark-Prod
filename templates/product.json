@@ -81,14 +81,14 @@
           "settings": {
             "heading": "Shipping & Returns",
             "open": false,
-            "content": "<p>Row content<\/p>",
+            "content": "<p>We have a 60-day return policy, which means you have 60 days after receiving your item to request a return.<\/p><p>To be eligible for a return, your item must be in the same condition that you received it, unopened and unused, with tags, and in its original packaging. You’ll also need the receipt or proof of purchase.<\/p><p>To start a return, you can contact us at support@uselvrg.com<\/p>",
             "page": ""
           }
         },
         "d56924f2-0137-4e3b-8c33-49b1f28391c6": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Compatibility",
+            "heading": "How To Use?",
             "open": false,
             "content": "<p>Row content<\/p>",
             "page": ""
