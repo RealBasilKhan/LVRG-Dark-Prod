@@ -1,0 +1,574 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
+{{ 'ingredients.css' | asset_url | stylesheet_tag }}
+
+<div class="container">
+  <h1 class="main-heading">{{ section.settings.heading }}</h1>
+  <div class="para-center">
+    <p>{{ section.settings['sub-heading'] }}</p>
+  </div>
+  <div class="row tabs">
+    <div class="col-1">
+      <div class="flex-tag">
+        {% for block in section.blocks %}
+          {% assign active = '' %}
+          {% if forloop.first %}
+            {% assign active = 'active' %}
+          {% endif %}
+          {% if block.settings['tab-title'] != blank %}
+            <a class="{{ active }} pc sj-link" href="#" data-block-id="{{ block.id }}">
+              {{- block.settings['tab-title'] -}}
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="col-1 mobile sj-mobile-links">
+        {% for block in section.blocks %}
+          {% assign active = '' %}
+          {% if forloop.first %}
+            {% assign active = 'active' %}
+          {% endif %}
+          {% if block.settings['tab-title'] != blank %}
+            <a class="mobile {{ active }}" href="#" data-block-id="{{ block.id }}">{{ block.settings['tab-title'] }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <!-- *******Done******** -->
+  {% for block in section.blocks %}
+    {% assign active = '' %}
+    {% if forloop.first %}
+      {% assign active = 'active' %}
+    {% endif %}
+    <div class="{{ block.id }} {{ active }} sj-blocks">
+      <div class="flex-row only-mobile">
+        <div class="col-2 sj-left sj-container">
+          <div class="box-{{ forloop.index }} box">
+            {% for i in (1..8) %}
+              {% assign card_image = 'card-image' | append: i %}
+              {% assign card_title = 'card-title' | append: i %}
+              {% assign card_desc = 'card-desc' | append: i %}
+              {% assign active = '' %}
+              {% if forloop.first %}
+                {% assign active = 'active' %}
+              {% endif %}
+              {% if block.settings[card_image] != blank %}
+                <div class="item-{{ forloop.index0 }} items {{ active }}" data-index="{{ i }}">
+                  <div class="shadow-flex">
+                    <img
+                      src="{{ block.settings[card_image] | img_url: 'small' }}"
+                      alt="{{ block.settings[card_image].alt }}"
+                      class="img-fluid main-img"
+                    >
+                    <img src="{{ 'shadow.png' | asset_url }}" alt="Shadow" class="img-fluid shadow">
+                  </div>
+                  <h4>{{ block.settings[card_title] }}</h4>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="col-1 sj-right sj-container">
+          {% for i in (1..8) %}
+            {% assign card_image = 'card-image' | append: i %}
+            {% assign card_title = 'card-title' | append: i %}
+            {% assign active = '' %}
+            {% if forloop.first %}
+              {% assign active = 'active' %}
+            {% endif %}
+            {% if block.settings[card_image] != blank %}
+              <div class="first-product {{ active }}" data-index="{{ i }}">
+                <div class="shadow-flex">
+                  <img
+                    src="{{ block.settings[card_image] | image_url }}"
+                    alt="{{ block.settings[card_image].alt }}"
+                    class="img-fluid main-img"
+                  >
+                  <img src="{{ 'shadow.png' | asset_url }}" alt="Shadow" class="img-fluid shadow">
+                </div>
+                <h1>{{ block.settings[card_title] }}</h1>
+                {{ block.settings[card_desc] }}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% for i in (1..8) %}
+        {% assign active = '' %}
+        {% if forloop.first %}
+          {% assign active = 'active' %}
+        {% endif %}
+        {% assign what_is = 'what-is-it' | append: i %}
+        {% assign what_does = 'what-is-does' | append: i %}
+        <div class="{{ active }} para-btn only-mobile" data-index="{{ i }}">
+          <div class="col-2">
+            {% if block.settings[what_is] != blank %}
+              <div class="box">
+                <h1>What it is?</h1>
+                {{ block.settings[what_is] }}
+              </div>
+            {% endif %}
+            {% if block.settings[what_does] != blank %}
+              <div class="box">
+                <h1>What it does?</h1>
+                {{ block.settings[what_does] }}
+              </div>
+            {% endif %}
+          </div>
+          <div class="col-1">
+            <div class="btn">
+              <a href="#">VIEW NUTRITION FACTS</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+      <div class="only-desktop only-laptop only-tab">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            {% for i in (1..8) %}
+              {% assign card_image = 'card-image' | append: i %}
+              {% assign card_title = 'card-title' | append: i %}
+              {% assign card_desc = 'card-desc' | append: i %}
+
+              {% if block.settings[card_image] != blank %}
+                <div class="swiper-slide" data-index="{{ i }}">
+                  <div class="logo">
+                    <img src="{{ 'shadow.png' | asset_url }}" alt="Shadow" class="img-fluid shadow">
+                    <img
+                      src="{{ block.settings[card_image] | image_url }}"
+                      alt="{{ block.settings[card_image].alt }}"
+                      class="img-fluid"
+                    >
+                  </div>
+                  <div class="content">
+                    <h1>{{ block.settings[card_title] }}</h1>
+                    {{ block.settings[card_desc] }}
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Learn More</a>
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="only-desktop only-laptop only-tab">
+        {% for i in (1..8) %}
+          {% assign what_is = 'what-is-it' | append: i %}
+          {% assign what_does = 'what-is-does' | append: i %}
+          {% assign active = '' %}
+          {% if forloop.first %}
+            {% assign active = 'active' %}
+          {% endif %}
+          <div class="{{ active }} content-box" data-index="{{ i }}">
+            {% if block.settings[what_is] != blank %}
+              <div class="box-1 box">
+                <h1>What it is?</h1>
+                {{ block.settings[what_is] }}
+              </div>
+            {% endif %}
+            {% if block.settings[what_does] != blank %}
+              <div class="box-2 box">
+                <h1>What it does?</h1>
+                {{ block.settings[what_does] }}
+              </div>
+              <div class="box-3 box">
+                <div class="btn">
+                  <a href="#">VIEW NUTRITION FACTS</a>
+                </div>
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+  <div class="product-flex">
+    <div class="box">
+      <img src="p-1.png" alt="Product" class="img-fluid">
+      <h2>Plant-Based, Vegan</h2>
+    </div>
+    <div class="box">
+      <img src="p-2.png" alt="Product" class="img-fluid">
+      <h2>Gluten Free</h2>
+    </div>
+
+    <div class="box">
+      <img src="p-3.png" alt="Product" class="img-fluid">
+      <h2>Dairy Free</h2>
+    </div>
+    <div class="box">
+      <img src="p-4.png" alt="Product" class="img-fluid">
+      <h2>Nut Free</h2>
+    </div>
+
+    <div class="box">
+      <img src="p-5.png" alt="Product" class="img-fluid">
+      <h2>No Artificial Colors, Flavors</h2>
+    </div>
+    <div class="box">
+      <img src="p-6.png" alt="Product" class="img-fluid">
+      <h2>0 Sugar</h2>
+    </div>
+  </div>
+</div>
+<img src="shadow-1.png" alt="Shadow" class="img-fluid shadow-1 pc">
+
+<img src="shadow-2.png" alt="Shadow" class="img-fluid shadow-2 pc">
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"
+></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Swiper JS -->
+<!-- Initialize Swiper -->
+<script>
+  $(document).ready(function () {
+    $('[data-block-id]').on('click', function (e) {
+      e.preventDefault();
+      var data_id = $(this).data('block-id');
+      $('[data-block-id]').removeClass('active');
+      $('[data-block-id="' + data_id + '"]').addClass('active');
+
+      $('.sj-blocks').removeClass('active');
+      $('.' + data_id).addClass('active');
+      $('.' + data_id + ' .box .items.active').trigger('mouseover');
+    });
+    // add hover functionality
+    $('.box .items').hover(function () {
+      var data_id = $('.sj-link.active').data('block-id');
+      var data_index = $(this).data('index');
+
+      $('.' + data_id + ' .box .items').removeClass('active');
+      $(this).addClass('active');
+
+      $('.' + data_id + ' .first-product').removeClass('active');
+      $('.' + data_id + ' .first-product[data-index="' + data_index + '"]').addClass('active');
+
+      $('.para-btn').removeClass('active');
+      $('.' + data_id + ' .para-btn[data-index="' + data_index + '"]').addClass('active');
+    });
+    //Swiper
+    var swiper = new Swiper('.mySwiper', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      // Default parameters
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 10,
+      // autoplay: {
+      //   delay: 2500,
+      //   disableOnInteraction: false,
+      // },
+      // Responsive breakpoints
+      breakpoints: {
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        // when window width is >= 640px
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+      },
+    });
+
+    $('.mySwiper').on('DOMSubtreeModified', function (e) {
+      var curr_index = $('.swiper-slide-active').data('index');
+      var data_id = $('[data-block-id].active').data('block-id');
+
+      $('.' + data_id + ' .content-box').removeClass('active');
+
+      $('.' + data_id + ' .content-box[data-index="' + curr_index + '"]').addClass('active');
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Ingredients",
+  "class": "tabs-section",
+  "max_blocks": 8,
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "sub-heading",
+      "label": "Sub Heading"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab-title",
+          "label": "Title"
+        },
+        {
+          "type": "header",
+          "content": "CARD 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "card-image1",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "card-title1",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "card-desc1",
+          "label": "Description"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-it1",
+          "label": "What is it?"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-does1",
+          "label": "What is does?"
+        },
+        {
+          "type": "header",
+          "content": "CARD 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "card-image2",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "card-title2",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "card-desc2",
+          "label": "Description"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-it2",
+          "label": "What is it?"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-does2",
+          "label": "What is does?"
+        },
+        {
+          "type": "header",
+          "content": "CARD 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "card-image3",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "card-title3",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "card-desc3",
+          "label": "Description"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-it3",
+          "label": "What is it?"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-does3",
+          "label": "What is does?"
+        },
+        {
+          "type": "header",
+          "content": "CARD 4"
+        },
+        {
+          "type": "image_picker",
+          "id": "card-image4",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "card-title4",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "card-desc4",
+          "label": "Description"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-it4",
+          "label": "What is it?"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-does4",
+          "label": "What is does?"
+        },
+        {
+          "type": "header",
+          "content": "CARD 5"
+        },
+        {
+          "type": "image_picker",
+          "id": "card-image5",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "card-title5",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "card-desc5",
+          "label": "Description"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-it5",
+          "label": "What is it?"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-does5",
+          "label": "What is does?"
+        },
+        {
+          "type": "header",
+          "content": "CARD 6"
+        },
+        {
+          "type": "image_picker",
+          "id": "card-image6",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "card-title6",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "card-desc6",
+          "label": "Description"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-it6",
+          "label": "What is it?"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-does6",
+          "label": "What is does?"
+        },
+        {
+          "type": "header",
+          "content": "CARD 7"
+        },
+        {
+          "type": "image_picker",
+          "id": "card-image7",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "card-title7",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "card-desc7",
+          "label": "Description"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-it7",
+          "label": "What is it?"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-does7",
+          "label": "What is does?"
+        },
+        {
+          "type": "header",
+          "content": "CARD 8"
+        },
+        {
+          "type": "image_picker",
+          "id": "card-image8",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "card-title8",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "card-desc8",
+          "label": "Description"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-it8",
+          "label": "What is it?"
+        },
+        {
+          "type": "richtext",
+          "id": "what-is-does8",
+          "label": "What is does?"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ingredients",
+      "category": "Ingredients"
+    }
+  ]
+}
+{% endschema %}
