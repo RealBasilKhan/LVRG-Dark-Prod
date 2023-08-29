@@ -1,0 +1,275 @@
+{% comment %}
+  product-display-with-text.liquid
+  Section for a customizable product display with text.
+{% endcomment %}
+
+{{ 'product-display-with-text-v2.css' | asset_url | stylesheet_tag }}
+
+<section class="black-edition container">
+  <div class="main-container">
+    <h1 class="main-heading">
+      {{ section.settings.heading }}
+    </h1>
+    <div class="row">
+      <div class="col-2">
+        <div class="box">
+          <div class="logo">
+            <img src="{{ section.settings.icon_left1 | img_url: 'small' }}" alt="" class="img-fluid">
+          </div>
+          <div class="content">
+            <h1>{{ section.settings.heading_left1 }}</h1>
+            <p>{{ section.settings.text_left1 }}</p>
+          </div>
+        </div>
+        <div class="border-bottom"></div>
+        <div class="box">
+          <div class="logo">
+            <img src="{{ section.settings.icon_left2 | img_url: 'small' }}" alt="" class="img-fluid">
+          </div>
+          <div class="content">
+            <h1>{{ section.settings.heading_left2 }}</h1>
+            <p>{{ section.settings.text_left2 }}</p>
+          </div>
+        </div>
+
+        <div class="border-bottom"></div>
+      </div>
+      <div class="border-bottom"></div>
+      <div class="col-1">
+        <div class="main-images">
+          <div class="image-container">
+            <div class="image-highlight"></div>
+            <img
+              src="{{ section.settings.image_middle | img_url: 'large' }}"
+              alt="Black Edition"
+              class="img-fluid black-ad"
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-2 colom-revers">
+        <div class="box">
+          <div class="content">
+            <h1>{{ section.settings.heading_right1 }}</h1>
+            <p>
+              {{ section.settings.text_right1 }}
+            </p>
+          </div>
+          <div class="logo">
+            <img src="{{ section.settings.icon_right1 | img_url: 'small' }}" alt="" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="border-bottom"></div>
+        <div class="box">
+          <div class="content">
+            <h1>{{ section.settings.heading_right2 }}</h1>
+            <p>
+              {{ section.settings.text_right2 }}
+            </p>
+          </div>
+          <div class="logo">
+            <img src="{{ section.settings.icon_right2 | img_url: 'small' }}" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="border-bottom"></div>
+      </div>
+    </div>
+    <div class="btn-edition">
+      <div class="btn btn-1">
+        <a href="#">Nutritional information</a>
+      </div>
+      <div class="btn btn-2">
+        <a href="#" class="full-bg">Ingredients information</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Product Display V-2",
+  "settings": [
+    {
+      "type": "color",
+      "label": "Section Background",
+      "id": "section_background",
+      "default": "#fff"
+    },
+    {
+      "type": "text",
+      "label": "Heading",
+      "id": "heading",
+      "default": "Each Huel Black Edition meal contains..."
+    },
+    {
+      "type": "color",
+      "label": "Text Color",
+      "id": "text_color",
+      "default": "#000"
+    },
+    {
+      "type": "image_picker",
+      "label": "Left Icon 1",
+      "id": "icon_left1"
+    },
+    {
+      "type": "text",
+      "label": "Left Heading 1",
+      "id": "heading_left1",
+      "default": "27 vitamins and minerals"
+    },
+    {
+      "type": "textarea",
+      "label": "Left Text 1",
+      "id": "text_left1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Left Icon 2",
+      "id": "icon_left2"
+    },
+    {
+      "type": "text",
+      "label": "Left Heading 2",
+      "id": "heading_left2",
+      "default": "40g protein"
+    },
+    {
+      "type": "textarea",
+      "label": "Left Text 2",
+      "id": "text_left2"
+    },
+    {
+      "type": "image_picker",
+      "label": "Middle Image",
+      "id": "image_middle"
+    },
+    {
+      "type": "image_picker",
+      "label": "Right Icon 1",
+      "id": "icon_right1"
+    },
+    {
+      "type": "text",
+      "label": "Right Heading 1",
+      "id": "heading_right1",
+      "default": "Gluten-free"
+    },
+    {
+      "type": "textarea",
+      "label": "Right Text 1",
+      "id": "text_right1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Right Icon 2",
+      "id": "icon_right2"
+    },
+    {
+      "type": "text",
+      "label": "Right Heading 2",
+      "id": "heading_right2",
+      "default": "No artificial sweeteners"
+    },
+    {
+      "type": "textarea",
+      "label": "Right Text 2",
+      "id": "text_right2"
+    },
+    {
+      "type": "url",
+      "label": "Button 1 Link",
+      "id": "button1_link"
+    },
+    {
+      "type": "color",
+      "label": "Button 1 Color",
+      "id": "button1_color",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "label": "Button 1 Text Color",
+      "id": "button1_text_color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "label": "Button 1 Text",
+      "id": "button1_text",
+      "default": "Button 1"
+    },
+    {
+      "type": "url",
+      "label": "Button 2 Link",
+      "id": "button2_link"
+    },
+    {
+      "type": "color",
+      "label": "Button 2 Color",
+      "id": "button2_color",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "label": "Button 2 Text Color",
+      "id": "button2_text_color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "label": "Button 2 Text",
+      "id": "button2_text",
+      "default": "Button 2"
+    }
+  ],
+
+  "presets": [
+    {
+      "category": "Custom Benefits",
+      "name": "Huel Section"
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  function isElementInViewport(el) {
+    var top = el.offsetTop;
+    var left = el.offsetLeft;
+    var width = el.offsetWidth;
+    var height = el.offsetHeight;
+
+    while (el.offsetParent) {
+      el = el.offsetParent;
+      top += el.offsetTop;
+      left += el.offsetLeft;
+    }
+
+    return (
+      top < window.pageYOffset + window.innerHeight &&
+      left < window.pageXOffset + window.innerWidth &&
+      top + height > window.pageYOffset &&
+      left + width > window.pageXOffset
+    );
+  }
+
+  function addClass() {
+    var sections = document.querySelectorAll('.animationx');
+
+    sections.forEach(function (section) {
+      if (isElementInViewport(section)) {
+        if (section.classList.contains('active')) {
+        } else {
+          section.classList.add('active');
+        }
+      } else {
+        section.classList.remove('active');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', addClass);
+  addClass();
+</script>

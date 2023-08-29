@@ -1,0 +1,52 @@
+{{ 'backed-by-ingredients.css' | asset_url | stylesheet_tag }}
+<!-- READ EVERY COMMENT CAREFULLY PLEASE -->
+<section class="container">
+  <div class="row number-flex">
+    <div class="col-1">
+      <h1>Backed By Ingredients with over 92 scientific studies shown to</h1>
+      <div class="btn btn-pc">
+        <a href="#" class="only-mobile">VIEW NUTRITION FACTS</a>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="box">
+        <div class="number-arrow">
+          <img src="Arrow -down.png" alt="Arrow" class="img-fluid arrow-up">
+          <h1>89</h1>
+        </div>
+        <p>increase in overall sexual satisfaction</p>
+      </div>
+      <div class="box">
+        <div class="number-arrow">
+          <img src="Arrow -down.png" alt="Arrow" class="img-fluid arrow-up">
+          <h1>89</h1>
+        </div>
+        <p>increase in sense of ejaculatory control</p>
+      </div>
+      <div class="box">
+        <div class="number-arrow">
+          <img src="Arrow -down.png" alt="Arrow" class="img-fluid">
+          <h1>89</h1>
+        </div>
+        <p>Decrease in sex-induced stress and frustration</p>
+      </div>
+      <div class="btn btn-mobile">
+        <a href="#" class="only-laptop only-destop">VIEW NUTRITION FACTS</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Backed By Ingredients",
+  "settings": [],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Backed By Ingredients",
+      "category": "Headline"
+    }
+  ]
+}
+{% endschema %}

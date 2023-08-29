@@ -1,0 +1,89 @@
+.container .number-flex {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  padding: 50px 30px;
+}
+
+.container .number-flex .col-1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .number-flex .col-1 h1 {
+  width: 396px;
+  font-family: nexa-bold;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.container .number-flex .btn a {
+  padding: 15px 40px;
+  background-color: #e27624;
+  display: block;
+  width: 396px;
+  border-radius: 30px;
+  text-align: center;
+  font-family: nexa-bold;
+  color: white;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
+.container .number-flex .btn a:hover {
+  background-color: transparent;
+  color: #e27624;
+  border: 1px solid #e27624;
+}
+
+.container .number-flex .col-2 {
+  flex: 2 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container .number-flex .col-2 .box {
+  text-align: center;
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.container .number-flex .col-2 .box .number-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.container .number-flex .col-2 .box .number-arrow img.arrow-up {
+  transform: rotate(180deg);
+}
+
+.container .number-flex .col-2 .box .number-arrow h1 {
+  font-size: 46px;
+  line-height: 55.2px;
+  font-weight: 900;
+}
+
+.container .number-flex .col-2 .box .number-arrow h1:after {
+  content: "%";
+  font-size: 20px !important;
+  font-family: "Nexa-Bold";
+  line-height: 24px;
+}
+
+.container .number-flex .col-2 .box p {
+  font-family: "Nexa-Regular";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

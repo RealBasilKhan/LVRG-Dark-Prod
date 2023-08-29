@@ -1,30 +1,25 @@
 .product-single__claims {
   letter-spacing: 0em;
-  line-height: 1.6;
+  line-height: 1;
   text-rendering: optimizeSpeed;
-  font-weight: 400;
   list-style: none;
   box-sizing: border-box;
   color: #ff9450;
   align-items: center;
   display: flex;
   justify-content: space-evenly;
-  border-top: 1px solid #485e75;
-  border-bottom: 1px solid #485e75;
-  padding: 15px 0;
 }
 
 .product-single__claims p {
   text-rendering: optimizeSpeed;
   list-style: none;
   box-sizing: border-box;
-  font-family: "Nexa-Bold";
+  font-family: "Montserrat", sans-serif;
   letter-spacing: -0.02em;
   color: #faab7a;
   margin: 0;
   font-weight: 400;
   display: flex;
-  flex-direction: column;
   align-items: center;
   font-size: 13px;
   min-width: 30%;

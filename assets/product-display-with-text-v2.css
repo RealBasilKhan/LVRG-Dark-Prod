@@ -1,0 +1,311 @@
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 50px 0px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.black-edition {
+  padding: 50px 20px;
+  position: relative;
+}
+
+.black-edition .main-container .main-heading {
+  text-align: center;
+  font-family: "Nexa-Bold";
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.black-edition .main-container {
+  padding: 50px 20px;
+  border-radius: 30px;
+  background-color: #343436;
+}
+
+.black-edition .row {
+  margin-bottom: 70px !important;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  padding: 0px 20px;
+}
+
+.black-edition .row .col-1 {
+  flex: 1.5;
+  position: relative;
+}
+
+.black-edition .row .col-2 {
+  flex: 2;
+}
+
+.black-edition .row .col-1 img.black-ad {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.black-edition .row .col-1 .shadow-ab {
+  position: absolute;
+  width: 500px !important;
+  height: 649px;
+  left: -120px;
+  top: -60px;
+  max-width: 500px;
+}
+
+.black-edition .row .col-2 .box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.black-edition .row .col-2 .box .logo {
+  flex: 1;
+}
+
+.black-edition .row .col-2 .box .logo img {
+  width: 87px;
+  max-width: 67px;
+}
+
+.black-edition .row .col-2 .box .content {
+  flex: 3;
+}
+
+.black-edition .row .col-2 .box .content h1 {
+  font-family: "Nexa-Bold";
+  font-size: 18px;
+  line-height: 29px;
+  margin-bottom: 5px;
+}
+
+.black-edition .row .col-2 .box .content p {
+  color: #bababa;
+  font-family: "Nexa-Regular";
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.right {
+  float: right;
+}
+
+.black-edition .row .col-2 .border-bottom {
+  border-bottom: 1px solid #515157 !important;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.black-edition .main-container .btn-edition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.black-edition .main-container .btn-edition .btn a {
+  padding: 14px 30px;
+  border-radius: 25px;
+  border: 1px solid #e27624;
+  color: #e27624;
+  transition: 0.5s;
+}
+
+.black-edition .main-container .btn-edition .btn a:hover {
+  background-color: #e27624;
+  color: white;
+}
+
+.black-edition .main-container .btn-edition .btn a.full-bg {
+  padding: 14px 40px;
+  border-radius: 25px;
+  border: 1px solid #e27624;
+  color: white;
+  transition: 0.5s;
+  background-color: #e27624;
+}
+
+.black-edition .main-container .btn-edition .btn a.full-bg:hover {
+  background-color: transparent;
+  color: #e27624;
+}
+
+.black-edition .row .col-2.colom-revers .content h1 {
+  float: right;
+}
+
+.black-edition .row .col-2.colom-revers .content p {
+  float: right;
+  text-align: right;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-highlight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(180deg, white 0%, rgba(154, 84, 1, 0) 100%);
+  box-shadow: 94px 94px 94px;
+  filter: blur(94px);
+}
+
+.img-fluid.black-ad {
+  position: relative;
+  z-index: 1;
+}
+
+/* THESE MEDIA QUARIES USED FOR RESPONSIVE YOUR WEBSITE IN ALL DEVICES  */
+/* for mobile only  */
+@media only screen and (max-width: 660px) {
+  .black-edition .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .black-edition .row .col-2 .box {
+    flex-direction: column;
+  }
+  .black-edition .row .col-2 .border-bottom {
+    width: 100%;
+  }
+  .black-edition .row .col-2.colom-revers .box {
+    flex-direction: column-reverse !important;
+  }
+
+  .black-edition .row .col-1 {
+    margin-bottom: 50px;
+  }
+  .black-edition .main-container .btn-edition {
+    flex-direction: column;
+  }
+
+  .black-edition .main-container .btn-edition .btn {
+    text-align: center;
+    width: 100%;
+  }
+
+  .black-edition .main-container .btn-edition .btn a {
+    display: block;
+  }
+
+  .black-edition .main-container .main-heading {
+    font-size: 30px;
+    line-height: 28.8px;
+  }
+
+  .black-edition .row .col-1 .shadow-ab {
+    width: 410px !important;
+    height: 649px;
+    left: -100px;
+    top: -60px;
+    max-width: 500px;
+  }
+  .black-edition .row .col-2.colom-revers .content h1 {
+    text-align: center !important;
+    float: none;
+  }
+
+  .black-edition .row .col-2.colom-revers .content p {
+    float: right;
+    float: none;
+    text-align: center;
+  }
+}
+
+/* for mini tabs  */
+
+@media only screen and (min-width: 661px) and (max-width: 904px) {
+  .black-edition .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .black-edition .row .col-2 .box {
+    flex-direction: column;
+  }
+  .black-edition .row .col-2 .border-bottom {
+    width: 100%;
+  }
+  .black-edition .row .col-2.colom-revers .box {
+    flex-direction: column-reverse !important;
+  }
+
+  .black-edition .row .col-1 {
+    margin-bottom: 50px;
+  }
+  .black-edition .main-container .btn-edition {
+    flex-direction: column;
+  }
+
+  .black-edition .main-container .btn-edition .btn {
+    text-align: center;
+    width: 100%;
+  }
+
+  .black-edition .main-container .btn-edition .btn a {
+    display: block;
+  }
+
+  .black-edition .main-container .main-heading {
+    font-size: 44px;
+    margin-bottom: 20px;
+    line-height: 48.8px;
+  }
+
+  .black-edition .row .col-1 .shadow-ab {
+    width: 510px !important;
+    height: 649px;
+    left: -100px;
+    top: -60px;
+    max-width: 500px;
+  }
+  .black-edition .row .col-2.colom-revers .content h1 {
+    text-align: center !important;
+    float: none;
+  }
+
+  .black-edition .row .col-2.colom-revers .content p {
+    float: right;
+    float: none;
+  }
+}
+
+/* for laptop and big screen tabs  */
+
+@media only screen and (min-width: 904px) and (max-width: 1024px) {
+  .black-edition .row .col-2 .box {
+    flex-direction: column;
+  }
+  .colom-revers .box {
+    flex-direction: column-reverse !important;
+  }
+
+  .black-edition .row .col-2.colom-revers .content h1 {
+    text-align: center !important;
+    float: none;
+  }
+
+  .black-edition .row .col-2.colom-revers .content p {
+    float: right;
+    float: none;
+  }
+}
+
+/* for large screen (desktop) */
+@media only screen and (min-width: 1025px) {
+}
