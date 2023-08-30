@@ -74,6 +74,8 @@
           {% for i in (1..8) %}
             {% assign card_image = 'card-image' | append: i %}
             {% assign card_title = 'card-title' | append: i %}
+              {% assign card_desc = 'card-desc' | append: i %}
+            
             {% assign active = '' %}
             {% if forloop.first %}
               {% assign active = 'active' %}
