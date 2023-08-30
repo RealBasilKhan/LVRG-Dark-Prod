@@ -74,7 +74,7 @@
   --border-color: linear-gradient(180deg, #ff6c6f 0%, #ffb86f 100%);
 }
 .color-border {
-  --border-width: 2px !important;
+  --border-width: 4px !important;
   --border-radius: 20px !important;
   font: inherit !important;
   background: var(--border-color) !important;
@@ -134,8 +134,8 @@
   border: 1px solid #ff9450;
 }
 .tabs-section .flex-row .col-2 .box .items .main-img {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   object-fit: contain;
 }
 .tabs-section .flex-row .col-2 .box .items h4 {
@@ -268,8 +268,8 @@
 }
 .swiper-slide .logo img {
   flex: 1;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
 }
 .swiper-slide .logo img.shadow {
@@ -380,7 +380,7 @@
   display: block;
 }
 .sj-link.active {
-  border: 1px solid #ff9450;
+  border: 2px solid #ff9450;
 }
 .col-1.mobile.sj-mobile-links {
   flex-wrap: wrap;
