@@ -486,6 +486,9 @@
     right: 0px;
     z-index: -1;
   }
+  .tabs-section .flex-row .col-2 .box{
+    justify-content:start;
+  }
 }
 /* for laptop and big screen tabs  */
 @media only screen and (min-width: 769px) and (max-width: 1080px) {
