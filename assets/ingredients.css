@@ -526,7 +526,10 @@
   .tabs-section .flex-row .col-2 .box .items {
     max-width: 150px;
     flex: 1 0 25%;
-}
+  }
+  .flex-row .col-1 {
+    height:max-content;
+  }
   .tabs-section .para-btn {
     flex-direction: column;
   }
