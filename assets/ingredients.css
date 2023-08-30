@@ -134,8 +134,8 @@
   border: 1px solid #ff9450;
 }
 .tabs-section .flex-row .col-2 .box .items .main-img {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
 }
 .tabs-section .flex-row .col-2 .box .items h4 {
