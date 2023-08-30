@@ -112,7 +112,7 @@
 .tabs-section .flex-row .col-2 .box {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   margin-bottom: 50px;
   gap: 20px;
   flex-wrap: wrap;
