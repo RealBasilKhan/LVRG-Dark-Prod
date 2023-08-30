@@ -471,7 +471,7 @@
     gap: 20px;
   }
   .tabs-section .flex-row .col-2 .box .items {
-    width: 100%;
+    flex: 1 0 33%;
   }
   .tabs-section .para-btn {
     flex-direction: column;
