@@ -188,30 +188,30 @@
   {% endfor %}
   <div class="product-flex">
     <div class="box">
-      <img src="{{ 'p-1.png' | asset_url }}" alt="Product" class="img-fluid">
-      <h2>Plant-Based, Vegan</h2>
+      <img src="{{ section.settings.icon1 | image_url }}" alt="Product" class="img-fluid">
+      <h2>{{ section.settings.label1 }}</h2>
     </div>
     <div class="box">
-      <img src="{{ 'p-2.png' | asset_url }}" alt="Product" class="img-fluid">
-      <h2>Gluten Free</h2>
-    </div>
-
-    <div class="box">
-      <img src="{{ 'p-3.png' | asset_url }}" alt="Product" class="img-fluid">
-      <h2>Dairy Free</h2>
-    </div>
-    <div class="box">
-      <img src="{{ 'p-4.png' | asset_url }}" alt="Product" class="img-fluid">
-      <h2>Nut Free</h2>
+      <img src="{{ section.settings.icon2 | image_url }}" alt="Product" class="img-fluid">
+      <h2>{{ section.settings.label2 }}</h2>
     </div>
 
     <div class="box">
-      <img src="{{ 'p-5.png' | asset_url }}" alt="Product" class="img-fluid">
-      <h2>No Artificial Colors, Flavors</h2>
+      <img src="{{ section.settings.icon3 | image_url }}" alt="Product" class="img-fluid">
+      <h2>{{ section.settings.label3 }}</h2>
     </div>
     <div class="box">
-      <img src="{{ 'p-6.png' | asset_url }}" alt="Product" class="img-fluid">
-      <h2>0 Sugar</h2>
+      <img src="{{ section.settings.icon4 | image_url }}" alt="Product" class="img-fluid">
+      <h2>{{ section.settings.label4 }}</h2>
+    </div>
+
+    <div class="box">
+      <img src="{{ section.settings.icon5 | image_url }}" alt="Product" class="img-fluid">
+      <h2>{{ section.settings.label5 }}</h2>
+    </div>
+    <div class="box">
+      <img src="{{ section.settings.icon6 | image_url }}" alt="Product" class="img-fluid">
+      <h2>{{ section.settings.label6 }}</h2>
     </div>
   </div>
 </div>
@@ -317,6 +317,72 @@
       "type": "text",
       "id": "sub-heading",
       "label": "Sub Heading"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon1",
+      "label": "Icon 1"
+    },
+    {
+      "type": "text",
+      "id": "label1",
+      "label": "Label 1",
+      "default": "Plant-Based, Vegan"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon2",
+      "label": "Icon 2"
+    },
+    {
+      "type": "text",
+      "id": "label2",
+      "label": "Label 2",
+      "default": "Gluten Free"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon3",
+      "label": "Icon 3"
+    },
+    {
+      "type": "text",
+      "id": "label3",
+      "label": "Label 3",
+      "default": "Dairy Free"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon4",
+      "label": "Icon 4"
+    },
+    {
+      "type": "text",
+      "id": "label4",
+      "label": "Label 4",
+      "default": "Nut Free"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon5",
+      "label": "Icon 5"
+    },
+    {
+      "type": "text",
+      "id": "label5",
+      "label": "Label 5",
+      "default": "No Artificial Colors, Flavors"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon6",
+      "label": "Icon 6"
+    },
+    {
+      "type": "text",
+      "id": "label6",
+      "label": "Label 6",
+      "default": "0 Sugar"
     }
   ],
   "blocks": [
