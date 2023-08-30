@@ -2,14 +2,66 @@
   "sections": {
     "a740cc50-cf54-48d4-b324-08d381a7e2d0": {
       "type": "ingredients",
+      "blocks": {
+        "f6089243-11f9-4248-abea-33ee317b1348": {
+          "type": "tab",
+          "settings": {
+            "tab-title": "Greens & Veggies",
+            "card-image1": "shopify:\/\/shop_images\/Spirulina.png",
+            "card-title1": "Organic Spirulina",
+            "card-desc1": "<p>Our naturally sourced Vitamin C improves absorption and has vital polyphenols. It also boosts collagen production for healthier hair, skin, and nails.<\/p>",
+            "what-is-it1": "<p>A mushroom that grows at highaltitudes and is popular inTraditional Chinese Medicine.<\/p>",
+            "what-is-does1": "<p>Research indicates that cordyceps helps support energy utilization during exercise.<\/p>",
+            "card-image2": "shopify:\/\/shop_images\/Chlorella_0a86671e-f173-4dc7-9110-447d5e9e1e29.png",
+            "card-title2": "Organic Chlorella",
+            "card-desc2": "",
+            "what-is-it2": "",
+            "what-is-does2": "",
+            "card-image3": "shopify:\/\/shop_images\/Organic_Wheatgrass.png",
+            "card-title3": "Organic Wheatgrass",
+            "card-desc3": "",
+            "what-is-it3": "",
+            "what-is-does3": "",
+            "card-title4": "",
+            "card-desc4": "",
+            "what-is-it4": "",
+            "what-is-does4": "",
+            "card-title5": "",
+            "card-desc5": "",
+            "what-is-it5": "",
+            "what-is-does5": "",
+            "card-title6": "",
+            "card-desc6": "",
+            "what-is-it6": "",
+            "what-is-does6": "",
+            "card-title7": "",
+            "card-desc7": "",
+            "what-is-it7": "",
+            "what-is-does7": "",
+            "card-title8": "",
+            "card-desc8": "",
+            "what-is-it8": "",
+            "what-is-does8": ""
+          }
+        }
+      },
+      "block_order": [
+        "f6089243-11f9-4248-abea-33ee317b1348"
+      ],
       "settings": {
         "heading": "",
         "sub-heading": "",
+        "icon1": "shopify:\/\/shop_images\/p-1.png",
         "label1": "Plant-Based, Vegan",
+        "icon2": "shopify:\/\/shop_images\/p-2.png",
         "label2": "Gluten Free",
+        "icon3": "shopify:\/\/shop_images\/p-3.png",
         "label3": "Dairy Free",
+        "icon4": "shopify:\/\/shop_images\/p-4.png",
         "label4": "Nut Free",
+        "icon5": "shopify:\/\/shop_images\/p-5.png",
         "label5": "No Artificial Colors, Flavors",
+        "icon6": "shopify:\/\/shop_images\/p-6.png",
         "label6": "0 Sugar"
       }
     },
