@@ -524,8 +524,9 @@
     gap: 20px;
   }
   .tabs-section .flex-row .col-2 .box .items {
-    width: 100%;
-  }
+    max-width: 150px;
+    flex: 1 0 25%;
+}
   .tabs-section .para-btn {
     flex-direction: column;
   }
