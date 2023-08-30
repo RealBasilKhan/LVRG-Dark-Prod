@@ -127,7 +127,7 @@
   background-color: #53535d !important;
   position: relative;
   text-align: center;
-  max-width: 180px;
+  max-width: 175px;
   flex: 1 0 21%;
 }
 .tabs-section .flex-row .col-2 .box .items.active {
