@@ -46,10 +46,50 @@
             "what-is-it8": "",
             "what-is-does8": ""
           }
+        },
+        "f1e6d31c-40c4-4790-8572-7044615223ee": {
+          "type": "tab",
+          "settings": {
+            "tab-title": "Mushrooms",
+            "card-image1": "shopify:\/\/shop_images\/Lions-Mane_23164b03-528c-4ea2-a387-ad45375218d0.png",
+            "card-title1": "Organic Lion's Mane",
+            "card-desc1": "",
+            "what-is-it1": "",
+            "what-is-does1": "",
+            "card-title2": "Organic Cordyceps",
+            "card-desc2": "",
+            "what-is-it2": "",
+            "what-is-does2": "",
+            "card-title3": "",
+            "card-desc3": "",
+            "what-is-it3": "",
+            "what-is-does3": "",
+            "card-title4": "",
+            "card-desc4": "",
+            "what-is-it4": "",
+            "what-is-does4": "",
+            "card-title5": "",
+            "card-desc5": "",
+            "what-is-it5": "",
+            "what-is-does5": "",
+            "card-title6": "",
+            "card-desc6": "",
+            "what-is-it6": "",
+            "what-is-does6": "",
+            "card-title7": "",
+            "card-desc7": "",
+            "what-is-it7": "",
+            "what-is-does7": "",
+            "card-title8": "",
+            "card-desc8": "",
+            "what-is-it8": "",
+            "what-is-does8": ""
+          }
         }
       },
       "block_order": [
-        "f6089243-11f9-4248-abea-33ee317b1348"
+        "f6089243-11f9-4248-abea-33ee317b1348",
+        "f1e6d31c-40c4-4790-8572-7044615223ee"
       ],
       "settings": {
         "heading": "",
