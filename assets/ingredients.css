@@ -131,7 +131,7 @@
   flex: 1 0 21%;
 }
 .tabs-section .flex-row .col-2 .box .items.active {
-  border: 1px solid #ff9450;
+  border: 2px solid #ff9450;
 }
 .tabs-section .flex-row .col-2 .box .items .main-img {
   width: 80px;
