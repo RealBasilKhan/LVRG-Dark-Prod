@@ -8,12 +8,12 @@
         "ebdaaa5c-c47c-42ac-a830-30a799694755": {
           "type": "text",
           "settings": {
-            "column_size": "large",
+            "column_size": "small",
             "text_alignment": "left",
             "title": "",
             "image": "shopify:\/\/shop_images\/LVRG_New_logo_file.png",
             "text": "",
-            "text_size": "medium",
+            "text_size": "small",
             "button_text": "",
             "button_link": "",
             "show_social_links": false
