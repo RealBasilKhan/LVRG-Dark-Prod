@@ -8,17 +8,6 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
-        "087c319e-b314-4bf0-a9d9-63bba8546643": {
-          "type": "info_box",
-          "disabled": true,
-          "settings": {
-            "icon": "ruler",
-            "text": "Info box text",
-            "link": "",
-            "info_box_bg": "#e9e7ed",
-            "info_box_color": "#2b1559"
-          }
-        },
         "b51da28f-975f-4f51-a8ce-ebd872a18326": {
           "type": "inventory_level",
           "settings": {
@@ -110,7 +99,6 @@
         }
       },
       "block_order": [
-        "087c319e-b314-4bf0-a9d9-63bba8546643",
         "b51da28f-975f-4f51-a8ce-ebd872a18326",
         "title",
         "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b",
