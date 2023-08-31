@@ -417,6 +417,11 @@
         "disable_bottom_spacing": true
       }
     },
+    "bd0b8c83-eda9-4d71-93b1-4b953ee8970b": {
+      "type": "backed-by-ingredients",
+      "settings": {
+      }
+    },
     "05619a4f-436f-4d3b-bdea-56c97722e0c3": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -738,6 +743,7 @@
     "fa29ec10-4697-4581-af5c-83af7c1ffbef",
     "eafca1d4-05cf-4432-afce-a9c35d9df8d9",
     "58d44722-ab46-46eb-92b2-8febe4505129",
+    "bd0b8c83-eda9-4d71-93b1-4b953ee8970b",
     "05619a4f-436f-4d3b-bdea-56c97722e0c3",
     "c4204c3f-0267-4094-942b-cbef4c9c0a87",
     "1248ec67-11cc-458d-b67b-97e43ce4f960",
