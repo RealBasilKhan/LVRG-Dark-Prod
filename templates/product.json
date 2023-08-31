@@ -274,6 +274,7 @@
         ".image-with-text--content--inner.button {color: #000000;}"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/P.png",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
