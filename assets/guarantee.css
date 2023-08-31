@@ -1,20 +1,3 @@
-section {
-  margin: 50px 20px !important;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-}
-
-body {
-  background-color: #1f1f23;
-  color: white;
-}
-
 .right {
   float: right;
 }
@@ -39,7 +22,6 @@ body {
   width: 80%;
   margin: auto;
   border-radius: 20px;
-  /* height: 300px; */
 }
 
 .risk-free .row {
@@ -50,13 +32,6 @@ body {
   padding: 50px;
 }
 
-/* .risk-free .row .col-1{
-    flex: 1;
-}
-
-.risk-free .row .col-2{
-    flex: 2;
-} */
 .marg {
   padding: 10px;
 }
