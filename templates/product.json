@@ -450,24 +450,6 @@
         "disable_bottom_spacing": true
       }
     },
-    "c4204c3f-0267-4094-942b-cbef4c9c0a87": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 0,
-        "spacer_desktop": 50,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "1248ec67-11cc-458d-b67b-97e43ce4f960": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 20,
-        "spacer_desktop": 65,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
     "a740cc50-cf54-48d4-b324-08d381a7e2d0": {
       "type": "ingredients",
       "blocks": {
@@ -587,17 +569,9 @@
       "settings": {
       }
     },
-    "1662552569cce2536d": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 60,
-        "spacer_desktop": 80,
-        "border_separator": true,
-        "border_separator_full": false
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "description": "<p>Combine your style with these products<\/p>",
@@ -727,6 +701,14 @@
         "border_color": "#ffffff"
       }
     },
+    "e80f0f18-20cc-4329-83b8-9b8f7250fafd": {
+      "type": "guarantee",
+      "settings": {
+        "badge": "shopify:\/\/shop_images\/medal.png",
+        "heading": "Try it, Risk-FREE",
+        "text": "60 Day Money Back Guarantee"
+      }
+    },
     "1663667029efc274af": {
       "type": "collapsible-content",
       "blocks": {
@@ -853,16 +835,8 @@
         "color_text": "#f1f1f1",
         "color_links": "#d2ff28",
         "color_border": "#ffffff",
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
-      }
-    },
-    "e80f0f18-20cc-4329-83b8-9b8f7250fafd": {
-      "type": "guarantee",
-      "settings": {
-        "badge": "shopify:\/\/shop_images\/medal.png",
-        "heading": "Try it, Risk-FREE",
-        "text": "60 Day Money Back Guarantee"
       }
     }
   },
@@ -876,15 +850,12 @@
     "58d44722-ab46-46eb-92b2-8febe4505129",
     "bd0b8c83-eda9-4d71-93b1-4b953ee8970b",
     "05619a4f-436f-4d3b-bdea-56c97722e0c3",
-    "c4204c3f-0267-4094-942b-cbef4c9c0a87",
-    "1248ec67-11cc-458d-b67b-97e43ce4f960",
     "a740cc50-cf54-48d4-b324-08d381a7e2d0",
     "16625458859c68803a",
-    "1662552569cce2536d",
     "product-recommendations",
     "caf6b442-01f9-4626-a023-fe54d7314439",
     "4228dd7b-3309-4c07-b857-0183644b0d83",
-    "1663667029efc274af",
-    "e80f0f18-20cc-4329-83b8-9b8f7250fafd"
+    "e80f0f18-20cc-4329-83b8-9b8f7250fafd",
+    "1663667029efc274af"
   ]
 }
