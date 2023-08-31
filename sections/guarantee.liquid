@@ -1,0 +1,51 @@
+{{ 'guarantee.css' | asset_url | stylesheet_tag }}
+
+<div class="marg">
+  <section class="container risk-free">
+    <div class="row">
+      <div class="col-1">
+        <figure>
+          <image src="{{ section.settings.badge | img_url: 'small' }}" alt="Badge" class="img-fluid" loading="lazy" />
+        </figure>
+      </div>
+      <div class="col-2">
+        <h1>{{ section.settings.heading }}</h1>
+        <p>
+          {{ section.settings.text }}
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+{% schema %}
+{
+  "name": "Guarantee",
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Badge",
+      "id": "badge"
+    },
+    {
+      "type": "text",
+      "label": "Heading",
+      "id": "heading",
+      "default": "Try it, Risk-FREE"
+    },
+    {
+      "type": "textarea",
+      "label": "Text",
+      "id": "text",
+      "default": "60 Day Money Back Guarantee"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Guarantee",
+      "category": "Headline"
+    }
+  ]
+}
+{% endschema %}

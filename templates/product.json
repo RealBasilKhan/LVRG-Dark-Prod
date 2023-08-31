@@ -2,8 +2,7 @@
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
-      "settings": {
-      }
+      "settings": {}
     },
     "main-product": {
       "type": "main-product",
@@ -40,13 +39,13 @@
           "type": "icon_list",
           "settings": {
             "icon_1_icon": "ruler",
-            "icon_1_image": "shopify:\/\/shop_images\/icon.png",
+            "icon_1_image": "shopify://shop_images/icon.png",
             "icon_1_text": "Delivers instant and sustained whole-body energy",
             "icon_2_icon": "box",
-            "icon_2_image": "shopify:\/\/shop_images\/icon.png",
+            "icon_2_image": "shopify://shop_images/icon.png",
             "icon_2_text": "Combats mental fatigue and afternoon slump*",
             "icon_3_icon": "star",
-            "icon_3_image": "shopify:\/\/shop_images\/icon.png",
+            "icon_3_image": "shopify://shop_images/icon.png",
             "icon_3_text": "Improves productivity and performance*",
             "icon_4_icon": "washing",
             "icon_4_text": ""
@@ -61,8 +60,7 @@
         },
         "quantity": {
           "type": "quantity",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -73,15 +71,14 @@
         },
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "386f7e4a-6127-4141-928b-9cb4614ee18c": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping & Returns",
             "open": false,
-            "content": "<p>We have a 60-day return policy, which means you have 60 days after receiving your item to request a return.<\/p><p>To be eligible for a return, your item must be in the same condition that you received it, unopened and unused, with tags, and in its original packaging. You’ll also need the receipt or proof of purchase.<\/p><p>To start a return, you can contact us at support@uselvrg.com<\/p>",
+            "content": "<p>We have a 60-day return policy, which means you have 60 days after receiving your item to request a return.</p><p>To be eligible for a return, your item must be in the same condition that you received it, unopened and unused, with tags, and in its original packaging. You’ll also need the receipt or proof of purchase.</p><p>To start a return, you can contact us at support@uselvrg.com</p>",
             "page": ""
           }
         },
@@ -90,7 +87,7 @@
           "settings": {
             "heading": "How To Use?",
             "open": false,
-            "content": "<p>Row content<\/p>",
+            "content": "<p>Row content</p>",
             "page": ""
           }
         },
@@ -122,9 +119,7 @@
         "d56924f2-0137-4e3b-8c33-49b1f28391c6",
         "019bda93-d256-470c-ad9f-1d998696cf0a"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "enable_sticky_add_to_cart": true,
         "show_taxes_included": false,
@@ -134,6 +129,120 @@
         "hide_variants": true,
         "lightbox": true,
         "enable_video_looping": false
+      }
+    },
+    "a740cc50-cf54-48d4-b324-08d381a7e2d0": {
+      "type": "ingredients",
+      "blocks": {
+        "f6089243-11f9-4248-abea-33ee317b1348": {
+          "type": "tab",
+          "settings": {
+            "tab-title": "Greens & Veggies",
+            "card-image1": "shopify://shop_images/Spirulina.png",
+            "card-title1": "Organic Spirulina",
+            "card-desc1": "<p>Our naturally sourced Vitamin C improves absorption and has vital polyphenols. It also boosts collagen production for healthier hair, skin, and nails.</p>",
+            "what-is-it1": "<p>A mushroom that grows at highaltitudes and is popular inTraditional Chinese Medicine.</p>",
+            "what-is-does1": "<p>Research indicates that cordyceps helps support energy utilization during exercise.</p>",
+            "card-image2": "shopify://shop_images/Chlorella_0a86671e-f173-4dc7-9110-447d5e9e1e29.png",
+            "card-title2": "Organic Chlorella",
+            "card-desc2": "<p>Our naturally sourced Vitamin C improves absorption and has vital polyphenols</p>",
+            "what-is-it2": "<p>A mushroom that grows at highaltitudes and is popular inTraditional Chinese Medicine.</p>",
+            "what-is-does2": "<p>Research indicates that cordyceps helps support energy utilization during exercise.</p>",
+            "card-image3": "shopify://shop_images/Organic_Wheatgrass.png",
+            "card-title3": "Organic Wheatgrass",
+            "card-desc3": "<p>Our naturally sourced Vitamin C improves absorption and has vital polyphenols. It also boosts collagen production for healthier hair, skin, and nails.</p>",
+            "what-is-it3": "<p>A mushroom that grows at highaltitudes and is popular inTraditional Chinese Medicine.</p>",
+            "what-is-does3": "<p>Research indicates that cordyceps helps support energy utilization during exercise.</p>",
+            "card-image4": "shopify://shop_images/spinach_6bf2709b-a3ca-4016-9df5-720e85e523d4.png",
+            "card-title4": "Organic Spinach",
+            "card-desc4": "<p>Our naturally sourced Vitamin C improves absorption and has vital polyphenols. It also boosts collagen production for healthier hair, skin, and nails.</p>",
+            "what-is-it4": "<p>A mushroom that grows at highaltitudes and is popular inTraditional Chinese Medicine.</p>",
+            "what-is-does4": "<p>Research indicates that cordyceps helps support energy utilization during exercise.</p>",
+            "card-image5": "shopify://shop_images/Broccolli.png",
+            "card-title5": "Organic Broccoli",
+            "card-desc5": "<p>Our naturally sourced Vitamin C improves absorption and has vital polyphenols. It also boosts collagen production for healthier hair, skin, and nails.</p>",
+            "what-is-it5": "<p>A mushroom that grows at highaltitudes and is popular inTraditional Chinese Medicine.</p>",
+            "what-is-does5": "<p>Research indicates that cordyceps helps support energy utilization during exercise.</p>",
+            "card-image6": "shopify://shop_images/kale_5101e751-ec1f-4709-a3e3-b3f5e53aa586.png",
+            "card-title6": "Organic Kale",
+            "card-desc6": "<p>Our naturally sourced Vitamin C improves absorption and has vital polyphenols. It also boosts collagen production for healthier hair, skin, and nails.</p>",
+            "what-is-it6": "<p>A mushroom that grows at highaltitudes and is popular inTraditional Chinese Medicine.</p>",
+            "what-is-does6": "<p>Research indicates that cordyceps helps support energy utilization during exercise.</p>",
+            "card-title7": "",
+            "card-desc7": "",
+            "what-is-it7": "",
+            "what-is-does7": "",
+            "card-title8": "",
+            "card-desc8": "",
+            "what-is-it8": "",
+            "what-is-does8": ""
+          }
+        },
+        "f1e6d31c-40c4-4790-8572-7044615223ee": {
+          "type": "tab",
+          "settings": {
+            "tab-title": "Mushrooms",
+            "card-image1": "shopify://shop_images/Lions-Mane_23164b03-528c-4ea2-a387-ad45375218d0.png",
+            "card-title1": "Organic Lion's Mane",
+            "card-desc1": "<p>Our naturally sourced Vitamin C improves absorption and has vital polyphenols. It also boosts collagen production for healthier hair, skin, and nails.</p>",
+            "what-is-it1": "<p>A mushroom that grows at highaltitudes and is popular inTraditional Chinese Medicine.</p>",
+            "what-is-does1": "<p>Research indicates that cordyceps helps support energy utilization during exercise.</p>",
+            "card-image2": "shopify://shop_images/Cordyceps_2bb9f1d2-de9c-4f41-9e0d-b75afa8f6c9d.png",
+            "card-title2": "Organic Cordyceps",
+            "card-desc2": "<p>Our naturally sourced Vitamin C improves absorption and has vital polyphenols. It also boosts collagen production for healthier hair, skin, and nails.</p>",
+            "what-is-it2": "<p>A mushroom that grows at highaltitudes and is popular inTraditional Chinese Medicine.</p>",
+            "what-is-does2": "<p>Research indicates that cordyceps helps support energy utilization during exercise.</p>",
+            "card-image3": "shopify://shop_images/Reishi_Mushroom_d2111d1e-8ef3-4158-99fc-ffb033f9cbff.png",
+            "card-title3": "Organic Reishi",
+            "card-desc3": "<p>Our naturally sourced Vitamin C improves absorption and has vital polyphenols. It also boosts collagen production for healthier hair, skin, and nails.</p>",
+            "what-is-it3": "<p>A mushroom that grows at highaltitudes and is popular inTraditional Chinese Medicine.</p>",
+            "what-is-does3": "<p>Research indicates that cordyceps helps support energy utilization during exercise.</p>",
+            "card-image4": "shopify://shop_images/Chaga_Mushroom_72fe4a1b-9764-4ba3-8672-ded47a6cb1a1.png",
+            "card-title4": "Organic Chaga",
+            "card-desc4": "<p>Our naturally sourced Vitamin C improves absorption and has vital polyphenols. It also boosts collagen production for healthier hair, skin, and nails.</p>",
+            "what-is-it4": "<p>A mushroom that grows at highaltitudes and is popular inTraditional Chinese Medicine.</p>",
+            "what-is-does4": "<p>Research indicates that cordyceps helps support energy utilization during exercise.</p>",
+            "card-image5": "shopify://shop_images/Turkey_Tail.png",
+            "card-title5": "Organic Turkey Tail",
+            "card-desc5": "<p>Our naturally sourced Vitamin C improves absorption and has vital polyphenols. It also boosts collagen production for healthier hair, skin, and nails.</p>",
+            "what-is-it5": "<p>A mushroom that grows at highaltitudes and is popular inTraditional Chinese Medicine.</p>",
+            "what-is-does5": "<p>Research indicates that cordyceps helps support energy utilization during exercise.</p>",
+            "card-image6": "shopify://shop_images/shiitake_mushroom_8ed46e34-f4b4-451b-9f16-81070332475d.png",
+            "card-title6": "Organic Shiitake",
+            "card-desc6": "<p>Our naturally sourced Vitamin C improves absorption and has vital polyphenols. It also boosts collagen production for healthier hair, skin, and nails.</p>",
+            "what-is-it6": "<p>A mushroom that grows at highaltitudes and is popular inTraditional Chinese Medicine.</p>",
+            "what-is-does6": "<p>Research indicates that cordyceps helps support energy utilization during exercise.</p>",
+            "card-image7": "shopify://shop_images/King_Trumpet.png",
+            "card-title7": "Organic King Trumpet",
+            "card-desc7": "<p>Our naturally sourced Vitamin C improves absorption and has vital polyphenols. It also boosts collagen production for healthier hair, skin, and nails.</p>",
+            "what-is-it7": "<p>A mushroom that grows at highaltitudes and is popular inTraditional Chinese Medicine.</p>",
+            "what-is-does7": "<p>Research indicates that cordyceps helps support energy utilization during exercise.</p>",
+            "card-title8": "",
+            "card-desc8": "",
+            "what-is-it8": "",
+            "what-is-does8": ""
+          }
+        }
+      },
+      "block_order": [
+        "f6089243-11f9-4248-abea-33ee317b1348",
+        "f1e6d31c-40c4-4790-8572-7044615223ee"
+      ],
+      "settings": {
+        "heading": "",
+        "sub-heading": "",
+        "icon1": "shopify://shop_images/p-1.png",
+        "label1": "Plant-Based, Vegan",
+        "icon2": "shopify://shop_images/p-2.png",
+        "label2": "Gluten Free",
+        "icon3": "shopify://shop_images/p-3.png",
+        "label3": "Dairy Free",
+        "icon4": "shopify://shop_images/p-4.png",
+        "label4": "Nut Free",
+        "icon5": "shopify://shop_images/p-5.png",
+        "label5": "No Artificial Colors, Flavors",
+        "icon6": "shopify://shop_images/p-6.png",
+        "label6": "0 Sugar"
       }
     },
     "1b2ac1d1-0347-4418-9a68-1529f48b220a": {
@@ -171,27 +280,27 @@
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/Male-icon.png",
+            "image": "shopify://shop_images/Male-icon.png",
             "heading": "The 20% Testosterone Drop",
-            "text": "<p>Today's man? 20% less testosterone than our fathers. Blame it on toxins, poor diets, and lazy habits. This isn't just concerning—it's a full-blown emergency.<\/p>"
+            "text": "<p>Today's man? 20% less testosterone than our fathers. Blame it on toxins, poor diets, and lazy habits. This isn't just concerning—it's a full-blown emergency.</p>"
           }
         },
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/vegetable.png",
+            "image": "shopify://shop_images/vegetable.png",
             "heading": "8 Out of 10 Men's Veggie Dilemma",
-            "text": "<p>An alarming 8 out of 10 men are dangerously lagging in their daily vegetable intake. Beyond missing essential nutrients, they're leaving hormone optimization on the table. Are you part of this majority?<\/p>"
+            "text": "<p>An alarming 8 out of 10 men are dangerously lagging in their daily vegetable intake. Beyond missing essential nutrients, they're leaving hormone optimization on the table. Are you part of this majority?</p>"
           }
         },
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-08-19_at_3.29.27_PM.png",
+            "image": "shopify://shop_images/Screenshot_2023-08-19_at_3.29.27_PM.png",
             "heading": "3 Silent Estrogen Boosters in Your Greens",
-            "text": "<p>Beware: many greens supplements are secretly laced with soy, alfalfa, and flaxseed. These seemingly innocent ingredients ramp up estrogen, undermining testosterone. A trap many men unknowingly fall into.<\/p>"
+            "text": "<p>Beware: many greens supplements are secretly laced with soy, alfalfa, and flaxseed. These seemingly innocent ingredients ramp up estrogen, undermining testosterone. A trap many men unknowingly fall into.</p>"
           }
         }
       },
@@ -200,9 +309,7 @@
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2",
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "text_alignment": "center",
         "icon_position": "top",
@@ -259,7 +366,7 @@
           "type": "button",
           "settings": {
             "button_text": "Add To Cart",
-            "button_link": "shopify:\/\/products\/lvrg-mushroom-greens-metamix"
+            "button_link": "shopify://products/lvrg-mushroom-greens-metamix"
           }
         }
       },
@@ -274,7 +381,7 @@
         ".image-with-text--content--inner.button {color: #000000;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image.jpg",
+        "image": "shopify://shop_images/Image.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -297,17 +404,17 @@
         "section_background": "#fff",
         "heading": "Each Huel Black Edition meal contains...",
         "text_color": "#000",
-        "icon_left1": "shopify:\/\/shop_images\/Premium_Ingredient.png",
+        "icon_left1": "shopify://shop_images/Premium_Ingredient.png",
         "heading_left1": "27 vitamins and minerals",
         "text_left1": "Top-shelf, handpicked, and backed by science. It’s not just a blend, it’s a promise of unparalleled quality.",
-        "icon_left2": "shopify:\/\/shop_images\/edition-2.png",
+        "icon_left2": "shopify://shop_images/edition-2.png",
         "heading_left2": "RESEARCH-BACKED FORMULA",
         "text_left2": "Real results backed by real research. No bro science, just hard facts.",
-        "image_middle": "shopify:\/\/shop_images\/mockup_new_logo_copy_36a268df-61fb-44c2-981a-a2626a331e2e.png",
-        "icon_right1": "shopify:\/\/shop_images\/edition-3.png",
+        "image_middle": "shopify://shop_images/mockup_new_logo_copy_36a268df-61fb-44c2-981a-a2626a331e2e.png",
+        "icon_right1": "shopify://shop_images/edition-3.png",
         "heading_right1": "100% TRANSPARENCY",
         "text_right1": "Trust is built on truth. That's why we lay everything out in the open. Every ingredient, every percentage, no secrets.",
-        "icon_right2": "shopify:\/\/shop_images\/edition-4.png",
+        "icon_right2": "shopify://shop_images/edition-4.png",
         "heading_right2": "ZERO B.S",
         "text_right2": "We say it as it is. No fillers, no fluff, no misleading claims. Just pure, potent, and powerful nutrition.",
         "button1_link": "",
@@ -419,14 +526,13 @@
     },
     "bd0b8c83-eda9-4d71-93b1-4b953ee8970b": {
       "type": "backed-by-ingredients",
-      "settings": {
-      }
+      "settings": {}
     },
     "05619a4f-436f-4d3b-bdea-56c97722e0c3": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/gif-2_1.gif",
-        "mobile_image": "shopify:\/\/shop_images\/Gif-v2_1.gif",
+        "image": "shopify://shop_images/gif-2_1.gif",
+        "mobile_image": "shopify://shop_images/Gif-v2_1.gif",
         "image_parallax": false,
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-450",
@@ -461,8 +567,7 @@
     },
     "16625458859c68803a": {
       "type": "apps",
-      "settings": {
-      }
+      "settings": {}
     },
     "1662552569cce2536d": {
       "type": "spacer",
@@ -477,7 +582,7 @@
       "type": "product-recommendations",
       "settings": {
         "heading": "You may also like",
-        "description": "<p>Combine your style with these products<\/p>",
+        "description": "<p>Combine your style with these products</p>",
         "mobile_swipe": true,
         "product_limit": 4,
         "columns_desktop": 4,
@@ -591,13 +696,13 @@
       ],
       "settings": {
         "table_heading": "",
-        "product1_pic": "shopify:\/\/shop_images\/01_1.png",
+        "product1_pic": "shopify://shop_images/01_1.png",
         "product1_title": "LVRG Mushroom-Greens Metamix",
-        "product2_pic": "shopify:\/\/shop_images\/Metamix_Landing_Page_AG_Comparison_Chart_Deskop_copy.png",
+        "product2_pic": "shopify://shop_images/Metamix_Landing_Page_AG_Comparison_Chart_Deskop_copy.png",
         "product2_title": "Proprietary Blend Greens",
-        "product3_pic": "shopify:\/\/shop_images\/Metamix_Landing_Page_Amazing_Grass_Comparison_Chart_Deskop_copy.png",
+        "product3_pic": "shopify://shop_images/Metamix_Landing_Page_Amazing_Grass_Comparison_Chart_Deskop_copy.png",
         "product3_title": "Grass Tasting Grass",
-        "product4_pic": "shopify:\/\/shop_images\/Metamix_Landing_Page_Bloom_Comparison_Chart_Deskop.png",
+        "product4_pic": "shopify://shop_images/Metamix_Landing_Page_Bloom_Comparison_Chart_Deskop.png",
         "product4_title": "Blossom",
         "background_color": "#1f1f23",
         "font_color": "#ffffff",
@@ -612,7 +717,7 @@
           "settings": {
             "heading": "WHAT EXACTLY IS MUSHROOM-GREENS METAMIX?",
             "open": false,
-            "content": "<p>It's not just another greens mix. It's a finely-crafted concoction that combines potent mushrooms with superior greens, designed especially for the modern gentleman's constitution.<\/p>",
+            "content": "<p>It's not just another greens mix. It's a finely-crafted concoction that combines potent mushrooms with superior greens, designed especially for the modern gentleman's constitution.</p>",
             "page": ""
           }
         },
@@ -621,7 +726,7 @@
           "settings": {
             "heading": "WHAT'S THIS METAMIX GOING TO DO FOR ME?",
             "open": false,
-            "content": "<p>Beyond just feeding your body, it amplifies your masculinity. Expect improved energy, sharper cognitive functions, and an enhanced overall well-being. In short, it's your ticket to upping your game.<\/p>",
+            "content": "<p>Beyond just feeding your body, it amplifies your masculinity. Expect improved energy, sharper cognitive functions, and an enhanced overall well-being. In short, it's your ticket to upping your game.</p>",
             "page": ""
           }
         },
@@ -630,7 +735,7 @@
           "settings": {
             "heading": "WHY SHOULD I OPT FOR METAMIX INSTEAD OF AN ENERGY DRINK?",
             "open": false,
-            "content": "<p><strong>WHY SHOULD I OPT FOR METAMIX INSTEAD OF AN ENERGY DRINK?<\/strong><\/p><p>Energy drinks? Those fleeting boosts? Mushroom-Greens Metamix is a sustainable power source, without the crash. Plus, it's packed with nature's best, sans the artificial junk.<\/p>",
+            "content": "<p><strong>WHY SHOULD I OPT FOR METAMIX INSTEAD OF AN ENERGY DRINK?</strong></p><p>Energy drinks? Those fleeting boosts? Mushroom-Greens Metamix is a sustainable power source, without the crash. Plus, it's packed with nature's best, sans the artificial junk.</p>",
             "page": ""
           }
         },
@@ -639,7 +744,7 @@
           "settings": {
             "heading": "WHAT'S THE SCOOP ON SCOOPS?",
             "open": false,
-            "content": "<p>One scoop, and you're set. Blend it, shake it, drink it. Daily.<\/p>",
+            "content": "<p>One scoop, and you're set. Blend it, shake it, drink it. Daily.</p>",
             "page": ""
           }
         },
@@ -648,7 +753,7 @@
           "settings": {
             "heading": "HOW DOES MUSHROOM-GREENS METAMIX STACK UP AGAINST OTHER BRAND GREENS?",
             "open": false,
-            "content": "<p>While many brands offer nutritional support, Mushroom-Greens Metamix is designed for the male physique and its unique challenges. No estrogen-spiking ingredients like flax, soy, or alfalfa. And absolutely no hiding behind proprietary blends. We're all about transparency.<\/p>",
+            "content": "<p>While many brands offer nutritional support, Mushroom-Greens Metamix is designed for the male physique and its unique challenges. No estrogen-spiking ingredients like flax, soy, or alfalfa. And absolutely no hiding behind proprietary blends. We're all about transparency.</p>",
             "page": ""
           }
         },
@@ -657,7 +762,7 @@
           "settings": {
             "heading": "HOW DO RETURNS WORK WITH YOU GUYS?",
             "open": false,
-            "content": "<p>Simple and straightforward. Reach out, and we'll guide you through.<\/p>",
+            "content": "<p>Simple and straightforward. Reach out, and we'll guide you through.</p>",
             "page": ""
           }
         },
@@ -666,7 +771,7 @@
           "settings": {
             "heading": "ARE WE TALKING ORGANIC HERE?",
             "open": false,
-            "content": "<p>Every bit of it. Pure, organic, and clean.<\/p>",
+            "content": "<p>Every bit of it. Pure, organic, and clean.</p>",
             "page": ""
           }
         },
@@ -675,7 +780,7 @@
           "settings": {
             "heading": "GIVE ME A HINT. HOW DOES IT TASTE?",
             "open": false,
-            "content": "<p>Think earthy, fresh, with a hint of nature's goodness. A taste that grows on you.<\/p>",
+            "content": "<p>Think earthy, fresh, with a hint of nature's goodness. A taste that grows on you.</p>",
             "page": ""
           }
         },
@@ -684,7 +789,7 @@
           "settings": {
             "heading": "WHO'S YOUR TARGET AUDIENCE? CAN THE LADIES HAVE IT?",
             "open": false,
-            "content": "<p>While crafted with men in mind, it's beneficial for everyone. So, ladies, feel free to dive in.<\/p>",
+            "content": "<p>While crafted with men in mind, it's beneficial for everyone. So, ladies, feel free to dive in.</p>",
             "page": ""
           }
         },
@@ -693,7 +798,7 @@
           "settings": {
             "heading": "WHAT DROVE YOU TO CRAFT THIS METAMIX?",
             "open": false,
-            "content": "<p>A desire to cater to the modern man's unique nutritional needs, with no compromises.<\/p>",
+            "content": "<p>A desire to cater to the modern man's unique nutritional needs, with no compromises.</p>",
             "page": ""
           }
         },
@@ -702,7 +807,7 @@
           "settings": {
             "heading": "WORRIED ABOUT GASTRIC DISCOMFORT?",
             "open": false,
-            "content": "<p><strong>WORRIED ABOUT GASTRIC DISCOMFORT?<\/strong><\/p><p>While our mix is gentle on most stomachs, always start with a smaller portion to test the waters.<\/p>",
+            "content": "<p><strong>WORRIED ABOUT GASTRIC DISCOMFORT?</strong></p><p>While our mix is gentle on most stomachs, always start with a smaller portion to test the waters.</p>",
             "page": ""
           }
         }
@@ -747,6 +852,7 @@
     "05619a4f-436f-4d3b-bdea-56c97722e0c3",
     "c4204c3f-0267-4094-942b-cbef4c9c0a87",
     "1248ec67-11cc-458d-b67b-97e43ce4f960",
+    "a740cc50-cf54-48d4-b324-08d381a7e2d0",
     "16625458859c68803a",
     "1662552569cce2536d",
     "product-recommendations",
