@@ -95,10 +95,15 @@
       "settings": {
         "heading": "",
         "sub-heading": "",
+        "icon1": "shopify:\/\/shop_images\/p-1.png",
         "label1": "Plant-Based, Vegan",
+        "icon2": "shopify:\/\/shop_images\/p-2.png",
         "label2": "Gluten Free",
+        "icon3": "shopify:\/\/shop_images\/p-3.png",
         "label3": "Dairy Free",
+        "icon4": "shopify:\/\/shop_images\/p-4.png",
         "label4": "Nut Free",
+        "icon5": "shopify:\/\/shop_images\/p-5.png",
         "label5": "No Artificial Colors, Flavors",
         "label6": "0 Sugar"
       }
