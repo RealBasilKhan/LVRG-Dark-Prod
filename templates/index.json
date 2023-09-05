@@ -1,5 +1,108 @@
 {
   "sections": {
+    "6b828479-2a61-40a2-a1ed-d18d2a4eb155": {
+      "type": "ingredients",
+      "blocks": {
+        "39549e7c-93de-42d0-a993-42c670867fa8": {
+          "type": "tab",
+          "settings": {
+            "tab-title": "",
+            "card-title1": "",
+            "card-desc1": "",
+            "what-is-it1": "",
+            "what-is-does1": "",
+            "card-title2": "",
+            "card-desc2": "",
+            "what-is-it2": "",
+            "what-is-does2": "",
+            "card-title3": "",
+            "card-desc3": "",
+            "what-is-it3": "",
+            "what-is-does3": "",
+            "card-title4": "",
+            "card-desc4": "",
+            "what-is-it4": "",
+            "what-is-does4": "",
+            "card-title5": "",
+            "card-desc5": "",
+            "what-is-it5": "",
+            "what-is-does5": "",
+            "card-title6": "",
+            "card-desc6": "",
+            "what-is-it6": "",
+            "what-is-does6": "",
+            "card-title7": "",
+            "card-desc7": "",
+            "what-is-it7": "",
+            "what-is-does7": "",
+            "card-title8": "",
+            "card-desc8": "",
+            "what-is-it8": "",
+            "what-is-does8": ""
+          }
+        },
+        "08a673a5-f977-4482-9737-544598be65db": {
+          "type": "tab",
+          "settings": {
+            "tab-title": "",
+            "card-title1": "",
+            "card-desc1": "",
+            "what-is-it1": "",
+            "what-is-does1": "",
+            "card-title2": "",
+            "card-desc2": "",
+            "what-is-it2": "",
+            "what-is-does2": "",
+            "card-title3": "",
+            "card-desc3": "",
+            "what-is-it3": "",
+            "what-is-does3": "",
+            "card-title4": "",
+            "card-desc4": "",
+            "what-is-it4": "",
+            "what-is-does4": "",
+            "card-title5": "",
+            "card-desc5": "",
+            "what-is-it5": "",
+            "what-is-does5": "",
+            "card-title6": "",
+            "card-desc6": "",
+            "what-is-it6": "",
+            "what-is-does6": "",
+            "card-title7": "",
+            "card-desc7": "",
+            "what-is-it7": "",
+            "what-is-does7": "",
+            "card-title8": "",
+            "card-desc8": "",
+            "what-is-it8": "",
+            "what-is-does8": ""
+          }
+        },
+        "26f88e8d-c600-4893-b0d5-039295944767": {
+          "type": "side_panel",
+          "settings": {
+            "side_panel_1_label": "",
+            "side_panel_1_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "39549e7c-93de-42d0-a993-42c670867fa8",
+        "08a673a5-f977-4482-9737-544598be65db",
+        "26f88e8d-c600-4893-b0d5-039295944767"
+      ],
+      "settings": {
+        "heading": "",
+        "sub-heading": "",
+        "label1": "Plant-Based, Vegan",
+        "label2": "Gluten Free",
+        "label3": "Dairy Free",
+        "label4": "Nut Free",
+        "label5": "No Artificial Colors, Flavors",
+        "label6": "0 Sugar"
+      }
+    },
     "f80de3f9-4374-42eb-9722-e6cb271608d5": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -633,6 +736,7 @@
     }
   },
   "order": [
+    "6b828479-2a61-40a2-a1ed-d18d2a4eb155",
     "f80de3f9-4374-42eb-9722-e6cb271608d5",
     "8f6ed916-ced8-44f6-9ef8-b60fd327ae31",
     "8670c6b1-68f6-405f-bfff-2c6ff1e89099",
