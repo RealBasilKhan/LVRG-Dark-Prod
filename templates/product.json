@@ -529,11 +529,19 @@
             "what-is-it8": "",
             "what-is-does8": ""
           }
+        },
+        "8143cb4b-3c5c-4237-933d-3b36fba7ca8c": {
+          "type": "side_panel",
+          "settings": {
+            "side_panel_1_label": "Nutritional Facts",
+            "side_panel_1_page": "nutritional-facts"
+          }
         }
       },
       "block_order": [
         "f6089243-11f9-4248-abea-33ee317b1348",
-        "f1e6d31c-40c4-4790-8572-7044615223ee"
+        "f1e6d31c-40c4-4790-8572-7044615223ee",
+        "8143cb4b-3c5c-4237-933d-3b36fba7ca8c"
       ],
       "settings": {
         "heading": "",
