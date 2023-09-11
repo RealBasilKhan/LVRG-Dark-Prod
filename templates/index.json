@@ -27,8 +27,8 @@
         "layout": "image_first",
         "content_position": "text-left",
         "column_spacing": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#2c2d2e",
+        "color_bg": "#53535d",
+        "color_text": "#ffffff",
         "color_border": "#e2e2e2",
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
@@ -36,42 +36,6 @@
     },
     "9b1db0e0-f546-4c11-bb1b-72c64fcd2dce": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "template--20762913046826__9b1db0e0-f546-4c11-bb1b-72c64fcd2dce-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "Add a tagline"
-          }
-        },
-        "template--20762913046826__9b1db0e0-f546-4c11-bb1b-72c64fcd2dce-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_size": "h1-xlarge"
-          }
-        },
-        "template--20762913046826__9b1db0e0-f546-4c11-bb1b-72c64fcd2dce-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "description_size": "medium"
-          }
-        },
-        "template--20762913046826__9b1db0e0-f546-4c11-bb1b-72c64fcd2dce-button-1": {
-          "type": "button",
-          "settings": {
-            "button_text": "Shop Now",
-            "button_link": "",
-            "button_color": "accent"
-          }
-        }
-      },
-      "block_order": [
-        "template--20762913046826__9b1db0e0-f546-4c11-bb1b-72c64fcd2dce-subheading-1",
-        "template--20762913046826__9b1db0e0-f546-4c11-bb1b-72c64fcd2dce-heading-1",
-        "template--20762913046826__9b1db0e0-f546-4c11-bb1b-72c64fcd2dce-text-1",
-        "template--20762913046826__9b1db0e0-f546-4c11-bb1b-72c64fcd2dce-button-1"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/gif-2_1.gif",
         "image_parallax": false,
@@ -81,7 +45,7 @@
         "content_width": "medium",
         "content_position": "bottom-center",
         "text_alignment": "center",
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30,
         "disable_top_spacing": false,
