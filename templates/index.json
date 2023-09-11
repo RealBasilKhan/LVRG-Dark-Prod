@@ -29,11 +29,72 @@
         "full_width": true,
         "layout": "image_first",
         "content_position": "text-left",
-        "column_spacing": "medium",
+        "column_spacing": "small",
         "color_bg": "#53535d",
         "color_text": "#ffffff",
         "color_border": "#e2e2e2",
         "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "ee862f90-7ce2-4b34-b5fd-c5593d5894e8": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--20762913046826__ee862f90-7ce2-4b34-b5fd-c5593d5894e8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "All Natural",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "template--20762913046826__ee862f90-7ce2-4b34-b5fd-c5593d5894e8-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "No Sugar",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "template--20762913046826__ee862f90-7ce2-4b34-b5fd-c5593d5894e8-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "No Additives",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "039650f2-3824-43b4-855d-d3d7fdc807e1": {
+          "type": "text",
+          "settings": {
+            "text": "No BS",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20762913046826__ee862f90-7ce2-4b34-b5fd-c5593d5894e8-text-1",
+        "template--20762913046826__ee862f90-7ce2-4b34-b5fd-c5593d5894e8-text-2",
+        "template--20762913046826__ee862f90-7ce2-4b34-b5fd-c5593d5894e8-text-3",
+        "039650f2-3824-43b4-855d-d3d7fdc807e1"
+      ],
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "rotation": 0,
+        "negative_rotation": false,
+        "font_family": "heading",
+        "text_size": 24,
+        "text_uppercase": false,
+        "image_size": "large",
+        "color_bg": "transparent",
+        "color_text": "#1A1C1D",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
@@ -113,6 +174,7 @@
   },
   "order": [
     "859a23a4-6684-4f2e-84af-a65d4e7004df",
+    "ee862f90-7ce2-4b34-b5fd-c5593d5894e8",
     "9b1db0e0-f546-4c11-bb1b-72c64fcd2dce",
     "cdcbd1df-7e34-4d80-a38a-8ba76343c724"
   ]
