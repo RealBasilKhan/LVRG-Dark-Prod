@@ -17,7 +17,7 @@
         "template--20762913046826__859a23a4-6684-4f2e-84af-a65d4e7004df-heading-1"
       ],
       "custom_css": [
-        ".image-with-text--content {\/** Created with https:\/\/www.css-gradient.com* Gradient link: https:\/\/www.css-gradient.com\/?c1=f4e588&c2=e26c5a&gt=l&gd=dtl*\/background: #F4E588;background: linear-gradient(135deg, #F4E588, #E26C5A);}"
+        ".image-with-text--content {\/** Created with https:\/\/www.css-gradient.com* Gradient link: https:\/\/www.css-gradient.com\/?c1=f4e588&c2=e26c5a&gt=l&gd=dtl*\/ background: #f4e588; background: linear-gradient(135deg, #f4e588, #e26c5a);}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero.png",
@@ -25,7 +25,7 @@
         "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "video_autoplay": false,
         "height": "large",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "full_width": true,
         "layout": "image_first",
         "content_position": "text-left",
