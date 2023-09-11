@@ -84,18 +84,18 @@
         "full_width": true,
         "direction": "left",
         "speed": "20s",
-        "rotation": 0,
-        "negative_rotation": false,
-        "font_family": "heading",
+        "rotation": 2,
+        "negative_rotation": true,
+        "font_family": "body",
         "text_size": 24,
-        "text_uppercase": false,
+        "text_uppercase": true,
         "image_size": "large",
         "color_bg": "transparent",
-        "color_text": "#1A1C1D",
+        "color_text": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "9b1db0e0-f546-4c11-bb1b-72c64fcd2dce": {
