@@ -213,7 +213,7 @@
             "text": "Unleash Your Prime Potential",
             "marker_style": "style1",
             "heading_size": "h3",
-            "marker_color": "#FD6262"
+            "marker_color": "#fd6262"
           }
         },
         "c8a95762-2b19-4e02-b4a7-0c398b2062a5": {
@@ -531,6 +531,44 @@
             "what-is-does8": ""
           }
         },
+        "57860a71-4bc9-4f3e-949c-36e35045d9af": {
+          "type": "tab",
+          "settings": {
+            "tab-title": "",
+            "card-title1": "",
+            "card-desc1": "",
+            "what-is-it1": "",
+            "what-is-does1": "",
+            "card-title2": "",
+            "card-desc2": "",
+            "what-is-it2": "",
+            "what-is-does2": "",
+            "card-title3": "",
+            "card-desc3": "",
+            "what-is-it3": "",
+            "what-is-does3": "",
+            "card-title4": "",
+            "card-desc4": "",
+            "what-is-it4": "",
+            "what-is-does4": "",
+            "card-title5": "",
+            "card-desc5": "",
+            "what-is-it5": "",
+            "what-is-does5": "",
+            "card-title6": "",
+            "card-desc6": "",
+            "what-is-it6": "",
+            "what-is-does6": "",
+            "card-title7": "",
+            "card-desc7": "",
+            "what-is-it7": "",
+            "what-is-does7": "",
+            "card-title8": "",
+            "card-desc8": "",
+            "what-is-it8": "",
+            "what-is-does8": ""
+          }
+        },
         "8143cb4b-3c5c-4237-933d-3b36fba7ca8c": {
           "type": "side_panel",
           "settings": {
@@ -542,6 +580,7 @@
       "block_order": [
         "f6089243-11f9-4248-abea-33ee317b1348",
         "f1e6d31c-40c4-4790-8572-7044615223ee",
+        "57860a71-4bc9-4f3e-949c-36e35045d9af",
         "8143cb4b-3c5c-4237-933d-3b36fba7ca8c"
       ],
       "settings": {
@@ -702,8 +741,8 @@
       "type": "guarantee",
       "settings": {
         "badge": "shopify:\/\/shop_images\/medal.png",
-        "heading": "Try it, Risk-FREE",
-        "text": "60 Day Money Back Guarantee"
+        "heading": "Man-to-Man Guarantee",
+        "text": "Gentlemen, at LVRG, we don't mince words. Dive into a bag of our blend, put it to the test. If you're not feeling the LVRG difference, shoot us an email at support@lvrg.com. Return any unopened bags, and we'll refund you for those and the one you tried. Plain and simple. We stand behind our blend with the kind of confidence only LVRG can muster. Your move, champ. No games, just a rock-solid promise."
       }
     },
     "1663667029efc274af": {
