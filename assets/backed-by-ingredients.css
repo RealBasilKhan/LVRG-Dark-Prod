@@ -83,6 +83,9 @@
   flex: 1;
   margin-bottom: 30px;
 }
+.number-arrow h1 {
+  margin-bottom:0;
+}
 
 .container .number-flex .col-2 .box .number-arrow {
   display: flex;
