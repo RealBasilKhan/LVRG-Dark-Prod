@@ -804,7 +804,6 @@
         "540aaec7-3408-4d54-a9b6-64b7ab053fbb"
       ],
       "custom_css": [
-        ".custom-table table tr td:nth-child(2) {background: radial-gradient( circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1% );}",
         ".custom-table div {margin: 1;}"
       ],
       "settings": {
