@@ -30,7 +30,7 @@
   );
 }
 .custom-table table tr td:nth-child(2) {
-  background: #e3fc02;
+  //background: #e3fc02;
 }
 
 .custom-table table tr td:nth-child(2) path {
