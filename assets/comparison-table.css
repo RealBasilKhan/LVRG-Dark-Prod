@@ -16,6 +16,7 @@
 
 .custom-table svg {
   margin: 0 auto;
+  vertical-align: middle;
 }
 
 .custom-table table th {
