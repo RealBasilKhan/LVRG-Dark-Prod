@@ -114,9 +114,10 @@
 
 .container .number-flex .col-2 .box p {
   font-family: "Nexa-Regular";
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+  height:0;
 }
 
 @media only screen and (max-width: 660px) {
