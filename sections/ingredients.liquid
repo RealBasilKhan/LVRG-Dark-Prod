@@ -1,18 +1,22 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 <style>
-  .custom-btn{color: #fff;
-font-family: Nexa-Bold;
-text-align: center;
-padding: 20px 0;
-border-radius: 35px;
-background-color: #e27624;
-width: 100%;
-transition: .5s;
-border: 1px solid transparent;
-cursor: pointer;
-display: block;}
-  .custom-btn:hover{border: 1px solid #e27624;
-background-color: transparent;}
+  .custom-btn {
+    color: #fff;
+    font-family: Nexa-Bold;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 35px;
+    background-color: #e27624;
+    width: 100%;
+    transition: 0.5s;
+    border: 1px solid transparent;
+    cursor: pointer;
+    display: block;
+  }
+  .custom-btn:hover {
+    border: 1px solid #e27624;
+    background-color: transparent;
+  }
 </style>
 {{ 'ingredients.css' | asset_url | stylesheet_tag }}
 
@@ -88,8 +92,8 @@ background-color: transparent;}
           {% for i in (1..8) %}
             {% assign card_image = 'card-image' | append: i %}
             {% assign card_title = 'card-title' | append: i %}
-              {% assign card_desc = 'card-desc' | append: i %}
-            
+            {% assign card_desc = 'card-desc' | append: i %}
+
             {% assign active = '' %}
             {% if forloop.first %}
               {% assign active = 'active' %}
@@ -134,23 +138,25 @@ background-color: transparent;}
             {% endif %}
           </div>
           <div class="col-1">
-{% for block in section.blocks %}
-  {% if block.type == 'side_panel' %}
-   <side-panel-links class="side-panel-links">
-        
-                      <button class="btn side-panel-links--link no-js-hidden" data-id="1" style="width: 100%; padding: 16px 0px;">
-                        <span class="btn custom-btn">VIEW NUTRITION FACTS</span>
-                      </button>
- 
-     </side-panel-links>
-{% endif %}
-{% endfor %}
-        {% comment %}
-        <div class="btn">
-              <a href="#">VIEW NUTRITION FACTS</a>
+            {% for block in section.blocks %}
+              {% if block.type == 'side_panel' %}
+                <side-panel-links class="side-panel-links">
+                  <button
+                    class="btn side-panel-links--link no-js-hidden"
+                    data-id="1"
+                    style="width: 100%; padding: 16px 0px;"
+                  >
+                    <span class="btn custom-btn">VIEW NUTRITION FACTS</span>
+                  </button>
+                </side-panel-links>
+              {% endif %}
+            {% endfor %}
+            {% comment %}
+              <div class="btn">
+                    <a href="#">VIEW NUTRITION FACTS</a>
+                </div>
+            {% endcomment %}
           </div>
-        {% endcomment %}
-        </div>
         </div>
       {% endfor %}
       <div class="only-desktop only-laptop only-tab">
@@ -174,7 +180,7 @@ background-color: transparent;}
                   <div class="content">
                     <h1>{{ block.settings[card_title] }}</h1>
                     {{ block.settings[card_desc] }}
-                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Learn More</a>
+                    {% comment %} <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Learn More</a> {% endcomment %}
                   </div>
                 </div>
               {% endif %}
@@ -206,17 +212,18 @@ background-color: transparent;}
               </div>
               <div class="box-3 box">
                 {% for block in section.blocks %}
-  {% if block.type == 'side_panel' %}
-   
-    <side-panel-links class="side-panel-links">
-        
-                      <button class="btn side-panel-links--link no-js-hidden" data-id="1" style="width: 100%; padding: 16px 0px;">
+                  {% if block.type == 'side_panel' %}
+                    <side-panel-links class="side-panel-links">
+                      <button
+                        class="btn side-panel-links--link no-js-hidden"
+                        data-id="1"
+                        style="width: 100%; padding: 16px 0px;"
+                      >
                         <span class="btn custom-btn">VIEW NUTRITION FACTS</span>
                       </button>
- 
-     </side-panel-links>
-    {% endif %}
-                  {% endfor %}
+                    </side-panel-links>
+                  {% endif %}
+                {% endfor %}
               </div>
             {% endif %}
           </div>
@@ -339,7 +346,7 @@ background-color: transparent;}
     });
   });
 </script>
- {%- assign side_panels = section.blocks | where: 'type', 'side_panel' -%}
+{%- assign side_panels = section.blocks | where: 'type', 'side_panel' -%}
 {%- if side_panels.size > 0 -%}
   <div class="side-panel product-information-drawer" id="Product-Information-Drawer" tabindex="-1">
     <div class="side-panel-inner">
@@ -362,7 +369,6 @@ background-color: transparent;}
               {{ block.settings.side_panel_1_page.content }}
             </div>
           {%- endif -%}
-      
         </div>
       </div>
     </div>
@@ -695,12 +701,12 @@ background-color: transparent;}
         }
       ]
     },
-      {
+    {
       "type": "side_panel",
       "name": "Information side panel",
       "limit": 1,
       "settings": [
-           {
+        {
           "type": "text",
           "id": "side_panel_1_label",
           "label": "Drawer Lable"
@@ -710,7 +716,6 @@ background-color: transparent;}
           "id": "side_panel_1_page",
           "label": "Page"
         }
-
       ]
     }
   ],

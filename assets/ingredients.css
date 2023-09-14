@@ -172,7 +172,7 @@
   font-family: "Nexa-Bold";
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size:32px;
+  font-size: 32px;
 }
 .flex-row .col-1 .first-product p {
   font-family: "Nexa-Regular";
@@ -232,7 +232,7 @@
 .swiper {
   width: 90%;
   height: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .swiper-slide {
   display: flex !important;
@@ -486,8 +486,8 @@
     right: 0px;
     z-index: -1;
   }
-  .tabs-section .flex-row .col-2 .box{
-    justify-content:start;
+  .tabs-section .flex-row .col-2 .box {
+    justify-content: start;
   }
 }
 /* for laptop and big screen tabs  */
@@ -531,7 +531,7 @@
     flex: 1 0 25%;
   }
   .flex-row .col-1 {
-    height:max-content;
+    height: max-content;
   }
   .tabs-section .para-btn {
     flex-direction: column;
