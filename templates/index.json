@@ -31,7 +31,7 @@
         "8291d487-4dd5-41c5-8def-7e47c6222621"
       ],
       "custom_css": [
-        ".image-with-text--content {\/* From https:\/\/css.glass *\/background: rgba(117, 117, 117, 0.41);border-radius: 16px;box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);backdrop-filter: blur(14.9px);-webkit-backdrop-filter: blur(14.9px);border: 1px solid rgba(117, 117, 117, 0.13);}"
+        ".image-with-text--content {\/* From https:\/\/css.glass *\/ background: rgba(117, 117, 117, 0.41); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(14.9px); -webkit-backdrop-filter: blur(14.9px); border: 1px solid rgba(117, 117, 117, 0.13);}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero.png",
@@ -276,7 +276,7 @@
             "text": "Your Competition Uses Flaxseed. Pity Them.  While they chug greens with estrogen-boosting flaxseed or alfalfa, you have LVRG. Designed explicitly without such redundancies, it's the only supplement a modern man needs.",
             "marker_style": "style1",
             "heading_size": "h3",
-            "marker_color": "#FD6262"
+            "marker_color": "#fd6262"
           }
         },
         "template--20762913046826__dae44fb7-70f4-45c7-8fe0-d801da6bd384-text-1": {
@@ -292,8 +292,11 @@
         "template--20762913046826__dae44fb7-70f4-45c7-8fe0-d801da6bd384-text-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Get_Some_Greens__42888.webp",
         "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/pf-5fe9bacd--mangreensimagecircle6.webp",
         "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/pf-cd874940--mangreensimagecircle9.webp",
         "image_ratio_3": "adapt",
         "full_width": false,
         "layout": "image_first",
