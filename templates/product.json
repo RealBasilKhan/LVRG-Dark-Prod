@@ -196,7 +196,7 @@
         "icon_position": "top",
         "icon_size": "xlarge",
         "heading_size": "small",
-        "mobile_swipe": true,
+        "mobile_swipe": false,
         "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#ffffff",
         "color_text": "#dedede",
