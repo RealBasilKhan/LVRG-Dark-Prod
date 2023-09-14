@@ -4,7 +4,7 @@
   text-rendering: optimizeSpeed;
   list-style: none;
   box-sizing: border-box;
-  color: #ff9450;
+  color: #ffffff;
   align-items: center;
   display: flex;
   justify-content: space-evenly;
@@ -16,7 +16,7 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   letter-spacing: -0.02em;
-  color: #faab7a;
+  color: #ffffff;
   margin: 0;
   font-weight: 400;
   display: flex;
@@ -33,5 +33,5 @@
 }
 
 .product-single__claims p i {
-  color: #faab7a;
+  color: #ffffff;
 }
