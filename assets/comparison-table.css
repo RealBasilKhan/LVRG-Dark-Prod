@@ -34,7 +34,10 @@
     rgb(33, 84, 64) 90.1%
   );*/
 }
-.custom-table table tr th:nth-child(2),.custom-table table tr:last-child td:nth-child(2) {
+.custom-table table tr th:nth-child(2){
+  border-radius:10px;
+}
+.custom-table table tr:last-child td:nth-child(2) {
   border-radius:10px;
 }
 
