@@ -21,6 +21,9 @@
 .custom-table table th {
   min-width: 140px;
 }
+.custom-table table{
+  border:none;
+}
 .custom-table table tr th:nth-child(2),.custom-table table tr td:nth-child(2) {
   /*background: radial-gradient(
     circle at 0.8% 1.8%,
