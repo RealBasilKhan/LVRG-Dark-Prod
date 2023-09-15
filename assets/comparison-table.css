@@ -42,6 +42,8 @@
    /*transform: scale3d(1.02,1.2,1.1);
     transform-origin: bottom;
     border: none !important;*/
+  border-top:0px !important;
+  border-bottom:0px !important;
 }
 .custom-table table tr th:nth-child(3),.custom-table table tr td:nth-child(3),.custom-table table tr td:nth-child(2),.custom-table table tr th:nth-child(2){
   border-left:0px !important;
@@ -67,8 +69,6 @@
     rgb(5, 136, 81) 0%,
     rgb(33, 84, 64) 90.1%
   );
-  border-top:0px !important;
-  border-bottom:0px !important;
   position: relative;
   top: -60px;
   border-top-left-radius: 10px;
