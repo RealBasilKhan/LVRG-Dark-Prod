@@ -4,11 +4,6 @@
   padding: 5rem 1.5rem;
   text-align: center;
 }
-.table-container th:nth-child(2) .table-pop:after, .table-container tr:nth-child(2) .table-pop:before {
-    top: -10px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
 .custom-table .collapsible-content__heading.inline-richtext {
   text-align: center;
 }
