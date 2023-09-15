@@ -26,13 +26,13 @@
     circle at 0.8% 1.8%,
     rgb(255, 104, 107) 0%,
     rgb(255, 187, 103) 90.1%
-  );*/
-  background-image: linear-gradient(rgb(5, 136, 81), rgb(33, 84, 64));
-  /*background: radial-gradient(
+  );
+  background-image: linear-gradient(rgb(5, 136, 81), rgb(33, 84, 64));*/
+  background: radial-gradient(
     circle at 0.8% 1.8%,
     rgb(5, 136, 81) 0%,
     rgb(33, 84, 64) 90.1%
-  );*/
+  );
   border:none;
 }
 .custom-table table tr th:nth-child(2){
