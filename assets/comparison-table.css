@@ -43,10 +43,10 @@
     transform-origin: bottom;
     border: none !important;*/
 }
-.custom-table table tr td:nth-child(3),.custom-table table tr td:nth-child(2),.custom-table table tr th:nth-child(2){
+.custom-table table tr th:nth-child(3),.custom-table table tr td:nth-child(3),.custom-table table tr td:nth-child(2),.custom-table table tr th:nth-child(2){
   border-left:0px !important;
 }
-.custom-table table tr td:nth-child(1),.custom-table table tr td:nth-child(2),.custom-table table tr th:nth-child(2){
+.custom-table table tr th:nth-child(1),.custom-table table tr td:nth-child(1),.custom-table table tr td:nth-child(2),.custom-table table tr th:nth-child(2){
   border-right:0px !important;
 }
 .custom-table table tr th:nth-child(2){
