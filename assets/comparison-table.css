@@ -67,6 +67,8 @@
     rgb(5, 136, 81) 0%,
     rgb(33, 84, 64) 90.1%
   );
+  border-top:0px !important;
+  border-bottom:0px !important;
   position: relative;
   top: -60px;
   border-top-left-radius: 10px;
