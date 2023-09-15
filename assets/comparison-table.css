@@ -39,7 +39,6 @@
     rgb(5, 136, 81) 0%,
     rgb(33, 84, 64) 90.1%
   );
-  border:none;
 }
 .custom-table table tr th:nth-child(2){
   border-top-left-radius: 10px;
