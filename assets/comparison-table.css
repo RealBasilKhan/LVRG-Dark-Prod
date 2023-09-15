@@ -66,11 +66,11 @@
 }
 
 .table-container {
-  overflow-x: scroll;
+  overflow: initial; 
 }
 
 @media (min-width: 768px) {
   .table-container {
-    overflow: hidden;
+    overflow: initial; 
   }
 }
