@@ -764,6 +764,16 @@
             "product4_row_radio": "cross"
           }
         },
+        "540aaec7-3408-4d54-a9b6-64b7ab053fbb": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Free of Stevia",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "tick",
+            "product4_row_radio": "cross"
+          }
+        },
         "7e2386e4-795c-4363-ae77-3f235ac1029a": {
           "type": "table_row",
           "settings": {
@@ -783,25 +793,15 @@
             "product3_row_radio": "tick",
             "product4_row_radio": "cross"
           }
-        },
-        "540aaec7-3408-4d54-a9b6-64b7ab053fbb": {
-          "type": "table_row",
-          "settings": {
-            "row_title": "Free of Stevia",
-            "product1_row_radio": "tick",
-            "product2_row_radio": "cross",
-            "product3_row_radio": "tick",
-            "product4_row_radio": "cross"
-          }
         }
       },
       "block_order": [
         "09112ab2-7a1d-47c0-b6a8-c05515bf9d20",
         "20040dca-15ba-4a27-85de-286d23127c85",
         "6a31708c-2934-42d6-93ef-e096e5e90082",
+        "540aaec7-3408-4d54-a9b6-64b7ab053fbb",
         "7e2386e4-795c-4363-ae77-3f235ac1029a",
-        "c54f8bc0-e153-40a5-8fee-f3d61bdb3b4a",
-        "540aaec7-3408-4d54-a9b6-64b7ab053fbb"
+        "c54f8bc0-e153-40a5-8fee-f3d61bdb3b4a"
       ],
       "custom_css": [
         ".custom-table div {margin: 1;}"
