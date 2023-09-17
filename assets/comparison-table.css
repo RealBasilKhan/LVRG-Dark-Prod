@@ -74,10 +74,10 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;*/
 }
-.custom-table table tr td:nth-child(2) path {
+/* .custom-table table tr td:nth-child(2) path {
   fill: rgba(0, 0, 0, 0.75);
   stroke: rgba(0, 0, 0, 0.75);
-}
+} */
 
 .custom-table table tr td:nth-child(1) {
   text-align: left;
