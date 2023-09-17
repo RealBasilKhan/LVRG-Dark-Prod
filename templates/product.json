@@ -958,6 +958,54 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "6de80e04-aaaf-4970-8bc4-8fb65edc449b": {
+      "type": "background-video",
+      "blocks": {
+        "template--20762913472810__6de80e04-aaaf-4970-8bc4-8fb65edc449b-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--20762913472810__6de80e04-aaaf-4970-8bc4-8fb65edc449b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Background video",
+            "heading_size": "h1-xlarge"
+          }
+        },
+        "template--20762913472810__6de80e04-aaaf-4970-8bc4-8fb65edc449b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "description_size": "medium"
+          }
+        },
+        "template--20762913472810__6de80e04-aaaf-4970-8bc4-8fb65edc449b-button-1": {
+          "type": "button",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--20762913472810__6de80e04-aaaf-4970-8bc4-8fb65edc449b-subheading-1",
+        "template--20762913472810__6de80e04-aaaf-4970-8bc4-8fb65edc449b-heading-1",
+        "template--20762913472810__6de80e04-aaaf-4970-8bc4-8fb65edc449b-text-1",
+        "template--20762913472810__6de80e04-aaaf-4970-8bc4-8fb65edc449b-button-1"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "video_controls": true,
+        "video": "",
+        "video_hosted": "shopify:\/\/files\/videos\/WhatsApp Video 2023-08-19 at 1.01.43 PM.mp4",
+        "overlay_color": "#000000",
+        "overlay_opacity": 25,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -976,6 +1024,7 @@
     "caf6b442-01f9-4626-a023-fe54d7314439",
     "4228dd7b-3309-4c07-b857-0183644b0d83",
     "e80f0f18-20cc-4329-83b8-9b8f7250fafd",
-    "1663667029efc274af"
+    "1663667029efc274af",
+    "6de80e04-aaaf-4970-8bc4-8fb65edc449b"
   ]
 }
