@@ -306,7 +306,11 @@
         "button2_link": "",
         "button2_color": "#000000",
         "button2_text_color": "#ffffff",
-        "button2_text": "Button 2"
+        "button2_text": "Button 2",
+        "button_text_one": "Nutritional information",
+        "button_link_one": "shopify:\/\/pages\/nutritional-facts",
+        "button_text_two": "Ingredients information",
+        "button_link_two": "shopify:\/\/pages\/nutritional-facts"
       }
     },
     "58d44722-ab46-46eb-92b2-8febe4505129": {
