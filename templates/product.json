@@ -738,7 +738,7 @@
           "type": "table_row",
           "settings": {
             "row_title": "Supports Male Hormones",
-            "product1_row_radio": "tick",
+            "product1_row_radio": "cross",
             "product2_row_radio": "cross",
             "product3_row_radio": "cross",
             "product4_row_radio": "cross"
