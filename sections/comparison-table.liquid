@@ -4,7 +4,8 @@
   table-sec.liquid
   Section for displaying a customizable table.
 {% endcomment %}
-
+<div class="background-right-top">
+<div class="background-right-bottom">
 <section class="custom-table" 
     style="background: {{ section.settings.background_color }};
     color: {{ section.settings.font_color }}; 
@@ -91,13 +92,10 @@
                 {%endfor%}
             </tbody>
         </table>
-    </div>
-      
-
-  
+    </div>  
 </section>
-
-
+</div>
+</div>
 {% schema %}
 {
   "name": "Comparison Table",
