@@ -76,8 +76,7 @@
       </div>
     </div>
 
-{{ sizing_popup }}
-
+    
 {%- assign side_panels = section.blocks | where: 'type', 'side_panel' -%}
 {%- if side_panels.size > 0 -%}
   <div class="side-panel product-information-drawer" id="Product-Information-Drawer" tabindex="-1">
@@ -106,6 +105,7 @@
     </div>
   </div>
 {%- endif -%}
+
     
       <div class="col-1">
             {% for block in section.blocks %}
