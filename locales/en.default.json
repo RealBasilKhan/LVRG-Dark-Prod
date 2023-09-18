@@ -38,7 +38,7 @@
       "wechat": "WeChat"
     }
   },
-	"pagination": {
+  "pagination": {
     "label": "Pagination",
     "page": "Page {{ number }}",
     "next": "Next page",
@@ -102,7 +102,7 @@
       "out_of_stock": "Out of stock",
       "on_sale": "Sale",
       "product_variants": "Product variants",
-      "product_information": "Product information",
+      "product_information": "test",
       "add_to_cart": "Add to cart",
       "choose_options": "Choose options",
       "sold_out": "Sold out",
@@ -190,7 +190,7 @@
       "login": "Login",
       "cart": "Cart",
       "products": "Products",
-			"suggestions": "Suggestions",
+      "suggestions": "Suggestions",
       "articles": "Articles",
       "view_all_results": "View all results"
     },
@@ -229,7 +229,7 @@
         "total": "Total",
         "quantity": "Quantity"
       },
-			"terms": "I agree with the terms and conditions",
+      "terms": "I agree with the terms and conditions",
       "terms_html": "I agree with the <a href='{{ url }}' target='_blank'>terms and conditions<\/a>",
       "terms_confirm": "You must agree with the terms and conditions of sales to check out"
     },
