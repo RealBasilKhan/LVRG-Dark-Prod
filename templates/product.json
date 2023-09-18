@@ -287,14 +287,7 @@
           "type": "side_panel",
           "settings": {
             "side_panel_1_label": "Materials",
-            "side_panel_1_icon": "leather",
-            "side_panel_1_page": "contact",
-            "side_panel_2_label": "Shipping & Returns",
-            "side_panel_2_icon": "box",
-            "side_panel_2_page": "contact",
-            "side_panel_3_label": "Care Guide",
-            "side_panel_3_icon": "washing",
-            "side_panel_3_page": "nutritional-facts"
+            "side_panel_1_page": "nutritional-facts"
           }
         }
       },
