@@ -4,9 +4,8 @@
 {% endcomment %}
 
 {{ 'product-display-with-text-v2.css' | asset_url | stylesheet_tag }}
-
+<div class="background-img">
 <section class="black-edition container">
-  <div class="background-img">
   <div class="main-container">
     <h1 class="main-heading">
       {{ section.settings.heading }}
@@ -88,9 +87,8 @@
     </div>
     
   </div>
-  </div>
 </section>
-
+</div>
 <style>
   .background-img {
     background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_58_1.png?v=1695026148);
