@@ -282,6 +282,25 @@
     },
     "eafca1d4-05cf-4432-afce-a9c35d9df8d9": {
       "type": "product-display-with-text-v2",
+      "blocks": {
+        "4958a2f0-0f5d-4b09-a09e-51bd2510a744": {
+          "type": "side_panel",
+          "settings": {
+            "side_panel_1_label": "Materials",
+            "side_panel_1_icon": "ruler",
+            "side_panel_1_page": "",
+            "side_panel_2_label": "Shipping &amp; Returns",
+            "side_panel_2_icon": "box",
+            "side_panel_2_page": "",
+            "side_panel_3_label": "Care Guide",
+            "side_panel_3_icon": "washing",
+            "side_panel_3_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "4958a2f0-0f5d-4b09-a09e-51bd2510a744"
+      ],
       "settings": {
         "section_background": "#ffffff",
         "heading": "Each LVRG Scoop contains...",
