@@ -76,35 +76,15 @@
       </div>
     </div>
 
-   <div class="col-1">
-            {% for block in section.blocks %}
-              {% if block.type == 'side_panel' %}
-                <side-panel-links class="side-panel-links">
-                  <button
-                    class="btn side-panel-links--link no-js-hidden"
-                    data-id="1"
-                    style="width: 100%; padding: 16px 0px;"
-                  >
-                    <span class="btn custom-btn">VIEW NUTRITION FACTS</span>
-                  </button>
-                </side-panel-links>
-              {% endif %}
-            {% endfor %}
-            {% comment %}
-              <div class="btn">
-                    <a href="#">VIEW NUTRITION FACTS</a>
-                </div>
-            {% endcomment %}
-          </div>
 
-    <!-- <div class="btn-edition">
+     <div class="btn-edition">
       <div class="btn btn-1">
         <a href="{{ section.settings.button_link_one }}">{{ section.settings.button_text_one }}</a>
       </div>
       <div class="btn btn-2">
         <a href="{{ section.settings.button_link_two }}" class="full-bg">{{ section.settings.button_link_two }}</a>
       </div>
-    </div> -->
+    </div>
     
   </div>
 </section>
