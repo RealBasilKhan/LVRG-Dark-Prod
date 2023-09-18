@@ -287,7 +287,7 @@
           "type": "side_panel",
           "settings": {
             "side_panel_1_label": "Materials",
-            "side_panel_1_icon": "ruler",
+            "side_panel_1_icon": "leather",
             "side_panel_1_page": "contact",
             "side_panel_2_label": "Shipping & Returns",
             "side_panel_2_icon": "box",
