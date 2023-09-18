@@ -288,8 +288,8 @@
           "settings": {
             "side_panel_1_label": "Materials",
             "side_panel_1_icon": "ruler",
-            "side_panel_1_page": "",
-            "side_panel_2_label": "Shipping &amp; Returns",
+            "side_panel_1_page": "nutritional-facts",
+            "side_panel_2_label": "Shipping & Returns",
             "side_panel_2_icon": "box",
             "side_panel_2_page": "",
             "side_panel_3_label": "Care Guide",
