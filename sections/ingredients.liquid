@@ -137,7 +137,26 @@
               </div>
             {% endif %}
           </div>
-       
+          <div class="col-1">
+            {% for block in section.blocks %}
+              {% if block.type == 'side_panel' %}
+                <side-panel-links class="side-panel-links">
+                  <button
+                    class="btn side-panel-links--link no-js-hidden"
+                    data-id="1"
+                    style="width: 100%; padding: 16px 0px;"
+                  >
+                    <span class="btn custom-btn">VIEW NUTRITION FACTS</span>
+                  </button>
+                </side-panel-links>
+              {% endif %}
+            {% endfor %}
+            {% comment %}
+              <div class="btn">
+                    <a href="#">VIEW NUTRITION FACTS</a>
+                </div>
+            {% endcomment %}
+          </div>
         </div>
       {% endfor %}
       <div class="only-desktop only-laptop only-tab">
