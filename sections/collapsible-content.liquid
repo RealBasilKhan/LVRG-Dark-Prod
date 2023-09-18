@@ -21,30 +21,30 @@
 	endif
 -%}
 <div class="collapsible-backgound-right">
-<div class="collapsible-backgound-left">
-<div class="row">
-	<div class="small-12 columns">
-		<div class="collapsible-content {% if has_bg -%}collapsible-content--has-bg{% endif %} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}"style="--color-bg: {{ color_bg }}; --color-heading: {{ color_heading }}; --color-text: {{ color_text }}; --color-links: {{ color_links }}; --color-border: {{ color_border }};">
-			{% render 'section-header', section_heading: section_heading, section_description: section_description, marker_color: marker_color, marker_style: marker_style %}
-			<div class="collapsible-content__inner">
-				{%- for block in section.blocks -%}
-				<collapsible-row class="accordion" {{ block.shopify_attributes }}>
-					<details id="Details-{{ block.id }}-{{ section.id }}" {% if block.settings.open %}open{% endif %}>
-						<summary>
-							{{ block.settings.heading | default: block.settings.page.title }}
-							<span>{%- render 'svg-icons' with 'thb-collapsible-arrow' -%}</span>
-						</summary>
-						<div class="collapsible__content accordion__content rte" id="Accordion-{{ block.id }}-{{ section.id }}">
-							{{ block.settings.content }}
-							{{ block.settings.page.content }}
-						</div>
-					</details>
-				</collapsible-row>
-				{%- endfor -%}
-			</div>
-		</div>
-	</div>
-</div>
+  <div class="collapsible-backgound-left">
+      <div class="row">
+      	<div class="small-12 columns">
+      		<div class="collapsible-content {% if has_bg -%}collapsible-content--has-bg{% endif %} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}"style="--color-bg: {{ color_bg }}; --color-heading: {{ color_heading }}; --color-text: {{ color_text }}; --color-links: {{ color_links }}; --color-border: {{ color_border }};">
+      			{% render 'section-header', section_heading: section_heading, section_description: section_description, marker_color: marker_color, marker_style: marker_style %}
+      			<div class="collapsible-content__inner">
+      				{%- for block in section.blocks -%}
+      				<collapsible-row class="accordion" {{ block.shopify_attributes }}>
+      					<details id="Details-{{ block.id }}-{{ section.id }}" {% if block.settings.open %}open{% endif %}>
+      						<summary>
+      							{{ block.settings.heading | default: block.settings.page.title }}
+      							<span>{%- render 'svg-icons' with 'thb-collapsible-arrow' -%}</span>
+      						</summary>
+      						<div class="collapsible__content accordion__content rte" id="Accordion-{{ block.id }}-{{ section.id }}">
+      							{{ block.settings.content }}
+      							{{ block.settings.page.content }}
+      						</div>
+      					</details>
+      				</collapsible-row>
+      				{%- endfor -%}
+      			</div>
+      		</div>
+      	</div>
+  </div>
 </div>
 </div>
 <style>
