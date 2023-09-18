@@ -289,10 +289,18 @@
             "side_panel_1_label": "Materials",
             "side_panel_1_page": "nutritional-facts"
           }
+        },
+        "48ae2926-2913-4151-aab0-02b4221c3e41": {
+          "type": "side_panel",
+          "settings": {
+            "side_panel_1_label": "test",
+            "side_panel_1_page": "nutritional-facts"
+          }
         }
       },
       "block_order": [
-        "4958a2f0-0f5d-4b09-a09e-51bd2510a744"
+        "4958a2f0-0f5d-4b09-a09e-51bd2510a744",
+        "48ae2926-2913-4151-aab0-02b4221c3e41"
       ],
       "settings": {
         "section_background": "#ffffff",
