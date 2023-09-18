@@ -107,21 +107,27 @@
   </div>
 {%- endif -%}
     
-                  <side-panel-links class="side-panel-links">
-                    {%- if block.settings.side_panel_1_label != '' -%}
-                      <button class="side-panel-links--link no-js-hidden" data-id="1">
-                        {% render 'svg-icons-inline', icon: block.settings.side_panel_1_icon -%}
-                        <span class="text-button">{{ block.settings.side_panel_1_label }}</span>
-                      </button>
-                      <a
-                        href="{{ block.settings.side_panel_1_page.url }}"
-                        class="side-panel-links--link no-js"
-                        target="_blank"
-                      >
-                        <span class="text-button">{{ block.settings.block.settings.side_panel_1_label }}</span></a
-                      >
-                    {%- endif -%}
-                  </side-panel-links>
+      <div class="col-1">
+            {% for block in section.blocks %}
+              {% if block.type == 'side_panel' %}
+                <side-panel-links class="side-panel-links">
+                  <button
+                    class="btn side-panel-links--link no-js-hidden"
+                    data-id="1"
+                    style="width: 100%; padding: 16px 0px;"
+                  >
+                    <span class="btn custom-btn">VIEW NUTRITION FACTS</span>
+                  </button>
+                </side-panel-links>
+              {% endif %}
+            {% endfor %}
+            {% comment %}
+              <div class="btn">
+                    <a href="#">VIEW NUTRITION FACTS</a>
+                </div>
+            {% endcomment %}
+          </div>
+    
     
   </div>
 </section>
