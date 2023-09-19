@@ -79,7 +79,7 @@
     <div class="container_popup">
         <button class="open-call">Click Me</button>
       </div>
-      <div id="wrap">
+      <div id="wrap_popup">
         <div class="content">
           <button class="close-call">&times;</button>
           <h1>Call Now</h1>
@@ -124,7 +124,7 @@
     border-radius: 20px 0px 0 20px;
     height: 100%;
 }
-#wrap {
+#wrap_popup {
   position: absolute;
   right: 0px;
   top: 0px;
@@ -163,7 +163,7 @@ p {
 $(document).ready(function () {
   $(".open-call").on("click", function (e) {
     e.preventDefault();
-    $("#wrap").animate({ width: "toggle" }, 700);
+    $("#wrap_popup").animate({ width: "toggle" }, 700);
     $(".open-call").toggleClass("opened closed");
   });
   $(".close-call").click(function () {
