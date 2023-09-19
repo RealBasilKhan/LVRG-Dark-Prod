@@ -7,7 +7,7 @@
       <h1>{{ section.settings.heading }}</h1>
     </div>
           
- {%- assign side_panels = section.blocks | where: 'type', 'side_panel' -%}
+ {%- assign side_panels = section.blocks | where: 'type', 'side_panel_one' -%}
 {%- if side_panels.size > 0 -%}
   <div class="side-panel product-information-drawer" id="Product-Information-Drawer" tabindex="-1">
     <div class="side-panel-inner">
@@ -39,7 +39,7 @@
     
       <div class="col-1 display-flex">
             {% for block in section.blocks %}
-              {% if block.type == 'side_panel' %}
+              {% if block.type == 'side_panel_one' %}
                 <side-panel-links class="side-panel-links">
                   <button
                     class="btn side-panel-links--link no-js-hidden"
@@ -157,7 +157,7 @@
   ],
   "blocks": [
      {
-      "type": "side_panel",
+      "type": "side_panel_one",
       "name": "Information side panel",
       "limit": 1,
       "settings": [
