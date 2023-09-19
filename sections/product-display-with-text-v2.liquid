@@ -77,53 +77,14 @@
     </div>
 
     
-{%- assign side_panels = section.blocks | where: 'type', 'side_panel' -%}
-{%- if side_panels.size > 0 -%}
-  <div class="side-panel product-information-drawer" id="Product-Information-Drawer" tabindex="-1">
-    <div class="side-panel-inner">
-      <div class="side-panel-header">
-        <div>
-          <span class="h6">{{ 'products.product.product_information' | t }}</span>
-          <side-panel-close class="side-panel-close">{%- render 'svg-icons' with 'close' -%}</side-panel-close>
+    <button id="popupButton">Open Popup</button>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" id="closeButton">&times;</span>
+            <h2>Popup Content</h2>
+            <p>This is the content of the popup.</p>
         </div>
-      </div>
-      <div class="side-panel-content side-panel-content--has-tabs">
-        {%- assign block = side_panels[0] -%}
-        <side-panel-content-tabs class="side-panel-content--tabs">
-          {%- if block.settings.side_panel_1_label != '' -%}
-            <button class="tab-active">{{ block.settings.side_panel_1_label }}</button>
-          {%- endif -%}
-        </side-panel-content-tabs>
-        <div class="side-panel-content--inner">
-          {%- if block.settings.side_panel_1_label != '' -%}
-            <div class="side-panel-content--tab-panel rte tab-active">
-              {{ block.settings.side_panel_1_page.content }}
-            </div>
-          {%- endif -%}
-        </div>
-      </div>
     </div>
-  </div>
-{%- endif -%}
-
-    
-      <div class="col-1 display-flex">
-            {% for block in section.blocks %}
-              {% if block.type == 'side_panel' %}
-                <side-panel-links class="side-panel-links">
-                  <button
-                    class="btn side-panel-links--link no-js-hidden"
-                    data-id="1"
-                    style="width: 100%; padding: 16px 0px;"
-                  >
-                    <span class="btn custom-btn">VIEW NUTRITION FACTS</span>
-                  </button>
-                </side-panel-links>
-              {% endif %}
-            {% endfor %}
-          </div>
-    
-    
   </div>
 </section>
 </div>
@@ -146,6 +107,20 @@
 }
  }
 </style>
+  <script>
+        const popupButton = document.getElementById("popupButton");
+const popup = document.getElementById("popup");
+const closeButton = document.getElementById("closeButton");
+
+popupButton.addEventListener("click", () => {
+    popup.style.display = "block";
+});
+
+closeButton.addEventListener("click", () => {
+    popup.style.display = "none";
+});
+
+    </script>
 {% schema %}
 {
   "name": "Product Display V-2",
