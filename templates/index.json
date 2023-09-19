@@ -352,6 +352,7 @@
         "template--20762913046826__2be1970b-258e-417a-bb3f-e2521a22e2b9-image-3",
         "template--20762913046826__2be1970b-258e-417a-bb3f-e2521a22e2b9-image-4"
       ],
+      "disabled": true,
       "settings": {
         "image_ratio": "square",
         "column_spacing": "small",
