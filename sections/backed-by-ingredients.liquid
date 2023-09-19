@@ -5,7 +5,8 @@
   <div class="row number-flex">
     <div class="col-1">
       <h1>{{ section.settings.heading }}</h1>
-      
+    </div>
+          
  {%- assign side_panels = section.blocks | where: 'type', 'side_panel' -%}
 {%- if side_panels.size > 0 -%}
   <div class="side-panel product-information-drawer" id="Product-Information-Drawer" tabindex="-1">
@@ -36,7 +37,7 @@
 {%- endif -%}
 
     
-      <div class="display-flex">
+      <div class="col-1 display-flex">
             {% for block in section.blocks %}
               {% if block.type == 'side_panel' %}
                 <side-panel-links class="side-panel-links">
@@ -51,7 +52,7 @@
               {% endif %}
             {% endfor %}
           </div>
-    </div>
+    
     <div class="col-2">
       <div class="box">
         <div class="number-arrow">
