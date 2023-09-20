@@ -79,7 +79,7 @@
   <div class="container_popup">
         <button class="open-call">Click Me</button>
       </div>
-      <div id="popup" class="popup">
+      <div id="popup">
         <div class="content_popup">
           <button class="close-call">&times;</button>
           <h1>Call Now</h1>
@@ -125,16 +125,12 @@
     height: 100%;
 }
 #popup {
-      display: none;
-        position: fixed;
-        top: 0;
-        right: 0;
-        height: 100%;
-        background-color: black;
-        z-index: 999999;
-        align-items: center;
-        justify-content: center;
-        transition: width 0.3s ease;
+    right: 0px;
+    top: 0px;
+    display: none;
+    position: fixed;
+    z-index: 999999;
+    overflow-y: scroll;
 }
 .open-call {
   padding: 15px 30px;
