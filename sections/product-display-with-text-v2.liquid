@@ -154,17 +154,18 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
- <script>
-        $(document).ready(function () {
-            $(".open-call").on("click", function (e) {
-                e.preventDefault();
-                $("#wrap").animate({ width: "toggle" }, 700);
-                $(".open-call").toggleClass("opened closed");
-            });
-            $(".close-call").click(function () {
-                $("#wrap").hide({ width: "toggle" }, 700);
-            });
-        });
+    <script>
+$(document).ready(function () {
+  $(".open-call").on("click", function (e) {
+    e.preventDefault();
+    $("#popup").animate({ width: "toggle" }, 700);
+    $(".open-call").toggleClass("opened closed");
+  });
+  $(".close-call").click(function () {
+    $("#popup").hide({ width: "toggle" }, 700);
+  });
+});
+
     </script>
 
     
