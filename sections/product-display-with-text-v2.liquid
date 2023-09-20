@@ -117,7 +117,7 @@
 }
 .content_popup {
     text-align: center;
-    width: 500px;
+    width: 100%;
     height: auto;
     background: black;
     padding: 10px 10px;
@@ -125,11 +125,13 @@
     height: 100%;
 }
 #popup {
-    position: absolute;
-    right: 0px;
-    top: 0px;
+    position: fixed; /* Change 'absolute' to 'fixed' */
+    right: 0;
+    top: 0;
     display: none;
-    overflow-y: scroll; /* Add this line to enable scrolling for the entire popup */
+    width: 40%; /* Adjust the width as needed */
+    height: 100%; /* Adjust the height as needed */
+    background-color: rgba(0, 0, 0, 0.7); 
 }
 .open-call {
   padding: 15px 30px;
@@ -152,18 +154,17 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <script>
-$(document).ready(function () {
-  $(".open-call").on("click", function (e) {
-    e.preventDefault();
-    $("#popup").animate({ width: "toggle" }, 700);
-    $(".open-call").toggleClass("opened closed");
-  });
-  $(".close-call").click(function () {
-    $("#popup").hide({ width: "toggle" }, 700);
-  });
-});
-
+ <script>
+        $(document).ready(function () {
+            $(".open-call").on("click", function (e) {
+                e.preventDefault();
+                $("#wrap").animate({ width: "toggle" }, 700);
+                $(".open-call").toggleClass("opened closed");
+            });
+            $(".close-call").click(function () {
+                $("#wrap").hide({ width: "toggle" }, 700);
+            });
+        });
     </script>
 
     
