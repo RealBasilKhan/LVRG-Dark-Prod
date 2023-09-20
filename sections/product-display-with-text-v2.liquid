@@ -76,18 +76,17 @@
       </div>
     </div>
 
-    
-    <button id="popupButton">Open Popup</button>
-    <div id="popup" class="popup">
-        <div class="popup-content">
-            <span class="close" id="closeButton">&times;</span>
-            <h2>Popup Content</h2>
-            <p>This is the content of the popup.</p>
-          <div class="page_content">
-             <img src="https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Supplement_Label.webp?v=1695154930" alt="">
-          </div>
+  <div class="container_popup">
+        <button class="open-call">Click Me</button>
+      </div>
+      <div id="popup">
+        <div class="content_popup">
+          <button class="close-call">&times;</button>
+          <h1>Call Now</h1>
+          <p>1234 567 890 00 schedule recall</p>
+          <img src="https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Supplement_Label.webp?v=1695154930" alt="">
         </div>
-    </div>
+      </div>
 
     
   </div>
@@ -113,61 +112,60 @@
  }
 </style>
 <style>
-.popup {
-    display: none;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 40%;
-    height: 100%;
-    background-color: black;
-    z-index: 999999;
-    align-items: center;
-    justify-content: center;
+.container_popup {
+  text-align: center;
 }
-
-.popup-content {
-    padding: 20px;
-    border-radius: 5px;
+.content_popup {
     text-align: center;
-    position: relative;
+    width: 500px;
+    height: auto;
+    background: black;
+    padding: 10px 10px;
+    border-radius: 20px 0px 0 20px;
     height: 100%;
-    width: 100%;
 }
-.close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 20px;
-    cursor: pointer;
+#popup {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: none;
+}
+.open-call {
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 100px;
+}
+.close-call {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white; /* Add this line to set the color to white */
+  font-size: 40px; /* You can adjust the font size as needed */
 }
 
-#popupButton {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-div#popup {
-    overflow-y: scroll;
-}
 </style>
-  <script>
-        const popupButton = document.getElementById("popupButton");
-const popup = document.getElementById("popup");
-const closeButton = document.getElementById("closeButton");
 
-popupButton.addEventListener("click", () => {
-    popup.style.display = "block";
-});
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-closeButton.addEventListener("click", () => {
-    popup.style.display = "none";
+    <script>
+$(document).ready(function () {
+  $(".open-call").on("click", function (e) {
+    e.preventDefault();
+    $("#popup").animate({ width: "toggle" }, 700);
+    $(".open-call").toggleClass("opened closed");
+  });
+  $(".close-call").click(function () {
+    $("#popup").hide({ width: "toggle" }, 700);
+  });
 });
 
     </script>
+
+    
 {% schema %}
 {
   "name": "Product Display V-2",
