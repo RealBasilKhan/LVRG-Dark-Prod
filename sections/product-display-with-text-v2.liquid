@@ -76,7 +76,7 @@
       </div>
     </div>
 
-   <div class="container_popup">
+    <div class="container_popup">
         <button class="open-call">Click Me</button>
     </div>
     <div id="popup">
@@ -112,11 +112,9 @@
  }
 </style>
 <style>
-
     .container_popup {
-        text-align: center;
+      text-align: center;
     }
-
     .content_popup {
         text-align: center;
         width: 100%;
@@ -126,7 +124,6 @@
         border-radius: 20px 0px 0 20px;
         height: 100%;
     }
-
     #popup {
         position: fixed;
         right: -25%; /* Start the popup outside the viewport on the right */
@@ -138,47 +135,37 @@
         overflow-y: scroll;
         transition: right 0.7s; /* Add smooth transition animation */
     }
-
     .open-call {
-        padding: 15px 30px;
-        font-size: 18px;
-        cursor: pointer;
-        margin-top: 100px;
+      padding: 15px 30px;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 100px;
     }
-
     .close-call {
-        position: absolute;
-        left: 10px;
-        top: 10px;
-        background: transparent;
-        border: none;
-        cursor: pointer;
-        color: white;
-        font-size: 40px;
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      color: white; 
+      font-size: 40px; 
     }
-
-    /* Add styles to blur the background */
-    body.blur {
-        filter: blur(5px);
-    }
-
-    @media only screen and (max-width: 767px) {
-        #popup {
-            width: 60%;
-        }
-    }
-</style>
+    /* @media only screen and (max-width: 767px) {
+      #popup {
+        width: 60%;
+      }
+    } */
+    </style>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script>
+<script>
         $(document).ready(function () {
             $(".open-call").on("click", function (e) {
                 e.preventDefault();
-                $("body").addClass("blur"); /* Add blur class to the body */
                 $("#popup").css("right", "0"); /* Slide the popup into view */
             });
             $(".close-call").click(function () {
-                $("body").removeClass("blur"); /* Remove blur class from the body */
                 $("#popup").css("right", "-25%"); /* Slide the popup out of view */
             });
         });
