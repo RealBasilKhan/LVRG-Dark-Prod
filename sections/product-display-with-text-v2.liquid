@@ -79,7 +79,7 @@
   <div class="container_popup">
         <button class="open-call">Click Me</button>
       </div>
-      <div id="popup">
+      <div id="popup" class="popup">
         <div class="content_popup">
           <button class="close-call">&times;</button>
           <h1>Call Now</h1>
@@ -124,7 +124,7 @@
     border-radius: 20px 0px 0 20px;
     height: 100%;
 }
-#popup {
+.popup {
       display: none;
         position: fixed;
         top: 0;
@@ -137,6 +137,9 @@
         justify-content: center;
         transition: width 0.3s ease;
 }
+#popup {
+        overflow-y: scroll;
+    }
 .open-call {
   padding: 15px 30px;
   font-size: 18px;
