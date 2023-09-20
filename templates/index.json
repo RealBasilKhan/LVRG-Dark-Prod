@@ -362,6 +362,46 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
+    },
+    "b3fefce0-1128-4cbf-80d5-3df947252026": {
+      "type": "email-signup",
+      "blocks": {
+        "template--20762913046826__b3fefce0-1128-4cbf-80d5-3df947252026-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Newsletter",
+            "heading_size": "h3"
+          }
+        },
+        "template--20762913046826__b3fefce0-1128-4cbf-80d5-3df947252026-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Add a text to attract users to signup.",
+            "description_size": "medium"
+          }
+        },
+        "template--20762913046826__b3fefce0-1128-4cbf-80d5-3df947252026-form-1": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--20762913046826__b3fefce0-1128-4cbf-80d5-3df947252026-heading-1",
+        "template--20762913046826__b3fefce0-1128-4cbf-80d5-3df947252026-text-1",
+        "template--20762913046826__b3fefce0-1128-4cbf-80d5-3df947252026-form-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "color_bg": "#f5f5f5",
+        "color_text": "#2c2d2e",
+        "color_heading": "#1a1c1d",
+        "color_border": "#d3d3d3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -371,6 +411,7 @@
     "7c4212e3-ce35-4b8c-a221-d6bfa54207f9",
     "cdcbd1df-7e34-4d80-a38a-8ba76343c724",
     "dae44fb7-70f4-45c7-8fe0-d801da6bd384",
-    "2be1970b-258e-417a-bb3f-e2521a22e2b9"
+    "2be1970b-258e-417a-bb3f-e2521a22e2b9",
+    "b3fefce0-1128-4cbf-80d5-3df947252026"
   ]
 }
