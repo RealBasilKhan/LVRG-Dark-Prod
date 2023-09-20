@@ -76,17 +76,17 @@
       </div>
     </div>
 
-  <div class="container_popup">
+   <div class="container_popup">
         <button class="open-call">Click Me</button>
-      </div>
-      <div id="popup">
+    </div>
+    <div id="popup">
         <div class="content_popup">
-          <button class="close-call">&times;</button>
-          <h1>Call Now</h1>
-          <p>1234 567 890 00 schedule recall</p>
-          <img src="https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Supplement_Label.webp?v=1695154930" alt="">
+            <button class="close-call">&times;</button>
+            <h1>Call Now</h1>
+            <p>1234 567 890 00 schedule recall</p>
+            <img src="https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Supplement_Label.webp?v=1695154930" alt="">
         </div>
-      </div>
+    </div>
 
     
   </div>
@@ -112,67 +112,81 @@
  }
 </style>
 <style>
-.container_popup {
-  text-align: center;
-}
-.content_popup {
-    text-align: center;
-    width: 100%;
-    height: auto;
-    background: black;
-    padding: 10px 10px;
-    border-radius: 20px 0px 0 20px;
-    height: 100%;
-}
-#popup {
-    position: fixed;
-    right: 0;
-    top: 0;
-    display: none;
-    width: 40%;
-    height: 100%;
-    background-color: black;
-    z-index: 999;
-    overflow-y: scroll;
-}
-.open-call {
-  padding: 15px 30px;
-  font-size: 18px;
-  cursor: pointer;
-  margin-top: 100px;
-}
-.close-call {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  color: white; 
-  font-size: 40px; 
-}
-@media only screen and (max-width: 767px) {
-  #popup {
-    width: 60%;
-  
-}
-}
+ html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container_popup {
+        text-align: center;
+    }
+
+    .content_popup {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        background: black;
+        padding: 10px 10px;
+        border-radius: 20px 0px 0 20px;
+        height: 100%;
+    }
+
+    #popup {
+        position: fixed;
+        right: -25%; /* Start the popup outside the viewport on the right */
+        top: 0;
+        width: 25%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8); /* Add background dimming with opacity */
+        z-index: 999;
+        overflow-y: scroll;
+        transition: right 0.7s; /* Add smooth transition animation */
+    }
+
+    .open-call {
+        padding: 15px 30px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 100px;
+    }
+
+    .close-call {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-size: 40px;
+    }
+
+    /* Add styles to blur the background */
+    body.blur {
+        filter: blur(5px);
+    }
+
+    @media only screen and (max-width: 767px) {
+        #popup {
+            width: 60%;
+        }
+    }
 </style>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
-$(document).ready(function () {
-  $(".open-call").on("click", function (e) {
-    e.preventDefault();
-    $("#popup").animate({ width: "toggle" }, 700);
-    $(".open-call").toggleClass("opened closed");
-  });
-  $(".close-call").click(function () {
-    $("#popup").hide({ width: "toggle" }, 700);
-  });
-});
-
+        $(document).ready(function () {
+            $(".open-call").on("click", function (e) {
+                e.preventDefault();
+                $("body").addClass("blur"); /* Add blur class to the body */
+                $("#popup").css("right", "0"); /* Slide the popup into view */
+            });
+            $(".close-call").click(function () {
+                $("body").removeClass("blur"); /* Remove blur class from the body */
+                $("#popup").css("right", "-25%"); /* Slide the popup out of view */
+            });
+        });
     </script>
 
     
