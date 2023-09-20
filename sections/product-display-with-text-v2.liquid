@@ -128,7 +128,7 @@
         position: fixed;
         right: -25%; /* Start the popup outside the viewport on the right */
         top: 0;
-        width: 25%;
+        max-width: 540px;
         height: 100%;
         background-color: black; /* Add background dimming with opacity */
         z-index: 999;
@@ -152,9 +152,7 @@
     font-size: 40px;
 }
     @media only screen and (max-width: 767px) {
-      #popup {
-        width: 60%;
-      }
+      
     }
     </style>
 
