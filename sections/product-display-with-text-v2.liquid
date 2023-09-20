@@ -125,11 +125,11 @@
     height: 100%;
 }
 #popup {
+    position: absolute;
     right: 0px;
     top: 0px;
     display: none;
-    position: fixed;
-    z-index: 999999;
+    overflow-y: scroll; /* Add this line to enable scrolling for the entire popup */
 }
 .open-call {
   padding: 15px 30px;
