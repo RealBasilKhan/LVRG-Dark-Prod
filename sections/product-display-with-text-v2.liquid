@@ -144,13 +144,6 @@
     }
 }
 
-
-/* --------------------------------
-
-xpopup
-
--------------------------------- */
-
 .customization_popup {
     position: fixed;
     left: 0;
@@ -288,19 +281,27 @@ xpopup
 }
 </style>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-        $(document).ready(function () {
-            $(".open-call").on("click", function (e) {
-                e.preventDefault();
-                $("#popup").css("right", "0"); /* Slide the popup into view */
-            });
-            $(".close-call").click(function () {
-                $("#popup").css("right", "-60%"); /* Slide the popup out of view */
-            });
-        });
-    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function($) {
+    $('.customization_popup_trigger').on('click', function(event) {
+        event.preventDefault();
+        $('.customization_popup').addClass('is-visible');
+    });
+    $('.customization_popup').on('click', function(event) {
+        if ($(event.target).is('.customization_popup_close') || $(event.target).is('.customization_popup')) {
+            event.preventDefault();
+            $(this).removeClass('is-visible');
+        }
+    });
+    $(document).keyup(function(event) {
+        if (event.which == '27') {
+            $('.customization_popup').removeClass('is-visible');
+        }
+    });
+});
 
+    </script>
     
 {% schema %}
 {
