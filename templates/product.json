@@ -160,8 +160,8 @@
           "settings": {
             "icon": "ruler",
             "image": "shopify:\/\/shop_images\/Male-icon.png",
-            "heading": "The 20% Testosterone Drop",
-            "text": "<p>We've got 20% less testosterone than our dads. Modern pitfalls? Processed foods and too much couch time. More than a concern—it's a reality check.<\/p>"
+            "heading": "Testosterone Decline",
+            "text": "<p>Modern Men have 20% Less Testosterone. Blame junk food and couch marathons.<\/p>"
           }
         },
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2": {
@@ -169,8 +169,8 @@
           "settings": {
             "icon": "ruler",
             "image": "shopify:\/\/shop_images\/vegetable.png",
-            "heading": "8 Out of 10 Men's Veggie Dilemma",
-            "text": "<p>Most guys aren't hitting their veggie targets. It's not just about nutrients; it's jeopardizing our masculine edge. Are you on track?<\/p>"
+            "heading": "Veggie Deficit",
+            "text": "<p>80% of Men Fall Short on Veggies. It's more than health; it's about maintaining that masculine edge.<\/p>"
           }
         },
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3": {
@@ -178,8 +178,8 @@
           "settings": {
             "icon": "ruler",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-08-19_at_3.29.27_PM.png",
-            "heading": "3 Silent Estrogen Boosters in Your Greens",
-            "text": "<p>Heads-up: Many \"greens\" are loaded with soy, alfalfa, and flaxseed—hidden estrogen boosters. Know your scoop; don't get played.<\/p>"
+            "heading": "Hidden Estrogen Boosters",
+            "text": "<p>Beware of Common Greens: They're often packed with soy, alfalfa, and flaxseed – sneaky estrogen boosters.<\/p>"
           }
         }
       },
@@ -743,13 +743,13 @@
             "product4_row_radio": "cross"
           }
         },
-        "20040dca-15ba-4a27-85de-286d23127c85": {
+        "7e2386e4-795c-4363-ae77-3f235ac1029a": {
           "type": "table_row",
           "settings": {
-            "row_title": "USDA Organic",
+            "row_title": "Free of Estrogen Boosters",
             "product1_row_radio": "tick",
             "product2_row_radio": "cross",
-            "product3_row_radio": "tick",
+            "product3_row_radio": "cross",
             "product4_row_radio": "cross"
           }
         },
@@ -763,6 +763,16 @@
             "product4_row_radio": "cross"
           }
         },
+        "c54f8bc0-e153-40a5-8fee-f3d61bdb3b4a": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Only $1.66 per Day",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "tick",
+            "product4_row_radio": "cross"
+          }
+        },
         "540aaec7-3408-4d54-a9b6-64b7ab053fbb": {
           "type": "table_row",
           "settings": {
@@ -773,20 +783,10 @@
             "product4_row_radio": "cross"
           }
         },
-        "7e2386e4-795c-4363-ae77-3f235ac1029a": {
+        "20040dca-15ba-4a27-85de-286d23127c85": {
           "type": "table_row",
           "settings": {
-            "row_title": "Full Serving of Vegetables",
-            "product1_row_radio": "tick",
-            "product2_row_radio": "cross",
-            "product3_row_radio": "tick",
-            "product4_row_radio": "cross"
-          }
-        },
-        "c54f8bc0-e153-40a5-8fee-f3d61bdb3b4a": {
-          "type": "table_row",
-          "settings": {
-            "row_title": "Only $2 per Day",
+            "row_title": "USDA Organic",
             "product1_row_radio": "tick",
             "product2_row_radio": "cross",
             "product3_row_radio": "tick",
@@ -796,11 +796,11 @@
       },
       "block_order": [
         "09112ab2-7a1d-47c0-b6a8-c05515bf9d20",
-        "20040dca-15ba-4a27-85de-286d23127c85",
-        "6a31708c-2934-42d6-93ef-e096e5e90082",
-        "540aaec7-3408-4d54-a9b6-64b7ab053fbb",
         "7e2386e4-795c-4363-ae77-3f235ac1029a",
-        "c54f8bc0-e153-40a5-8fee-f3d61bdb3b4a"
+        "6a31708c-2934-42d6-93ef-e096e5e90082",
+        "c54f8bc0-e153-40a5-8fee-f3d61bdb3b4a",
+        "540aaec7-3408-4d54-a9b6-64b7ab053fbb",
+        "20040dca-15ba-4a27-85de-286d23127c85"
       ],
       "custom_css": [
         ".custom-table div {margin: 1;}"
