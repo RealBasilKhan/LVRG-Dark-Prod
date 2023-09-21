@@ -75,19 +75,25 @@
         <div class="border-bottom"></div>
       </div>
     </div>
-   <div class="popup_button_flex">
-     <button class="customization_popup_trigger custom-btn">View Pop-up</button>
-   </div>
+    
+ <button class="customization_popup_trigger" data-target="content1">View Content 1</button>
+    <button class="customization_popup_trigger" data-target="content2">View Content 2</button>
+
     <div class="customization_popup" role="alert">
-         
         <div class="customization_popup_container">
-          <div class="popup_content_padding">
-            <h1>Call Now</h1>
-            <p>1234 567 890 00 schedule recall</p>
-             <img src="https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Supplement_Label.webp?v=1695154930" alt="">
-            <a href="#0" class="customization_popup_close img-replace">X</a>
-          </div>
-        </div> 
+            <div id="content1" class="customization_popup_content">
+                <h1>Content 1</h1>
+                <p>Content related to button 1 goes here.</p>
+                <img src="image1.jpg" alt="Image 1">
+                <a href="#0" class="customization_popup_close img-replace">X</a>
+            </div>
+            <div id="content2" class="customization_popup_content">
+                <h1>Content 2</h1>
+                <p>Content related to button 2 goes here.</p>
+                <img src="image2.jpg" alt="Image 2">
+                <a href="#0" class="customization_popup_close img-replace">X</a>
+            </div>
+        </div>
     </div>
 
     
@@ -148,7 +154,12 @@
     -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
     transition: opacity 0.3s 0s, visibility 0s 0.3s;
 }
-
+  .customization_popup_content {
+        display: none; /* Hide content by default */
+    }
+    .customization_popup_content.active {
+        display: block; /* Show content when active class is applied */
+    }
 .customization_popup.is-visible {
     opacity: 1;
     visibility: visible;
@@ -274,26 +285,28 @@
 }
 </style>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
-    jQuery(document).ready(function($) {
-    $('.customization_popup_trigger').on('click', function(event) {
-        event.preventDefault();
-        $('.customization_popup').addClass('is-visible');
-    });
-    $('.customization_popup').on('click', function(event) {
-        if ($(event.target).is('.customization_popup_close') || $(event.target).is('.customization_popup')) {
-            event.preventDefault();
-            $(this).removeClass('is-visible');
-        }
-    });
-    $(document).keyup(function(event) {
-        if (event.which == '27') {
-            $('.customization_popup').removeClass('is-visible');
-        }
-    });
-});
-
+        jQuery(document).ready(function($) {
+            $('.customization_popup_trigger').on('click', function(event) {
+                event.preventDefault();
+                var target = $(this).data('target');
+                $('.customization_popup_content').removeClass('active');
+                $('#' + target).addClass('active');
+                $('.customization_popup').addClass('is-visible');
+            });
+            $('.customization_popup').on('click', function(event) {
+                if ($(event.target).is('.customization_popup_close') || $(event.target).is('.customization_popup')) {
+                    event.preventDefault();
+                    $(this).removeClass('is-visible');
+                }
+            });
+            $(document).keyup(function(event) {
+                if (event.which == '27') {
+                    $('.customization_popup').removeClass('is-visible');
+                }
+            });
+        });
     </script>
     
 {% schema %}
