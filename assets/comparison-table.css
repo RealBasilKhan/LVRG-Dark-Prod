@@ -39,7 +39,7 @@
     rgb(5, 136, 81) 0%,
     rgb(33, 84, 64) 90.1%
   );
-   transform: scale3d(1.02,1.2,1.1);
+   /* transform: scale3d(1.02,1.2,1.1); */
     transform-origin: bottom;
     border: none !important;
   border-top:0px !important;
