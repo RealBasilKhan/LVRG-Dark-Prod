@@ -139,7 +139,7 @@
             "text": "Mojo Gummy Benefits",
             "marker_style": "style1",
             "size": "h3",
-            "marker_color": "#FD6262"
+            "marker_color": "#fd6262"
           }
         },
         "template--20762913046826__1a4d37ec-a6e3-465f-b2f6-fda5f0479c80-text-1": {
@@ -158,7 +158,7 @@
         "text_width": "medium",
         "text_position": "center",
         "text_alignment": "center",
-        "color_bg": "transparent",
+        "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#fffff",
         "color_text": "#ffffff",
         "color_links": "#2c2d2e",
@@ -172,7 +172,7 @@
         "template--20762913046826__7c4212e3-ce35-4b8c-a221-d6bfa54207f9-badge-1": {
           "type": "badge",
           "settings": {
-            "text": "Mood Boost",
+            "text": "Masculine Vitality",
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -180,44 +180,45 @@
         "template--20762913046826__7c4212e3-ce35-4b8c-a221-d6bfa54207f9-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Mood Boost",
+            "text": "Masculine Vitality",
             "heading_size": "h3"
           }
         },
         "template--20762913046826__7c4212e3-ce35-4b8c-a221-d6bfa54207f9-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Bring on the feel goods with these neurotransmitter supports for happier brains and long-term cognitive benefits.<\/p>"
+            "text": "<p>Amplify your natural edge. Harness the very essence of nature, known to prime testosterone levels and boost masculine vigor.<br\/><\/p><p><strong>Derived From:<\/strong><\/p>"
           }
         },
         "template--20762913046826__7c4212e3-ce35-4b8c-a221-d6bfa54207f9-tab-1": {
           "type": "tab",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-09-20_at_9.21.03_AM.png",
+            "image": "shopify:\/\/shop_images\/tongkat_ali_herb_600x600_1c417710-e328-47f5-a074-e82b5977f4f9.webp",
             "use_video": false,
             "heading_icon": "none",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
+            "heading": "Tongkat Ali (Eurycoma Longifolia):",
+            "description": "Traditionally used to improve testosterone levels and enhance male fertility.",
             "video_autoplay": true
           }
         },
         "template--20762913046826__7c4212e3-ce35-4b8c-a221-d6bfa54207f9-tab-2": {
           "type": "tab",
           "settings": {
+            "image": "shopify:\/\/shop_images\/fenugreek-in-spoon-with-herbs-on-black-board-2021-08-29-00-33-20-utc.jpg",
             "use_video": false,
             "heading_icon": "none",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
+            "heading": "Fenugreek",
+            "description": "Research suggests it may bolster testosterone levels and improve libido.",
             "video_autoplay": true
           }
         },
-        "template--20762913046826__7c4212e3-ce35-4b8c-a221-d6bfa54207f9-tab-3": {
+        "603276de-6bcd-4275-86ba-b4096b944b53": {
           "type": "tab",
           "settings": {
             "use_video": false,
             "heading_icon": "none",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
+            "heading": "KSM-666 Ashwagandha",
+            "description": "A powerful adaptogen with studies suggesting improvements in testosterone levels and sperm quality.",
             "video_autoplay": true
           }
         }
@@ -228,7 +229,7 @@
         "template--20762913046826__7c4212e3-ce35-4b8c-a221-d6bfa54207f9-text-1",
         "template--20762913046826__7c4212e3-ce35-4b8c-a221-d6bfa54207f9-tab-1",
         "template--20762913046826__7c4212e3-ce35-4b8c-a221-d6bfa54207f9-tab-2",
-        "template--20762913046826__7c4212e3-ce35-4b8c-a221-d6bfa54207f9-tab-3"
+        "603276de-6bcd-4275-86ba-b4096b944b53"
       ],
       "settings": {
         "desktop_height": "desktop-height-650",
@@ -257,14 +258,14 @@
         "template--20762913046826__31bc3fff-5856-4b49-b951-2ff2723665c2-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Media with tabs",
+            "text": "Relentless Energy",
             "heading_size": "h3"
           }
         },
         "template--20762913046826__31bc3fff-5856-4b49-b951-2ff2723665c2-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Fuel your day with enduring energy. Engage in your daily tasks with unwavering stamina and zest.<\/p><p>Derived From:<\/p>"
           }
         },
         "template--20762913046826__31bc3fff-5856-4b49-b951-2ff2723665c2-tab-1": {
@@ -272,8 +273,8 @@
           "settings": {
             "use_video": false,
             "heading_icon": "none",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
+            "heading": "Organic Spirulina",
+            "description": "A nutrient powerhouse known to provide a natural energy boost and improve endurance.",
             "video_autoplay": true
           }
         },
@@ -282,18 +283,18 @@
           "settings": {
             "use_video": false,
             "heading_icon": "none",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
+            "heading": "Organic Cordyceps",
+            "description": "Revered in traditional medicine for its energy-enhancing properties.",
             "video_autoplay": true
           }
         },
-        "template--20762913046826__31bc3fff-5856-4b49-b951-2ff2723665c2-tab-3": {
+        "e473fee4-7f95-4f90-984b-f99971be8a4f": {
           "type": "tab",
           "settings": {
             "use_video": false,
             "heading_icon": "none",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
+            "heading": "Mac",
+            "description": "An ancient root celebrated for its energy-boosting and endurance-enhancing qualities.",
             "video_autoplay": true
           }
         }
@@ -304,7 +305,7 @@
         "template--20762913046826__31bc3fff-5856-4b49-b951-2ff2723665c2-text-1",
         "template--20762913046826__31bc3fff-5856-4b49-b951-2ff2723665c2-tab-1",
         "template--20762913046826__31bc3fff-5856-4b49-b951-2ff2723665c2-tab-2",
-        "template--20762913046826__31bc3fff-5856-4b49-b951-2ff2723665c2-tab-3"
+        "e473fee4-7f95-4f90-984b-f99971be8a4f"
       ],
       "settings": {
         "desktop_height": "desktop-height-650",
@@ -333,14 +334,14 @@
         "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Media with tabs",
+            "text": "Laser-Focused Clarity",
             "heading_size": "h3"
           }
         },
         "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Cut through the noise. With elite cognitive enhancers at your disposal, navigate your day with precision and intent.<\/p><p>Derived From:<\/p>"
           }
         },
         "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-tab-1": {
@@ -348,8 +349,8 @@
           "settings": {
             "use_video": false,
             "heading_icon": "none",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
+            "heading": "Bacopa Monnieri",
+            "description": "Celebrated for its cognitive-enhancing properties, including memory enhancement and improved focus.",
             "video_autoplay": true
           }
         },
@@ -358,8 +359,8 @@
           "settings": {
             "use_video": false,
             "heading_icon": "none",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
+            "heading": "Organic Lion's Mane",
+            "description": "Respected in traditional medicine for its potential to support brain health and elevate cognitive function.",
             "video_autoplay": true
           }
         },
@@ -368,8 +369,8 @@
           "settings": {
             "use_video": false,
             "heading_icon": "none",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
+            "heading": "Organic Reishi",
+            "description": "Often dubbed the \"mushroom of immortality,\" reishi is believed to support mental clarity and overall brain health.",
             "video_autoplay": true
           }
         }
