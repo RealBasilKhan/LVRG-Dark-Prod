@@ -6,9 +6,9 @@
     <div class="col-1">
       <h1>{{ section.settings.heading }}</h1>
 
-
+{% if section.settings.desktop_button !=blank %}
  <button class="your-custom-trigger-class custom-btn mobile_none">{{ section.settings.desktop_button }}</button>
-
+{% endif %}
       
     </div>
     <div class="col-2">
@@ -48,9 +48,9 @@
         </div>
         <p>{{ section.settings.desc3 }}</p>
       </div>
-   
+   {% if section.settings.mobile_button !=blank %}
     <button class="your-custom-trigger-class custom-btn desktop_none">{{ section.settings.mobile_button }}</button>
-
+{% endif %}
     <div class="your-custom-popup-class" role="alert">
         <div class="your-custom-popup-container-class ">
               <div class="popup_information">{{ section.settings.popup_title }}</div>
