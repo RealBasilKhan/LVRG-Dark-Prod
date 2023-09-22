@@ -294,6 +294,7 @@
         "e473fee4-7f95-4f90-984b-f99971be8a4f": {
           "type": "tab",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Maca.jpg",
             "use_video": false,
             "heading_icon": "none",
             "heading": "Maca",
@@ -361,6 +362,7 @@
         "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-tab-3": {
           "type": "tab",
           "settings": {
+            "image": "shopify:\/\/shop_images\/reishi.png",
             "use_video": false,
             "heading_icon": "none",
             "heading": "Organic Reishi",
