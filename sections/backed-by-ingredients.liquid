@@ -5,8 +5,9 @@
   <div class="row number-flex">
     <div class="col-1">
       <h1>{{ section.settings.heading }}</h1>
-      
-     {%- assign side_panels = section.blocks | where: 'type', 'side_panel' -%}
+    </div>
+          
+ {%- assign side_panels = section.blocks | where: 'type', 'side_panel_one' -%}
 {%- if side_panels.size > 0 -%}
   <div class="side-panel product-information-drawer" id="Product-Information-Drawer" tabindex="-1">
     <div class="side-panel-inner">
@@ -35,9 +36,10 @@
   </div>
 {%- endif -%}
 
+    
       <div class="col-1 display-flex">
             {% for block in section.blocks %}
-              {% if block.type == 'side_panel' %}
+              {% if block.type == 'side_panel_one' %}
                 <side-panel-links class="side-panel-links">
                   <button
                     class="btn side-panel-links--link no-js-hidden"
@@ -50,8 +52,7 @@
               {% endif %}
             {% endfor %}
           </div>
-      
-    </div>
+    
     <div class="col-2">
       <div class="box">
         <div class="number-arrow">
@@ -154,9 +155,9 @@
       "default": "View Nutrition Facts"
     }
   ],
-   "blocks": [
- {
-      "type": "side_panel",
+  "blocks": [
+     {
+      "type": "side_panel_one",
       "name": "Information side panel",
       "limit": 1,
       "settings": [
