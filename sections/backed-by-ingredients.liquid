@@ -50,201 +50,39 @@
       </div>
    
 
-    
-        <button class="custom-popup-trigger custom-btn custom-btn2" data-target="content1">Button One</button>
-        <button class="custom-popup-trigger custom-btn custom-btn2" data-target="content2">Button Two</button>
-  
 
-    <div class="custom-popup" role="alert">
-        <div class="custom-popup-container">
-            <div id="content1" class="custom-popup-content">
-                <div class="popup-info">Test One</div>
-                <div class="popup-content-info">Testing One</div>
-                <img src="https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Supplement_Label_f53c71ef-7248-4aa2-90f5-d39bc03f2a5d.webp?v=1695385846" loading="lazy" alt="Image 1">
-                <a href="#0" class="custom-popup-close custom-img-replace">X</a>
+   <div class="popup_button_flex">
+
+  <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">Button One</button>
+
+   
+   <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content2">Button Two</button>
+
+   </div>
+    <div class="customization_popup" role="alert">
+        <div class="customization_popup_container">
+            <div id="content1" class="customization_popup_content">
+                <div class="popup_information">{{ block.settings.title_one }}</div>
+                <div class="popup_content_information">{{ block.settings.content_one }}</div>
+                <img src="{{ block.settings.image_one | img_url: 'master' }}" loading="lazy" alt="Image 1">
+                <a href="#0" class="customization_popup_close img-replace">X</a>
             </div>
-            <div id="content2" class="custom-popup-content">
-                <div class="popup-info">Test Two</div>
-                <div class="popup-content-info">Testing Two</div>
-                <img src="https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Group_58_2.png?v=1695392239" loading="lazy" alt="Image 2">
-                <a href="#0" class="custom-popup-close custom-img-replace">X</a>
+            <div id="content2" class="customization_popup_content">
+            <div class="popup_information">{{ block.settings.title_two }}</div>
+                <div class="popup_content_information">{{ block.settings.content_two }}</div>
+                <img src="{{ block.settings.image_two | img_url: 'master' }}" loading="lazy" alt="Image 2">
+                <a href="#0" class="customization_popup_close img-replace">X</a>
             </div>
         </div>
     </div>
+
 
        
     </div>
   </div>
              
 </section>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        jQuery(document).ready(function($) {
-            $('.custom-popup-trigger').on('click', function(event) {
-                event.preventDefault();
-                var target = $(this).data('target');
-                $('.custom-popup-content').removeClass('active');
-                $('#' + target).addClass('active');
-                $('.custom-popup').addClass('is-visible');
-            });
-            $('.custom-popup').on('click', function(event) {
-                if ($(event.target).is('.custom-popup-close') || $(event.target).is('.custom-popup')) {
-                    event.preventDefault();
-                    $(this).removeClass('is-visible');
-                }
-            });
-            $(document).keyup(function(event) {
-                if (event.which == '27') {
-                    $('.custom-popup').removeClass('is-visible');
-                }
-            });
-        });
-    </script>
-            <style>
- .custom-img-replace {
-    display: inline-block;
-    overflow: hidden;
-    text-indent: 100%;
-    color: transparent;
-    white-space: nowrap;
-}
-.custom-popup-content-padding {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.custom-popup-content {
-    display: none;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.custom-popup {
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(159,163,167,4);
-    background: rgba(var(--color-overlay-rgb),.4);
-    backdrop-filter: blur(7px);
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s 0s, visibility 0s 0.3s;
-}
-.custom-popup-content {
-    display: none; 
-}
-.custom-popup-content.active {
-    display: block; 
-}
-.custom-popup.is-visible {
-    opacity: 1;
-    visibility: visible;
-    transition: opacity 0.3s 0s, visibility 0s 0s;
-    z-index: 999;
-}
-.popup-info {
-    margin: unset;
-    text-align: left;
-    border-bottom: 1px solid black;
-    padding-bottom: 20px;
-    padding-top: 10px;
-}
-.popup-content-info {
-    margin: 20px 0;
-    width: 170px;
-    border-bottom: 2px solid white;
-}
-.custom-popup-container {
-    position: absolute;
-    max-width: 540px;
-    margin: 0 auto;
-    right: 0;
-    top: 0;
-    height: 100%;
-    background: #1F1F23;
-    border-radius: .25em .25em .4em .4em;
-    text-align: center;
-    transform: translatex(400px);
-    backface-visibility: hidden;
-    transition-property: transform;
-    transition-duration: 0.3s;
-    overflow-y: scroll;
-}
 
-.custom-popup-container p {
-    padding: 3em 1em;
-}
-
-.custom-popup-container .custom-popup-buttons:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.custom-popup-container .custom-popup-buttons li {
-    float: left;
-    width: 50%;
-    list-style: none;
-}
-
-.custom-popup-container .custom-popup-buttons a {
-    display: block;
-    height: 60px;
-    line-height: 60px;
-    text-transform: uppercase;
-    color: #FFF;
-    transition: background-color 0.2s;
-}
-
-.custom-popup-container .custom-popup-buttons li:first-child a {
-    background: #fc7169;
-    border-radius: 0 0 0 .25em;
-}
-
-.no-touch .custom-popup-container .custom-popup-buttons li:first-child a:hover {
-    background-color: #fc8982;
-}
-
-.custom-popup-container .custom-popup-buttons li:last-child a {
-    background: #b6bece;
-    border-radius: 0 0 .25em 0;
-}
-
-.no-touch .custom-popup-container .custom-popup-buttons li:last-child a:hover {
-    background-color: #c5ccd8;
-}
-
-.custom-popup-container .custom-popup-close {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-}
-
-.custom-popup-container .custom-popup-close::before, .custom-popup-container .custom-popup-close::after {
-    content: '';
-    position: absolute;
-    top: 12px;
-    width: 14px;
-    height: 3px;
-    background-color: #8f9cb5;
-}
-
-.custom-popup-container .custom-popup-close::before {
-    transform: rotate(45deg);
-    left: 8px;
-}
-
-.custom-popup-container .custom-popup-close::after {
-    transform: rotate(-45deg);
-    right: 8px;
-}
-
-.is-visible .custom-popup-container {
-    transform: translateY(0);
-}
-</style>
 {% schema %}
 {
   "name": "Backed By Ingredients",
