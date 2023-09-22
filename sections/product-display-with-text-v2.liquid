@@ -77,7 +77,7 @@
     </div>
   {% for block in section.blocks %}  
    <div class="popup_button_flex">
-  {% if block.settings.button_text_one %}
+  {% if block.settings.button_text_one != blank %}
   <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">{{ block.settings.button_text_one }}</button>
   {% endif %}
     {% if block.settings.button_text_two != blank %}
