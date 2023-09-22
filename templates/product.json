@@ -876,15 +876,6 @@
             "page": ""
           }
         },
-        "233b3390-1fd4-45f9-9259-8dbb13400fef": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "WHAT DOES IT TASTE LIKE?",
-            "open": false,
-            "content": "<p>Think earthy, fresh, with a hint of nature's goodness. A taste that grows on you.<\/p>",
-            "page": ""
-          }
-        },
         "a3c751c4-66ff-41de-a34a-72fc4d4a7475": {
           "type": "collapsible_tab",
           "settings": {
@@ -919,7 +910,6 @@
         "6ca4af54-3f47-4d4d-9060-0ff238ab6d1a",
         "78977bda-88c1-4c5d-a57b-395a8e01f169",
         "2c7b494a-c873-48e4-9060-663a70cebb2a",
-        "233b3390-1fd4-45f9-9259-8dbb13400fef",
         "a3c751c4-66ff-41de-a34a-72fc4d4a7475",
         "4c33cf1c-74ff-4a11-b7b2-70706ec4dd9f",
         "91f4a562-54ac-4226-9c64-8cfd0f20339b"
