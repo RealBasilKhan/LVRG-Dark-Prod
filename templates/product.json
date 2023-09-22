@@ -431,6 +431,22 @@
     },
     "bd0b8c83-eda9-4d71-93b1-4b953ee8970b": {
       "type": "backed-by-ingredients",
+      "blocks": {
+        "b4808e17-9ac6-4213-90b3-45c85048864a": {
+          "type": "side_panel",
+          "settings": {
+            "button_text_one": "VIEW NUTRITION FACTS",
+            "title_one": "",
+            "content_one": "",
+            "button_text_two": "VIEW NUTRITION FACTS",
+            "title_two": "",
+            "content_two": ""
+          }
+        }
+      },
+      "block_order": [
+        "b4808e17-9ac6-4213-90b3-45c85048864a"
+      ],
       "settings": {
         "arrow": "shopify:\/\/shop_images\/Arrow-down.png",
         "heading": "BACKED BY INGREDIENTS WITH SCIENTIFIC STUDIES SHOWN TO",
@@ -439,10 +455,7 @@
         "stat2": "47",
         "desc2": "Boost in testosterone levels",
         "stat3": "69",
-        "desc3": "Reduction in insomnia and anxiety",
-        "button": "View Nutrition Facts",
-        "side_panel_1_label": "",
-        "side_panel_1_page": ""
+        "desc3": "Reduction in insomnia and anxiety"
       }
     },
     "05619a4f-436f-4d3b-bdea-56c97722e0c3": {
