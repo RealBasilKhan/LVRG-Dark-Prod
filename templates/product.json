@@ -842,6 +842,7 @@
         },
         "6ca4af54-3f47-4d4d-9060-0ff238ab6d1a": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "WHY SHOULD I CHOOSE METAMIX OVER ENERGY DRINKS?",
             "open": false,
