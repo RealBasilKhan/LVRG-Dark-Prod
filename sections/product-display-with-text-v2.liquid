@@ -1,122 +1,592 @@
-{{ 'backed-by-ingredients.css' | asset_url | stylesheet_tag }}
+{% comment %}
+  product-display-with-text.liquid
+  Section for a customizable product display with text.
+{% endcomment %}
 
-<!-- READ EVERY COMMENT CAREFULLY PLEASE -->
-<section class="container">
-  <div class="row number-flex">
-    <div class="col-1">
-      <h1>{{ section.settings.heading }}</h1>
+{{ 'product-display-with-text-v2.css' | asset_url | stylesheet_tag }}
+<div class="background-img">
+<section class="black-edition container">
+  <div class="main-container">
+    <h1 class="main-heading">
+      {{ section.settings.heading }}
+    </h1>
+    <div class="row">
+      <div class="col-2">
+        <div class="box">
+          <div class="logo">
+            <img src="{{ section.settings.icon_left1 | img_url: 'small' }}" alt="" class="img-fluid">
+          </div>
+          <div class="content">
+            <h1>{{ section.settings.heading_left1 }}</h1>
+            <p>{{ section.settings.text_left1 }}</p>
+          </div>
+        </div>
+        <div class="border-bottom"></div>
+        <div class="box">
+          <div class="logo">
+            <img src="{{ section.settings.icon_left2 | img_url: 'small' }}" alt="" class="img-fluid">
+          </div>
+          <div class="content">
+            <h1>{{ section.settings.heading_left2 }}</h1>
+            <p>{{ section.settings.text_left2 }}</p>
+          </div>
+        </div>
 
+        <div class="border-bottom"></div>
+      </div>
+      <div class="border-bottom"></div>
+      <div class="col-1">
+        <div class="main-images">
+          <div class="image-container">
+            <div class="image-highlight"></div>
+            <img
+              src="{{ section.settings.image_middle | img_url: 'large' }}"
+              alt="Black Edition"
+              class="img-fluid black-ad"
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-2 colom-revers">
+        <div class="box">
+          <div class="content">
+            <h1>{{ section.settings.heading_right1 }}</h1>
+            <p>
+              {{ section.settings.text_right1 }}
+            </p>
+          </div>
+          <div class="logo">
+            <img src="{{ section.settings.icon_right1 | img_url: 'small' }}" alt="" class="img-fluid">
+          </div>
+        </div>
 
-      
+        <div class="border-bottom"></div>
+        <div class="box">
+          <div class="content">
+            <h1>{{ section.settings.heading_right2 }}</h1>
+            <p>
+              {{ section.settings.text_right2 }}
+            </p>
+          </div>
+          <div class="logo">
+            <img src="{{ section.settings.icon_right2 | img_url: 'small' }}" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="border-bottom"></div>
+      </div>
     </div>
-    <div class="col-2">
-      <div class="box">
-        <div class="number-arrow">
-          <image
-            src="{{ section.settings.arrow | img_url: 'small' }}"
-            alt="Arrow"
-            class="img-fluid arrow-up"
-            loading="lazy"
-          />
-          <h1>{{ section.settings.stat1 }}</h1>
+  {% for block in section.blocks %}  
+   <div class="popup_button_flex">
+  {% if block.settings.button_text_one != blank %}
+  <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">{{ block.settings.button_text_one }}</button>
+  {% endif %}
+    {% if block.settings.button_text_two != blank %}
+   <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content2">{{ block.settings.button_text_two }}</button>
+   {% endif %}
+   </div>
+    <div class="customization_popup" role="alert">
+        <div class="customization_popup_container">
+            <div id="content1" class="customization_popup_content">
+                <div class="popup_information">{{ block.settings.title_one }}</div>
+                <div class="popup_content_information">{{ block.settings.content_one }}</div>
+                <img src="{{ block.settings.image_one | img_url: 'master' }}" loading="lazy" alt="Image 1">
+                <a href="#0" class="customization_popup_close img-replace">X</a>
+            </div>
+            <div id="content2" class="customization_popup_content">
+            <div class="popup_information">{{ block.settings.title_two }}</div>
+                <div class="popup_content_information">{{ block.settings.content_two }}</div>
+                <img src="{{ block.settings.image_two | img_url: 'master' }}" loading="lazy" alt="Image 2">
+                <a href="#0" class="customization_popup_close img-replace">X</a>
+            </div>
         </div>
-        <p>{{ section.settings.desc1 }}</p>
-      </div>
-      <div class="box">
-        <div class="number-arrow">
-          <image
-            src="{{ section.settings.arrow | img_url: 'small' }}"
-            alt="Arrow"
-            class="img-fluid arrow-up"
-            loading="lazy"
-          />
-          <h1>{{ section.settings.stat2 }}</h1>
-        </div>
-        <p>{{ section.settings.desc2 }}</p>
-      </div>
-      <div class="box">
-        <div class="number-arrow">
-          <image
-            src="{{ section.settings.arrow | img_url: 'small' }}"
-            alt="Arrow"
-            class="img-fluid"
-            loading="lazy"
-          />
-          <h1>{{ section.settings.stat3 }}</h1>
-        </div>
-        <p>{{ section.settings.desc3 }}</p>
-      </div>
-
-
-            
     </div>
+  {% endfor %}
+    
   </div>
 </section>
+</div>
+<style>
+ @media screen and (min-width: 769px) {
+.background-img {
+    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_58_1.png?v=1695026148);
+    background-repeat: no-repeat;
+    background-position: right 0px top -115px;
+}
+   }
+.display-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.popup_button_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.custom-btn2 {
+    width: unset !important;
+    padding: 14px 30px !important;
+}
+ @media screen and (max-width: 768px) {
+    display: block;
+}
+ }
+</style>
+<style>
+ .img-replace {
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 100%;
+    color: transparent;
+    white-space: nowrap;
+}
+.popup_content_padding {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.customization_popup_content {
+    display: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.customization_popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(159,163,167,4);
+   background: rgba(var(--color-overlay-rgb),.4);
+    backdrop-filter: blur(7px);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s;
+}
+  .customization_popup_content {
+        display: none; 
+    }
+    .customization_popup_content.active {
+        display: block; 
+    }
+.customization_popup.is-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s;
+    z-index: 999;
+}
+.popup_information {
+    margin: unset;
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.popup_content_information {
+    margin: 20px 0;
+    width: 170px;
+    border-bottom: 2px solid white;
+}
+.customization_popup_container {
+    position: absolute;
+    max-width: 540px;
+    margin: 0 auto;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: #1F1F23;
+    border-radius: .25em .25em .4em .4em;
+    text-align: center;
+    -webkit-transform: translatex(400px);
+    -moz-transform: translatex(400px);
+    -ms-transform: translatex(400px);
+    -o-transform: translatex(400px);
+    transform: translatex(400px);
+    -webkit-backface-visibility: hidden;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    overflow-y: scroll;
+}
 
+.customization_popup_container p {
+    padding: 3em 1em;
+}
+
+.customization_popup_container .customization_popup_buttons:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.customization_popup_container .customization_popup_buttons li {
+    float: left;
+    width: 50%;
+    list-style: none;
+}
+
+.customization_popup_container .customization_popup_buttons a {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFF;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+
+.customization_popup_container .customization_popup_buttons li:first-child a {
+    background: #fc7169;
+    border-radius: 0 0 0 .25em;
+}
+
+.no-touch .customization_popup_container .customization_popup_buttons li:first-child a:hover {
+    background-color: #fc8982;
+}
+
+.customization_popup_container .customization_popup_buttons li:last-child a {
+    background: #b6bece;
+    border-radius: 0 0 .25em 0;
+}
+
+.no-touch .customization_popup_container .customization_popup_buttons li:last-child a:hover {
+    background-color: #c5ccd8;
+}
+
+.customization_popup_container .customization_popup_close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+}
+
+.customization_popup_container .customization_popup_close::before, .customization_popup_container .customization_popup_close::after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    width: 14px;
+    height: 3px;
+    background-color: #8f9cb5;
+}
+
+.customization_popup_container .customization_popup_close::before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 8px;
+}
+
+.customization_popup_container .customization_popup_close::after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    right: 8px;
+}
+
+.is-visible .customization_popup_container {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.customization_popup_trigger').on('click', function(event) {
+                event.preventDefault();
+                var target = $(this).data('target');
+                $('.customization_popup_content').removeClass('active');
+                $('#' + target).addClass('active');
+                $('.customization_popup').addClass('is-visible');
+            });
+            $('.customization_popup').on('click', function(event) {
+                if ($(event.target).is('.customization_popup_close') || $(event.target).is('.customization_popup')) {
+                    event.preventDefault();
+                    $(this).removeClass('is-visible');
+                }
+            });
+            $(document).keyup(function(event) {
+                if (event.which == '27') {
+                    $('.customization_popup').removeClass('is-visible');
+                }
+            });
+        });
+    </script>
+    
 {% schema %}
 {
-  "name": "Backed By Ingredients",
+  "name": "Product Display V-2",
   "settings": [
     {
-      "type": "image_picker",
-      "label": "Arrow",
-      "id": "arrow"
+      "type": "color",
+      "label": "Section Background",
+      "id": "section_background",
+      "default": "#fff"
     },
     {
       "type": "text",
-      "id": "heading",
       "label": "Heading",
-      "default": "Backed By Ingredients"
+      "id": "heading",
+      "default": "Each Huel Black Edition meal contains..."
+    },
+    {
+      "type": "color",
+      "label": "Text Color",
+      "id": "text_color",
+      "default": "#000"
+    },
+    {
+      "type": "image_picker",
+      "label": "Left Icon 1",
+      "id": "icon_left1"
     },
     {
       "type": "text",
-      "id": "stat1",
-      "label": "Stat 1",
-      "default": "100%"
+      "label": "Left Heading 1",
+      "id": "heading_left1",
+      "default": "27 vitamins and minerals"
     },
     {
       "type": "textarea",
-      "id": "desc1",
-      "label": "Description 1",
-      "default": "of our products are made with natural ingredients"
+      "label": "Left Text 1",
+      "id": "text_left1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Left Icon 2",
+      "id": "icon_left2"
     },
     {
       "type": "text",
-      "id": "stat2",
-      "label": "Stat 2",
-      "default": "100%"
+      "label": "Left Heading 2",
+      "id": "heading_left2",
+      "default": "40g protein"
     },
     {
       "type": "textarea",
-      "id": "desc2",
-      "label": "Description 2",
-      "default": "of our products are made with natural ingredients"
+      "label": "Left Text 2",
+      "id": "text_left2"
+    },
+    {
+      "type": "image_picker",
+      "label": "Middle Image",
+      "id": "image_middle"
+    },
+    {
+      "type": "image_picker",
+      "label": "Right Icon 1",
+      "id": "icon_right1"
     },
     {
       "type": "text",
-      "id": "stat3",
-      "label": "Stat 3",
-      "default": "100%"
+      "label": "Right Heading 1",
+      "id": "heading_right1",
+      "default": "Gluten-free"
     },
     {
       "type": "textarea",
-      "id": "desc3",
-      "label": "Description 3",
-      "default": "of our products are made with natural ingredients"
+      "label": "Right Text 1",
+      "id": "text_right1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Right Icon 2",
+      "id": "icon_right2"
     },
     {
       "type": "text",
-      "id": "button",
-      "label": "Button",
-      "default": "View Nutrition Facts"
+      "label": "Right Heading 2",
+      "id": "heading_right2",
+      "default": "No artificial sweeteners"
+    },
+    {
+      "type": "textarea",
+      "label": "Right Text 2",
+      "id": "text_right2"
+    },
+    {
+      "type": "url",
+      "label": "Button 1 Link",
+      "id": "button1_link"
+    },
+    {
+      "type": "color",
+      "label": "Button 1 Color",
+      "id": "button1_color",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "label": "Button 1 Text Color",
+      "id": "button1_text_color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "label": "Button 1 Text",
+      "id": "button1_text",
+      "default": "Button 1"
+    },
+    {
+      "type": "url",
+      "label": "Button 2 Link",
+      "id": "button2_link"
+    },
+    {
+      "type": "color",
+      "label": "Button 2 Color",
+      "id": "button2_color",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "label": "Button 2 Text Color",
+      "id": "button2_text_color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "label": "Button 2 Text",
+      "id": "button2_text",
+      "default": "Button 2"
+    },
+      {
+      "type": "text",
+      "label": "Button Text One",
+      "id": "button_text_one"
+    },
+      {
+      "type": "url",
+      "label": "Button Link One",
+      "id": "button_link_one"
+    },
+        {
+      "type": "text",
+      "label": "Button Text Two",
+      "id": "button_text_two"
+    },
+      {
+      "type": "url",
+      "label": "Button Link Two",
+      "id": "button_link_two"
+    },
+    {
+      "type": "page",
+      "id": "side_panel",
+      "label": "Page"
+     }
+  ],
+  "blocks": [
+ {
+      "type": "side_panel",
+      "name": "Information side panel",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_text_one",
+          "label": "Button Text One"
+        },
+        {
+          "type": "text",
+          "id": "title_one",
+          "label": "Title One"
+        },
+        {
+          "type": "text",
+          "id": "content_one",
+          "label": "Content One"
+        },
+         {
+          "type": "image_picker",
+          "id": "image_one",
+          "label": "Image One"
+        },
+          {
+          "type": "text",
+          "id": "button_text_two",
+          "label": "Button Text Two"
+        },
+        {
+          "type": "text",
+          "id": "title_two",
+          "label": "Title Two"
+        },
+        {
+          "type": "text",
+          "id": "content_two",
+          "label": "Content Two"
+        },
+         {
+          "type": "image_picker",
+          "id": "image_two",
+          "label": "Image Two"
+        }
+      ]
     }
   ],
-  "blocks": [],
   "presets": [
     {
-      "name": "Backed By Ingredients",
-      "category": "Backed By Ingredients"
+      "category": "Custom Benefits",
+      "name": "Huel Section"
     }
   ]
 }
 {% endschema %}
+
+<script>
+  function isElementInViewport(el) {
+    var top = el.offsetTop;
+    var left = el.offsetLeft;
+    var width = el.offsetWidth;
+    var height = el.offsetHeight;
+
+    while (el.offsetParent) {
+      el = el.offsetParent;
+      top += el.offsetTop;
+      left += el.offsetLeft;
+    }
+
+    return (
+      top < window.pageYOffset + window.innerHeight &&
+      left < window.pageXOffset + window.innerWidth &&
+      top + height > window.pageYOffset &&
+      left + width > window.pageXOffset
+    );
+  }
+
+  function addClass() {
+    var sections = document.querySelectorAll('.animationx');
+
+    sections.forEach(function (section) {
+      if (isElementInViewport(section)) {
+        if (section.classList.contains('active')) {
+        } else {
+          section.classList.add('active');
+        }
+      } else {
+        section.classList.remove('active');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', addClass);
+  addClass();
+</script>
