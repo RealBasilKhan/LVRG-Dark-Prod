@@ -310,7 +310,7 @@
         "icon_left2": "shopify:\/\/shop_images\/edition-2.png",
         "heading_left2": "RESEARCH-BACKED FORMULA",
         "text_left2": "Real results backed by real research. No bro science, just hard facts.",
-        "image_middle": "shopify:\/\/shop_images\/Group_58_2.png",
+        "image_middle": "shopify:\/\/shop_images\/Shadow_BG_038dd0d7-f3ce-43a0-8d23-786c240971fc.png",
         "icon_right1": "shopify:\/\/shop_images\/edition-3.png",
         "heading_right1": "100% TRANSPARENCY",
         "text_right1": "Trust is built on truth. That's why we lay everything out in the open. Every ingredient, every percentage, no secrets.",
@@ -431,23 +431,6 @@
     },
     "bd0b8c83-eda9-4d71-93b1-4b953ee8970b": {
       "type": "backed-by-ingredients",
-      "blocks": {
-        "0865d160-32d8-4e7f-b46c-5239c8d3f778": {
-          "type": "popup",
-          "settings": {
-            "button_text_desktop": "testing",
-            "title_desktop": "",
-            "content_desktop": "",
-            "image_desktop": "shopify:\/\/shop_images\/reishi.png",
-            "button_text_mobile": "test",
-            "title_mobile": "",
-            "content_mobile": ""
-          }
-        }
-      },
-      "block_order": [
-        "0865d160-32d8-4e7f-b46c-5239c8d3f778"
-      ],
       "settings": {
         "arrow": "shopify:\/\/shop_images\/Arrow-down.png",
         "heading": "BACKED BY INGREDIENTS WITH SCIENTIFIC STUDIES SHOWN TO",
@@ -456,7 +439,13 @@
         "stat2": "47",
         "desc2": "Boost in testosterone levels",
         "stat3": "69",
-        "desc3": "Reduction in insomnia and anxiety"
+        "desc3": "Reduction in insomnia and anxiety",
+        "button_text_desktop": "",
+        "title_desktop": "",
+        "content_desktop": "",
+        "button_text_mobile": "",
+        "title_mobile": "",
+        "content_mobile": ""
       }
     },
     "05619a4f-436f-4d3b-bdea-56c97722e0c3": {
