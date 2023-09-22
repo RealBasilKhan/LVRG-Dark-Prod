@@ -1267,3 +1267,28 @@ document.addEventListener('DOMContentLoaded', () => {
     new FooterMenuToggle();
   }
 });
+
+
+
+
+
+        jQuery(document).ready(function($) {
+            $('.customization_popup_trigger').on('click', function(event) {
+                event.preventDefault();
+                var target = $(this).data('target');
+                $('.customization_popup_content').removeClass('active');
+                $('#' + target).addClass('active');
+                $('.customization_popup').addClass('is-visible');
+            });
+            $('.customization_popup').on('click', function(event) {
+                if ($(event.target).is('.customization_popup_close') || $(event.target).is('.customization_popup')) {
+                    event.preventDefault();
+                    $(this).removeClass('is-visible');
+                }
+            });
+            $(document).keyup(function(event) {
+                if (event.which == '27') {
+                    $('.customization_popup').removeClass('is-visible');
+                }
+            });
+        });
