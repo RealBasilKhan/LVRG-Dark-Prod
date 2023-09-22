@@ -881,6 +881,7 @@
         },
         "4c33cf1c-74ff-4a11-b7b2-70706ec4dd9f": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "WHAT INSPIRED THE CREATION OF THIS METAMIX?",
             "open": false,
