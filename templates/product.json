@@ -282,6 +282,22 @@
     },
     "eafca1d4-05cf-4432-afce-a9c35d9df8d9": {
       "type": "product-display-with-text-v2",
+      "blocks": {
+        "f89eed25-672c-47da-879c-f3049d657152": {
+          "type": "side_panel",
+          "settings": {
+            "button_text_one": "Nutritional information",
+            "title_one": "",
+            "content_one": "",
+            "button_text_two": "Ingredients information",
+            "title_two": "",
+            "content_two": ""
+          }
+        }
+      },
+      "block_order": [
+        "f89eed25-672c-47da-879c-f3049d657152"
+      ],
       "settings": {
         "section_background": "#ffffff",
         "heading": "Each LVRG Scoop contains...",
