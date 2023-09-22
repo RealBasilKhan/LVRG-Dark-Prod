@@ -54,7 +54,7 @@
     width: 100%;
     height: 100%;
     position: relative;
-    box-shadow: -10px -10px 27px, 0 0 3px #e27624;
+    /* box-shadow: -10px -10px 27px, 0 0 3px #e27624; */
 }
 .black-edition .row .col-1 .shadow-ab {
   position: absolute;
