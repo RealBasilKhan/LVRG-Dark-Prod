@@ -852,6 +852,7 @@
         },
         "78977bda-88c1-4c5d-a57b-395a8e01f169": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "HOW MUCH SHOULD I TAKE DAILY?",
             "open": false,
@@ -861,6 +862,7 @@
         },
         "2c7b494a-c873-48e4-9060-663a70cebb2a": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "IS THE METAMIX ORGANIC?",
             "open": false,
@@ -871,7 +873,7 @@
         "a3c751c4-66ff-41de-a34a-72fc4d4a7475": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "WHO IS THE METAMIX DESIGNED FOR? CAN WOMEN USE IT?",
+            "heading": "CAN WOMEN USE IT?",
             "open": false,
             "content": "<p>While crafted with men in mind, it's beneficial for everyone. So, ladies, feel free to dive in.<\/p>",
             "page": ""
