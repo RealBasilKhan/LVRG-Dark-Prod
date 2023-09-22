@@ -80,7 +80,7 @@
   {% if block.settings.button_text_one %}
   <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">{{ block.settings.button_text_one }}</button>
   {% endif %}
-    {% if block.settings.button_text_two %}
+    {% if block.settings.button_text_two != blank %}
    <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content2">{{ block.settings.button_text_two }}</button>
    {% endif %}
    </div>
