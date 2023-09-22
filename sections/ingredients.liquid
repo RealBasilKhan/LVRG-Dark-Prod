@@ -1,15 +1,19 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 <style>
   .custom-btn {
+    background: #f4e588;
+    background: linear-gradient(135deg, #f4e588, #e26c5a);
+    margin-top: 15px;
+    width: 100%;
+    color: #ffff;
+    transition: background 0.3s ease;
     color: #fff;
-    font-family: Nexa-Bold;
+    font-family: 'Nexa-Bold';
     text-align: center;
     padding: 20px 0;
-    border-radius: 35px;
     background-color: #e27624;
     width: 100%;
-    transition: 0.5s;
-    border: 1px solid transparent;
+    border-radius: 10px;
     cursor: pointer;
     display: block;
   }
@@ -18,212 +22,141 @@
     background-color: transparent;
   }
   @media screen and (min-width: 769px) {
-  .background-right-top {
-    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_50_1.png?v=1695044670);
-    background-repeat: no-repeat;
-    background-position: right 0px top -92px;
-}
-.background-left-button {
-    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_1.png?v=1695048071);
-    background-repeat: no-repeat;
-    background-position: left 0px bottom -95px;
-}
+    .background-right-top {
+      background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_50_1.png?v=1695044670);
+      background-repeat: no-repeat;
+      background-position: right 0px top -92px;
+    }
+    .background-left-button {
+      background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_1.png?v=1695048071);
+      background-repeat: no-repeat;
+      background-position: left 0px bottom -95px;
+    }
   }
 </style>
 {{ 'ingredients.css' | asset_url | stylesheet_tag }}
 <div class="background-right-top">
-<div class="background-left-button">  
-<div class="container">
-  <h1 class="main-heading">{{ section.settings.heading }}</h1>
-  <div class="para-center">
-    <p>{{ section.settings['sub-heading'] }}</p>
-  </div>
-  <div class="row tabs">
-    <div class="col-1">
-      <div class="flex-tag">
-        {% for block in section.blocks %}
-          {% assign active = '' %}
-          {% if forloop.first %}
-            {% assign active = 'active' %}
-          {% endif %}
-          {% if block.settings['tab-title'] != blank %}
-            <a class="{{ active }} pc sj-link" href="#" data-block-id="{{ block.id }}">
-              {{- block.settings['tab-title'] -}}
-            </a>
-          {% endif %}
-        {% endfor %}
+  <div class="background-left-button">
+    <div class="container">
+      <h1 class="main-heading">{{ section.settings.heading }}</h1>
+      <div class="para-center">
+        <p>{{ section.settings['sub-heading'] }}</p>
       </div>
-      <div class="col-1 mobile sj-mobile-links">
-        {% for block in section.blocks %}
-          {% assign active = '' %}
-          {% if forloop.first %}
-            {% assign active = 'active' %}
-          {% endif %}
-          {% if block.settings['tab-title'] != blank %}
-            <a class="mobile {{ active }}" href="#" data-block-id="{{ block.id }}">{{ block.settings['tab-title'] }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-
-  <!-- *******Done******** -->
-  {% for block in section.blocks %}
-    {% assign active = '' %}
-    {% if forloop.first %}
-      {% assign active = 'active' %}
-    {% endif %}
-    <div class="{{ block.id }} {{ active }} sj-blocks">
-      <div class="flex-row only-mobile">
-        <div class="col-2 sj-left sj-container">
-          <div class="box-{{ forloop.index }} box">
-            {% for i in (1..8) %}
-              {% assign card_image = 'card-image' | append: i %}
-              {% assign card_title = 'card-title' | append: i %}
-              {% assign card_desc = 'card-desc' | append: i %}
+      <div class="row tabs">
+        <div class="col-1">
+          <div class="flex-tag">
+            {% for block in section.blocks %}
               {% assign active = '' %}
               {% if forloop.first %}
                 {% assign active = 'active' %}
               {% endif %}
-              {% if block.settings[card_image] != blank %}
-                <div class="item-{{ forloop.index0 }} items {{ active }}" data-index="{{ i }}">
-                  <div class="shadow-flex">
-                    <img
-                      src="{{ block.settings[card_image] | img_url: 'small' }}"
-                      alt="{{ block.settings[card_image].alt }}"
-                      class="img-fluid main-img"
-                    >
-                    <img src="{{ 'shadow.png' | asset_url }}" alt="Shadow" class="img-fluid shadow">
-                  </div>
-                  <h4>{{ block.settings[card_title] }}</h4>
-                </div>
+              {% if block.settings['tab-title'] != blank %}
+                <a class="{{ active }} pc sj-link" href="#" data-block-id="{{ block.id }}">
+                  {{- block.settings['tab-title'] -}}
+                </a>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="col-1 mobile sj-mobile-links">
+            {% for block in section.blocks %}
+              {% assign active = '' %}
+              {% if forloop.first %}
+                {% assign active = 'active' %}
+              {% endif %}
+              {% if block.settings['tab-title'] != blank %}
+                <a class="mobile {{ active }}" href="#" data-block-id="{{ block.id }}">
+                  {{- block.settings['tab-title'] -}}
+                </a>
               {% endif %}
             {% endfor %}
           </div>
         </div>
-        <div class="col-1 sj-right sj-container">
-          {% for i in (1..8) %}
-            {% assign card_image = 'card-image' | append: i %}
-            {% assign card_title = 'card-title' | append: i %}
-            {% assign card_desc = 'card-desc' | append: i %}
-
-            {% assign active = '' %}
-            {% if forloop.first %}
-              {% assign active = 'active' %}
-            {% endif %}
-            {% if block.settings[card_image] != blank %}
-              <div class="first-product {{ active }}" data-index="{{ i }}">
-                <div class="shadow-flex">
-                  <img
-                    src="{{ block.settings[card_image] | image_url }}"
-                    alt="{{ block.settings[card_image].alt }}"
-                    class="img-fluid main-img"
-                  >
-                  <img src="{{ 'shadow.png' | asset_url }}" alt="Shadow" class="img-fluid shadow">
-                </div>
-                <h1>{{ block.settings[card_title] }}</h1>
-                {{ block.settings[card_desc] }}
-              </div>
-            {% endif %}
-          {% endfor %}
-        </div>
       </div>
-      {% for i in (1..8) %}
+
+      <!-- *******Done******** -->
+      {% for block in section.blocks %}
         {% assign active = '' %}
         {% if forloop.first %}
           {% assign active = 'active' %}
         {% endif %}
-        {% assign what_is = 'what-is-it' | append: i %}
-        {% assign what_does = 'what-is-does' | append: i %}
-        <div class="{{ active }} para-btn only-mobile" data-index="{{ i }}">
-          <div class="col-2">
-            {% if block.settings[what_is] != blank %}
-              <div class="box">
-                <h1>What it is?</h1>
-                {{ block.settings[what_is] }}
+        <div class="{{ block.id }} {{ active }} sj-blocks">
+          <div class="flex-row only-mobile">
+            <div class="col-2 sj-left sj-container">
+              <div class="box-{{ forloop.index }} box">
+                {% for i in (1..8) %}
+                  {% assign card_image = 'card-image' | append: i %}
+                  {% assign card_title = 'card-title' | append: i %}
+                  {% assign card_desc = 'card-desc' | append: i %}
+                  {% assign active = '' %}
+                  {% if forloop.first %}
+                    {% assign active = 'active' %}
+                  {% endif %}
+                  {% if block.settings[card_image] != blank %}
+                    <div class="item-{{ forloop.index0 }} items {{ active }}" data-index="{{ i }}">
+                      <div class="shadow-flex">
+                        <img
+                          src="{{ block.settings[card_image] | img_url: 'small' }}"
+                          alt="{{ block.settings[card_image].alt }}"
+                          class="img-fluid main-img"
+                        >
+                        <img src="{{ 'shadow.png' | asset_url }}" alt="Shadow" class="img-fluid shadow">
+                      </div>
+                      <h4>{{ block.settings[card_title] }}</h4>
+                    </div>
+                  {% endif %}
+                {% endfor %}
               </div>
-            {% endif %}
-            {% if block.settings[what_does] != blank %}
-              <div class="box">
-                <h1>What it does?</h1>
-                {{ block.settings[what_does] }}
-              </div>
-            {% endif %}
-          </div>
-          <div class="col-1">
-            {% for block in section.blocks %}
-              {% if block.type == 'side_panel' %}
-                <side-panel-links class="side-panel-links">
-                  <button
-                    class="btn side-panel-links--link no-js-hidden"
-                    data-id="1"
-                    style="width: 100%; padding: 16px 0px;"
-                  >
-                    <span class="btn custom-btn">VIEW NUTRITION FACTS</span>
-                  </button>
-                </side-panel-links>
-              {% endif %}
-            {% endfor %}
-            {% comment %}
-              <div class="btn">
-                    <a href="#">VIEW NUTRITION FACTS</a>
-                </div>
-            {% endcomment %}
-          </div>
-        </div>
-      {% endfor %}
-      <div class="only-desktop only-laptop only-tab">
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            {% for i in (1..8) %}
-              {% assign card_image = 'card-image' | append: i %}
-              {% assign card_title = 'card-title' | append: i %}
-              {% assign card_desc = 'card-desc' | append: i %}
+            </div>
+            <div class="col-1 sj-right sj-container">
+              {% for i in (1..8) %}
+                {% assign card_image = 'card-image' | append: i %}
+                {% assign card_title = 'card-title' | append: i %}
+                {% assign card_desc = 'card-desc' | append: i %}
 
-              {% if block.settings[card_image] != blank %}
-                <div class="swiper-slide" data-index="{{ i }}">
-                  <div class="logo">
-                    <img src="{{ 'shadow.png' | asset_url }}" alt="Shadow" class="img-fluid shadow">
-                    <img
-                      src="{{ block.settings[card_image] | image_url }}"
-                      alt="{{ block.settings[card_image].alt }}"
-                      class="img-fluid"
-                    >
-                  </div>
-                  <div class="content">
+                {% assign active = '' %}
+                {% if forloop.first %}
+                  {% assign active = 'active' %}
+                {% endif %}
+                {% if block.settings[card_image] != blank %}
+                  <div class="first-product {{ active }}" data-index="{{ i }}">
+                    <div class="shadow-flex">
+                      <img
+                        src="{{ block.settings[card_image] | image_url }}"
+                        alt="{{ block.settings[card_image].alt }}"
+                        class="img-fluid main-img"
+                      >
+                      <img src="{{ 'shadow.png' | asset_url }}" alt="Shadow" class="img-fluid shadow">
+                    </div>
                     <h1>{{ block.settings[card_title] }}</h1>
                     {{ block.settings[card_desc] }}
-                    {% comment %} <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Learn More</a> {% endcomment %}
                   </div>
-                </div>
-              {% endif %}
-            {% endfor %}
+                {% endif %}
+              {% endfor %}
+            </div>
           </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-
-      <div class="only-desktop only-laptop only-tab">
-        {% for i in (1..8) %}
-          {% assign what_is = 'what-is-it' | append: i %}
-          {% assign what_does = 'what-is-does' | append: i %}
-          {% assign active = '' %}
-          {% if forloop.first %}
-            {% assign active = 'active' %}
-          {% endif %}
-          <div class="{{ active }} content-box" data-index="{{ i }}">
-            {% if block.settings[what_is] != blank %}
-              <div class="box-1 box">
-                <h1>What it is?</h1>
-                {{ block.settings[what_is] }}
-              </div>
+          {% for i in (1..8) %}
+            {% assign active = '' %}
+            {% if forloop.first %}
+              {% assign active = 'active' %}
             {% endif %}
-            {% if block.settings[what_does] != blank %}
-              <div class="box-2 box">
-                <h1>What it does?</h1>
-                {{ block.settings[what_does] }}
+            {% assign what_is = 'what-is-it' | append: i %}
+            {% assign what_does = 'what-is-does' | append: i %}
+            <div class="{{ active }} para-btn only-mobile" data-index="{{ i }}">
+              <div class="col-2">
+                {% if block.settings[what_is] != blank %}
+                  <div class="box">
+                    <h1>What it is?</h1>
+                    {{ block.settings[what_is] }}
+                  </div>
+                {% endif %}
+                {% if block.settings[what_does] != blank %}
+                  <div class="box">
+                    <h1>What it does?</h1>
+                    {{ block.settings[what_does] }}
+                  </div>
+                {% endif %}
               </div>
-              <div class="box-3 box">
+              <div class="col-1">
                 {% for block in section.blocks %}
                   {% if block.type == 'side_panel' %}
                     <side-panel-links class="side-panel-links">
@@ -237,43 +170,116 @@
                     </side-panel-links>
                   {% endif %}
                 {% endfor %}
+                {% comment %}
+                  <div class="btn">
+                        <a href="#">VIEW NUTRITION FACTS</a>
+                    </div>
+                {% endcomment %}
               </div>
-            {% endif %}
+            </div>
+          {% endfor %}
+          <div class="only-desktop only-laptop only-tab">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                {% for i in (1..8) %}
+                  {% assign card_image = 'card-image' | append: i %}
+                  {% assign card_title = 'card-title' | append: i %}
+                  {% assign card_desc = 'card-desc' | append: i %}
+
+                  {% if block.settings[card_image] != blank %}
+                    <div class="swiper-slide" data-index="{{ i }}">
+                      <div class="logo">
+                        <img src="{{ 'shadow.png' | asset_url }}" alt="Shadow" class="img-fluid shadow">
+                        <img
+                          src="{{ block.settings[card_image] | image_url }}"
+                          alt="{{ block.settings[card_image].alt }}"
+                          class="img-fluid"
+                        >
+                      </div>
+                      <div class="content">
+                        <h1>{{ block.settings[card_title] }}</h1>
+                        {{ block.settings[card_desc] }}
+                        {% comment %} <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Learn More</a> {% endcomment %}
+                      </div>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
-        {% endfor %}
+
+          <div class="only-desktop only-laptop only-tab">
+            {% for i in (1..8) %}
+              {% assign what_is = 'what-is-it' | append: i %}
+              {% assign what_does = 'what-is-does' | append: i %}
+              {% assign active = '' %}
+              {% if forloop.first %}
+                {% assign active = 'active' %}
+              {% endif %}
+              <div class="{{ active }} content-box" data-index="{{ i }}">
+                {% if block.settings[what_is] != blank %}
+                  <div class="box-1 box">
+                    <h1>What it is?</h1>
+                    {{ block.settings[what_is] }}
+                  </div>
+                {% endif %}
+                {% if block.settings[what_does] != blank %}
+                  <div class="box-2 box">
+                    <h1>What it does?</h1>
+                    {{ block.settings[what_does] }}
+                  </div>
+                  <div class="box-3 box">
+                    {% for block in section.blocks %}
+                      {% if block.type == 'side_panel' %}
+                        <side-panel-links class="side-panel-links">
+                          <button
+                            class="btn side-panel-links--link no-js-hidden"
+                            data-id="1"
+                            style="width: 100%; padding: 16px 0px;"
+                          >
+                            <span class="btn custom-btn">VIEW NUTRITION FACTS</span>
+                          </button>
+                        </side-panel-links>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+      <div class="product-flex">
+        <div class="box">
+          <img src="{{ section.settings.icon1 | image_url }}" alt="Product" class="img-fluid">
+          <h2>{{ section.settings.label1 }}</h2>
+        </div>
+        <div class="box">
+          <img src="{{ section.settings.icon2 | image_url }}" alt="Product" class="img-fluid">
+          <h2>{{ section.settings.label2 }}</h2>
+        </div>
+
+        <div class="box">
+          <img src="{{ section.settings.icon3 | image_url }}" alt="Product" class="img-fluid">
+          <h2>{{ section.settings.label3 }}</h2>
+        </div>
+        <div class="box">
+          <img src="{{ section.settings.icon4 | image_url }}" alt="Product" class="img-fluid">
+          <h2>{{ section.settings.label4 }}</h2>
+        </div>
+
+        <div class="box">
+          <img src="{{ section.settings.icon5 | image_url }}" alt="Product" class="img-fluid">
+          <h2>{{ section.settings.label5 }}</h2>
+        </div>
+        <div class="box">
+          <img src="{{ section.settings.icon6 | image_url }}" alt="Product" class="img-fluid">
+          <h2>{{ section.settings.label6 }}</h2>
+        </div>
       </div>
     </div>
-  {% endfor %}
-  <div class="product-flex">
-    <div class="box">
-      <img src="{{ section.settings.icon1 | image_url }}" alt="Product" class="img-fluid">
-      <h2>{{ section.settings.label1 }}</h2>
-    </div>
-    <div class="box">
-      <img src="{{ section.settings.icon2 | image_url }}" alt="Product" class="img-fluid">
-      <h2>{{ section.settings.label2 }}</h2>
-    </div>
-
-    <div class="box">
-      <img src="{{ section.settings.icon3 | image_url }}" alt="Product" class="img-fluid">
-      <h2>{{ section.settings.label3 }}</h2>
-    </div>
-    <div class="box">
-      <img src="{{ section.settings.icon4 | image_url }}" alt="Product" class="img-fluid">
-      <h2>{{ section.settings.label4 }}</h2>
-    </div>
-
-    <div class="box">
-      <img src="{{ section.settings.icon5 | image_url }}" alt="Product" class="img-fluid">
-      <h2>{{ section.settings.label5 }}</h2>
-    </div>
-    <div class="box">
-      <img src="{{ section.settings.icon6 | image_url }}" alt="Product" class="img-fluid">
-      <h2>{{ section.settings.label6 }}</h2>
-    </div>
   </div>
-</div>
-</div>
 </div>
 <img src="{{ 'shadow-1.png' | asset_url }}" alt="Shadow" class="img-fluid shadow-1 pc">
 

@@ -51,12 +51,12 @@
 }
 
 .container .number-flex .btn a {
-  padding: 15px 40px;
-  background-color: #e27624;
-  display: block;
-  width: 396px;
-  border-radius: 30px;
-  text-align: center;
+  background: #f4e588;
+  background: linear-gradient(135deg, #f4e588, #e26c5a);
+  margin-top: 15px;
+  width: 100%;
+  color: #ffff;
+  transition: background 0.3s ease;
   font-family: "Nexa-Bold";
   color: white;
   border: 1px solid transparent;
@@ -84,7 +84,7 @@
   margin-bottom: 30px;
 }
 .number-arrow h1 {
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 
 .container .number-flex .col-2 .box .number-arrow {
@@ -117,7 +117,7 @@
   //display: flex;
   //align-items: center;
   //justify-content: center;
-  height:0;
+  height: 0;
 }
 
 @media only screen and (max-width: 660px) {

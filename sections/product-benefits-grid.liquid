@@ -1,0 +1,39 @@
+{{ 'product-benefits-grid.css' | asset_url | stylesheet_tag }}
+
+<section class="product-benefits-grid">
+  <div class="image-side">
+    <div class="image-container">
+      <image src="{{ section.settings.badge | img_url: 'large' }}" alt="Badge" class="image" />
+    </div>
+  </div>
+  <div class="rest">
+    <h1>Transform Yourself</h1>
+    <p>Over 35,000 research publications support the efficacy of Grüns</p>
+    <div class="icons-grid">
+      <image src="{{ section.settings.badge | img_url: 'large' }}" alt="Badge" class="image" />
+      <image src="{{ section.settings.badge | img_url: 'large' }}" alt="Badge" class="image" />
+      <image src="{{ section.settings.badge | img_url: 'large' }}" alt="Badge" class="image" />
+      <image src="{{ section.settings.badge | img_url: 'large' }}" alt="Badge" class="image" />
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Product Benefits Grid",
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Badge",
+      "id": "badge"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Product Benefits Grid",
+      "category": "Product"
+    }
+  ]
+}
+{% endschema %}
