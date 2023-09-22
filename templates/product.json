@@ -432,20 +432,20 @@
     "bd0b8c83-eda9-4d71-93b1-4b953ee8970b": {
       "type": "backed-by-ingredients",
       "blocks": {
-        "b4808e17-9ac6-4213-90b3-45c85048864a": {
-          "type": "side_panel",
+        "0865d160-32d8-4e7f-b46c-5239c8d3f778": {
+          "type": "popup",
           "settings": {
-            "button_text_one": "VIEW NUTRITION FACTS",
-            "title_one": "",
-            "content_one": "",
-            "button_text_two": "VIEW NUTRITION FACTS",
-            "title_two": "",
-            "content_two": ""
+            "button_text_desktop": "test",
+            "title_desktop": "",
+            "content_desktop": "",
+            "button_text_mobile": "test",
+            "title_mobile": "",
+            "content_mobile": ""
           }
         }
       },
       "block_order": [
-        "b4808e17-9ac6-4213-90b3-45c85048864a"
+        "0865d160-32d8-4e7f-b46c-5239c8d3f778"
       ],
       "settings": {
         "arrow": "shopify:\/\/shop_images\/Arrow-down.png",
