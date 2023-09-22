@@ -5,9 +5,52 @@
   <div class="row number-flex">
     <div class="col-1">
       <h1>{{ section.settings.heading }}</h1>
-      <div class="btn btn-pc pc">
-        <a href="#" class="only-mobile">{{ section.settings.button }}</a>
+      
+     {%- assign side_panels = section.blocks | where: 'type', 'side_panel' -%}
+{%- if side_panels.size > 0 -%}
+  <div class="side-panel product-information-drawer" id="Product-Information-Drawer" tabindex="-1">
+    <div class="side-panel-inner">
+      <div class="side-panel-header">
+        <div>
+          <span class="h6">{{ 'products.product.product_information' | t }}</span>
+          <side-panel-close class="side-panel-close">{%- render 'svg-icons' with 'close' -%}</side-panel-close>
+        </div>
       </div>
+      <div class="side-panel-content side-panel-content--has-tabs">
+        {%- assign block = side_panels[0] -%}
+        <side-panel-content-tabs class="side-panel-content--tabs">
+          {%- if block.settings.side_panel_1_label != '' -%}
+            <button class="tab-active">{{ block.settings.side_panel_1_label }}</button>
+          {%- endif -%}
+        </side-panel-content-tabs>
+        <div class="side-panel-content--inner">
+          {%- if block.settings.side_panel_1_label != '' -%}
+            <div class="side-panel-content--tab-panel rte tab-active">
+              {{ block.settings.side_panel_1_page.content }}
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
+      <div class="col-1 display-flex">
+            {% for block in section.blocks %}
+              {% if block.type == 'side_panel' %}
+                <side-panel-links class="side-panel-links">
+                  <button
+                    class="btn side-panel-links--link no-js-hidden"
+                    data-id="1"
+                    style="width: 100%; padding: 16px 0px;"
+                  >
+                    <span class="btn custom-btn">VIEW NUTRITION FACTS</span>
+                  </button>
+                </side-panel-links>
+              {% endif %}
+            {% endfor %}
+          </div>
+      
     </div>
     <div class="col-2">
       <div class="box">
@@ -111,7 +154,25 @@
       "default": "View Nutrition Facts"
     }
   ],
-  "blocks": [],
+   "blocks": [
+ {
+      "type": "side_panel",
+      "name": "Information side panel",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "side_panel_1_label",
+          "label": "Drawer Lable"
+        },
+        {
+          "type": "page",
+          "id": "side_panel_1_page",
+          "label": "Page"
+        }
+      ]
+    }
+  ],
   "presets": [
     {
       "name": "Backed By Ingredients",
