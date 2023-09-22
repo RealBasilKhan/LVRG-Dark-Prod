@@ -46,9 +46,11 @@
         </div>
         <p>{{ section.settings.desc3 }}</p>
       </div>
-      <div class="btn btn-mobile">
-        <a href="#" class="only-laptop only-destop">{{ section.settings.button }}</a>
-      </div>
+            
+    {% if block.settings.button_text_two != blank %}
+   <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content2">{{ block.settings.button_text_two }}</button>
+   {% endif %}
+            
     </div>
   </div>
 </section>
