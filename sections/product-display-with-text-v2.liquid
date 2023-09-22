@@ -75,28 +75,28 @@
         <div class="border-bottom"></div>
       </div>
     </div>
-    
+  {% for block in section.blocks %}  
    <div class="popup_button_flex">
-  <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">View Content 1</button>
-   <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content2">View Content 2</button>
+  <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">{{ block.settings.button_text_one }}</button>
+   <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content2">{{ block.settings.button_text_two }}</button>
    </div>
     <div class="customization_popup" role="alert">
         <div class="customization_popup_container">
             <div id="content1" class="customization_popup_content">
-                <div class="popup_information">Product information</div>
-                <div class="popup_content_information">Nutritional Information</div>
-                <img src="https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Supplement_Label.webp?v=1695154930" alt="Image 1">
+                <div class="popup_information">{{ block.settings.title_one }}</div>
+                <div class="popup_content_information">{{ block.settings.content_one }}</div>
+                <img src="{{ block.settings.image_one | img_url: 'master' }}" alt="Image 1">
                 <a href="#0" class="customization_popup_close img-replace">X</a>
             </div>
             <div id="content2" class="customization_popup_content">
-                <div class="popup_information">Product information</div>
-                <div class="popup_content_information">Nutritional Information</div>
-                <img src="https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Supplement_Label.webp?v=1695154930" alt="Image 2">
+            <div class="popup_information">{{ block.settings.title_two }}</div>
+                <div class="popup_content_information">{{ block.settings.content_two }}</div>
+                <img src="{{ block.settings.image_two | img_url: 'master' }}" alt="Image 2">
                 <a href="#0" class="customization_popup_close img-replace">X</a>
             </div>
         </div>
     </div>
-
+  {% endfor %}
     
   </div>
 </section>
