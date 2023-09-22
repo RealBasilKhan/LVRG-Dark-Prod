@@ -831,15 +831,6 @@
     "1663667029efc274af": {
       "type": "collapsible-content",
       "blocks": {
-        "cd3d35fb-4237-4e0c-b360-523aae405e51": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "WHAT EXACTLY IS MUSHROOM-GREENS METAMIX?",
-            "open": false,
-            "content": "<p>It's not just another greens mix. It's a finely-crafted concoction that combines potent mushrooms with superior greens, designed especially for the modern gentleman's constitution.<\/p>",
-            "page": ""
-          }
-        },
         "5586f39f-c9cc-41a5-9c79-494141a820e1": {
           "type": "collapsible_tab",
           "settings": {
@@ -905,7 +896,6 @@
         }
       },
       "block_order": [
-        "cd3d35fb-4237-4e0c-b360-523aae405e51",
         "5586f39f-c9cc-41a5-9c79-494141a820e1",
         "6ca4af54-3f47-4d4d-9060-0ff238ab6d1a",
         "78977bda-88c1-4c5d-a57b-395a8e01f169",
