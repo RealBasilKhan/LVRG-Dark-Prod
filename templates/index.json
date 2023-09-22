@@ -604,41 +604,37 @@
         "template--20762913046826__bb76abc2-483f-4586-973a-c9dfbbbc040e-image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/insta_scrolling1.png",
             "link": "",
-            "heading": "Heading",
-            "text": "<p>Add description text here.<\/p>"
+            "heading": "",
+            "text": ""
           }
         },
         "template--20762913046826__bb76abc2-483f-4586-973a-c9dfbbbc040e-image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/insta_scrolling_2.png",
             "link": "",
-            "heading": "Heading",
-            "text": "<p>Add description text here.<\/p>"
+            "heading": "",
+            "text": ""
           }
         },
         "template--20762913046826__bb76abc2-483f-4586-973a-c9dfbbbc040e-image-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/insta_scrolling_3.jpg",
             "link": "",
-            "heading": "Heading",
-            "text": "<p>Add description text here.<\/p>"
+            "heading": "",
+            "text": ""
           }
         },
         "template--20762913046826__bb76abc2-483f-4586-973a-c9dfbbbc040e-image-4": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/insta_scrolling_4.jpg",
             "link": "",
-            "heading": "Heading",
-            "text": "<p>Add description text here.<\/p>"
-          }
-        },
-        "template--20762913046826__bb76abc2-483f-4586-973a-c9dfbbbc040e-image-5": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "heading": "Heading",
-            "text": "<p>Add description text here.<\/p>"
+            "heading": "",
+            "text": ""
           }
         }
       },
@@ -646,8 +642,7 @@
         "template--20762913046826__bb76abc2-483f-4586-973a-c9dfbbbc040e-image-1",
         "template--20762913046826__bb76abc2-483f-4586-973a-c9dfbbbc040e-image-2",
         "template--20762913046826__bb76abc2-483f-4586-973a-c9dfbbbc040e-image-3",
-        "template--20762913046826__bb76abc2-483f-4586-973a-c9dfbbbc040e-image-4",
-        "template--20762913046826__bb76abc2-483f-4586-973a-c9dfbbbc040e-image-5"
+        "template--20762913046826__bb76abc2-483f-4586-973a-c9dfbbbc040e-image-4"
       ],
       "settings": {
         "image_ratio": "adapt",
