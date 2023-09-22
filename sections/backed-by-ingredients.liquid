@@ -53,9 +53,9 @@
 
     <div class="your-custom-popup-class" role="alert">
         <div class="your-custom-popup-container-class ">
-              <div class="popup_information">Product information</div>
-                <div class="popup_content_information">Nutritional Information</div>
-                <img src="https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Supplement_Label_f53c71ef-7248-4aa2-90f5-d39bc03f2a5d.webp?v=1695385846" loading="lazy" alt="Image 1">
+              <div class="popup_information">{{ section.settings.popup_title }}</div>
+                <div class="popup_content_information">{{ section.settings.popup_content }}</div>
+                <img src="{{ section.settings.popup_image | img_url: 'master' }}" loading="lazy" alt="Image 1">
             <a href="#0" class="your-custom-popup-close-class img-replace">X</a>
         </div> 
     </div>
