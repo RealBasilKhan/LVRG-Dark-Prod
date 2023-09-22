@@ -6,10 +6,9 @@
     <div class="col-1">
       <h1>{{ section.settings.heading }}</h1>
 
-    {% if section.settings.button_text_desktop != blank %}
-    <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">{{ section.settings.button_text_desktop }}</button>
-    {% endif %}
- 
+
+
+      
     </div>
     <div class="col-2">
       <div class="box">
@@ -49,26 +48,7 @@
         <p>{{ section.settings.desc3 }}</p>
       </div>
         
-    {% if section.settings.button_text_mobile != blank %}
-     <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content2">{{ section.settings.button_text_mobile }}</button>
-    {% endif %}
-    
-       <div class="customization_popup" role="alert">
-        <div class="customization_popup_container">
-            <div id="content1" class="customization_popup_content">
-                <div class="popup_information">{{ section.settings.title_desktop }}</div>
-                <div class="popup_content_information">{{ section.settings.content_desktop }}</div>
-                <img src="{{ section.settings.image_desktop | img_url: 'master' }}" loading="lazy" alt="Image 1">
-                <a href="#0" class="customization_popup_close img-replace">X</a>
-            </div>
-            <div id="content2" class="customization_popup_content">
-            <div class="popup_information">{{ section.settings.title_mobile }}</div>
-                <div class="popup_content_information">{{ section.settings.content_mobile }}</div>
-                <img src="{{ section.settings.image_mobile | img_url: 'master' }}" loading="lazy" alt="Image 2">
-                <a href="#0" class="customization_popup_close img-replace">X</a>
-            </div>
-        </div>
-    </div>
+
        
     </div>
   </div>
