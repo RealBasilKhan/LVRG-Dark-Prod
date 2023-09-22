@@ -435,7 +435,7 @@
         "0865d160-32d8-4e7f-b46c-5239c8d3f778": {
           "type": "popup",
           "settings": {
-            "button_text_desktop": "test",
+            "button_text_desktop": "testing",
             "title_desktop": "",
             "content_desktop": "",
             "button_text_mobile": "test",
