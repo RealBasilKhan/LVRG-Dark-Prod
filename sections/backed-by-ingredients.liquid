@@ -6,7 +6,7 @@
     <div class="col-1">
       <h1>{{ section.settings.heading }}</h1>
 
-<button class="my-popup-trigger my-custom-btn my-custom-btn2" data-target="content1">My Button One</button>
+<button class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">Button One</button>
 
 
       
@@ -49,46 +49,50 @@
         <p>{{ section.settings.desc3 }}</p>
       </div>
    
-<button class="my-popup-trigger my-custom-btn my-custom-btn2" data-target="content2">My Button Two</button> 
- <div class="my-popup" role="alert">
-        <div class="my-popup-container">
-            <div id="content1" class="my-popup-content">
-                <div class="my-popup-information">My Test One</div>
-                <div class="my-popup-content-information">My Testing One</div>
-                <img src="https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Supplement_Label_f53c71ef-7248-4aa2-90f5-d39bc03f2a5d.webp?v=1695385846" loading="lazy" alt="Image 1">
-                <a href="#0" class="my-popup-close my-img-replace">X</a>
-            </div>
-            <div id="content2" class="my-popup-content">
-                <div class="my-popup-information">My Test Two</div>
-                <div class="my-popup-content-information">My Testing Two</div>
-                <img src="https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Group_58_2.png?v=1695392239" loading="lazy" alt="Image 2">
-                <a href="#0" class="my-popup-close my-img-replace">X</a>
-            </div>
-        </div>
-    </div>
+ <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content2">Button Two</button>
+
+  
+     <div class="customization_popup" role="alert">
+         <div class="customization_popup_container">
+             <div id="content1" class="customization_popup_content">
+                 <div class="popup_information">Test One</div>
+                 <div class="popup_content_information">Testing One</div>
+                 <img src="https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Supplement_Label_f53c71ef-7248-4aa2-90f5-d39bc03f2a5d.webp?v=1695385846" loading="lazy" alt="Image 1">
+                 <a href="#0" class="customization_popup_close img-replace">X</a>
+             </div>
+             <div id="content2" class="customization_popup_content">
+             <div class="popup_information">Test Two</div>
+                 <div class="popup_content_information">Testing Two</div>
+                 <img src="https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Group_58_2.png?v=1695392239" loading="lazy" alt="Image 2">
+                 <a href="#0" class="customization_popup_close img-replace">X</a>
+             </div>
+         </div>
+     </div>
        
     </div>
   </div>
              
 </section>
-  <style>
- .my-img-replace {
+
+
+ <style>
+ .img-replace {
     display: inline-block;
     overflow: hidden;
     text-indent: 100%;
     color: transparent;
     white-space: nowrap;
 }
-.my-popup-content-padding {
+.popup_content_padding {
     padding-left: 30px;
     padding-right: 30px;
 }
-.my-popup-content {
+.customization_popup_content {
     display: none;
     padding-left: 30px;
     padding-right: 30px;
 }
-.my-popup {
+.customization_popup {
     position: fixed;
     left: 0;
     top: 0;
@@ -103,13 +107,13 @@
     -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
     transition: opacity 0.3s 0s, visibility 0s 0.3s;
 }
-  .my-popup-content {
+  .customization_popup_content {
         display: none; 
     }
-    .my-popup-content.active {
+    .customization_popup_content.active {
         display: block; 
     }
-.my-popup.is-visible {
+.customization_popup.is-visible {
     opacity: 1;
     visibility: visible;
     -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
@@ -117,19 +121,19 @@
     transition: opacity 0.3s 0s, visibility 0s 0s;
     z-index: 999;
 }
-.my-popup-information {
+.popup_information {
     margin: unset;
     text-align: left;
     border-bottom: 1px solid black;
     padding-bottom: 20px;
     padding-top: 10px;
 }
-.my-popup-content-information {
+.popup_content_information {
     margin: 20px 0;
     width: 170px;
     border-bottom: 2px solid white;
 }
-.my-popup-container {
+.customization_popup_container {
     position: absolute;
     max-width: 540px;
     margin: 0 auto;
@@ -154,23 +158,23 @@
     overflow-y: scroll;
 }
 
-.my-popup-container p {
+.customization_popup_container p {
     padding: 3em 1em;
 }
 
-.my-popup-container .my-popup-buttons:after {
+.customization_popup_container .customization_popup_buttons:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.my-popup-container .my-popup-buttons li {
+.customization_popup_container .customization_popup_buttons li {
     float: left;
     width: 50%;
     list-style: none;
 }
 
-.my-popup-container .my-popup-buttons a {
+.customization_popup_container .customization_popup_buttons a {
     display: block;
     height: 60px;
     line-height: 60px;
@@ -181,25 +185,25 @@
     transition: background-color 0.2s;
 }
 
-.my-popup-container .my-popup-buttons li:first-child a {
+.customization_popup_container .customization_popup_buttons li:first-child a {
     background: #fc7169;
     border-radius: 0 0 0 .25em;
 }
 
-.no-touch .my-popup-container .my-popup-buttons li:first-child a:hover {
+.no-touch .customization_popup_container .customization_popup_buttons li:first-child a:hover {
     background-color: #fc8982;
 }
 
-.my-popup-container .my-popup-buttons li:last-child a {
+.customization_popup_container .customization_popup_buttons li:last-child a {
     background: #b6bece;
     border-radius: 0 0 .25em 0;
 }
 
-.no-touch .my-popup-container .my-popup-buttons li:last-child a:hover {
+.no-touch .customization_popup_container .customization_popup_buttons li:last-child a:hover {
     background-color: #c5ccd8;
 }
 
-.my-popup-container .my-popup-close {
+.customization_popup_container .customization_popup_close {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -207,7 +211,7 @@
     height: 30px;
 }
 
-.my-popup-container .my-popup-close::before, .my-popup-container .my-popup-close::after {
+.customization_popup_container .customization_popup_close::before, .customization_popup_container .customization_popup_close::after {
     content: '';
     position: absolute;
     top: 12px;
@@ -216,7 +220,7 @@
     background-color: #8f9cb5;
 }
 
-.my-popup-container .my-popup-close::before {
+.customization_popup_container .customization_popup_close::before {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -225,7 +229,7 @@
     left: 8px;
 }
 
-.my-popup-container .my-popup-close::after {
+.customization_popup_container .customization_popup_close::after {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
@@ -234,38 +238,38 @@
     right: 8px;
 }
 
-.is-visible .my-popup-container {
+.is-visible .customization_popup_container {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
     transform: translateY(0);
 }
-</style> 
+</style>
           
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         jQuery(document).ready(function($) {
-            $('.my-popup-trigger').on('click', function(event) {
+            $('.customization_popup_trigger').on('click', function(event) {
                 event.preventDefault();
                 var target = $(this).data('target');
-                $('.my-popup-content').removeClass('active');
+                $('.customization_popup_content').removeClass('active');
                 $('#' + target).addClass('active');
-                $('.my-popup').addClass('is-visible');
+                $('.customization_popup').addClass('is-visible');
             });
-            $('.my-popup').on('click', function(event) {
-                if ($(event.target).is('.my-popup-close') || $(event.target).is('.my-popup')) {
+            $('.customization_popup').on('click', function(event) {
+                if ($(event.target).is('.customization_popup_close') || $(event.target).is('.customization_popup')) {
                     event.preventDefault();
                     $(this).removeClass('is-visible');
                 }
             });
             $(document).keyup(function(event) {
                 if (event.which == '27') {
-                    $('.my-popup').removeClass('is-visible');
+                    $('.customization_popup').removeClass('is-visible');
                 }
             });
         });
-    </script>
+   </script>
 {% schema %}
 {
   "name": "Backed By Ingredients",
