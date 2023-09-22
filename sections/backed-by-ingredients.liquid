@@ -54,9 +54,26 @@
     {% endif %}
    {% endfor %}         
     </div>
-  </div>
+  </div>        
 </section>
-
+{% for block in section.blocks %}          
+ <div class="customization_popup" role="alert">
+        <div class="customization_popup_container">
+            <div id="content1" class="customization_popup_content">
+                <div class="popup_information">{{ block.settings.title_one }}</div>
+                <div class="popup_content_information">{{ block.settings.content_one }}</div>
+                <img src="{{ block.settings.image_one | img_url: 'master' }}" loading="lazy" alt="Image 1">
+                <a href="#0" class="customization_popup_close img-replace">X</a>
+            </div>
+            <div id="content2" class="customization_popup_content">
+            <div class="popup_information">{{ block.settings.title_two }}</div>
+                <div class="popup_content_information">{{ block.settings.content_two }}</div>
+                <img src="{{ block.settings.image_two | img_url: 'master' }}" loading="lazy" alt="Image 2">
+                <a href="#0" class="customization_popup_close img-replace">X</a>
+            </div>
+        </div>
+    </div>
+  {% endfor %}
 {% schema %}
 {
   "name": "Backed By Ingredients",
