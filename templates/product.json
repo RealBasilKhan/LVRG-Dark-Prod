@@ -431,6 +431,22 @@
     },
     "bd0b8c83-eda9-4d71-93b1-4b953ee8970b": {
       "type": "backed-by-ingredients",
+      "blocks": {
+        "f585ffb1-6bd4-46a4-89f9-2a265d3e9150": {
+          "type": "side_panel",
+          "settings": {
+            "button_text_one": "dsgdfh",
+            "title_one": "",
+            "content_one": "",
+            "button_text_two": "",
+            "title_two": "",
+            "content_two": ""
+          }
+        }
+      },
+      "block_order": [
+        "f585ffb1-6bd4-46a4-89f9-2a265d3e9150"
+      ],
       "settings": {
         "arrow": "shopify:\/\/shop_images\/Arrow-down.png",
         "heading": "BACKED BY INGREDIENTS WITH SCIENTIFIC STUDIES SHOWN TO",
