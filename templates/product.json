@@ -887,6 +887,7 @@
         },
         "91f4a562-54ac-4226-9c64-8cfd0f20339b": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "CAN IT CAUSE ANY DIGESTIVE DISCOMFORT?",
             "open": false,
