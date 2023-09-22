@@ -163,10 +163,10 @@
     transition: opacity 0.3s 0s, visibility 0s 0.3s;
 }
   .customization_popup_content {
-        display: none; /* Hide content by default */
+        display: none; 
     }
     .customization_popup_content.active {
-        display: block; /* Show content when active class is applied */
+        display: block; 
     }
 .customization_popup.is-visible {
     opacity: 1;
@@ -176,7 +176,13 @@
     transition: opacity 0.3s 0s, visibility 0s 0s;
     z-index: 999;
 }
-
+.popup_information {
+    margin: unset;
+    text-align: left;
+    border-bottom: 1px solid red;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
 .customization_popup_container {
     position: absolute;
     /* width: 34%; */
