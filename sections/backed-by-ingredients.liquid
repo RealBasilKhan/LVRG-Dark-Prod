@@ -5,11 +5,9 @@
   <div class="row number-flex">
     <div class="col-1">
       <h1>{{ section.settings.heading }}</h1>
-  {% for block in section.blocks %}  
   {% if block.settings.button_text_one != blank %}
     <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">{{ block.settings.button_text_one }}</button>
   {% endif %}
-  {% endfor %}
     </div>
     <div class="col-2">
       <div class="box">
@@ -54,28 +52,9 @@
     {% endif %}
    {% endfor %}         
     </div>
-  </div>        
+  </div>
 </section>
-{% for block in section.blocks %}          
- <div class="customization_popup" role="alert">
-        <div class="customization_popup_container">
-            <div id="content1" class="customization_popup_content">
-                <div class="popup_information">{{ block.settings.title_one }}</div>
-                <div class="popup_content_information">{{ block.settings.content_one }}</div>
-                <img src="{{ block.settings.image_one | img_url: 'master' }}" loading="lazy" alt="Image 1">
-                <a href="#0" class="customization_popup_close img-replace">X</a>
-            </div>
-            <div id="content2" class="customization_popup_content">
-            <div class="popup_information">{{ block.settings.title_two }}</div>
-                <div class="popup_content_information">{{ block.settings.content_two }}</div>
-                <img src="{{ block.settings.image_two | img_url: 'master' }}" loading="lazy" alt="Image 2">
-                <a href="#0" class="customization_popup_close img-replace">X</a>
-            </div>
-        </div>
-    </div>
-  {% endfor %}
 
-            
 {% schema %}
 {
   "name": "Backed By Ingredients",
@@ -128,55 +107,7 @@
       "default": "of our products are made with natural ingredients"
     }
   ],
-    "blocks": [
- {
-      "type": "side_panel",
-      "name": "Information side panel",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "button_text_one",
-          "label": "Button Text One"
-        },
-        {
-          "type": "text",
-          "id": "title_one",
-          "label": "Title One"
-        },
-        {
-          "type": "text",
-          "id": "content_one",
-          "label": "Content One"
-        },
-         {
-          "type": "image_picker",
-          "id": "image_one",
-          "label": "Image One"
-        },
-          {
-          "type": "text",
-          "id": "button_text_two",
-          "label": "Button Text Two"
-        },
-        {
-          "type": "text",
-          "id": "title_two",
-          "label": "Title Two"
-        },
-        {
-          "type": "text",
-          "id": "content_two",
-          "label": "Content Two"
-        },
-         {
-          "type": "image_picker",
-          "id": "image_two",
-          "label": "Image Two"
-        }
-      ]
-    }
-  ],
+  "blocks": [],
   "presets": [
     {
       "name": "Backed By Ingredients",
