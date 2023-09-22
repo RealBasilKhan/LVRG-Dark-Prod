@@ -215,6 +215,7 @@
         "603276de-6bcd-4275-86ba-b4096b944b53": {
           "type": "tab",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Ashwagandha_50667e6e-b5ee-488a-a7e9-3c7dfb6334c6.png",
             "use_video": false,
             "heading_icon": "none",
             "heading": "KSM-666 Ashwagandha",
@@ -250,7 +251,7 @@
         "template--20762913046826__31bc3fff-5856-4b49-b951-2ff2723665c2-badge-1": {
           "type": "badge",
           "settings": {
-            "text": "Badge heading",
+            "text": "Relentless Energy",
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -271,6 +272,7 @@
         "template--20762913046826__31bc3fff-5856-4b49-b951-2ff2723665c2-tab-1": {
           "type": "tab",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Spirulina_282b2f51-1d63-480f-b7de-1069efff8a33.png",
             "use_video": false,
             "heading_icon": "none",
             "heading": "Organic Spirulina",
@@ -281,6 +283,7 @@
         "template--20762913046826__31bc3fff-5856-4b49-b951-2ff2723665c2-tab-2": {
           "type": "tab",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Cordyceps-1.jpg",
             "use_video": false,
             "heading_icon": "none",
             "heading": "Organic Cordyceps",
@@ -293,7 +296,7 @@
           "settings": {
             "use_video": false,
             "heading_icon": "none",
-            "heading": "Mac",
+            "heading": "Maca",
             "description": "An ancient root celebrated for its energy-boosting and endurance-enhancing qualities.",
             "video_autoplay": true
           }
@@ -326,7 +329,7 @@
         "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-badge-1": {
           "type": "badge",
           "settings": {
-            "text": "Badge heading",
+            "text": "Laser-Focused Clarity",
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -344,19 +347,10 @@
             "text": "<p>Cut through the noise. With elite cognitive enhancers at your disposal, navigate your day with precision and intent.<\/p><p>Derived From:<\/p>"
           }
         },
-        "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-tab-1": {
-          "type": "tab",
-          "settings": {
-            "use_video": false,
-            "heading_icon": "none",
-            "heading": "Bacopa Monnieri",
-            "description": "Celebrated for its cognitive-enhancing properties, including memory enhancement and improved focus.",
-            "video_autoplay": true
-          }
-        },
         "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-tab-2": {
           "type": "tab",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-09-20_at_9.21.03_AM.png",
             "use_video": false,
             "heading_icon": "none",
             "heading": "Organic Lion's Mane",
@@ -373,15 +367,26 @@
             "description": "Often dubbed the \"mushroom of immortality,\" reishi is believed to support mental clarity and overall brain health.",
             "video_autoplay": true
           }
+        },
+        "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-tab-1": {
+          "type": "tab",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bacopa_monnieri_W_IMG_1612.webp",
+            "use_video": false,
+            "heading_icon": "none",
+            "heading": "Bacopa Monnieri",
+            "description": "Celebrated for its cognitive-enhancing properties, including memory enhancement and improved focus.",
+            "video_autoplay": true
+          }
         }
       },
       "block_order": [
         "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-badge-1",
         "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-heading-1",
         "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-text-1",
-        "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-tab-1",
         "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-tab-2",
-        "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-tab-3"
+        "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-tab-3",
+        "template--20762913046826__dcd0121c-1342-473d-9afc-776b2e3b5dbd-tab-1"
       ],
       "settings": {
         "desktop_height": "desktop-height-650",
