@@ -445,7 +445,12 @@
         "content_desktop": "",
         "button_text_mobile": "",
         "title_mobile": "",
-        "content_mobile": ""
+        "content_mobile": "",
+        "desktop_button": "VIEW NUTRITION FACTS",
+        "mobile_button": "VIEW NUTRITION FACTS",
+        "popup_title": "Product information",
+        "popup_content": "Nutritional Information",
+        "popup_image": "shopify:\/\/shop_images\/Shadow_BG_b5013463-9731-4964-9411-788d0f937320.png"
       }
     },
     "05619a4f-436f-4d3b-bdea-56c97722e0c3": {
