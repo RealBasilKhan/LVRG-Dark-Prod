@@ -108,7 +108,7 @@
         {%- if request.path contains 'loop_subscriptions/bundle'
           or request.path contains 'loop_subscriptions/customer'
         -%}
-        
+          {% render 'loop_loader' %}
         {%- endif -%}
          {{ content_for_layout }}
       </div>
