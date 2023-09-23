@@ -110,9 +110,9 @@
         -%}
           {% render 'loop_loader' %}
         {%- endif -%}
-        
+         {{ content_for_layout }}
       </div>
-      {{ content_for_layout }}
+     
       {% sections 'footer-group' %}
       {% render 'cart-drawer' %}
       {% render 'product-drawer' %}
