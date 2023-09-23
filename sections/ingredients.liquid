@@ -32,9 +32,11 @@
       background-repeat: no-repeat;
       background-position: left 0px bottom -95px;
     }
-  .swiper-slide {
+  @media screen and (max-width: 767px) {
+      .swiper-slide {
     height: 217px !important;
 }
+  }
   }
 </style>
 {{ 'ingredients.css' | asset_url | stylesheet_tag }}
