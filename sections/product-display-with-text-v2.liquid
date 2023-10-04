@@ -79,13 +79,17 @@
     </div>
    
   {% for block in section.blocks %}  
-   <div class="popup_button_flex">
+   <div class="btn-edition">
   {% if block.settings.button_text_one != blank %}
-  <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">{{ block.settings.button_text_one }}</button>
-  {% endif %}
+    <div class="btn btn-1">
+  <a class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">{{ block.settings.button_text_one }}</a>
+    </div>
+    {% endif %}
     {% if block.settings.button_text_two != blank %}
-   <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content2">{{ block.settings.button_text_two }}</button>
-   {% endif %}
+        <div class="btn btn-2">
+   <a class="customization_popup_trigger custom-btn custom-btn2" data-target="content2">{{ block.settings.button_text_two }}</a>
+   </div>
+     {% endif %}
    </div>
     <div class="customization_popup" role="alert">
         <div class="customization_popup_container">
@@ -337,7 +341,7 @@ h1.main-heading {
 
 .is-visible .customization_popup_container {
     transform: translateY(0);
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
  @media only screen and (max-width: 767px) {
