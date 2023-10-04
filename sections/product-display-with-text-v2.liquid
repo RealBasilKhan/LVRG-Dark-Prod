@@ -79,17 +79,13 @@
     </div>
    
   {% for block in section.blocks %}  
-   <div class="btn-edition">
+   <div class="popup_button_flex">
   {% if block.settings.button_text_one != blank %}
-    <div class="btn btn-1">
-  <a class="customization_popup_trigger" data-target="content1">{{ block.settings.button_text_one }}</a>
-    </div>
-    {% endif %}
+  <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">{{ block.settings.button_text_one }}</button>
+  {% endif %}
     {% if block.settings.button_text_two != blank %}
-        <div class="btn btn-2">
-   <a class="customization_popup_trigger" data-target="content2">{{ block.settings.button_text_two }}</a>
-   </div>
-     {% endif %}
+   <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content2">{{ block.settings.button_text_two }}</button>
+   {% endif %}
    </div>
     <div class="customization_popup" role="alert">
         <div class="customization_popup_container">
