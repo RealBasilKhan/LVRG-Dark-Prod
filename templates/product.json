@@ -300,6 +300,9 @@
       "block_order": [
         "f89eed25-672c-47da-879c-f3049d657152"
       ],
+      "custom_css": [
+        ".custom-btn:hover {border: 1px solid #e27624; padding: 13px 29px !important;}"
+      ],
       "settings": {
         "section_background": "#ffffff",
         "heading": "Each LVRG Scoop contains...",
