@@ -81,10 +81,10 @@
   {% for block in section.blocks %}  
    <div class="popup_button_flex">
   {% if block.settings.button_text_one != blank %}
-  <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">{{ block.settings.button_text_one }}</button>
+  <button class="customization_popup_trigger custom-btn" data-target="content1">{{ block.settings.button_text_one }}</button>
   {% endif %}
     {% if block.settings.button_text_two != blank %}
-   <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content2">{{ block.settings.button_text_two }}</button>
+   <button class="customization_popup_trigger custom-btn" data-target="content2">{{ block.settings.button_text_two }}</button>
    {% endif %}
    </div>
     <div class="customization_popup" role="alert">
@@ -109,9 +109,7 @@
 </section>
 </div>
 <style>
-.custom-btn2:hover {
-  padding: 14px 30px !important;
-}
+
  @media screen and (min-width: 1025px) {
 .main_image_background {
     background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_2.png?v=1695320490) !important;
