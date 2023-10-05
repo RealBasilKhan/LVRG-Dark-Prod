@@ -431,6 +431,9 @@
     },
     "bd0b8c83-eda9-4d71-93b1-4b953ee8970b": {
       "type": "backed-by-ingredients",
+      "custom_css": [
+        ".custom-btn:hover {border: 1px solid #e27624; padding: 19px 0 !important;}"
+      ],
       "settings": {
         "arrow": "shopify:\/\/shop_images\/Arrow-down.png",
         "heading": "BACKED BY INGREDIENTS WITH SCIENTIFIC STUDIES SHOWN TO",
