@@ -49,9 +49,11 @@ input[type="radio"],
 .flickity-page-dots .dot,
 .flickity-nav,
 .flickity-nav svg {
-  transition: 0.5s;
+  transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
-
+.side-panel {
+    transition: 0.5s !important;
+}
 .thb-full-menu .sub-menu {
   transition: all 0.25s ease;
 }
