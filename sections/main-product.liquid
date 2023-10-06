@@ -475,16 +475,17 @@
                     {%- if block.settings.side_panel_1_label != '' -%}
                       <button class="side-panel-links--link no-js-hidden" data-id="1">
                         {% render 'svg-icons-inline', icon: block.settings.side_panel_1_icon -%}
-                        <span class="text-button">{{ block.settings.side_panel_1_label }}</span>
+                        <button  class="text-button your-custom-trigger-class">{{ block.settings.side_panel_1_label }}</button >
                       </button>
-                      <a
-                        href="{{ block.settings.side_panel_1_page.url }}"
-                        class="side-panel-links--link no-js"
-                        target="_blank"
-                      >
-                        {%- render 'svg-icons-inline', icon: block.settings.side_panel_1_icon -%}
-                        <span class="text-button">{{ block.settings.block.settings.side_panel_1_label }}</span></a
-                      >
+                      <div class="your-custom-popup-class" role="alert">
+              <div class="your-custom-popup-container-class ">
+              <div class="popup_information">{{ section.settings.popup_title }}</div>
+                <div class="popup_content_information">{{ section.settings.popup_content }}</div>
+                <img src="{{ section.settings.popup_image | img_url: 'master' }}" loading="lazy" alt="Image 1">
+            <a href="#0" class="your-custom-popup-close-class img-replace">X</a>
+        </div> 
+       </div>
+ 
                     {%- endif -%}
                     {%- if block.settings.side_panel_2_label != '' -%}
                       <button class="side-panel-links--link no-js-hidden" data-id="2">
