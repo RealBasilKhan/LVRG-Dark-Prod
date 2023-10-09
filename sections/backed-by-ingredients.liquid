@@ -5,11 +5,9 @@
   <div class="row number-flex">
     <div class="col-1">
       <h1>{{ section.settings.heading }}</h1>
-
-{% if section.settings.desktop_button !=blank %}
- <button class="your-custom-trigger-class custom-btn mobile_none">{{ section.settings.desktop_button }}</button>
-{% endif %}
-      
+      <div class="btn btn-pc pc">
+        <a href="#" class="only-mobile">{{ section.settings.button }}</a>
+      </div>
     </div>
     <div class="col-2">
       <div class="box">
@@ -48,210 +46,13 @@
         </div>
         <p>{{ section.settings.desc3 }}</p>
       </div>
-   {% if section.settings.mobile_button !=blank %}
-    <button class="your-custom-trigger-class custom-btn desktop_none">{{ section.settings.mobile_button }}</button>
-{% endif %}
-    <div class="your-custom-popup-class" role="alert">
-        <div class="your-custom-popup-container-class ">
-              <div class="popup_information">{{ section.settings.popup_title }}</div>
-                <div class="popup_content_information">{{ section.settings.popup_content }}</div>
-                <img src="{{ section.settings.popup_image | img_url: 'master' }}" loading="lazy" alt="Image 1">
-            <a href="#0" class="your-custom-popup-close-class img-replace">X</a>
-        </div> 
-    </div>
- 
-
-       
+      <div class="btn btn-mobile">
+        <a href="#" class="only-laptop only-destop">{{ section.settings.button }}</a>
+      </div>
     </div>
   </div>
-             
 </section>
-        <style>
-    .img-replace {
-       display: inline-block;
-       overflow: hidden;
-       text-indent: 100%;
-       color: transparent;
-       white-space: nowrap;
-   }
-   
-   .your-custom-popup-class {
-       position: fixed;
-       left: 0;
-       top: 0;
-       height: 100%;
-       width: 100%;
-       background-color: rgba(159,163,167,4);
-      background: rgba(var(--color-overlay-rgb),.4);
-       backdrop-filter: blur(7px);
-       opacity: 0;
-       visibility: hidden;
-       -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
-       -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
-       transition: opacity 0.3s 0s, visibility 0s 0.3s;
-      z-index: 999;
-   }
-   .your-custom-popup-container-class {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-   .your-custom-popup-class.is-visible {
-       opacity: 1;
-       visibility: visible;
-       -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
-       -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
-       transition: opacity 0.3s 0s, visibility 0s 0s;
-       z-index: 999;
-   }
-   
-   .your-custom-popup-container-class {
-       position: absolute;
-       width: calc(100vw - 15px);
-       max-width: 540px;
-       margin: 0 auto;
-       right: 0;
-       top: 0;
-       height: 100%;
-       background: #1F1F23;
-       border-radius: .25em .25em .4em .4em;
-       text-align: center;
-       box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-       -webkit-transform: translatex(400px);
-       -moz-transform: translatex(400px);
-       -ms-transform: translatex(400px);
-       -o-transform: translatex(400px);
-       transform: translatex(400px);
-       -webkit-backface-visibility: hidden;
-       -webkit-transition-property: -webkit-transform;
-       -moz-transition-property: -moz-transform;
-       transition-property: transform;
-       -webkit-transition-duration: 0.3s;
-       -moz-transition-duration: 0.3s;
-       transition-duration: 0.5s;
-       overflow-y: scroll;
-   }
-   
-   .your-custom-popup-container-class p {
-       padding: 3em 1em;
-   }
-   
-   .your-custom-popup-container-class .your-custom-popup-buttons-class:after {
-       content: "";
-       display: table;
-       clear: both;
-   }
-   
-   .your-custom-popup-container-class .your-custom-popup-buttons-class li {
-       float: left;
-       width: 50%;
-       list-style: none;
-   }
-   
-   .your-custom-popup-container-class .your-custom-popup-buttons-class a {
-       display: block;
-       height: 60px;
-       line-height: 60px;
-       text-transform: uppercase;
-       color: #FFF;
-       -webkit-transition: background-color 0.2s;
-       -moz-transition: background-color 0.2s;
-       transition: background-color 0.2s;
-   }
-   
-   .your-custom-popup-container-class .your-custom-popup-buttons-class li:first-child a {
-       background: #fc7169;
-       border-radius: 0 0 0 .25em;
-   }
-   
-   .no-touch .your-custom-popup-container-class .your-custom-popup-buttons-class li:first-child a:hover {
-       background-color: #fc8982;
-   }
-   
-   .your-custom-popup-container-class .your-custom-popup-buttons-class li:last-child a {
-       background: #b6bece;
-       border-radius: 0 0 .25em 0;
-   }
-   
-   .no-touch .your-custom-popup-container-class .your-custom-popup-buttons-class li:last-child a:hover {
-       background-color: #c5ccd8;
-   }
-   
-   .your-custom-popup-container-class .your-custom-popup-close-class {
-       position: absolute;
-       top: 20px;
-       right: 15px;
-       width: 30px;
-       height: 30px;
-   }
-   
-   .your-custom-popup-container-class .your-custom-popup-close-class::before, .your-custom-popup-container-class .your-custom-popup-close-class::after {
-       content: '';
-       position: absolute;
-       top: 12px;
-       width: 14px;
-       height: 3px;
-       background-color: #fff;
-   }
-   
-   .your-custom-popup-container-class .your-custom-popup-close-class::before {
-       -webkit-transform: rotate(45deg);
-       -moz-transform: rotate(45deg);
-       -ms-transform: rotate(45deg);
-       -o-transform: rotate(45deg);
-       transform: rotate(45deg);
-       left: 8px;
-   }
-   
-   .your-custom-popup-container-class .your-custom-popup-close-class::after {
-       -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-       -ms-transform: rotate(-45deg);
-       -o-transform: rotate(-45deg);
-       transform: rotate(-45deg);
-       right: 8px;
-   }
-   
-.is-visible .your-custom-popup-container-class {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-    border-radius: 15px;
-}
-  @media only screen and (max-width: 770px) {
-    .mobile_none {
-    display: none !important;
-  }
-      } 
-     @media only screen and (min-width: 769px) {
-       .desktop_none {
-         display: none !important;
-        }
-     } 
-      
-   </style>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-    <script>
-    jQuery(document).ready(function($) {
-    $('.your-custom-trigger-class').on('click', function(event) {
-        event.preventDefault();
-        $('.your-custom-popup-class').addClass('is-visible');
-    });
-    $('.your-custom-popup-class').on('click', function(event) {
-        if ($(event.target).is('.your-custom-popup-close-class') || $(event.target).is('.your-custom-popup-class')) {
-            event.preventDefault();
-            $(this).removeClass('is-visible');
-        }
-    });
-    $(document).keyup(function(event) {
-        if (event.which == '27') {
-            $('.your-custom-popup-class').removeClass('is-visible');
-        }
-    });
-});
-    </script>
-            
+
 {% schema %}
 {
   "name": "Backed By Ingredients",
@@ -303,75 +104,14 @@
       "label": "Description 3",
       "default": "of our products are made with natural ingredients"
     },
-         {
-          "type": "text",
-          "id": "button_text_desktop",
-          "label": "Button Text Desktop"
-        },
-        {
-          "type": "text",
-          "id": "title_desktop",
-          "label": "Title Desktop"
-        },
-        {
-          "type": "text",
-          "id": "content_desktop",
-          "label": "Content Desktop"
-        },
-         {
-          "type": "image_picker",
-          "id": "image_desktop",
-          "label": "Image Desktop"
-        },
-          {
-          "type": "text",
-          "id": "button_text_mobile",
-          "label": "Button Text Mobile"
-        },
-        {
-          "type": "text",
-          "id": "title_mobile",
-          "label": "Title Mobile"
-        },
-        {
-          "type": "text",
-          "id": "content_mobile",
-          "label": "Content Mobile"
-        },
-         {
-          "type": "image_picker",
-          "id": "image_mobile",
-          "label": "Image Mobile"
-        },
-        {
-          "type": "text",
-          "id": "desktop_button",
-          "label": "Desktop Button"
-        },
-        {
-          "type": "text",
-          "id": "mobile_button",
-          "label": "Mobile Button"
-        },
-        {
-          "type": "text",
-          "id": "popup_title",
-          "label": "Popup Title"
-        },
-        {
-          "type": "text",
-          "id": "popup_content",
-          "label": "Popup Content"
-        },
-         {
-          "type": "image_picker",
-          "id": "popup_image",
-          "label": "Popup Image"
-        }
+    {
+      "type": "text",
+      "id": "button",
+      "label": "Button",
+      "default": "View Nutrition Facts"
+    }
   ],
-   "blocks": [
-      ],
-  
+  "blocks": [],
   "presets": [
     {
       "name": "Backed By Ingredients",
