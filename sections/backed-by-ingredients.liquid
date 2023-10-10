@@ -238,23 +238,32 @@
    </style>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
     <script>
-    jQuery(document).ready(function($) {
+jQuery(document).ready(function($) {
     $('.your-custom-trigger-class').on('click', function(event) {
         event.preventDefault();
         $('.your-custom-popup-class').addClass('is-visible');
     });
+
     $('.your-custom-popup-class').on('click', function(event) {
         if ($(event.target).is('.your-custom-popup-close-class') || $(event.target).is('.your-custom-popup-class')) {
             event.preventDefault();
-            $(this).removeClass('is-visible');
+            $('.your-custom-popup-container-class').css('transform', 'translateY(100%)');
+            setTimeout(function() {
+                $('.your-custom-popup-class').removeClass('is-visible');
+            }, 300); // Delay should match the transition duration in CSS
         }
     });
+
     $(document).keyup(function(event) {
         if (event.which == '27') {
-            $('.your-custom-popup-class').removeClass('is-visible');
+            $('.your-custom-popup-container-class').css('transform', 'translateY(100%)');
+            setTimeout(function() {
+                $('.your-custom-popup-class').removeClass('is-visible');
+            }, 300); // Delay should match the transition duration in CSS
         }
     });
 });
+
     </script>
             
 {% schema %}
