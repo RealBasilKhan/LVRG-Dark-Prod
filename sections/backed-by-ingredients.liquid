@@ -96,8 +96,11 @@
     padding-right: 30px;
 }
   .your-custom-popup-container-class {
-    transform: translatex(100%);
+    /* ... (previous styles) */
+    transform: translateY(100%);
+    /* ... (previous styles) */
     transition: transform 0.3s ease-in-out;
+    /* ... (previous styles) */
 }
 
    .your-custom-popup-class.is-visible {
@@ -238,32 +241,23 @@
    </style>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
     <script>
-jQuery(document).ready(function($) {
+    jQuery(document).ready(function($) {
     $('.your-custom-trigger-class').on('click', function(event) {
         event.preventDefault();
         $('.your-custom-popup-class').addClass('is-visible');
     });
-
     $('.your-custom-popup-class').on('click', function(event) {
         if ($(event.target).is('.your-custom-popup-close-class') || $(event.target).is('.your-custom-popup-class')) {
             event.preventDefault();
-            $('.your-custom-popup-container-class').css('transform', 'translateY(100%)');
-            setTimeout(function() {
-                $('.your-custom-popup-class').removeClass('is-visible');
-            }, 300); // Delay should match the transition duration in CSS
+            $(this).removeClass('is-visible');
         }
     });
-
     $(document).keyup(function(event) {
         if (event.which == '27') {
-            $('.your-custom-popup-container-class').css('transform', 'translateY(100%)');
-            setTimeout(function() {
-                $('.your-custom-popup-class').removeClass('is-visible');
-            }, 300); // Delay should match the transition duration in CSS
+            $('.your-custom-popup-class').removeClass('is-visible');
         }
     });
 });
-
     </script>
             
 {% schema %}
