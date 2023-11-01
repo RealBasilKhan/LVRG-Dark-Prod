@@ -87,12 +87,16 @@
   vertical-align: initial;
 }
 
-.table-container {
-  overflow: scroll !important; 
-}
+
 
 @media (min-width: 768px) {
   .table-container {
     overflow: initial; 
   }
+}
+
+@media (min-width: 767px) {
+  .table-container {
+  overflow: scroll !important; 
+}
 }
