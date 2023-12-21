@@ -124,6 +124,42 @@
         "enable_video_looping": false
       }
     },
+    "4114d5c0-9533-43dc-8c53-9684203939cf": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20762913472810__4114d5c0-9533-43dc-8c53-9684203939cf-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The Ultimate Way To Get |In The Zone| Physically and Mentally",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#FD6262"
+          }
+        },
+        "template--20762913472810__4114d5c0-9533-43dc-8c53-9684203939cf-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Metamix<\/strong>®<strong>is a greens, mushrooms and adaptogens blend for men that helps support hormones, increase energy and improve focus.<\/strong>†︎<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--20762913472810__4114d5c0-9533-43dc-8c53-9684203939cf-heading-1",
+        "template--20762913472810__4114d5c0-9533-43dc-8c53-9684203939cf-text-1"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_heading": "#FFFF",
+        "color_text": "#ffffff",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "1b2ac1d1-0347-4418-9a68-1529f48b220a": {
       "type": "rich-text",
       "blocks": {
@@ -140,6 +176,7 @@
       "block_order": [
         "template--20688426926378__1b2ac1d1-0347-4418-9a68-1529f48b220a-heading-1"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "large",
         "text_position": "center",
@@ -188,6 +225,7 @@
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2",
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -940,6 +978,7 @@
   "order": [
     "breadcrumbs",
     "main-product",
+    "4114d5c0-9533-43dc-8c53-9684203939cf",
     "1b2ac1d1-0347-4418-9a68-1529f48b220a",
     "e2bcbf37-e737-4897-b537-292703633aaa",
     "fa29ec10-4697-4581-af5c-83af7c1ffbef",
