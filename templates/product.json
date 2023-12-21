@@ -139,7 +139,7 @@
         "template--20762913472810__4114d5c0-9533-43dc-8c53-9684203939cf-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Metamix<\/strong>®<strong>is a greens, mushrooms and adaptogens blend for men that helps support hormones, increase energy and improve focus.<\/strong>†︎<\/p>",
+            "text": "<p><strong>Metamix<\/strong>® <strong>is a greens, mushrooms and adaptogens blend for men that helps support hormones, increase energy and improve focus.<\/strong>†︎<\/p>",
             "size": "text-size-regular"
           }
         }
@@ -343,7 +343,7 @@
       ],
       "settings": {
         "section_background": "#ffffff",
-        "heading": "Each LVRG Scoop contains...",
+        "heading": "Each Scoop contains...",
         "text_color": "#000000",
         "icon_left1": "shopify:\/\/shop_images\/Premium_Ingredient.png",
         "heading_left1": "PREMIUM INGREDIENTS",
