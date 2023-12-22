@@ -42,13 +42,27 @@
             "title": "Become a Part of the Movement",
             "text": "<p>Subscribe to be part of a community where modern men thrive and excel.<\/p>"
           }
+        },
+        "54afbcec-73db-42b6-8c78-079cd2bbb887": {
+          "type": "text",
+          "settings": {
+            "column_size": "small",
+            "text_alignment": "left",
+            "title": "",
+            "text": "<p>† THESE STATEMENTS HAVE NOT BEEN EVALUATED BY THE FOOD AND DRUG ADMINISTRATION. THIS PRODUCT IS NOT INTENDED TO DIAGNOSE, TREAT, CURE, OR PREVENT ANY DISEASE.<\/p>",
+            "text_size": "small",
+            "button_text": "",
+            "button_link": "",
+            "show_social_links": true
+          }
         }
       },
       "block_order": [
         "ebdaaa5c-c47c-42ac-a830-30a799694755",
         "d402e6d5-9d79-43ad-900a-cfaddc6cd9f8",
         "055d0c35-3f11-4f51-9e3d-eab55edb7a9b",
-        "2ab8345e-9f63-4c80-b028-f4edae3633b5"
+        "2ab8345e-9f63-4c80-b028-f4edae3633b5",
+        "54afbcec-73db-42b6-8c78-079cd2bbb887"
       ],
       "settings": {
         "footer_reveal_animation": true,
