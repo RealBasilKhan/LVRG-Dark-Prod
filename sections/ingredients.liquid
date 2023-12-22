@@ -219,7 +219,6 @@
                 {% assign active = 'active' %}
               {% endif %}
               <div class="{{ active }} content-box" data-index="{{ i }}">
-                ss
                 {% if block.settings[what_is] != blank %}
                   <div class="box-1 box">
                     <h1>What it is?</h1>
@@ -365,7 +364,7 @@
 
       var curr_index = $('.swiper-slide-active').data('index');
       var data_id = $('[data-block-id].active').data('block-id');
-      console.log('sss', data_id);
+
 
       $('.' + data_id + ' .content-box').removeClass('active');
 
