@@ -135,7 +135,6 @@
               {% endfor %}
             </div>
           </div>
-          ss
           {% for i in (1..8) %}
             {% assign active = '' %}
             {% if forloop.first %}
@@ -143,6 +142,7 @@
             {% endif %}
             {% assign what_is = 'what-is-it' | append: i %}
             {% assign what_does = 'what-is-does' | append: i %}
+            dd
             <div class="{{ active }} para-btn only-mobile" data-index="{{ i }}">
               <div class="col-2">
                 {% if block.settings[what_is] != blank %}
