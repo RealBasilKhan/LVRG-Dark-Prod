@@ -133,7 +133,7 @@
             "text": "The Ultimate Way To Get |In The Zone| Physically and Mentally",
             "marker_style": "style1",
             "size": "h3",
-            "marker_color": "#FD6262"
+            "marker_color": "#fd6262"
           }
         },
         "template--20762913472810__4114d5c0-9533-43dc-8c53-9684203939cf-text-1": {
@@ -152,7 +152,7 @@
         "text_width": "medium",
         "text_position": "center",
         "text_alignment": "center",
-        "color_bg": "transparent",
+        "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#FFFF",
         "color_text": "#ffffff",
         "color_links": "#2c2d2e",
@@ -494,7 +494,7 @@
         "mobile_button": "VIEW NUTRITION FACTS",
         "popup_title": "Product information",
         "popup_content": "Nutritional Information",
-        "popup_image": "shopify:\/\/shop_images\/Supplement_Label_f53c71ef-7248-4aa2-90f5-d39bc03f2a5d.webp"
+        "popup_image": "shopify:\/\/shop_images\/Supplement_Fact_Adjusted_Formula.png"
       }
     },
     "a740cc50-cf54-48d4-b324-08d381a7e2d0": {
