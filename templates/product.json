@@ -971,7 +971,7 @@
           "settings": {
             "heading": "How much does shipping cost and when will I receive my order?",
             "open": false,
-            "content": "<p>Shipping costs vary based on your location and selected shipping speed. Our standard processing time is 2-4 business days after placing your order. For exact shipping prices, complete the checkout process with your shipping information, and available carriers and prices for your location will be provided.<\/p>",
+            "content": "<p>Shipping costs vary based on your location and selected shipping speed. Our standard processing time is same day or 1-2 business days after placing your order (For holidays). For exact shipping prices, complete the checkout process with your shipping information, and available carriers and prices for your location will be provided.<\/p>",
             "page": ""
           }
         }
