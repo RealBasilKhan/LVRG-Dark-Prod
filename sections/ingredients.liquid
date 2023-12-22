@@ -360,6 +360,9 @@
     });
 
     $('.mySwiper').on('DOMSubtreeModified', function (e) {
+      setTimeout(function(){
+
+
       var curr_index = $('.swiper-slide-active').data('index');
       var data_id = $('[data-block-id].active').data('block-id');
       console.log('sss', data_id);
@@ -367,6 +370,7 @@
       $('.' + data_id + ' .content-box').removeClass('active');
 
       $('.' + data_id + ' .content-box[data-index="' + curr_index + '"]').addClass('active');
+          },1000)
     });
   });
 </script>
