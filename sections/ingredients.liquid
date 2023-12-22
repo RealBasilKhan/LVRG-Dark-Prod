@@ -211,7 +211,7 @@
           </div>
 
           <div class="only-desktop only-laptop only-tab">
-            {% for i in (0..8) %}
+            {% for i in (1..8) %}
               {% assign what_is = 'what-is-it' | append: i %}
               {% assign what_does = 'what-is-does' | append: i %}
               {% assign active = '' %}
@@ -362,6 +362,7 @@
     $('.mySwiper').on('DOMSubtreeModified', function (e) {
       var curr_index = $('.swiper-slide-active').data('index');
       var data_id = $('[data-block-id].active').data('block-id');
+      console.log('sss', data_id);
 
       $('.' + data_id + ' .content-box').removeClass('active');
 
