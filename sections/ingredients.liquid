@@ -81,7 +81,6 @@
           {% assign active = 'active' %}
         {% endif %}
         <div class="{{ block.id }} {{ active }} sj-blocks">
-          dd
           <div class="flex-row only-mobile">
             <div class="col-2 sj-left sj-container">
               <div class="box-{{ forloop.index }} box">
@@ -136,6 +135,7 @@
               {% endfor %}
             </div>
           </div>
+          sss
           {% for i in (1..8) %}
             {% assign active = '' %}
             {% if forloop.first %}
