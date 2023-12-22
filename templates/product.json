@@ -884,7 +884,7 @@
         "5586f39f-c9cc-41a5-9c79-494141a820e1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "WHAT BENEFITS CAN I EXPECT FROM THE METAMIX",
+            "heading": "What Benefits can I expect?",
             "open": false,
             "content": "<p>Beyond just feeding your body, it amplifies your masculinity. Expect improved energy, sharper cognitive functions, and an enhanced overall well-being. In short, it's your ticket to upping your game.<\/p>",
             "page": ""
@@ -902,9 +902,8 @@
         },
         "78977bda-88c1-4c5d-a57b-395a8e01f169": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "HOW MUCH SHOULD I TAKE DAILY?",
+            "heading": "How much should I take daily?",
             "open": false,
             "content": "<p>One scoop, and you're set. Blend it, shake it, drink it. Daily.<\/p>",
             "page": ""
@@ -923,7 +922,7 @@
         "a3c751c4-66ff-41de-a34a-72fc4d4a7475": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "CAN WOMEN USE IT?",
+            "heading": "Can women use it?",
             "open": false,
             "content": "<p>While crafted with men in mind, it's beneficial for everyone. So, ladies, feel free to dive in.<\/p>",
             "page": ""
@@ -948,6 +947,33 @@
             "content": "<p>While our mix is gentle on most stomachs, always start with a smaller portion to test the waters.<\/p>",
             "page": ""
           }
+        },
+        "86b8f3d0-6b6f-4086-a74f-20e723f82c92": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How can I be sure Metamix will work for me?",
+            "open": false,
+            "content": "<p>Metamix is formulated with ingredients backed by scientific studies, tailored to enhance men's health, focusing on mental focus, energy, and hormonal balance. Individual results can vary, but Metamix is designed to deliver noticeable benefits<\/p>",
+            "page": ""
+          }
+        },
+        "29cc5a03-6aea-4330-8026-21c38a07202c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How quickly will I notice results with Metamix?",
+            "open": false,
+            "content": "<p>Some users notice a difference in as little as a few days, while for others, it may take a couple of weeks. Consistent use is key to experiencing the full benefits.<\/p>",
+            "page": ""
+          }
+        },
+        "c21fe092-3409-49ba-8bac-6b365de83ce4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How much does shipping cost and when will I receive my order?",
+            "open": false,
+            "content": "<p>Shipping costs vary based on your location and selected shipping speed. Our standard processing time is 2-4 business days after placing your order. For exact shipping prices, complete the checkout process with your shipping information, and available carriers and prices for your location will be provided.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -957,7 +983,10 @@
         "2c7b494a-c873-48e4-9060-663a70cebb2a",
         "a3c751c4-66ff-41de-a34a-72fc4d4a7475",
         "4c33cf1c-74ff-4a11-b7b2-70706ec4dd9f",
-        "91f4a562-54ac-4226-9c64-8cfd0f20339b"
+        "91f4a562-54ac-4226-9c64-8cfd0f20339b",
+        "86b8f3d0-6b6f-4086-a74f-20e723f82c92",
+        "29cc5a03-6aea-4330-8026-21c38a07202c",
+        "c21fe092-3409-49ba-8bac-6b365de83ce4"
       ],
       "settings": {
         "heading": "|FAQs|",
