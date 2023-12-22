@@ -49,6 +49,7 @@
     "lazy_loading": true,
     "favicon": "shopify:\/\/shop_images\/LVRG_Favicon.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/LVRG_New_logo_file.png",
+    "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#1f1f23",
     "checkout_input_background_color_mode": "transparent",
