@@ -786,19 +786,19 @@
         "09112ab2-7a1d-47c0-b6a8-c05515bf9d20": {
           "type": "table_row",
           "settings": {
-            "row_title": "Supports Male Hormones",
+            "row_title": "Boosts Testosterone",
             "product1_row_radio": "tick",
             "product2_row_radio": "cross",
             "product3_row_radio": "cross",
-            "product4_row_radio": "cross"
+            "product4_row_radio": "tick"
           }
         },
         "7e2386e4-795c-4363-ae77-3f235ac1029a": {
           "type": "table_row",
           "settings": {
-            "row_title": "No Estrogen Boosters",
+            "row_title": "Energy Without Crash",
             "product1_row_radio": "tick",
-            "product2_row_radio": "cross",
+            "product2_row_radio": "tick",
             "product3_row_radio": "cross",
             "product4_row_radio": "cross"
           }
@@ -806,41 +806,41 @@
         "6a31708c-2934-42d6-93ef-e096e5e90082": {
           "type": "table_row",
           "settings": {
-            "row_title": "Functional Mushrooms",
+            "row_title": "Mental Clarity & Focus",
             "product1_row_radio": "tick",
-            "product2_row_radio": "tick",
-            "product3_row_radio": "cross",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "tick",
             "product4_row_radio": "cross"
           }
         },
         "c54f8bc0-e153-40a5-8fee-f3d61bdb3b4a": {
           "type": "table_row",
           "settings": {
-            "row_title": "Only $1.66 per Day",
+            "row_title": "Improves Recovery",
             "product1_row_radio": "tick",
             "product2_row_radio": "cross",
-            "product3_row_radio": "tick",
-            "product4_row_radio": "cross"
+            "product3_row_radio": "cross",
+            "product4_row_radio": "tick"
           }
         },
         "540aaec7-3408-4d54-a9b6-64b7ab053fbb": {
           "type": "table_row",
           "settings": {
-            "row_title": "Free of Stevia",
+            "row_title": "Clean Ingredients",
             "product1_row_radio": "tick",
             "product2_row_radio": "cross",
-            "product3_row_radio": "tick",
+            "product3_row_radio": "cross",
             "product4_row_radio": "cross"
           }
         },
         "20040dca-15ba-4a27-85de-286d23127c85": {
           "type": "table_row",
           "settings": {
-            "row_title": "USDA Organic",
+            "row_title": "Promotes Muscle Growth",
             "product1_row_radio": "tick",
             "product2_row_radio": "cross",
-            "product3_row_radio": "tick",
-            "product4_row_radio": "cross"
+            "product3_row_radio": "cross",
+            "product4_row_radio": "tick"
           }
         }
       },
@@ -858,13 +858,13 @@
       "settings": {
         "table_heading": "",
         "product1_pic": "shopify:\/\/shop_images\/01_1.png",
-        "product1_title": "LVRG Mushroom-Greens Metamix",
+        "product1_title": "LVRG Metamix",
         "product2_pic": "shopify:\/\/shop_images\/Metamix_Landing_Page_AG_Comparison_Chart_Deskop_copy.png",
-        "product2_title": "Proprietary Blend Greens",
+        "product2_title": "Greens",
         "product3_pic": "shopify:\/\/shop_images\/Metamix_Landing_Page_Amazing_Grass_Comparison_Chart_Deskop_copy-removebg-preview.png",
-        "product3_title": "Grass Tasting Grass",
+        "product3_title": "Mushroom Coffee",
         "product4_pic": "shopify:\/\/shop_images\/Metamix_Landing_Page_Bloom_Comparison_Chart_Deskop.png",
-        "product4_title": "Blossom",
+        "product4_title": "Testosterone Boosters",
         "background_color": "#1f1f23",
         "font_color": "#ffffff",
         "border_color": "#ffffff"
