@@ -651,6 +651,7 @@
     },
     "d07f37b0-1372-4816-82e2-9be283be6a36": {
       "type": "image-row",
+      "disabled": true,
       "settings": {
         "heading": "",
         "sub-heading": "",
