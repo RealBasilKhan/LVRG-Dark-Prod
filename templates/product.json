@@ -799,7 +799,7 @@
             "row_title": "Energy Without Crash",
             "product1_row_radio": "tick",
             "product2_row_radio": "tick",
-            "product3_row_radio": "cross",
+            "product3_row_radio": "tick",
             "product4_row_radio": "cross"
           }
         },
@@ -818,19 +818,19 @@
           "settings": {
             "row_title": "Improves Recovery",
             "product1_row_radio": "tick",
-            "product2_row_radio": "cross",
+            "product2_row_radio": "tick",
             "product3_row_radio": "cross",
-            "product4_row_radio": "tick"
+            "product4_row_radio": "cross"
           }
         },
         "540aaec7-3408-4d54-a9b6-64b7ab053fbb": {
           "type": "table_row",
           "settings": {
-            "row_title": "Clean Ingredients",
+            "row_title": "Non-Estrogenic Ingredients",
             "product1_row_radio": "tick",
             "product2_row_radio": "cross",
             "product3_row_radio": "cross",
-            "product4_row_radio": "cross"
+            "product4_row_radio": "tick"
           }
         },
         "20040dca-15ba-4a27-85de-286d23127c85": {
