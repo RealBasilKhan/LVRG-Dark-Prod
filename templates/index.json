@@ -648,6 +648,19 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "d07f37b0-1372-4816-82e2-9be283be6a36": {
+      "type": "image-row",
+      "settings": {
+        "heading": "",
+        "sub-heading": "",
+        "label1": "Plant-Based, Vegan",
+        "label2": "Gluten Free",
+        "label3": "Dairy Free",
+        "label4": "Nut Free",
+        "label5": "No Artificial Colors, Flavors",
+        "label6": "0 Sugar"
+      }
     }
   },
   "order": [
@@ -662,6 +675,7 @@
     "dae44fb7-70f4-45c7-8fe0-d801da6bd384",
     "2be1970b-258e-417a-bb3f-e2521a22e2b9",
     "b3fefce0-1128-4cbf-80d5-3df947252026",
-    "bb76abc2-483f-4586-973a-c9dfbbbc040e"
+    "bb76abc2-483f-4586-973a-c9dfbbbc040e",
+    "d07f37b0-1372-4816-82e2-9be283be6a36"
   ]
 }
