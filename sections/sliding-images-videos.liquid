@@ -6,6 +6,7 @@
    width:14.4621%;
    display: grid;
    grid-template-rows: 1fr 183px;
+    transition: width 0.4s ease;
  } 
   .card-image-main.active{
     width:23.6464%;
@@ -40,6 +41,7 @@
 .card-disc-main{
   display:none;
   opacity:0;
+   transition: opacity 0.5s ease;
 }
 .card-image-main.active .card-disc-main{
   display:block;
