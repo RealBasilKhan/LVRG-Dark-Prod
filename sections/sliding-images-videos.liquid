@@ -32,6 +32,7 @@
 .card-disc-h strong{
   font-weight:bold;
 }
+
 </style>
 <div class="sliding-cards-main">
   <div class="mobile-buttons-h">
@@ -76,6 +77,30 @@
     </div>
   </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+   var all_cards=document.querySelectorAll(".card-image-main");
+  all_cards.forEach(function(ele){
+    ele.addEventListener("click",function(){
+    var all_c=document.querySelectorAll(".card-image-main");
+      all_c.forEach(function(el){
+        el.classList.remove("active");
+      });
+      ele.classList.add("active");
+    });
+    if(ele.classList.contains("active")){
+      var text_div=ele.querySelector(".card-disc-main");
+      text_div.style.display="block";
+      text-div.style.opacity="1";
+    }
+    else{
+      var text_div=ele.querySelector(".card-disc-main");
+      text_div.style.display="none";
+      text-div.style.opacity="0";
+    }
+  });
+});
+</script>
 {% schema %}
   {
     "name": "sliding-images-videos",
