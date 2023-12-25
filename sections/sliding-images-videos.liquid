@@ -5,7 +5,7 @@
  .card-image-main{
    width:14.4621%;
    display: grid;
-   grid-template-rows: 1fr 300px;
+   grid-template-rows: 1fr 250px;
     transition: all 0.4s ease;
    opacity:0.6;
  } 
@@ -52,8 +52,19 @@
   transition: opacity 0.5s ease;
   transition-delay:0.5s;
 }
-@media screen and(max-width:1104px){
+@media screen and(max-width:1200px){
+  .card-image-main{
   
+   grid-template-rows: 1fr 300px;
+   
+ } 
+}
+@media screen and(max-width:1100px){
+  .card-image-main{
+  
+   grid-template-rows: 1fr 300px;
+   
+ } 
 }
 </style>
 <div class="sliding-cards-main">
