@@ -1,7 +1,87 @@
+<style>
+  
+</style>
+<div class="sliding-cards-main">
+  <div class="mobile-buttons-h">
+    <div class="main-btns">
+      {% for block in section.blocks %}
+        <div class="mainbtns">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="main-div-sliding">
+    <div class="main-slider">
+      {% for block in section.blocks %}
+        <div class="card-image-main">
+          <div class="card-media_head-main">
+            <div class="card-media-m">
+              <div class="card-m">
+                <div class="image-card">
+                  <img src={{ block.settings.imgcard | img_url:"master" }} alt="{{ block.settings.subhcard }}">
+                </div>
+                {% if block.settings.videocard != blank %}
+                <div class="video-div">
+                  <video></video>
+                </div>
+                {% endif %}
+              </div>
+            </div>
+            <div class="card-h">
+            </div>
+          </div>
+          <div class="card-disc-main">
+            <div class="card-disc-h">
+              {{ block.settings.subhcard }}
+            </div>
+            <div class="main-disc-text">
+              {{ block.settings.textcard }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "sliding-images-videos",
+    "settings": [],
+    "blocks":[
+      {
+        "name":"card",
+        "type":"card-image",
+        "settings":[
+{
+  "type":"image_picker",
+  "label":"Add Image",
+  "id":"imgcard"
+},
+          {
+            "type":"url",
+            "label":"Add video link",
+            "id":"videocard"
+          },
+          {
+            "type":"text",
+            "label":"Add main heading",
+            "id":"mainhcard"
+          },
+          {
+            "type":"richtext",
+            "label":"Add SubHeading",
+            "id":"subhcard"
+          },
+          {
+            "type":"richtext",
+            "label":"Add Text",
+            "id":"textcard"
+          }
+        ]
+          
+        
+      }
+    ]
   }
 {% endschema %}
 
