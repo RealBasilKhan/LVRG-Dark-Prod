@@ -114,9 +114,13 @@ document.addEventListener('DOMContentLoaded', function() {
       card.classList.add("active");
 
       // Display content for the clicked card
-      var textDiv = card.querySelector(".card-disc-main");
-      textDiv.style.display = "block";
-      textDiv.style.opacity = "1";
+       
+        var textDiv = card.querySelector(".card-disc-main");
+        textDiv.style.display = "block";
+      setTimeout(function() {
+        textDiv.style.opacity = "1";
+      }, 400);
+    
     });
   });
 });
