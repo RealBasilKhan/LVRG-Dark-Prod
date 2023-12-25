@@ -84,27 +84,30 @@
 </div>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var all_cards=document.querySelectorAll(".card-image-main");
-  all_cards.forEach(function(ele){
-    ele.addEventListener("click",function(){
-    var all_c=document.querySelectorAll(".card-image-main");
-      all_c.forEach(function(el){
-        el.classList.remove("active");
+  var allCards = document.querySelectorAll(".card-image-main");
+
+  allCards.forEach(function(card) {
+    card.addEventListener("click", function() {
+      // Remove 'active' class from all cards
+      allCards.forEach(function(otherCard) {
+        otherCard.classList.remove("active");
+        var textDiv = otherCard.querySelector(".card-disc-main");
+        textDiv.style.display = "none";
+        textDiv.style.opacity = "0";
       });
-   });
-    if(ele.classList.contains("active")){
-      var text_div=ele.querySelector(".card-disc-main");
-      text_div.style.display="block";
-      text_div.style.opacity="1";
-    }
-    else{
-      var text_div=ele.querySelector(".card-disc-main");
-      text_div.style.display="none";
-      text_div.style.opacity="0";
-    }
+
+      // Add 'active' class to the clicked card
+      card.classList.add("active");
+
+      // Display content for the clicked card
+      var textDiv = card.querySelector(".card-disc-main");
+      textDiv.style.display = "block";
+      textDiv.style.opacity = "1";
+    });
   });
 });
 </script>
+
 {% schema %}
   {
     "name": "sliding-images-videos",
