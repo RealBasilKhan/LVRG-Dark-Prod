@@ -120,7 +120,7 @@ margin-top:10px;
                 </div>
                 {% if block.settings.videocard != blank %}
                 <div class="video-div">
-                  <video class="video-m {% if forloop.first %} played {% endif %} "autoplay loop controls>
+                  <video class="video-m {% if forloop.first %} played {% endif %} "autoplay loop muted>
                                        <source src="{{ block.settings.videocard }}" type="video/mp4">
                                      
                   </video>
