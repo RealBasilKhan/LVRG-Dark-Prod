@@ -278,8 +278,10 @@ document.addEventListener('DOMContentLoaded', function() {
     alcards.forEach(function(ele){
       var dotdata=ele.getAttribute("data-dots");
       var iddots=ele.getAttribute("aria-describedby");
-     console.log(dotdata);
-      console.log(iddots);
+    var nDiv=document.createElement("div");
+    nDiv.classList.add="btnt";
+      var insertingbtn=document.getElementById(iddots);
+      console.log(insertingbtn);
     });
   }
 });
