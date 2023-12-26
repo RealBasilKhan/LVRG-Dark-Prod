@@ -218,7 +218,8 @@ p.btnt {
                 </div>
                 {% if block.settings.videocard != blank %}
                 <div class="video-div">
-                   {{ block.settings.videocard | video_tag  }} 
+                   {{ block.settings.videocard | video_tag: autoplay: true, muted: true, controls: false, class: 'video-m', loop:'true' }}
+
                   {% comment %}
                   <video class="video-m {% if forloop.first %} played {% endif %} "autoplay loop muted controls="false">
                                        <source src="{{ block.settings.videocard }}" type="video/mp4">
