@@ -291,9 +291,9 @@ document.addEventListener('DOMContentLoaded', function() {
       var iddots=ele.getAttribute("aria-describedby");
     var nDiv=document.createElement("p");
     nDiv.classList.add="btnt";
-      nDiv.textContent=dotdata;
+        nDiv.innerHTML=bottoml.join("<br>");
       var insertingbtn=document.getElementById(iddots);
-      insertingbtn.innerHTML=bottoml.join("<br>");
+   insertingbtn.textContent="";
      insertingbtn.appendChild(nDiv);
     });
   }
