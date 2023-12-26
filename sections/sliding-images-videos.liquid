@@ -283,15 +283,17 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
     var alcards=document.querySelectorAll(".card-image-main");
-    console.log(alcards)
+ 
     alcards.forEach(function(ele){
       var dotdata=ele.getAttribute("data-dots");
+      var bottoml=dotdata.split(" ");
+      
       var iddots=ele.getAttribute("aria-describedby");
     var nDiv=document.createElement("p");
     nDiv.classList.add="btnt";
       nDiv.textContent=dotdata;
       var insertingbtn=document.getElementById(iddots);
-      insertingbtn.textContent="";
+      insertingbtn.innerHTML=bottoml.join("<br>");
      insertingbtn.appendChild(nDiv);
     });
   }
