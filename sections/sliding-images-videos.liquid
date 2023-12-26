@@ -196,7 +196,7 @@ margin-top:10px;
   <div class="main-div-sliding">
     <div class="main-slider">
       {% for block in section.blocks %}
-        <div class="card-image-main {% if forloop.first %} active {% endif %}">
+        <div class="card-image-main {% if forloop.first %} active {% endif %}" data-dots="{{ block.settings.mainhcard }}">
           <div class="card-media_head-main">
             <div class="card-media-m">
               <div class="card-m">
