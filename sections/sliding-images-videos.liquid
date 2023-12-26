@@ -272,6 +272,14 @@ document.addEventListener('DOMContentLoaded', function() {
   arrows:false,
       slideToScroll:1
 });
+
+    var alcards=document.querySelectorAll(".card-disc-main");
+    alcards.forEach(function(ele){
+      var dotdata=ele.getAttribute("data-dots");
+      var iddots=ele.getAttribute("aria-describedby");
+     console.log(dotdata);
+      console.log(iddots);
+    });
   }
 });
 
