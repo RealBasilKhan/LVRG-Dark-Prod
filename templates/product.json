@@ -285,7 +285,7 @@
           "type": "button",
           "settings": {
             "button_text": "Add To Cart",
-            "button_link": "shopify:\/\/products\/lvrg-mushroom-greens-metamix"
+            "button_link": "shopify:\/\/products\/metamix"
           }
         }
       },
