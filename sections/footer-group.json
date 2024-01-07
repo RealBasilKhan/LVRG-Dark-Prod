@@ -24,15 +24,7 @@
           "settings": {
             "column_size": "small",
             "title": "Company",
-            "menu": "main-menu"
-          }
-        },
-        "055d0c35-3f11-4f51-9e3d-eab55edb7a9b": {
-          "type": "menu",
-          "settings": {
-            "column_size": "small",
-            "title": "Resources",
-            "menu": "main-menu"
+            "menu": "footer"
           }
         },
         "2ab8345e-9f63-4c80-b028-f4edae3633b5": {
@@ -60,7 +52,6 @@
       "block_order": [
         "ebdaaa5c-c47c-42ac-a830-30a799694755",
         "d402e6d5-9d79-43ad-900a-cfaddc6cd9f8",
-        "055d0c35-3f11-4f51-9e3d-eab55edb7a9b",
         "2ab8345e-9f63-4c80-b028-f4edae3633b5",
         "d764f855-7ec1-4b24-9d1a-56f3fa472fdb"
       ],
