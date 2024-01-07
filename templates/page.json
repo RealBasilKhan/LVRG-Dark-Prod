@@ -1,1 +1,24 @@
-{"sections":{"template-header":{"type":"template-header","settings":{"show_subcollections":true}},"main":{"type":"main-page","settings":{}}},"order":["template-header","main"]}
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": true,
+        "show_subcollections": true,
+        "color_subcollection_bg": "#ffffff",
+        "color_subcollection_text": "#2C2D2E",
+        "display_description": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main"
+  ]
+}
