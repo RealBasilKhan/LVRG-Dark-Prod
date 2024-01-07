@@ -2,12 +2,13 @@
   "sections": {
     "template-header": {
       "type": "template-header",
+      "disabled": true,
       "settings": {
         "show_collection_image": false,
         "show_collection_description": true,
         "show_subcollections": true,
         "color_subcollection_bg": "#ffffff",
-        "color_subcollection_text": "#2C2D2E",
+        "color_subcollection_text": "#2c2d2e",
         "display_description": false
       }
     },
