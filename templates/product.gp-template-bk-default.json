@@ -1,0 +1,1024 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "b51da28f-975f-4f51-a8ce-ebd872a18326": {
+          "type": "inventory_level",
+          "settings": {
+            "show_inventory_notice": "always",
+            "show_inventory_count": "low",
+            "inventory_notice_pulse": true,
+            "inventory_notice_bar": false,
+            "inventory_notice_threshold": 10,
+            "inventory_notice_base": 20
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "3209aea5-2573-4044-a863-a0a6498a31e4": {
+          "type": "text",
+          "settings": {
+            "text": "Maximize your daily edge and competitive drive with science-backed, Testosterone-Boosting ingredients",
+            "text_style": "subheading"
+          }
+        },
+        "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b": {
+          "type": "icon_list",
+          "settings": {
+            "icon_1_icon": "ruler",
+            "icon_1_image": "shopify:\/\/shop_images\/clipart1271742.png",
+            "icon_1_text": "Boost Testosterone & Vitality*",
+            "icon_2_icon": "box",
+            "icon_2_image": "shopify:\/\/shop_images\/icon.png",
+            "icon_2_text": "Cut Through Brain Fog for Laser-Sharp Focus & Drive*",
+            "icon_3_icon": "star",
+            "icon_3_image": "shopify:\/\/shop_images\/rocket-ship.png",
+            "icon_3_text": "Combat Fatigue & Fuel All-Day Energy Reserves*",
+            "icon_4_icon": "washing",
+            "icon_4_text": ""
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "386f7e4a-6127-4141-928b-9cb4614ee18c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "open": false,
+            "content": "<p>Product Ships Same Day. <br\/><br\/>LVRG Guarantee: <\/p><p>Not Satisfied? You Get Your Money Back, No Returns Needed. <br\/><br\/>If Metamix doesn't meet your expectations within 60 days of receipt, just email us at <a>support@uselvrg.com<\/a>. Keep the product, and we'll refund you, no questions asked.<\/p>",
+            "page": ""
+          }
+        },
+        "d56924f2-0137-4e3b-8c33-49b1f28391c6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How To Use?",
+            "open": false,
+            "content": "<p>For optimal use of LVRG Metamix, simply mix one scoop with 8-12 ounces of water, or your preferred beverage, each morning or early in the afternoon. <br\/><br\/>This ensures you harness the full benefits of the supplement during your most active hours. <\/p>",
+            "page": ""
+          }
+        },
+        "019bda93-d256-470c-ad9f-1d998696cf0a": {
+          "type": "side_panel",
+          "settings": {
+            "side_panel_1_label": "Nutritional Information",
+            "side_panel_1_icon": "star",
+            "side_panel_1_page": "nutritional-facts",
+            "side_panel_2_label": "",
+            "side_panel_2_icon": "box",
+            "side_panel_2_page": "",
+            "side_panel_3_label": "",
+            "side_panel_3_icon": "washing",
+            "side_panel_3_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "b51da28f-975f-4f51-a8ce-ebd872a18326",
+        "title",
+        "3209aea5-2573-4044-a863-a0a6498a31e4",
+        "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b",
+        "quantity",
+        "buy_buttons",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "386f7e4a-6127-4141-928b-9cb4614ee18c",
+        "d56924f2-0137-4e3b-8c33-49b1f28391c6",
+        "019bda93-d256-470c-ad9f-1d998696cf0a"
+      ],
+      "custom_css": [
+        ".product--icon-list li {font-size: 15px;}"
+      ],
+      "settings": {
+        "enable_sticky_add_to_cart": true,
+        "show_taxes_included": false,
+        "thumbnail_position": "left",
+        "media_aspect_ratio": "square",
+        "display_captions": false,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false
+      }
+    },
+    "4114d5c0-9533-43dc-8c53-9684203939cf": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20762913472810__4114d5c0-9533-43dc-8c53-9684203939cf-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The Ultimate Way To Get |In The Zone| Physically and Mentally",
+            "marker_style": "style1",
+            "size": "h1",
+            "marker_color": "#fd6262"
+          }
+        },
+        "template--20762913472810__4114d5c0-9533-43dc-8c53-9684203939cf-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Metamix<\/strong>® <strong>is a greens, mushrooms and adaptogens blend for men that helps support hormones, increase energy and improve focus.<\/strong>†︎<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--20762913472810__4114d5c0-9533-43dc-8c53-9684203939cf-heading-1",
+        "template--20762913472810__4114d5c0-9533-43dc-8c53-9684203939cf-text-1"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#FFFF",
+        "color_text": "#ffffff",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1b2ac1d1-0347-4418-9a68-1529f48b220a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20688426926378__1b2ac1d1-0347-4418-9a68-1529f48b220a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "| 3 Staggering Facts |",
+            "marker_style": "style1",
+            "size": "h1",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "template--20688426926378__1b2ac1d1-0347-4418-9a68-1529f48b220a-heading-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#ffffff",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "e2bcbf37-e737-4897-b537-292703633aaa": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/Male-icon.png",
+            "heading": "Testosterone Decline",
+            "text": "<p>Modern Men have 20% Less Testosterone. Blame junk food and couch marathons.<\/p>"
+          }
+        },
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/vegetable.png",
+            "heading": "Veggie Deficit",
+            "text": "<p>80% of Men Fall Short on Veggies. It's more than health; it's about maintaining that masculine edge.<\/p>"
+          }
+        },
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-08-19_at_3.29.27_PM.png",
+            "heading": "Hidden Estrogen Boosters",
+            "text": "<p>Beware of Common Greens: They're often packed with soy, alfalfa, and flaxseed – sneaky estrogen boosters.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-1",
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2",
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "xlarge",
+        "heading_size": "small",
+        "mobile_swipe": false,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#ffffff",
+        "color_text": "#dedede",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "fa29ec10-4697-4581-af5c-83af7c1ffbef": {
+      "type": "image-with-text",
+      "blocks": {
+        "41c2c92c-78f2-4274-8156-a1c1fd930790": {
+          "type": "heading",
+          "settings": {
+            "text": "Unleash Your Prime Potential",
+            "marker_style": "style1",
+            "heading_size": "h3",
+            "marker_color": "#fd6262"
+          }
+        },
+        "c8a95762-2b19-4e02-b4a7-0c398b2062a5": {
+          "type": "heading",
+          "settings": {
+            "text": "✔ Boost Mental Clarity & Focus",
+            "marker_style": "style1",
+            "heading_size": "h4",
+            "marker_color": "#fd6262"
+          }
+        },
+        "8d629069-9d78-4013-8bf9-ce3fd8b69e71": {
+          "type": "heading",
+          "settings": {
+            "text": "✔ Amplify Testosterone Levels",
+            "marker_style": "style1",
+            "heading_size": "h4",
+            "marker_color": "#fd6262"
+          }
+        },
+        "de9790fd-71e0-4ea6-b178-f61f021fe9d2": {
+          "type": "heading",
+          "settings": {
+            "text": "✔ Surge Daily Energy & Drive",
+            "marker_style": "style1",
+            "heading_size": "h4",
+            "marker_color": "#fd6262"
+          }
+        },
+        "00d71c7d-6f87-4d90-bb06-fabdaf94b712": {
+          "type": "button",
+          "settings": {
+            "button_text": "Add To Cart",
+            "button_link": "shopify:\/\/products\/metamix"
+          }
+        }
+      },
+      "block_order": [
+        "41c2c92c-78f2-4274-8156-a1c1fd930790",
+        "c8a95762-2b19-4e02-b4a7-0c398b2062a5",
+        "8d629069-9d78-4013-8bf9-ce3fd8b69e71",
+        "de9790fd-71e0-4ea6-b178-f61f021fe9d2",
+        "00d71c7d-6f87-4d90-bb06-fabdaf94b712"
+      ],
+      "custom_css": [
+        ".image-with-text--content--inner .button {background: #f4e588; background: linear-gradient(135deg, #f4e588, #e26c5a); margin-top: 15px; width: 100%; color: #ffff; transition: background 0.3s ease; \/* Smooth transition for the hover effect *\/}",
+        ".image-with-text--content--inner .button:hover {\/* * Darken the colors for hover effect *\/ background: linear-gradient(135deg, #e4d578, #d25b4a);}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image.jpg",
+        "use_video": false,
+        "video": "",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "full_width": false,
+        "layout": "image_first",
+        "content_position": "text-left",
+        "column_spacing": "medium",
+        "color_bg": "#343436",
+        "color_text": "#ffffff",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "eafca1d4-05cf-4432-afce-a9c35d9df8d9": {
+      "type": "product-display-with-text-v2",
+      "blocks": {
+        "f89eed25-672c-47da-879c-f3049d657152": {
+          "type": "side_panel",
+          "settings": {
+            "button_text_one": "Nutritional information",
+            "title_one": "Product information",
+            "content_one": "Nutritional Information",
+            "image_one": "shopify:\/\/shop_images\/Supplement_Label_f53c71ef-7248-4aa2-90f5-d39bc03f2a5d.webp",
+            "button_text_two": "",
+            "title_two": "",
+            "content_two": "Nutritional Information",
+            "image_two": "shopify:\/\/shop_images\/Supplement_Label_f53c71ef-7248-4aa2-90f5-d39bc03f2a5d.webp"
+          }
+        }
+      },
+      "block_order": [
+        "f89eed25-672c-47da-879c-f3049d657152"
+      ],
+      "custom_css": [
+        ".custom-btn:hover {border: 1px solid #e27624; padding: 13px 29px !important;}"
+      ],
+      "settings": {
+        "section_background": "#ffffff",
+        "heading": "Each Scoop contains...",
+        "text_color": "#000000",
+        "icon_left1": "shopify:\/\/shop_images\/Premium_Ingredient.png",
+        "heading_left1": "PREMIUM INGREDIENTS",
+        "text_left1": "Top-shelf, handpicked, and backed by science. It’s not just a blend, it’s a promise of unparalleled quality.",
+        "icon_left2": "shopify:\/\/shop_images\/edition-2.png",
+        "heading_left2": "RESEARCH-BACKED FORMULA",
+        "text_left2": "Real results backed by real research. No bro science, just hard facts.",
+        "image_middle": "shopify:\/\/shop_images\/mockup_new_logo_copy_36a268df-61fb-44c2-981a-a2626a331e2e.png",
+        "icon_right1": "shopify:\/\/shop_images\/edition-3.png",
+        "heading_right1": "100% TRANSPARENCY",
+        "text_right1": "Trust is built on truth. That's why we lay everything out in the open. Every ingredient, every percentage, no secrets.",
+        "icon_right2": "shopify:\/\/shop_images\/edition-4.png",
+        "heading_right2": "ZERO B.S",
+        "text_right2": "We say it as it is. No fillers, no fluff, no misleading claims. Just pure, potent, and powerful nutrition.",
+        "button1_link": "",
+        "button1_color": "#000000",
+        "button1_text_color": "#ffffff",
+        "button1_text": "Button 1",
+        "button2_link": "",
+        "button2_color": "#000000",
+        "button2_text_color": "#ffffff",
+        "button2_text": "Button 2",
+        "button_text_one": "Nutritional information",
+        "button_link_one": "shopify:\/\/pages\/nutritional-facts",
+        "button_text_two": "Ingredients information",
+        "button_link_two": "shopify:\/\/pages\/nutritional-facts",
+        "side_panel": ""
+      }
+    },
+    "58d44722-ab46-46eb-92b2-8febe4505129": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "No Fillers",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "No GMO.",
+            "link": "",
+            "outline_text": true
+          }
+        },
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "No Soy.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "cad9e4f9-f9c9-4bb3-84c8-c737ba6fbf9d": {
+          "type": "text",
+          "settings": {
+            "text": "No Artificial Anything.",
+            "link": "",
+            "outline_text": true
+          }
+        },
+        "167bd766-3db4-4574-83ff-0abb12a0eb19": {
+          "type": "text",
+          "settings": {
+            "text": "No Sugar.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "0ada39e6-3ce6-4622-bf78-0260f7cf5a09": {
+          "type": "text",
+          "settings": {
+            "text": "No Gluten.",
+            "link": "",
+            "outline_text": true
+          }
+        },
+        "92fa1868-114f-4ce4-a83e-1b7c333fac9a": {
+          "type": "text",
+          "settings": {
+            "text": "No Proprietary Blends.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "5d9dd7e6-842e-45c7-b36c-c301df8213df": {
+          "type": "text",
+          "settings": {
+            "text": "No B.S.",
+            "link": "",
+            "outline_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-1",
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-2",
+        "template--20688426926378__58d44722-ab46-46eb-92b2-8febe4505129-text-3",
+        "cad9e4f9-f9c9-4bb3-84c8-c737ba6fbf9d",
+        "167bd766-3db4-4574-83ff-0abb12a0eb19",
+        "0ada39e6-3ce6-4622-bf78-0260f7cf5a09",
+        "92fa1868-114f-4ce4-a83e-1b7c333fac9a",
+        "5d9dd7e6-842e-45c7-b36c-c301df8213df"
+      ],
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "rotation": 2,
+        "negative_rotation": false,
+        "font_family": "heading",
+        "text_size": 28,
+        "text_uppercase": true,
+        "image_size": "large",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#ffffff",
+        "overlay_color": "#ff9450",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "bd0b8c83-eda9-4d71-93b1-4b953ee8970b": {
+      "type": "backed-by-ingredients",
+      "custom_css": [
+        ".custom-btn:hover {border: 1px solid #e27624; padding: 19px 0 !important;}"
+      ],
+      "settings": {
+        "arrow": "shopify:\/\/shop_images\/Arrow-down.png",
+        "heading": "BACKED BY INGREDIENTS WITH SCIENTIFIC STUDIES SHOWN TO",
+        "stat1": "39",
+        "desc1": "Improvement in cognitive function",
+        "stat2": "47",
+        "desc2": "Boost in testosterone levels",
+        "stat3": "69",
+        "desc3": "Reduction in insomnia and anxiety",
+        "button_text_desktop": "",
+        "title_desktop": "",
+        "content_desktop": "",
+        "button_text_mobile": "",
+        "title_mobile": "",
+        "content_mobile": "",
+        "desktop_button": "VIEW NUTRITION FACTS",
+        "mobile_button": "VIEW NUTRITION FACTS",
+        "popup_title": "Product information",
+        "popup_content": "Nutritional Information",
+        "popup_image": "shopify:\/\/shop_images\/Supplement_Fact_Adjusted_Formula.png"
+      }
+    },
+    "a740cc50-cf54-48d4-b324-08d381a7e2d0": {
+      "type": "ingredients",
+      "blocks": {
+        "f6089243-11f9-4248-abea-33ee317b1348": {
+          "type": "tab",
+          "settings": {
+            "tab-title": "Greens & Veggies",
+            "card-image1": "shopify:\/\/shop_images\/Spirulina.png",
+            "card-title1": "Organic Spirulina",
+            "card-desc1": "<p>Blue-Green Powerhouse, Energize Every Cell<\/p>",
+            "what-is-it1": "<p>A blue-green algae rich in protein, vitamins, and minerals.<\/p>",
+            "what-is-does1": "<p>- Supercharges energy levels for peak daily performance.<br\/>- Detoxifies heavy metals, especially arsenic, for a cleaner system.<br\/>- Strengthens immunity, so you're prepared for whatever life throws.<\/p>",
+            "card-image2": "shopify:\/\/shop_images\/Moringa.png",
+            "card-title2": "Organic Moringa",
+            "card-desc2": "<p>Green Nutrient Powerhouse, Elevate Your Health<\/p>",
+            "what-is-it2": "<p>Organic Moringa, also known as the \"Miracle Tree,\" is a nutrient-rich plant renowned for its exceptional health benefits.<\/p>",
+            "what-is-does2": "<p>- Supercharges your daily energy levels, keeping you at your peak performance.- Efficiently detoxifies, particularly removing heavy metals like arsenic, promoting a cleaner system.- Strengthens your immune system, ensuring you're ready for life's challenges.<\/p>",
+            "card-image3": "shopify:\/\/shop_images\/spinach_6bf2709b-a3ca-4016-9df5-720e85e523d4.png",
+            "card-title3": "Organic Spinach",
+            "card-desc3": "<p>Iron-Packed Energy, Strengthen Every Step<\/p>",
+            "what-is-it3": "<p>A leafy green vegetable loaded with vitamins and minerals.<\/p>",
+            "what-is-does3": "<p>- Fortifies bone health, keeping you strong and upright.<br\/>- Boosts eye health, ensuring clear vision for every challenge.<br\/>- Enhances energy, giving the push when it's most needed.<\/p>",
+            "card-image4": "shopify:\/\/shop_images\/kale_5101e751-ec1f-4709-a3e3-b3f5e53aa586.png",
+            "card-title4": "Organic Kale",
+            "card-desc4": "<p>Nutrient-Rich Boost, Elevate Every Bite<\/p>",
+            "what-is-it4": "<p>A superfood, packed with antioxidants, vitamins, and minerals.<\/p>",
+            "what-is-does4": "<p>- Strengthens bones, the very foundation of your strength.<br\/>- Enhances skin and hair health, ensuring you look as good as you feel.<br\/>- Provides potent antioxidants, equipping you against external stressors.<\/p>",
+            "card-title5": "",
+            "card-desc5": "",
+            "what-is-it5": "",
+            "what-is-does5": "",
+            "card-title6": "",
+            "card-desc6": "",
+            "what-is-it6": "",
+            "what-is-does6": "",
+            "card-title7": "",
+            "card-desc7": "",
+            "what-is-it7": "",
+            "what-is-does7": "",
+            "card-title8": "",
+            "card-desc8": "",
+            "what-is-it8": "",
+            "what-is-does8": ""
+          }
+        },
+        "f1e6d31c-40c4-4790-8572-7044615223ee": {
+          "type": "tab",
+          "settings": {
+            "tab-title": "Mushrooms",
+            "card-image1": "shopify:\/\/shop_images\/Lions-Mane_23164b03-528c-4ea2-a387-ad45375218d0.png",
+            "card-title1": "Organic Lion's Mane",
+            "card-desc1": "<p>Boost Brainpower, Naturally<\/p>",
+            "what-is-it1": "<p>A white, shaggy mushroom known for its cognitive enhancing properties.<\/p>",
+            "what-is-does1": "<p>- Elevates cognitive function, so you're always the smartest in the room.<br\/>- Boosts nerve health, ensuring precision in every action.<br\/>- Enhances mood, giving you the confidence to face any challenge head-on.<\/p>",
+            "card-image2": "shopify:\/\/shop_images\/Cordyceps_2bb9f1d2-de9c-4f41-9e0d-b75afa8f6c9d.png",
+            "card-title2": "Organic Cordyceps",
+            "card-desc2": "<p>Push Limits, Unleash Stamina<\/p>",
+            "what-is-it2": "<p>A rare fungus that thrives in high-altitude regions, once reserved for royalty.<\/p>",
+            "what-is-does2": "<p>- Fuels energy and stamina, ensuring you're never left behind.<br\/>- Optimizes lung efficiency, perfect for those intense cardio sessions.<br\/>- Elevates libido, keeping your intimate moments passionate.<\/p>",
+            "card-image3": "shopify:\/\/shop_images\/Turkey_Tail.png",
+            "card-title3": "Organic Turkey Tail",
+            "card-desc3": "<p>Guard Up, Shield & Conquer<\/p>",
+            "what-is-it3": "<p>A mushroom known for its immune-boosting polysaccharides.<\/p>",
+            "what-is-does3": "<p>- Supports gut health, a crucial aspect of your daily vitality.<br\/>- Fortifies immune defenses, keeping you ahead in health.<br\/>- Enhances overall vitality, ensuring you always feel your best.<\/p>",
+            "card-image4": "shopify:\/\/shop_images\/Chaga_Mushroom_72fe4a1b-9764-4ba3-8672-ded47a6cb1a1.png",
+            "card-title4": "Organic Chaga",
+            "card-desc4": "<p>Battle Ready, Combat Stress<\/p>",
+            "what-is-it4": "<p>Often called the ‘King of Mushrooms’, revered for its immune benefits.<\/p>",
+            "what-is-does4": "<p>- Boosts immune system strength, ensuring you're always ready.<br\/>- Fights inflammation, ensuring your body's smooth function.<br\/>- Supports intestinal health, a cornerstone of overall wellness.<\/p>",
+            "card-image5": "shopify:\/\/shop_images\/King_Trumpet.png",
+            "card-title5": "Organic King Trumpet",
+            "card-desc5": "<p>Peak Antioxidant, Battle & Triumph<\/p>",
+            "what-is-it5": "<p>A mushroom known for its antioxidant properties.<\/p>",
+            "what-is-does5": "<p>- Supports heart health, keeping pace with your ambitions.<br\/>- Boosts immune defenses, ensuring you're shielded from challenges.<br\/>- Fosters respiratory health, so every breath powers your mission.<\/p>",
+            "card-title6": "",
+            "card-desc6": "",
+            "what-is-it6": "",
+            "what-is-does6": "",
+            "card-title7": "",
+            "card-desc7": "",
+            "what-is-it7": "",
+            "what-is-does7": "",
+            "card-title8": "",
+            "card-desc8": "",
+            "what-is-it8": "",
+            "what-is-does8": ""
+          }
+        },
+        "57860a71-4bc9-4f3e-949c-36e35045d9af": {
+          "type": "tab",
+          "settings": {
+            "tab-title": "Adaptogens & Anabolic",
+            "card-image1": "shopify:\/\/shop_images\/ashwagandha_acf470f4-0410-4512-8b9e-05f1fa97a5d6.png",
+            "card-title1": "KSM-666 Ashwagandha",
+            "card-desc1": "<p>Master Stress, Rule Calmly<\/p>",
+            "what-is-it1": "<p>A potent adaptogenic herb widely recognized in Ayurveda for rejuvenating properties.<\/p>",
+            "what-is-does1": "<p>- Empowers stress resilience, so you remain unshaken in high-pressure scenarios.<br\/>- Balances hormones, giving you a steady mood and sharper focus.<br\/>- Enhances muscle recovery and growth, sculpting you for greatness.<\/p>",
+            "card-image2": "shopify:\/\/shop_images\/maca_8eb852b1-2208-4527-ad2b-50648d9e333f.png",
+            "card-title2": "Maca",
+            "card-desc2": "<p>Charge Up, Dominate the Day<\/p>",
+            "what-is-it2": "<p>A powerful Peruvian root, often called 'Peruvian ginseng' for its energizing properties.<\/p>",
+            "what-is-does2": "<p>- Boosts energy and endurance, turning you into an unstoppable force.<br\/>- Elevates libido and fertility, bringing passion into every facet of life.<br\/>- Fortifies cognitive function, so you think faster and sharper.<\/p>",
+            "card-image3": "shopify:\/\/shop_images\/tongkat_f6b236be-cd3a-4675-9db5-ddbd6e93a289.png",
+            "card-title3": "Tongkat Ali (Eurycoma Longifolia)",
+            "card-desc3": "<p>Alpha Drive, Peak Performance<\/p>",
+            "what-is-it3": "<p>A Southeast Asian herb, renowned for its testosterone-enhancing capabilities.<\/p>",
+            "what-is-does3": "<p>- Supercharges testosterone levels, sculpting your physique and drive.<br\/>- Amplifies muscle strength and mass, ensuring you dominate in and out of the gym.<br\/>- Elevates mood and vitality, making every day a peak performance day.<\/p>",
+            "card-image4": "shopify:\/\/shop_images\/Fenugreek.png",
+            "card-title4": "Fenugreek",
+            "card-desc4": "<p>Boost & Build, Command Presence<\/p>",
+            "what-is-it4": "<p>A Mediterranean herb, traditionally used to enhance masculinity and virility.<\/p>",
+            "what-is-does4": "<p>- Optimizes testosterone levels, boosting your energy, mood, and drive.<br\/>- Supports healthy glucose metabolism, ensuring consistent energy.<br\/>- Enhances libido, making sure your desire matches your drive.<\/p>",
+            "card-image5": "shopify:\/\/shop_images\/Shilajit.png",
+            "card-title5": "Shilajit",
+            "card-desc5": "<p><strong>Nature's Mineral Elixir, Elevate Your Wellness<\/strong><\/p>",
+            "what-is-it5": "<p>Shilajit, often referred to as \"Conqueror of Mountains\" in Sanskrit, is a rare and potent substance derived from the heart of the Himalayas.<\/p>",
+            "what-is-does5": "<p>- natural energy booster, revitalizing your stamina for peak daily performance.<\/p><p>-Aids in detoxifying your body, helping eliminate toxins and promoting a cleaner, rejuvenated system.<\/p><p>-Has been known to enhance vitality and support overall well-being.<\/p>",
+            "card-image6": "shopify:\/\/shop_images\/Rhodiola_Rosea_2.png",
+            "card-title6": "Rhodiola Rosea",
+            "card-desc6": "<p><strong>Nature's Energy Enhancer, Ignite Your Vitality<\/strong><\/p>",
+            "what-is-it6": "<p>-A natural energy booster, helping you achieve peak daily performance and keeping you energized throughout the day.<\/p><p>- Known for its adaptogenic properties, which can help your body better cope with stress and anxiety, promoting mental and emotional well-being.<\/p><p>-May enhance cognitive function, sharpening your mental focus and alertness.<\/p>",
+            "what-is-does6": "",
+            "card-title7": "",
+            "card-desc7": "",
+            "what-is-it7": "",
+            "what-is-does7": "",
+            "card-title8": "",
+            "card-desc8": "",
+            "what-is-it8": "",
+            "what-is-does8": ""
+          }
+        },
+        "5358690d-8ce1-47b2-9c19-9385785d7257": {
+          "type": "tab",
+          "settings": {
+            "tab-title": "Gut Health",
+            "card-image1": "shopify:\/\/shop_images\/probiotics.png",
+            "card-title1": "Probiotic Blend",
+            "card-desc1": "<p>Gut's Frontline, Lead from Within<\/p>",
+            "what-is-it1": "<p>Beneficial gut bacteria that play an essential role in digestion and overall health.<\/p>",
+            "what-is-does1": "<p>- Fortifies gut health, ensuring optimal nutrient absorption and energy.<br\/>- Bolsters immune defenses, making sure you're always ready to lead.<br\/>- Enhances digestion, so your gut supports your grind.<\/p>",
+            "card-image2": "shopify:\/\/shop_images\/Resistant_Dextrin_16814004-fc60-40f1-b53f-18ea3a4b61ef.png",
+            "card-title2": "Resistant Dextrin",
+            "card-desc2": "<p>Gut Power, Rule Your Digestion<\/p>",
+            "what-is-it2": "<p>A natural fiber that promotes the growth of beneficial gut bacteria.<\/p>",
+            "what-is-does2": "<p>- Supports healthy gut bacteria, ensuring your digestion runs smoothly.<br\/>- Optimizes nutrient absorption, so you're always fueled for action.<br\/>- Enhances satiety, supporting your weight management goals.<\/p>",
+            "card-title3": "",
+            "card-desc3": "",
+            "what-is-it3": "",
+            "what-is-does3": "",
+            "card-title4": "",
+            "card-desc4": "",
+            "what-is-it4": "",
+            "what-is-does4": "",
+            "card-title5": "",
+            "card-desc5": "",
+            "what-is-it5": "",
+            "what-is-does5": "",
+            "card-title6": "",
+            "card-desc6": "",
+            "what-is-it6": "",
+            "what-is-does6": "",
+            "card-title7": "",
+            "card-desc7": "",
+            "what-is-it7": "",
+            "what-is-does7": "",
+            "card-title8": "",
+            "card-desc8": "",
+            "what-is-it8": "",
+            "what-is-does8": ""
+          }
+        },
+        "2512dc58-21cb-4c51-ac9f-898793854193": {
+          "type": "tab",
+          "settings": {
+            "tab-title": "Brain and Muscle Boosters",
+            "card-image1": "shopify:\/\/shop_images\/bocopa_monnieri_7f9a93f3-017a-4b45-8f45-0fef814367a8.png",
+            "card-title1": "Bacopa Monnieri",
+            "card-desc1": "<p>Brain's Iron Grip, Seize Clarity<\/p>",
+            "what-is-it1": "<p>A traditional Ayurvedic herb known for its potential to boost brain function.<\/p>",
+            "what-is-does1": "<p>- Sharpens memory and focus, ensuring you're always on top of your game.<br\/>- Reduces stress and anxiety, so you lead with calm and confidence.<br\/>- Boosts cognitive function, making complex tasks feel like a breeze.<\/p>",
+            "card-image2": "shopify:\/\/shop_images\/Beetroot.png",
+            "card-title2": "Beetroot Powder",
+            "card-desc2": "<p><strong>Vibrant Red Energy Boost, Fuel Your Active Lifestyle<\/strong><\/p>",
+            "what-is-it2": "<p>Beetroot Powder, derived from the nutrient-rich beetroot vegetable, is a vibrant and natural source of energy and health benefits.<\/p>",
+            "what-is-does2": "<p>- Natural energy booster, providing sustained vitality for your active lifestyle, whether it's during workouts or daily tasks.<\/p><p>- May support cardiovascular health by promoting healthy blood pressure and circulation, contributing to a strong and healthy heart.<\/p><p>- Rich in antioxidants, Beetroot Powder helps combat oxidative stress, supporting overall well-being.<\/p><ul><li><strong>Performance and Recovery:<\/strong> It aids in enhancing exercise performance and may help in post-workout recovery, making it an ideal addition to your fitness routine.<\/li><\/ul>",
+            "card-title3": "",
+            "card-desc3": "",
+            "what-is-it3": "",
+            "what-is-does3": "",
+            "card-title4": "",
+            "card-desc4": "",
+            "what-is-it4": "",
+            "what-is-does4": "",
+            "card-title5": "",
+            "card-desc5": "",
+            "what-is-it5": "",
+            "what-is-does5": "",
+            "card-title6": "",
+            "card-desc6": "",
+            "what-is-it6": "",
+            "what-is-does6": "",
+            "card-title7": "",
+            "card-desc7": "",
+            "what-is-it7": "",
+            "what-is-does7": "",
+            "card-title8": "",
+            "card-desc8": "",
+            "what-is-it8": "",
+            "what-is-does8": ""
+          }
+        }
+      },
+      "block_order": [
+        "f6089243-11f9-4248-abea-33ee317b1348",
+        "f1e6d31c-40c4-4790-8572-7044615223ee",
+        "57860a71-4bc9-4f3e-949c-36e35045d9af",
+        "5358690d-8ce1-47b2-9c19-9385785d7257",
+        "2512dc58-21cb-4c51-ac9f-898793854193"
+      ],
+      "settings": {
+        "heading": "",
+        "sub-heading": "",
+        "icon1": "shopify:\/\/shop_images\/p-1.png",
+        "label1": "Plant-Based, Vegan",
+        "icon2": "shopify:\/\/shop_images\/p-2.png",
+        "label2": "Gluten Free",
+        "icon3": "shopify:\/\/shop_images\/p-3.png",
+        "label3": "Dairy Free",
+        "icon4": "shopify:\/\/shop_images\/p-4.png",
+        "label4": "Nut Free",
+        "icon5": "shopify:\/\/shop_images\/p-5.png",
+        "label5": "No Artificial Colors, Flavors",
+        "icon6": "shopify:\/\/shop_images\/p-6.png",
+        "label6": "0 Sugar"
+      }
+    },
+    "16625458859c68803a": {
+      "type": "apps",
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "description": "<p>Combine your style with these products<\/p>",
+        "mobile_swipe": true,
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "caf6b442-01f9-4626-a023-fe54d7314439": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20688426926378__caf6b442-01f9-4626-a023-fe54d7314439-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "| Us Vs. Them |",
+            "marker_style": "style2",
+            "size": "h1",
+            "marker_color": "#ff9450"
+          }
+        }
+      },
+      "block_order": [
+        "template--20688426926378__caf6b442-01f9-4626-a023-fe54d7314439-heading-1"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#ffffff",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "4228dd7b-3309-4c07-b857-0183644b0d83": {
+      "type": "comparison-table",
+      "blocks": {
+        "09112ab2-7a1d-47c0-b6a8-c05515bf9d20": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Boosts Testosterone",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "cross",
+            "product4_row_radio": "tick"
+          }
+        },
+        "7e2386e4-795c-4363-ae77-3f235ac1029a": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Energy Without Crash",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "tick",
+            "product3_row_radio": "tick",
+            "product4_row_radio": "cross"
+          }
+        },
+        "6a31708c-2934-42d6-93ef-e096e5e90082": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Mental Clarity & Focus",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "tick",
+            "product4_row_radio": "cross"
+          }
+        },
+        "c54f8bc0-e153-40a5-8fee-f3d61bdb3b4a": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Improves Recovery",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "tick",
+            "product3_row_radio": "cross",
+            "product4_row_radio": "cross"
+          }
+        },
+        "540aaec7-3408-4d54-a9b6-64b7ab053fbb": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Non-Estrogenic Ingredients",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "cross",
+            "product4_row_radio": "tick"
+          }
+        },
+        "20040dca-15ba-4a27-85de-286d23127c85": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Promotes Muscle Growth",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "cross",
+            "product4_row_radio": "tick"
+          }
+        }
+      },
+      "block_order": [
+        "09112ab2-7a1d-47c0-b6a8-c05515bf9d20",
+        "7e2386e4-795c-4363-ae77-3f235ac1029a",
+        "6a31708c-2934-42d6-93ef-e096e5e90082",
+        "c54f8bc0-e153-40a5-8fee-f3d61bdb3b4a",
+        "540aaec7-3408-4d54-a9b6-64b7ab053fbb",
+        "20040dca-15ba-4a27-85de-286d23127c85"
+      ],
+      "custom_css": [
+        ".custom-table div {margin: 1;}"
+      ],
+      "settings": {
+        "table_heading": "",
+        "product1_pic": "shopify:\/\/shop_images\/01_1.png",
+        "product1_title": "LVRG Metamix",
+        "product2_pic": "shopify:\/\/shop_images\/Metamix_Landing_Page_AG_Comparison_Chart_Deskop_copy.png",
+        "product2_title": "Greens",
+        "product3_pic": "shopify:\/\/shop_images\/20007234-rise-cacao-for-target-1000x1000.png",
+        "product3_title": "Mushroom Coffee",
+        "product4_pic": "shopify:\/\/shop_images\/Test-HD-Hardcore-Testosterone-Booster-for-Men-Dual-Action-Muscle-Building-and-Thermogenic-Formula-90-Capsules_88315f2b-fee1-45de-882d-bcf8d547f7d4_1.bb7e868d03e2f9b5d401baf0415fd018.webp",
+        "product4_title": "Testosterone Boosters",
+        "background_color": "#1f1f23",
+        "font_color": "#ffffff",
+        "border_color": "#ffffff"
+      }
+    },
+    "e80f0f18-20cc-4329-83b8-9b8f7250fafd": {
+      "type": "guarantee",
+      "settings": {
+        "badge": "shopify:\/\/shop_images\/medal.png",
+        "heading": "Man-to-Man Guarantee",
+        "text": "Gentlemen, at LVRG, we don't mince words. Dive into a bag of our blend, put it to the test. If you're not feeling the LVRG difference, shoot us an email at support@uselvrg.com and we'll refund you, no returns necessary."
+      }
+    },
+    "1663667029efc274af": {
+      "type": "collapsible-content",
+      "blocks": {
+        "5586f39f-c9cc-41a5-9c79-494141a820e1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What Benefits can I expect?",
+            "open": false,
+            "content": "<p>Beyond just feeding your body, it amplifies your masculinity. Expect improved energy, sharper cognitive functions, and an enhanced overall well-being. In short, it's your ticket to upping your game.<\/p>",
+            "page": ""
+          }
+        },
+        "6ca4af54-3f47-4d4d-9060-0ff238ab6d1a": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "WHY SHOULD I CHOOSE METAMIX OVER ENERGY DRINKS?",
+            "open": false,
+            "content": "<p>Energy drinks? Those fleeting boosts? Mushroom-Greens Metamix is a sustainable power source, without the crash. Plus, it's packed with nature's best, sans the artificial junk.<\/p>",
+            "page": ""
+          }
+        },
+        "78977bda-88c1-4c5d-a57b-395a8e01f169": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How much should I take daily?",
+            "open": false,
+            "content": "<p>One scoop, and you're set. Blend it, shake it, drink it. Daily.<\/p>",
+            "page": ""
+          }
+        },
+        "2c7b494a-c873-48e4-9060-663a70cebb2a": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "IS THE METAMIX ORGANIC?",
+            "open": false,
+            "content": "<p>Every bit of it. Pure, organic, and clean.<\/p>",
+            "page": ""
+          }
+        },
+        "a3c751c4-66ff-41de-a34a-72fc4d4a7475": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can women use it?",
+            "open": false,
+            "content": "<p>While crafted with men in mind, it's beneficial for everyone. So, ladies, feel free to dive in.<\/p>",
+            "page": ""
+          }
+        },
+        "4c33cf1c-74ff-4a11-b7b2-70706ec4dd9f": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "WHAT INSPIRED THE CREATION OF THIS METAMIX?",
+            "open": false,
+            "content": "<p>A desire to cater to the modern man's unique nutritional needs, with no compromises.<\/p>",
+            "page": ""
+          }
+        },
+        "91f4a562-54ac-4226-9c64-8cfd0f20339b": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "CAN IT CAUSE ANY DIGESTIVE DISCOMFORT?",
+            "open": false,
+            "content": "<p>While our mix is gentle on most stomachs, always start with a smaller portion to test the waters.<\/p>",
+            "page": ""
+          }
+        },
+        "86b8f3d0-6b6f-4086-a74f-20e723f82c92": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How can I be sure Metamix will work for me?",
+            "open": false,
+            "content": "<p>Metamix is formulated with ingredients backed by scientific studies, tailored to enhance men's health, focusing on mental focus, energy, and hormonal balance. Individual results can vary, but Metamix is designed to deliver noticeable benefits<\/p>",
+            "page": ""
+          }
+        },
+        "29cc5a03-6aea-4330-8026-21c38a07202c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How quickly will I notice results with Metamix?",
+            "open": false,
+            "content": "<p>Some users notice a difference in as little as a few days, while for others, it may take a couple of weeks. Consistent use is key to experiencing the full benefits.<\/p>",
+            "page": ""
+          }
+        },
+        "c21fe092-3409-49ba-8bac-6b365de83ce4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How much does shipping cost and when will I receive my order?",
+            "open": false,
+            "content": "<p>Shipping costs vary based on your location and selected shipping speed. Our standard processing time is same day or 1-2 business days after placing your order (For holidays). For exact shipping prices, complete the checkout process with your shipping information, and available carriers and prices for your location will be provided.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "5586f39f-c9cc-41a5-9c79-494141a820e1",
+        "6ca4af54-3f47-4d4d-9060-0ff238ab6d1a",
+        "78977bda-88c1-4c5d-a57b-395a8e01f169",
+        "2c7b494a-c873-48e4-9060-663a70cebb2a",
+        "a3c751c4-66ff-41de-a34a-72fc4d4a7475",
+        "4c33cf1c-74ff-4a11-b7b2-70706ec4dd9f",
+        "91f4a562-54ac-4226-9c64-8cfd0f20339b",
+        "86b8f3d0-6b6f-4086-a74f-20e723f82c92",
+        "29cc5a03-6aea-4330-8026-21c38a07202c",
+        "c21fe092-3409-49ba-8bac-6b365de83ce4"
+      ],
+      "settings": {
+        "heading": "|FAQs|",
+        "marker_style": "style2",
+        "description": "",
+        "color_bg": "#333333",
+        "color_heading": "#ffffff",
+        "marker_color": "#c62a32",
+        "color_text": "#f1f1f1",
+        "color_links": "#d2ff28",
+        "color_border": "#ffffff",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "4114d5c0-9533-43dc-8c53-9684203939cf",
+    "1b2ac1d1-0347-4418-9a68-1529f48b220a",
+    "e2bcbf37-e737-4897-b537-292703633aaa",
+    "fa29ec10-4697-4581-af5c-83af7c1ffbef",
+    "eafca1d4-05cf-4432-afce-a9c35d9df8d9",
+    "58d44722-ab46-46eb-92b2-8febe4505129",
+    "bd0b8c83-eda9-4d71-93b1-4b953ee8970b",
+    "a740cc50-cf54-48d4-b324-08d381a7e2d0",
+    "16625458859c68803a",
+    "product-recommendations",
+    "caf6b442-01f9-4626-a023-fe54d7314439",
+    "4228dd7b-3309-4c07-b857-0183644b0d83",
+    "e80f0f18-20cc-4329-83b8-9b8f7250fafd",
+    "1663667029efc274af"
+  ]
+}

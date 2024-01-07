@@ -120,10 +120,10 @@
          {{ content_for_layout }}
       </div>
      
-      {% sections 'footer-group' %}
-      {% render 'cart-drawer' %}
-      {% render 'product-drawer' %}
-      {% render 'search-drawer' %}
+      
+      
+      
+      
       <div class="click-capture"></div>
       <div class="click-capture--product"></div>
     </div>
@@ -153,7 +153,7 @@
     {%- if request.design_mode -%}
       {{ 'theme-editor.js' | asset_url | script_tag }}
     {%- endif -%}
-    {% render 'back-to-top' %}
+    
    
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>

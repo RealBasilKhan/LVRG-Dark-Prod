@@ -1,3 +1,10 @@
+{% comment %}
+	GEMPAGE BUILDER (https://apps.shopify.com/gempage)
+
+	You SHOULD NOT modify source code in this page because
+	It is automatically generated from GEMPAGE BUILDER
+	Try to edit page with the live editor.
+{% endcomment %}
 <!doctype html>
 {%- capture dir -%}
 	{%- case request.locale.iso_code -%}
@@ -94,8 +101,7 @@
     </script>
 
     <script type="text/javascript" id="loop-subscription-script" src="{{ 'loop-widget.js' | asset_url }}"></script>
-  {% render 'gp-head' %}
-</head>
+  </head>
 
   <style class="loop-style">
     {% render 'loop-widget.css' %}
@@ -106,77 +112,12 @@
     overflow: hidden;
 }
 </style>
-  <body class="animations-{{ settings.animations }} button-uppercase-{{ settings.button_uppercase }} navigation-uppercase-{{ settings.navigation_uppercase }} product-card-spacing-{{ settings.product_card_spacing }} article-card-spacing-{{ settings.article_card_spacing }} {% if customer %} customer-logged-in{% endif %} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', '-' | handle }}">
-    <a class="screen-reader-shortcut" href="#main-content">{{ 'accessibility.skip_to_text' | t }}</a>
-    <div id="wrapper">
-      <div class="header--sticky"></div>
-      {% sections 'header-group' %}
-      <div role="main" id="main-content">
-        {%- if request.path contains 'loop_subscriptions/bundle'
-          or request.path contains 'loop_subscriptions/customer'
-        -%}
-          {% render 'loop_loader' %}
-        {%- endif -%}
-         {{ content_for_layout }}
-      </div>
-     
-      {% sections 'footer-group' %}
-      {% render 'cart-drawer' %}
-      {% render 'product-drawer' %}
-      {% render 'search-drawer' %}
-      <div class="click-capture"></div>
-      <div class="click-capture--product"></div>
-    </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    {{ 'vendor.min.js' | asset_url | script_tag }}
-    {% if settings.animations %}
-      {{ 'animations.min.js' | asset_url | script_tag }}
-      <script>
-        gsap.defaults({
-          ease: Power4.easeOut,
-        });
-        gsap.config({
-          nullTargetWarn: false,
-        });
-        gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
-      </script>
-    {% endif %}
-    {{ 'product.js' | asset_url | script_tag }}
-    {{ 'slideshow.js' | asset_url | script_tag }}
-    {{ 'app.js' | asset_url | script_tag }}
-    <script type="module" src="{{ 'scroll-shadow.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
-    {%- if settings.free_shipping -%}
-      {{ 'free-shipping.js' | asset_url | script_tag }}
-      {{ 'free-shipping.css' | asset_url | stylesheet_tag }}
-    {%- endif -%}
-    {%- if request.design_mode -%}
-      {{ 'theme-editor.js' | asset_url | script_tag }}
-    {%- endif -%}
-    {% render 'back-to-top' %}
-   
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        jQuery(document).ready(function($) {
-            $('.customization_popup_trigger').on('click', function(event) {
-                event.preventDefault();
-                var target = $(this).data('target');
-                $('.customization_popup_content').removeClass('active');
-                $('#' + target).addClass('active');
-                $('.customization_popup').addClass('is-visible');
-            });
-            $('.customization_popup').on('click', function(event) {
-                if ($(event.target).is('.customization_popup_close') || $(event.target).is('.customization_popup')) {
-                    event.preventDefault();
-                    $(this).removeClass('is-visible');
-                }
-            });
-            $(document).keyup(function(event) {
-                if (event.which == '27') {
-                    $('.customization_popup').removeClass('is-visible');
-                }
-            });
-        });
-    </script>
-  </body>
+  <body>
+<div class="gem-container">
+	{{ content_for_layout }}
+</div><!-- end .gem-container -->
+<!--Gem_Page_Footer_Script-->
+{% render 'gem-app-footer-scripts', GEM_FOOTER_SCRIPT: GEM_FOOTER_SCRIPT %}
+<!--End_Gem_Page_Footer_Script-->
+</body>
 </html>
