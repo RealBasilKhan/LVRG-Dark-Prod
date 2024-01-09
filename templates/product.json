@@ -875,61 +875,61 @@
         "09112ab2-7a1d-47c0-b6a8-c05515bf9d20": {
           "type": "table_row",
           "settings": {
-            "row_title": "Boosts Testosterone",
+            "row_title": "Supports Male Hormones",
             "product1_row_radio": "tick",
             "product2_row_radio": "cross",
             "product3_row_radio": "cross",
-            "product4_row_radio": "tick"
+            "product4_row_radio": "cross"
           }
         },
         "7e2386e4-795c-4363-ae77-3f235ac1029a": {
           "type": "table_row",
           "settings": {
-            "row_title": "Energy Without Crash",
+            "row_title": "No Estrogen Boosters",
             "product1_row_radio": "tick",
-            "product2_row_radio": "tick",
-            "product3_row_radio": "tick",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "cross",
             "product4_row_radio": "cross"
           }
         },
         "6a31708c-2934-42d6-93ef-e096e5e90082": {
           "type": "table_row",
           "settings": {
-            "row_title": "Mental Clarity & Focus",
-            "product1_row_radio": "tick",
-            "product2_row_radio": "cross",
-            "product3_row_radio": "tick",
-            "product4_row_radio": "cross"
-          }
-        },
-        "c54f8bc0-e153-40a5-8fee-f3d61bdb3b4a": {
-          "type": "table_row",
-          "settings": {
-            "row_title": "Improves Recovery",
+            "row_title": "Functional Mushrooms",
             "product1_row_radio": "tick",
             "product2_row_radio": "tick",
             "product3_row_radio": "cross",
             "product4_row_radio": "cross"
           }
         },
+        "c54f8bc0-e153-40a5-8fee-f3d61bdb3b4a": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "Only $1.66 per Day",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "cross",
+            "product3_row_radio": "tick",
+            "product4_row_radio": "cross"
+          }
+        },
         "540aaec7-3408-4d54-a9b6-64b7ab053fbb": {
           "type": "table_row",
           "settings": {
-            "row_title": "Non-Estrogenic Ingredients",
+            "row_title": "Free of Stevia",
             "product1_row_radio": "tick",
             "product2_row_radio": "cross",
-            "product3_row_radio": "cross",
-            "product4_row_radio": "tick"
+            "product3_row_radio": "tick",
+            "product4_row_radio": "cross"
           }
         },
         "20040dca-15ba-4a27-85de-286d23127c85": {
           "type": "table_row",
           "settings": {
-            "row_title": "Promotes Muscle Growth",
+            "row_title": "USDA Organic",
             "product1_row_radio": "tick",
             "product2_row_radio": "cross",
-            "product3_row_radio": "cross",
-            "product4_row_radio": "tick"
+            "product3_row_radio": "tick",
+            "product4_row_radio": "cross"
           }
         }
       },
@@ -947,13 +947,13 @@
       "settings": {
         "table_heading": "",
         "product1_pic": "shopify:\/\/shop_images\/01_1.png",
-        "product1_title": "LVRG Metamix",
+        "product1_title": "LVRG Mushroom-Greens Metamix",
         "product2_pic": "shopify:\/\/shop_images\/Metamix_Landing_Page_AG_Comparison_Chart_Deskop_copy.png",
-        "product2_title": "Greens",
-        "product3_pic": "shopify:\/\/shop_images\/20007234-rise-cacao-for-target-1000x1000.png",
-        "product3_title": "Mushroom Coffee",
-        "product4_pic": "shopify:\/\/shop_images\/Test-HD-Hardcore-Testosterone-Booster-for-Men-Dual-Action-Muscle-Building-and-Thermogenic-Formula-90-Capsules_88315f2b-fee1-45de-882d-bcf8d547f7d4_1.bb7e868d03e2f9b5d401baf0415fd018.webp",
-        "product4_title": "Testosterone Boosters",
+        "product2_title": "Proprietary Blend Greens",
+        "product3_pic": "shopify:\/\/shop_images\/Metamix_Landing_Page_Amazing_Grass_Comparison_Chart_Deskop_copy-removebg-preview.png",
+        "product3_title": "Grass Tasting Grass",
+        "product4_pic": "shopify:\/\/shop_images\/Metamix_Landing_Page_Bloom_Comparison_Chart_Deskop.png",
+        "product4_title": "Blossom",
         "background_color": "#1f1f23",
         "font_color": "#ffffff",
         "border_color": "#ffffff"
@@ -1090,6 +1090,81 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "d21acdf2-7cd2-49b8-b2d4-301ba365ab92": {
+      "type": "sliding-images-videos",
+      "blocks": {
+        "a5a7783d-cfd4-44b9-9cc4-accedcb65161": {
+          "type": "card-image",
+          "settings": {
+            "imgcard": "shopify:\/\/shop_images\/0a2ad8cb36abf32aa8aa05096a00fec023792b49-1080x1080_46be3643-083f-4560-a897-102f60d6fa5e.webp",
+            "mainhcard": "Hour 1",
+            "subhcard": "<p><strong>Immediate Nutrient Uptake<\/strong><\/p>",
+            "textcard": "<p>As soon as you consume LVRG Metamix, the nutrients begin to absorb into your bloodstream. Organic greens and adaptogens start working to balance and energize your body.<\/p>"
+          }
+        },
+        "d447c100-7bad-401a-a64f-e33249b37443": {
+          "type": "card-image",
+          "settings": {
+            "imgcard": "shopify:\/\/shop_images\/f27972b865697f072681031ce51ed605154c6bb0-1776x1776.webp",
+            "mainhcard": "Day 1",
+            "subhcard": "<p><strong>Enhanced Cognitive Function<\/strong><\/p>",
+            "textcard": "<p>Within a day, ingredients like Lion's Mane and Bacopa Monnieri begin to support brain function, potentially enhancing focus and mental clarity.<\/p>"
+          }
+        },
+        "830a6128-c8aa-4bb7-b3f1-50c04d817567": {
+          "type": "card-image",
+          "settings": {
+            "mainhcard": "Week 1",
+            "subhcard": "<p><strong>Stress Response Improvement<\/strong><\/p>",
+            "textcard": "<p>With regular intake, adaptogens like Ashwagandha and Rhodiola Rosea start to modulate your stress response, leading to improved resilience and mood.<\/p>"
+          }
+        },
+        "982789a6-85f0-4094-b59f-2e50e8caf2ce": {
+          "type": "card-image",
+          "settings": {
+            "mainhcard": "Week 2",
+            "subhcard": "<p><strong>Digestive System Support<\/strong><\/p>",
+            "textcard": "<p>The Probiotic and Prebiotic Blend begins to positively influence your gut health, aiding in digestion and nutrient absorption.<\/p>"
+          }
+        },
+        "5a27ef83-1b03-4f19-9ff0-adad71fdfbd9": {
+          "type": "card-image",
+          "settings": {
+            "mainhcard": "Day 30",
+            "subhcard": "<p><strong>Physical Endurance Boost<\/strong><\/p>",
+            "textcard": "<p>A month into your routine, the benefits of Beetroot Powder and Cordyceps become more evident, potentially enhancing your physical endurance and recovery.<\/p>"
+          }
+        },
+        "e0459d8e-ad4e-408b-906c-a9775298eaea": {
+          "type": "card-image",
+          "settings": {
+            "mainhcard": "Day 60",
+            "subhcard": "",
+            "textcard": "<p><strong>Day 60<\/strong><\/p><p><strong>Balanced Hormonal Health<\/strong><br\/>After two months, ingredients like Fenugreek and the absence of estrogenic compounds contribute to maintaining a healthy hormonal balance, crucial for men's health.<\/p>"
+          }
+        },
+        "406afac6-14ed-4f14-b68e-96647e4fe2e1": {
+          "type": "card-image",
+          "disabled": true,
+          "settings": {
+            "mainhcard": "Day 90",
+            "subhcard": "<p><\/p><p><strong>Optimized Overall Well-being<\/strong><\/p>",
+            "textcard": "<p>Three months into taking LVRG Metamix, you may experience an overall enhancement in your wellness. The blend of organic greens, mushrooms, and adaptogens work synergistically for optimal health.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a5a7783d-cfd4-44b9-9cc4-accedcb65161",
+        "d447c100-7bad-401a-a64f-e33249b37443",
+        "830a6128-c8aa-4bb7-b3f1-50c04d817567",
+        "982789a6-85f0-4094-b59f-2e50e8caf2ce",
+        "5a27ef83-1b03-4f19-9ff0-adad71fdfbd9",
+        "e0459d8e-ad4e-408b-906c-a9775298eaea",
+        "406afac6-14ed-4f14-b68e-96647e4fe2e1"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -1110,6 +1185,7 @@
     "caf6b442-01f9-4626-a023-fe54d7314439",
     "4228dd7b-3309-4c07-b857-0183644b0d83",
     "e80f0f18-20cc-4329-83b8-9b8f7250fafd",
-    "1663667029efc274af"
+    "1663667029efc274af",
+    "d21acdf2-7cd2-49b8-b2d4-301ba365ab92"
   ]
 }
