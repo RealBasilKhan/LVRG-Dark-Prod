@@ -317,7 +317,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     allCards.forEach(function(card) {
       card.addEventListener("click", function() {
-       
+        arrowwork();
         allCards.forEach(function(otherCard) {
           otherCard.classList.remove("active");
           var textDiv = otherCard.querySelector(".card-disc-main");
@@ -337,7 +337,8 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   }
-
+  arrowwork();
+function arrowwork(){
   var arrownexbtn = document.querySelector(".right-arr");
   var arrowprevbtn = document.querySelector(".left-ar");
   var activeslide=document.querySelector(".card-image-main.active");
@@ -352,7 +353,7 @@ document.addEventListener('DOMContentLoaded', function() {
    arrowprevbtn.addEventListener("click", function(){
   
   });
-  
+}
   if (window.matchMedia('(min-width: 769px)').matches) {
     applyCardClickBehavior();
   }
