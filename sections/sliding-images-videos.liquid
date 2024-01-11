@@ -340,11 +340,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
   var arrownexbtn = document.querySelector(".right-arr");
   var arrowprevbtn = document.querySelector(".left-ar");
+  var activeslide=document.querySelector(".card-image-main.active");
+  var nextactiveslide=activeslide.nextElementSibling;
+  var prevactiveslide=activeslide.previousElementSibling;
+  console.log(activeslide);
+  console.log(nextactiveslide);
+  console.log(prevactiveslide);
   arrownexbtn.addEventListener("click", function(){
-    console.log("next");
+   
   });
    arrowprevbtn.addEventListener("click", function(){
-    console.log("prev");
+  
   });
   
   if (window.matchMedia('(min-width: 769px)').matches) {
