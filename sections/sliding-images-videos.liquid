@@ -1,0 +1,401 @@
+<style>
+  .card-media_head-main{
+    align-self:end;
+  }
+ .card-image-main{
+   width:14.4621%;
+   display: grid;
+   grid-template-rows: 1fr 250px;
+    transition: all 0.4s ease;
+   opacity:0.6;
+   cursor:pointer;
+ } 
+  .card-image-main.active{
+    width:23.6464%;
+    opacity:1;
+  }
+.card-image-main:hover{
+  opacity:1;
+}
+.main-slider{
+  display:flex;
+  gap:15px;
+ height:100%;
+
+}
+  .sliding-cards-main{
+    padding:0px 40px;
+    max-width:1600px;
+    margin:0px auto;
+    padding-top:{{section.settings.padd-top}}px;
+    padding-bottom:{{section.settings.padd-bot}}px;
+  }
+
+.card-media-m{
+  padding-bottom:10px;
+  border-radius:5px;
+  overflow:hidden;
+  
+}
+  .card-h {
+    border-top: 1px solid white;
+    margin-top: 10px;
+    padding-top: 12px;
+    font-size: 30px;
+}
+.card-disc-h p{
+  margin-bottom:2px;
+  font-weight:bold;
+  margin-top:20px;
+}
+.card-disc-h strong{
+  font-weight:bold;
+}
+.card-disc-main{
+  display:none;
+  opacity:0;
+  transition: opacity 0.5s ease;
+  transition-delay:0.4s;
+}
+.card-image-main.active .card-disc-main{
+  display:block;
+  opacity:1;
+  transition: opacity 0.5s ease;
+  transition-delay:0.5s;
+}
+.card-media_head-main video{
+  width:100%;
+}
+.card-m{
+  position:relative;
+}
+.video-div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.card-image-main.active .video-div{
+   
+    z-index:1;
+}
+@media screen and (max-width: 1200px) {
+  .card-image-main {
+    grid-template-rows: 1fr 300px;
+  }
+}
+
+@media screen and (max-width:1000px){
+  
+  .card-h {
+    border-top: 1px solid white;
+    margin-top: 6px;
+    padding-top: 7px;
+    font-size: 20px;
+}
+ .card-disc-h p{
+margin-top:10px;
+ font-size:14px;}  
+.main-disc-text p{
+  font-size:14px;
+} 
+  .card-image-main {
+    grid-template-rows: 1fr 250px;
+  }
+}
+  @media screen and (max-width:900px){
+ .card-image-main{
+   width:13.4621%;
+   
+ } 
+  .card-image-main.active{
+    width:28.6464%;
+   
+  }  
+   .card-image-main {
+    grid-template-rows: 1fr 250px;
+  }
+  
+}
+@media screen and (max-width:769px){
+.main-slider{
+  display:block;
+}
+.card-image-main{
+  width:100%;
+  opacity:1;
+  
+}
+.card-image-main.active{
+  width:100%;
+  
+}
+.card-disc-main{
+  display:block;
+  opacity:1;
+}
+.card-h{
+  border:none;
+  font-size:40px;
+}
+.sliding-cards-main{
+  padding:0px;
+}
+.card-image-main{
+  margin-right:20px;
+}
+.main-div-sliding{
+  padding-left:20px;
+}
+.card-image-main.slick-active .video-div {
+  z-index:1;
+}
+.main-div-sliding .slick-dots li button:before{
+  opacity:0.7;
+  color:white;
+  content:""!important;
+    width:100%!important;
+  background:white;
+  height:1px;
+  
+}
+.main-div-sliding .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: white;
+}
+.main-div-sliding .slick-dots{
+  padding-right:20px;
+  display:flex;
+  top:-100px;
+  z-index:1;
+}
+.main-div-sliding .slick-dotted.slick-slider{
+  margin-top:100px;
+}
+.main-div-sliding .slick-dots li{
+  width:100%;
+  height:1px;
+}
+.main-div-sliding .slick-dots li button{
+  width:100%;
+  height:1px;
+}
+.main-div-sliding .slick-list.draggable{
+  z-index:2;}
+.main-div-sliding .slick-dots li button{
+  font-size:16px;
+  color:white;
+  text-align:left;
+  opacity:0.7;
+}
+  .main-div-sliding .slick-dots li.slick-active button{
+    opacity:1;
+  }
+p.btnt {
+    line-height: 17px;
+    font-size: 14px;
+}
+}
+</style>
+<div class="sliding-cards-main">
+  <div class="mobile-buttons-h">
+    <div class="main-btns">
+      {% for block in section.blocks %}
+        <div class="mainbtns">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="main-div-sliding">
+    <div class="main-slider">
+      {% for block in section.blocks %}
+        <div class="card-image-main {% if forloop.first %} active {% endif %}" data-dots="{{ block.settings.mainhcard }}">
+          <div class="card-media_head-main">
+            <div class="card-media-m">
+              <div class="card-m">
+                <div class="image-card">
+                  <img src={{ block.settings.imgcard | img_url:"master" }} alt="{{ block.settings.subhcard }}">
+                </div>
+                {% if block.settings.videocard != blank %}
+                <div class="video-div">
+                   {{ block.settings.videocard | video_tag: autoplay: true, muted: true, controls: false, class: 'video-m', loop:'true' }}
+
+                  {% comment %}
+                  <video class="video-m {% if forloop.first %} played {% endif %} "autoplay loop muted controls="false">
+                                       <source src="{{ block.settings.videocard }}" type="video/mp4">
+                                     
+                  </video>
+                  {% endcomment %}
+                </div>
+                {% endif %}
+              </div>
+            </div>
+            <div class="card-h">
+              {{ block.settings.mainhcard }}
+            </div>
+          </div>
+          <div class="card-disc-main">
+            <div class="card-disc-h">
+              {{ block.settings.subhcard }}
+            </div>
+            <div class="main-disc-text">
+              {{ block.settings.textcard }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  function applyCardClickBehavior() {
+    var allCards = document.querySelectorAll(".card-image-main");
+
+    allCards.forEach(function(card) {
+      card.addEventListener("click", function() {
+       
+        allCards.forEach(function(otherCard) {
+          otherCard.classList.remove("active");
+          var textDiv = otherCard.querySelector(".card-disc-main");
+          textDiv.style.display = "none";
+          textDiv.style.opacity = "0";
+        });
+
+       
+        card.classList.add("active");
+
+       
+        var textDiv = card.querySelector(".card-disc-main");
+        textDiv.style.display = "block";
+        setTimeout(function() {
+          textDiv.style.opacity = "1";
+        }, 40);
+      });
+    });
+  }
+
+  
+  if (window.matchMedia('(min-width: 769px)').matches) {
+    applyCardClickBehavior();
+  }
+  else{
+    $('.main-slider').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 1.3,
+  adaptiveHeight: true,
+  arrows:false,
+      slideToScroll:1
+});
+
+    var alcards=document.querySelectorAll(".card-image-main");
+ 
+    alcards.forEach(function(ele){
+      var dotdata=ele.getAttribute("data-dots");
+      var bottoml=dotdata.split(" ");
+      
+      var iddots=ele.getAttribute("aria-describedby");
+    var nDiv=document.createElement("p");
+    nDiv.classList.add("btnt");
+        nDiv.innerHTML=bottoml.join("<br>");
+      var insertingbtn=document.getElementById(iddots);
+   insertingbtn.textContent="";
+     insertingbtn.appendChild(nDiv);
+    });
+  }
+});
+
+</script>
+
+{% schema %}
+  {
+    "name": "sliding-images-videos",
+    "settings": [
+      {
+        "type":"range",
+        "id":"padd-top",
+        "label":"Top Spacing",
+        "min":0,
+        "max":500,
+        "step":5,
+        "unit":"px",
+        "default":40
+        
+      },
+       {
+        "type":"range",
+        "id":"padd-bot",
+        "label":"Bottom Spacing",
+        "min":0,
+        "max":500,
+        "step":5,
+        "unit":"px",
+        "default":40
+        
+      },
+      {
+        "type":"richtext",
+        "label":"Add Heading",
+        "id":"secheading"
+      },
+       {
+        "type":"richtext",
+        "label":"Add SubHeading",
+        "id":"secsubheading"
+      }
+      
+    ],
+    "blocks":[
+      {
+        "name":"card",
+        "type":"card-image",
+        "settings":[
+{
+  "type":"image_picker",
+  "label":"Add Image",
+  "id":"imgcard"
+},
+          {
+            "type":"video",
+            "label":"Add video link",
+            "id":"videocard"
+          },
+          {
+            "type":"text",
+            "label":"Add main heading",
+            "id":"mainhcard"
+          },
+          {
+            "type":"richtext",
+            "label":"Add SubHeading",
+            "id":"subhcard"
+          },
+          {
+            "type":"richtext",
+            "label":"Add Text",
+            "id":"textcard"
+          }
+        ]
+          
+        
+      }
+    ],
+    "presets":[
+      {
+        "name":"sliding-images-video",
+        "category":"secsliding"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
