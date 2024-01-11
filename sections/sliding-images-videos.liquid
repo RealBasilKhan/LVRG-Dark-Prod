@@ -344,14 +344,22 @@ function arrowwork(){
   var activeslide=document.querySelector(".card-image-main.active");
   var nextactiveslide=activeslide.nextElementSibling;
   var prevactiveslide=activeslide.previousElementSibling;
-  console.log(activeslide);
-  console.log(nextactiveslide);
-  console.log(prevactiveslide);
+ if(nextactiveslide == null){
+   arrownexbtn.classList.add("disable");
+ }
+ if(prevactiveslide == null){
+   arrowprevbtn.classList.add("disable");
+ }
   arrownexbtn.addEventListener("click", function(){
-   
+    if(nextactiveslide != null){
+  nextactiveslide.click();
+ }
+  
   });
    arrowprevbtn.addEventListener("click", function(){
-  
+  if(prevactiveslide != null){
+   arrowprevbtn.click();
+ }
   });
 }
   if (window.matchMedia('(min-width: 769px)').matches) {
