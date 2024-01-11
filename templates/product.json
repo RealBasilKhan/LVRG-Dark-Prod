@@ -894,15 +894,6 @@
             "subhcard": "",
             "textcard": "<p><strong>Day 60<\/strong><\/p><p><strong>Balanced Hormonal Health<\/strong><br\/>After two months, ingredients like Fenugreek and the absence of estrogenic compounds contribute to maintaining a healthy hormonal balance, crucial for men's health.<\/p>"
           }
-        },
-        "406afac6-14ed-4f14-b68e-96647e4fe2e1": {
-          "type": "card-image",
-          "disabled": true,
-          "settings": {
-            "mainhcard": "Day 90",
-            "subhcard": "<p><\/p><p><strong>Optimized Overall Well-being<\/strong><\/p>",
-            "textcard": "<p>Three months into taking LVRG Metamix, you may experience an overall enhancement in your wellness. The blend of organic greens, mushrooms, and adaptogens work synergistically for optimal health.<\/p>"
-          }
         }
       },
       "block_order": [
@@ -911,8 +902,7 @@
         "830a6128-c8aa-4bb7-b3f1-50c04d817567",
         "982789a6-85f0-4094-b59f-2e50e8caf2ce",
         "5a27ef83-1b03-4f19-9ff0-adad71fdfbd9",
-        "e0459d8e-ad4e-408b-906c-a9775298eaea",
-        "406afac6-14ed-4f14-b68e-96647e4fe2e1"
+        "e0459d8e-ad4e-408b-906c-a9775298eaea"
       ],
       "settings": {
       }
