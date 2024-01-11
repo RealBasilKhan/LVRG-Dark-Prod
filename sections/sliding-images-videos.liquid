@@ -310,6 +310,8 @@ p.btnt {
 </div>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+
+  
   function applyCardClickBehavior() {
     var allCards = document.querySelectorAll(".card-image-main");
 
@@ -336,6 +338,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  var arrownexbtn = document.querySelector(".right-arr");
+  var arrowprevbtn = document.querySelector(".left-arr");
+  arrownexbtn.addEventListener("click", function(){
+    console.log("next");
+  });
+    arrowprevbtn.addEventListener("click", function(){
+      console.log("prev");
+      )};
   
   if (window.matchMedia('(min-width: 769px)').matches) {
     applyCardClickBehavior();
