@@ -905,6 +905,10 @@
         "e0459d8e-ad4e-408b-906c-a9775298eaea"
       ],
       "settings": {
+        "padd-top": 40,
+        "padd-bot": 40,
+        "secheading": "<h2>Your cells feel the benefits before you do<\/h2>",
+        "secsubheading": "<p>Step into the journey of Mitopure and its transformative effects on your body. From the first hours to one year in, chart your course towards optimal health.<\/p>"
       }
     },
     "caf6b442-01f9-4626-a023-fe54d7314439": {
