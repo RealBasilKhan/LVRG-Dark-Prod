@@ -347,9 +347,15 @@ function arrowwork(){
  if(nextactiveslide == null){
    arrownexbtn.classList.add("disable");
  }
+  else{
+     arrownexbtn.classList.remove("disable");
+  }
  if(prevactiveslide == null){
    arrowprevbtn.classList.add("disable");
  }
+  else{
+     arrowprevbtn.classList.remove("disable");
+  }
   arrownexbtn.addEventListener("click", function(){
     if(nextactiveslide != null){
   nextactiveslide.click();
