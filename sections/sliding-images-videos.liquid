@@ -113,7 +113,17 @@ align-items:flex-end;
  width:30px;
   cursor:pointer;
 }
-@media screen and (max-width: 1200px) {
+.left-ar.disable{
+  pointer-events:none;
+  cursor:cross;
+  opacity:0.6;
+}
+  .right-arr.disable{
+  pointer-events:none;
+  cursor:cross;
+  opacity:0.6;
+}
+  @media screen and (max-width: 1200px) {
   .card-image-main {
     grid-template-rows: 1fr 300px;
   }
