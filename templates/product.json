@@ -139,7 +139,7 @@
         "template--20762913472810__4114d5c0-9533-43dc-8c53-9684203939cf-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Metamix<\/strong>® <strong>is a greens, mushrooms and adaptogens blend for men that helps support hormones, increase energy and improve focus.<\/strong>†︎<\/p>",
+            "text": "<p>Metamix® offers a blend of greens, mushrooms, and adaptogens, thoughtfully formulated for men to support overall well-being, contribute to sustained energy, and aid in maintaining focus.†︎<\/p>",
             "size": "text-size-regular"
           }
         }
@@ -257,7 +257,7 @@
         "c8a95762-2b19-4e02-b4a7-0c398b2062a5": {
           "type": "heading",
           "settings": {
-            "text": "✔ Boost Mental Clarity & Focus",
+            "text": "✔ Ingredients Selected for Mental Clarity and Focus",
             "marker_style": "style1",
             "heading_size": "h4",
             "marker_color": "#fd6262"
@@ -266,7 +266,7 @@
         "8d629069-9d78-4013-8bf9-ce3fd8b69e71": {
           "type": "heading",
           "settings": {
-            "text": "✔ Amplify Testosterone Levels",
+            "text": "✔ Designed To Support Male Vitality",
             "marker_style": "style1",
             "heading_size": "h4",
             "marker_color": "#fd6262"
@@ -275,7 +275,7 @@
         "de9790fd-71e0-4ea6-b178-f61f021fe9d2": {
           "type": "heading",
           "settings": {
-            "text": "✔ Surge Daily Energy & Drive",
+            "text": "✔ Formulated to Support Daily Energy and Drive",
             "marker_style": "style1",
             "heading_size": "h4",
             "marker_color": "#fd6262"
@@ -350,7 +350,7 @@
         "text_left1": "Top-shelf, handpicked, and backed by science. It’s not just a blend, it’s a promise of unparalleled quality.",
         "icon_left2": "shopify:\/\/shop_images\/edition-2.png",
         "heading_left2": "RESEARCH-BACKED FORMULA",
-        "text_left2": "Real results backed by real research. No bro science, just hard facts.",
+        "text_left2": "Formulated based on scientific research.",
         "image_middle": "shopify:\/\/shop_images\/mockup_new_logo_copy_36a268df-61fb-44c2-981a-a2626a331e2e.png",
         "icon_right1": "shopify:\/\/shop_images\/edition-3.png",
         "heading_right1": "100% TRANSPARENCY",
@@ -472,6 +472,7 @@
     },
     "bd0b8c83-eda9-4d71-93b1-4b953ee8970b": {
       "type": "backed-by-ingredients",
+      "disabled": true,
       "custom_css": [
         ".custom-btn:hover {border: 1px solid #e27624; padding: 19px 0 !important;}"
       ],
@@ -886,7 +887,7 @@
           "settings": {
             "heading": "What Benefits can I expect?",
             "open": false,
-            "content": "<p>Beyond just feeding your body, it amplifies your masculinity. Expect improved energy, sharper cognitive functions, and an enhanced overall well-being. In short, it's your ticket to upping your game.<\/p>",
+            "content": "<p>Metamix is designed to be more than just a supplement — it's a holistic approach to daily well-being. You can look forward to a blend that supports your journey towards enhanced daily vitality, contributing to a sense of improved energy and mental clarity. It's crafted to complement your wellness routine, offering a nutritional boost that aligns with your lifestyle. <\/p>",
             "page": ""
           }
         },
@@ -953,7 +954,7 @@
           "settings": {
             "heading": "How can I be sure Metamix will work for me?",
             "open": false,
-            "content": "<p>Metamix is formulated with ingredients backed by scientific studies, tailored to enhance men's health, focusing on mental focus, energy, and hormonal balance. Individual results can vary, but Metamix is designed to deliver noticeable benefits<\/p>",
+            "content": "<p>Metamix is thoughtfully formulated with ingredients that are recognized in scientific studies for their contributions to men's wellness. This blend is designed with a focus on supporting mental focus and energy levels, while also considering overall hormonal wellness. While individual experiences can vary, Metamix is crafted to offer noticeable contributions to your daily wellness routine<\/p>",
             "page": ""
           }
         },
@@ -962,7 +963,7 @@
           "settings": {
             "heading": "How quickly will I notice results with Metamix?",
             "open": false,
-            "content": "<p>Some users notice a difference in as little as a few days, while for others, it may take a couple of weeks. Consistent use is key to experiencing the full benefits.<\/p>",
+            "content": "<p>Some users may start to notice a difference within a few days, while for others, it could take a little longer, possibly a couple of weeks. Consistency is important when using Metamix, as regular use can contribute to experiencing its full potential benefits. Remember, individual responses can vary, and it's always beneficial to maintain a balanced lifestyle alongside any supplement regimen.<\/p>",
             "page": ""
           }
         },
