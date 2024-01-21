@@ -40,7 +40,7 @@
           "settings": {
             "column_size": "small",
             "text_alignment": "left",
-            "title": "",
+            "title": "Company Info",
             "text": "<p>3230 Market Street<\/p><p>Philadelphia<\/p><p>Pennsylvania<\/p><p>19104<\/p><p><\/p>",
             "text_size": "small",
             "button_text": "",
