@@ -9,13 +9,13 @@
             "text": "Got Questions?",
             "marker_style": "style1",
             "size": "h3",
-            "marker_color": "#FD6262"
+            "marker_color": "#fd6262"
           }
         },
         "40e93b68-8627-4539-a9fa-f014771ca9ff": {
           "type": "text",
           "settings": {
-            "text": "<p>Got questions? You can reach us via email at basil@uselvrg.com and we will help you out.<\/p>",
+            "text": "<p>Got questions? You can reach us via email at basil@uselvrg.com and we will help you out.<\/p><p>Phone Number: 5748762116<\/p>",
             "size": "text-size-regular"
           }
         }
@@ -43,7 +43,7 @@
         "marker_style": "style1",
         "description": "",
         "show_phone_number": true,
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
