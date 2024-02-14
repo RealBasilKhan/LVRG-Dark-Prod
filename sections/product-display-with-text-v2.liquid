@@ -5,433 +5,346 @@
 
 {{ 'product-display-with-text-v2.css' | asset_url | stylesheet_tag }}
 <div class="background-img">
-<section class="black-edition container">
-  <div class="main-container">
-     <div class="main_image_background">
-    <h1 class="main-heading">
-      {{ section.settings.heading }}
-    </h1>
-    
-    <div class="row">
-      <div class="col-2">
-        <div class="box">
-          <div class="logo">
-            <img src="{{ section.settings.icon_left1 | img_url: 'small' }}" alt="" class="img-fluid">
+  <section class="black-edition container">
+    <div class="main-container">
+      <div class="main_image_background">
+        <h1 class="main-heading">
+          {{ section.settings.heading }}
+        </h1>
+
+        <div class="row">
+          <div class="col-2">
+            <div class="box">
+              <div class="logo">
+                <img src="{{ section.settings.icon_left1 | img_url: 'small' }}" alt="" class="img-fluid">
+              </div>
+              <div class="content">
+                <h1>{{ section.settings.heading_left1 }}</h1>
+                <p>{{ section.settings.text_left1 }}</p>
+              </div>
+            </div>
+            <div class="border-bottom"></div>
+            <div class="box">
+              <div class="logo">
+                <img src="{{ section.settings.icon_left2 | img_url: 'small' }}" alt="" class="img-fluid">
+              </div>
+              <div class="content">
+                <h1>{{ section.settings.heading_left2 }}</h1>
+                <p>{{ section.settings.text_left2 }}</p>
+              </div>
+            </div>
+
+            <div class="border-bottom"></div>
           </div>
-          <div class="content">
-            <h1>{{ section.settings.heading_left1 }}</h1>
-            <p>{{ section.settings.text_left1 }}</p>
+          <div class="border-bottom"></div>
+          <div class="col-1">
+            <div class="main-images">
+              <div class="image-container">
+                <div class="image-highlight"></div>
+                <img
+                  src="{{ section.settings.image_middle | img_url: 'large' }}"
+                  alt="Black Edition"
+                  class="img-fluid black-ad"
+                >
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="border-bottom"></div>
-        <div class="box">
-          <div class="logo">
-            <img src="{{ section.settings.icon_left2 | img_url: 'small' }}" alt="" class="img-fluid">
-          </div>
-          <div class="content">
-            <h1>{{ section.settings.heading_left2 }}</h1>
-            <p>{{ section.settings.text_left2 }}</p>
+          <div class="col-2 colom-revers">
+            <div class="box">
+              <div class="content">
+                <h1>{{ section.settings.heading_right1 }}</h1>
+                <p>
+                  {{ section.settings.text_right1 }}
+                </p>
+              </div>
+              <div class="logo">
+                <img src="{{ section.settings.icon_right1 | img_url: 'small' }}" alt="" class="img-fluid">
+              </div>
+            </div>
+
+            <div class="border-bottom"></div>
+            <div class="box">
+              <div class="content">
+                <h1>{{ section.settings.heading_right2 }}</h1>
+                <p>
+                  {{ section.settings.text_right2 }}
+                </p>
+              </div>
+              <div class="logo">
+                <img src="{{ section.settings.icon_right2 | img_url: 'small' }}" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="border-bottom"></div>
           </div>
         </div>
 
-        <div class="border-bottom"></div>
-      </div>
-      <div class="border-bottom"></div>
-      <div class="col-1">
-        <div class="main-images">
-          <div class="image-container">
-            <div class="image-highlight"></div>
-            <img
-              src="{{ section.settings.image_middle | img_url: 'large' }}"
-              alt="Black Edition"
-              class="img-fluid black-ad"
-            >
+        {% for block in section.blocks %}
+          <div class="popup_button_flex">
+            {% if block.settings.button_text_one != blank %}
+              <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">
+                {{ block.settings.button_text_one }}
+              </button>
+            {% endif %}
+            {% if block.settings.button_text_two != blank %}
+              <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content2">
+                {{ block.settings.button_text_two }}
+              </button>
+            {% endif %}
           </div>
-        </div>
-      </div>
-      <div class="col-2 colom-revers">
-        <div class="box">
-          <div class="content">
-            <h1>{{ section.settings.heading_right1 }}</h1>
-            <p>
-              {{ section.settings.text_right1 }}
-            </p>
-          </div>
-          <div class="logo">
-            <img src="{{ section.settings.icon_right1 | img_url: 'small' }}" alt="" class="img-fluid">
-          </div>
-        </div>
-
-        <div class="border-bottom"></div>
-        <div class="box">
-          <div class="content">
-            <h1>{{ section.settings.heading_right2 }}</h1>
-            <p>
-              {{ section.settings.text_right2 }}
-            </p>
-          </div>
-          <div class="logo">
-            <img src="{{ section.settings.icon_right2 | img_url: 'small' }}" alt="" class="img-fluid">
-          </div>
-        </div>
-        <div class="border-bottom"></div>
-      </div>
-    </div>
-   
-  {% for block in section.blocks %}  
-   <div class="popup_button_flex">
-  {% if block.settings.button_text_one != blank %}
-  <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content1">{{ block.settings.button_text_one }}</button>
-  {% endif %}
-    {% if block.settings.button_text_two != blank %}
-   <button class="customization_popup_trigger custom-btn custom-btn2" data-target="content2">{{ block.settings.button_text_two }}</button>
-   {% endif %}
-   </div>
-    <div class="customization_popup" role="alert">
-        <div class="customization_popup_container">
-            <div id="content1" class="customization_popup_content">
+          <div class="customization_popup" role="alert">
+            <div class="customization_popup_container">
+              <div id="content1" class="customization_popup_content">
                 <div class="popup_information">{{ block.settings.title_one }}</div>
                 <div class="popup_content_information">{{ block.settings.content_one }}</div>
                 <img src="{{ block.settings.image_one | img_url: 'master' }}" alt="Image 1">
                 <a href="#0" class="customization_popup_close img-replace">X</a>
-            </div>
-            <div id="content2" class="customization_popup_content">
-            <div class="popup_information">{{ block.settings.title_two }}</div>
+              </div>
+              <div id="content2" class="customization_popup_content">
+                <div class="popup_information">{{ block.settings.title_two }}</div>
                 <div class="popup_content_information">{{ block.settings.content_two }}</div>
                 <img src="{{ block.settings.image_two | img_url: 'master' }}" alt="Image 2">
                 <a href="#0" class="customization_popup_close img-replace">X</a>
+              </div>
             </div>
-        </div>
+          </div>
+        {% endfor %}
+      </div>
     </div>
-  {% endfor %}
-    </div> 
-  </div>
-</section>
+  </section>
 </div>
 <style>
+    .black-edition .main-container {
+    padding: 50px 0px;
+  }
+  h1.main-heading {
+      padding: 0 20px;
+  }
+   }
 
- @media screen and (min-width: 1026px) {
-.main_image_background {
-    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_2.png?v=1695320490) !important;
-    background-repeat: no-repeat !important;
-    background-position: top -16px right 310px !important;
-}
- }
-@media screen and (max-width: 915px) and (min-width: 905px){
-  .main_image_background {
-    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_2.png?v=1695320490) !important;
-    background-repeat: no-repeat !important;
-    background-position: top 32px right 176px !important;
-}
-}
- @media screen and (max-width: 1025px) and (min-width: 916px) {
-.main_image_background {
-    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_2.png?v=1695320490) !important;
-    background-repeat: no-repeat !important;
-    background-position: top 22px right 205px !important;
-}
- }
-   @media screen and (max-width: 904px) and (min-width: 768px) {
-     .main_image_background {
-    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_2.png?v=1695320490) !important;
-    background-repeat: no-repeat !important;
-    background-position: top 410px right 100px !important;
-}
+  .display-flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+  }
+  .popup_button_flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+  }
+  .custom-btn2 {
+      width: unset !important;
+      padding: 14px 30px !important;
+  }
+   @media screen and (max-width: 768px) {
+      display: block;
+  }
    }
-  @media screen and (max-width: 767px) and (min-width: 678px) {
-    .main_image_background {
-    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_2.png?v=1695320490) !important;
-    background-repeat: no-repeat !important;
-    background-position: top 434px right 60px !important;
-}
+   .img-replace {
+      display: inline-block;
+      overflow: hidden;
+      text-indent: 100%;
+      color: transparent;
+      white-space: nowrap;
   }
-    @media screen and (max-width: 504px) and (min-width: 466px) {
-.main_image_background {
-    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_2.png?v=1695320490) !important;
-    background-repeat: no-repeat !important;
-    background-position: top 434px right -40px !important;
-}
-    }
-  @media screen and (max-width: 545px) and (min-width: 505px){
-    .main_image_background {
-    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_2.png?v=1695320490) !important;
-    background-repeat: no-repeat !important;
-    background-position: top 435px right -5px !important;
-}
+  .popup_content_padding {
+      padding-left: 30px;
+      padding-right: 30px;
   }
-  @media screen and (max-width: 677px) and (min-width: 546px) {
-      .main_image_background {
-          background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_2.png?v=1695320490) !important;
-          background-repeat: no-repeat !important;
-          background-position: top 434px right 27px !important;
-      }
-    }
-  @media screen and (max-width: 465px) and (min-width: 426px) {
-.main_image_background {
-    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_2.png?v=1695320490) !important;
-    background-repeat: no-repeat !important;
-    background-position: top 460px right -60px !important;
-}
-  }
-  @media screen and (max-width: 414px) and (min-width: 411px) {
-    .main_image_background {
-    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_2.png?v=1695320490) !important;
-    background-repeat: no-repeat !important;
-    background-position: top 458px right -60px !important;
-}
-  }
-  @media screen and (max-width: 285px) and (min-width: 200px) {
-    .main_image_background {
-    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_2.png?v=1695320490) !important;
-    background-repeat: no-repeat !important;
-    background-position: top 542px right -134px !important;
-}
-  }
- @media screen and (max-width: 425px) {
-   .main_image_background {
-    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_51_2.png?v=1695320490) !important;
-    background-repeat: no-repeat !important;
-    background-position: top 455px right -53px;
-}
-  .black-edition .main-container {
-  padding: 50px 0px;
-}
-h1.main-heading {
-    padding: 0 20px;
-}
- }
- @media screen and (min-width: 769px) {
-.background-img {
-    background-image: url(https://cdn.shopify.com/s/files/1/0811/5263/9274/files/Rectangle_58_1.png?v=1695026148);
-    background-repeat: no-repeat;
-    background-position: right 0px top -115px;
-}
-   }
-.display-flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-}
-.popup_button_flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.custom-btn2 {
-    width: unset !important;
-    padding: 14px 30px !important;
-}
- @media screen and (max-width: 768px) {
-    display: block;
-}
- }
- .img-replace {
-    display: inline-block;
-    overflow: hidden;
-    text-indent: 100%;
-    color: transparent;
-    white-space: nowrap;
-}
-.popup_content_padding {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.customization_popup_content {
-    display: none;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.customization_popup {
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(159,163,167,4);
-   background: rgba(var(--color-overlay-rgb),.4);
-    backdrop-filter: blur(7px);
-    opacity: 1;
-    visibility: hidden;
-    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
-    -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
-    transition: opacity 0.3s 0s, visibility 0s 0.3s;
-   z-index: 999;
-}
   .customization_popup_content {
-        display: none; 
-    }
-    .customization_popup_content.active {
-        display: block; 
-    }
-.customization_popup.is-visible {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
-    -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
-    transition: opacity 0.3s 0s, visibility 0s 0s;
-    z-index: 999;
-}
-.popup_information {
-    margin: unset;
-    text-align: left;
-    border-bottom: 1px solid black;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    font-size: 18px;
-    font-weight: 600;
-}
-.popup_content_information {
-    margin: 20px 0;
-    width: 175px;
-    border-bottom: 2px solid white;
-}
-.customization_popup_container {
-    position: absolute;
-    width: calc(100vw - 15px);
-    max-width: 540px;
-    margin: 0 auto;
-    right: 0;
-    top: 0;
-    height: 100%;
-    background: #1F1F23;
-    border-radius: .25em .25em .4em .4em;
-    text-align: center;
-    -webkit-transform: translatex(400px);
-    -moz-transform: translatex(400px);
-    -ms-transform: translatex(400px);
-    -o-transform: translatex(400px);
-    transform: translatex(400px);
-    -webkit-backface-visibility: hidden;
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    transition-duration: 0.5s;
-    overflow-y: scroll;
-}
-
-.customization_popup_container p {
-    padding: 3em 1em;
-}
-
-.customization_popup_container .customization_popup_buttons:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.customization_popup_container .customization_popup_buttons li {
-    float: left;
-    width: 50%;
-    list-style: none;
-}
-
-.customization_popup_container .customization_popup_buttons a {
-    display: block;
-    height: 60px;
-    line-height: 60px;
-    text-transform: uppercase;
-    color: #FFF;
-    -webkit-transition: background-color 0.2s;
-    -moz-transition: background-color 0.2s;
-    transition: background-color 0.2s;
-}
-
-.customization_popup_container .customization_popup_buttons li:first-child a {
-    background: #fc7169;
-    border-radius: 0 0 0 .25em;
-}
-
-.no-touch .customization_popup_container .customization_popup_buttons li:first-child a:hover {
-    background-color: #fc8982;
-}
-
-.customization_popup_container .customization_popup_buttons li:last-child a {
-    background: #b6bece;
-    border-radius: 0 0 .25em 0;
-}
-
-.no-touch .customization_popup_container .customization_popup_buttons li:last-child a:hover {
-    background-color: #c5ccd8;
-}
-
-.customization_popup_container .customization_popup_close {
-    position: absolute;
-    top: 20px;
-    right: 15px;
-    width: 30px;
-    height: 30px;
-}
-.customization_popup_container .customization_popup_close::before, .customization_popup_container .customization_popup_close::after {
-    content: '';
-    position: absolute;
-    top: 12px;
-    width: 14px;
-    height: 3px;
-    background-color: #fff;
-}
-
-.customization_popup_container .customization_popup_close::before {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    left: 8px;
-}
-
-.customization_popup_container .customization_popup_close::after {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    right: 8px;
-}
-
-.is-visible .customization_popup_container {
-    transform: translateY(0);
-    border-radius: 10px;
-}
-
- @media only screen and (max-width: 767px) {
-    .popup_button_flex {
-    display: block;
-}
-.custom-btn {
-    width: 100% !important;
-}
+      display: none;
+      padding-left: 30px;
+      padding-right: 30px;
   }
+  .customization_popup {
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(159,163,167,4);
+     background: rgba(var(--color-overlay-rgb),.4);
+      backdrop-filter: blur(7px);
+      opacity: 1;
+      visibility: hidden;
+      -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+      -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+      transition: opacity 0.3s 0s, visibility 0s 0.3s;
+     z-index: 999;
+  }
+    .customization_popup_content {
+          display: none;
+      }
+      .customization_popup_content.active {
+          display: block;
+      }
+  .customization_popup.is-visible {
+      opacity: 1;
+      visibility: visible;
+      -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+      -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+      transition: opacity 0.3s 0s, visibility 0s 0s;
+      z-index: 999;
+  }
+  .popup_information {
+      margin: unset;
+      text-align: left;
+      border-bottom: 1px solid black;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      font-size: 18px;
+      font-weight: 600;
+  }
+  .popup_content_information {
+      margin: 20px 0;
+      width: 175px;
+      border-bottom: 2px solid white;
+  }
+  .customization_popup_container {
+      position: absolute;
+      width: calc(100vw - 15px);
+      max-width: 540px;
+      margin: 0 auto;
+      right: 0;
+      top: 0;
+      height: 100%;
+      background: #1F1F23;
+      border-radius: .25em .25em .4em .4em;
+      text-align: center;
+      -webkit-transform: translatex(400px);
+      -moz-transform: translatex(400px);
+      -ms-transform: translatex(400px);
+      -o-transform: translatex(400px);
+      transform: translatex(400px);
+      -webkit-backface-visibility: hidden;
+      -webkit-transition-property: -webkit-transform;
+      -moz-transition-property: -moz-transform;
+      transition-property: transform;
+      -webkit-transition-duration: 0.3s;
+      -moz-transition-duration: 0.3s;
+      transition-duration: 0.5s;
+      overflow-y: scroll;
+  }
+
+  .customization_popup_container p {
+      padding: 3em 1em;
+  }
+
+  .customization_popup_container .customization_popup_buttons:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  .customization_popup_container .customization_popup_buttons li {
+      float: left;
+      width: 50%;
+      list-style: none;
+  }
+
+  .customization_popup_container .customization_popup_buttons a {
+      display: block;
+      height: 60px;
+      line-height: 60px;
+      text-transform: uppercase;
+      color: #FFF;
+      -webkit-transition: background-color 0.2s;
+      -moz-transition: background-color 0.2s;
+      transition: background-color 0.2s;
+  }
+
+  .customization_popup_container .customization_popup_buttons li:first-child a {
+      background: #fc7169;
+      border-radius: 0 0 0 .25em;
+  }
+
+  .no-touch .customization_popup_container .customization_popup_buttons li:first-child a:hover {
+      background-color: #fc8982;
+  }
+
+  .customization_popup_container .customization_popup_buttons li:last-child a {
+      background: #b6bece;
+      border-radius: 0 0 .25em 0;
+  }
+
+  .no-touch .customization_popup_container .customization_popup_buttons li:last-child a:hover {
+      background-color: #c5ccd8;
+  }
+
+  .customization_popup_container .customization_popup_close {
+      position: absolute;
+      top: 20px;
+      right: 15px;
+      width: 30px;
+      height: 30px;
+  }
+  .customization_popup_container .customization_popup_close::before, .customization_popup_container .customization_popup_close::after {
+      content: '';
+      position: absolute;
+      top: 12px;
+      width: 14px;
+      height: 3px;
+      background-color: #fff;
+  }
+
+  .customization_popup_container .customization_popup_close::before {
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      left: 8px;
+  }
+
+  .customization_popup_container .customization_popup_close::after {
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      right: 8px;
+  }
+
+  .is-visible .customization_popup_container {
+      transform: translateY(0);
+      border-radius: 10px;
+  }
+
+   @media only screen and (max-width: 767px) {
+      .popup_button_flex {
+      display: block;
+  }
+  .custom-btn {
+      width: 100% !important;
+  }
+    }
 </style>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        jQuery(document).ready(function($) {
-            $('.customization_popup_trigger').on('click', function(event) {
-                event.preventDefault();
-                var target = $(this).data('target');
-                $('.customization_popup_content').removeClass('active');
-                $('#' + target).addClass('active');
-                $('.customization_popup').addClass('is-visible');
-            });
-            $('.customization_popup').on('click', function(event) {
-                if ($(event.target).is('.customization_popup_close') || $(event.target).is('.customization_popup')) {
-                    event.preventDefault();
-                    $(this).removeClass('is-visible');
-                }
-            });
-            $(document).keyup(function(event) {
-                if (event.which == '27') {
-                    $('.customization_popup').removeClass('is-visible');
-                }
-            });
-        });
-    </script>
+<script>
+  jQuery(document).ready(function ($) {
+    $('.customization_popup_trigger').on('click', function (event) {
+      event.preventDefault();
+      var target = $(this).data('target');
+      $('.customization_popup_content').removeClass('active');
+      $('#' + target).addClass('active');
+      $('.customization_popup').addClass('is-visible');
+    });
+    $('.customization_popup').on('click', function (event) {
+      if ($(event.target).is('.customization_popup_close') || $(event.target).is('.customization_popup')) {
+        event.preventDefault();
+        $(this).removeClass('is-visible');
+      }
+    });
+    $(document).keyup(function (event) {
+      if (event.which == '27') {
+        $('.customization_popup').removeClass('is-visible');
+      }
+    });
+  });
+</script>
 
-    
 {% schema %}
 {
   "name": "Product Display V-2",
@@ -569,22 +482,22 @@ h1.main-heading {
       "id": "button2_text",
       "default": "Button 2"
     },
-      {
+    {
       "type": "text",
       "label": "Button Text One",
       "id": "button_text_one"
     },
-      {
+    {
       "type": "url",
       "label": "Button Link One",
       "id": "button_link_one"
     },
-        {
+    {
       "type": "text",
       "label": "Button Text Two",
       "id": "button_text_two"
     },
-      {
+    {
       "type": "url",
       "label": "Button Link Two",
       "id": "button_link_two"
@@ -593,10 +506,10 @@ h1.main-heading {
       "type": "page",
       "id": "side_panel",
       "label": "Page"
-     }
+    }
   ],
   "blocks": [
- {
+    {
       "type": "side_panel",
       "name": "Information side panel",
       "limit": 1,
@@ -616,12 +529,12 @@ h1.main-heading {
           "id": "content_one",
           "label": "Content One"
         },
-         {
+        {
           "type": "image_picker",
           "id": "image_one",
           "label": "Image One"
         },
-          {
+        {
           "type": "text",
           "id": "button_text_two",
           "label": "Button Text Two"
@@ -636,7 +549,7 @@ h1.main-heading {
           "id": "content_two",
           "label": "Content Two"
         },
-         {
+        {
           "type": "image_picker",
           "id": "image_two",
           "label": "Image Two"
