@@ -2,6 +2,7 @@
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
+      "disabled": true,
       "settings": {
       }
     },
@@ -28,7 +29,7 @@
         "3209aea5-2573-4044-a863-a0a6498a31e4": {
           "type": "text",
           "settings": {
-            "text": "EMPOWER YOUR DAY WITH METAMIX: A SCIENCE-INFORMED BLEND FOR THE MODERN MAN",
+            "text": "Unlock All-Day Energy & Mental Clarity, Naturally",
             "text_style": "subheading"
           }
         },
@@ -130,7 +131,7 @@
         "template--20762913472810__4114d5c0-9533-43dc-8c53-9684203939cf-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "The Ultimate Way To Get |In The Zone| Physically and Mentally",
+            "text": "Tired of the |Mid-Day Crash|?",
             "marker_style": "style1",
             "size": "h3",
             "marker_color": "#fd6262"
@@ -167,7 +168,7 @@
         "text_zW3698": {
           "type": "text",
           "settings": {
-            "text": "<p>Forget the caffeine crash. Metamix® powers you up - fixing your gut, loading you with nutrients, tuning your hormones, and sharpening your focus with mushrooms. Pure, lasting energy, no BS.<\/p>"
+            "text": "<p>Most of us lean on caffeine to kickstart our day, only to hit a wall by afternoon. The energy dips, the focus fades, and the jitters kick in, leaving us searching for more. It's a cycle that's hard to break and hard on your body.<\/p>"
           }
         }
       },
@@ -175,7 +176,7 @@
         "text_zW3698"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Blue_White_Modern_Line_Chart_Graph.png",
+        "image": "shopify:\/\/shop_images\/Copy_of_Blue_White_Modern_Line_Chart_Graph.png",
         "use_video": false,
         "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
@@ -205,7 +206,7 @@
         "heading_iAyqyp": {
           "type": "heading",
           "settings": {
-            "text": "The Ulimate Way To Get In The Zone Physically and Mentally",
+            "text": "The Ultimate Way To Get |In The Zone| Physically and Mentally",
             "marker_style": "style1",
             "heading_size": "h3",
             "marker_color": "#fd6262"
@@ -214,7 +215,7 @@
         "text_qkd7V8": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>While others offer quick fixes, Metamix® focuses on your long-term well-being. Our scientifically backed formula supports gut health, optimizes hormones, and delivers essential nutrients, ensuring not just all-day energy but a foundation for overall health.<\/p>"
           }
         }
       },
@@ -224,6 +225,7 @@
         "text_qkd7V8"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-01-09_at_4.28.19_PM.png",
         "use_video": false,
         "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
@@ -233,8 +235,8 @@
         "layout": "image_first",
         "content_position": "text-left",
         "column_spacing": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#2c2d2e",
+        "color_bg": "#303239",
+        "color_text": "#ffffff",
         "color_border": "#e2e2e2",
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
@@ -267,133 +269,6 @@
         "color_links": "#2c2d2e",
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
-      }
-    },
-    "e2bcbf37-e737-4897-b537-292703633aaa": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-1": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/Male-icon.png",
-            "heading": "Testosterone Decline",
-            "text": "<p>Modern Men have 20% Less Testosterone. Blame junk food and couch marathons.<\/p>"
-          }
-        },
-        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/vegetable.png",
-            "heading": "Veggie Deficit",
-            "text": "<p>80% of Men Fall Short on Veggies. It's more than health; it's about maintaining that masculine edge.<\/p>"
-          }
-        },
-        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-08-19_at_3.29.27_PM.png",
-            "heading": "Hidden Estrogen Boosters",
-            "text": "<p>Beware of Common Greens: They're often packed with soy, alfalfa, and flaxseed – sneaky estrogen boosters.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-1",
-        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2",
-        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "icon_position": "top",
-        "icon_size": "xlarge",
-        "heading_size": "small",
-        "mobile_swipe": false,
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#ffffff",
-        "color_text": "#dedede",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "d21acdf2-7cd2-49b8-b2d4-301ba365ab92": {
-      "type": "sliding-images-videos",
-      "blocks": {
-        "a5a7783d-cfd4-44b9-9cc4-accedcb65161": {
-          "type": "card-image",
-          "settings": {
-            "imgcard": "shopify:\/\/shop_images\/0a2ad8cb36abf32aa8aa05096a00fec023792b49-1080x1080_46be3643-083f-4560-a897-102f60d6fa5e.webp",
-            "videocard": "shopify:\/\/files\/videos\/Blood-colorgraded-2_zgyrs2.mp4",
-            "mainhcard": "Hour 1",
-            "subhcard": "<p><strong>Immediate Nutrient Uptake<\/strong><\/p>",
-            "textcard": "<p>As soon as you consume LVRG Metamix, the nutrients begin to absorb into your bloodstream. Organic greens and adaptogens start working to balance and energize your body.<\/p>"
-          }
-        },
-        "d447c100-7bad-401a-a64f-e33249b37443": {
-          "type": "card-image",
-          "settings": {
-            "imgcard": "shopify:\/\/shop_images\/DALL_E_2024-01-09_16.24.09_-_A_high-quality_animation-style_image_showing_the_inside_of_the_brain_with_neurons_and_brain_cells_in_a_detailed_and_dynamic_environment._The_image_sh.png",
-            "mainhcard": "Day 1",
-            "subhcard": "<p><strong>Enhanced Cognitive Function<\/strong><\/p>",
-            "textcard": "<p>Within a day, ingredients like Lion's Mane and Bacopa Monnieri begin to support brain function, potentially enhancing focus and mental clarity.<\/p>"
-          }
-        },
-        "830a6128-c8aa-4bb7-b3f1-50c04d817567": {
-          "type": "card-image",
-          "settings": {
-            "imgcard": "shopify:\/\/shop_images\/Screenshot_2024-01-09_at_4.28.19_PM.png",
-            "mainhcard": "Week 1",
-            "subhcard": "<p><strong>Stress Response Improvement<\/strong><\/p>",
-            "textcard": "<p>With regular intake, adaptogens like Ashwagandha and Rhodiola Rosea start to modulate your stress response, leading to improved resilience and mood.<\/p>"
-          }
-        },
-        "982789a6-85f0-4094-b59f-2e50e8caf2ce": {
-          "type": "card-image",
-          "settings": {
-            "imgcard": "shopify:\/\/shop_images\/DALL_E_2024-01-15_18.31.25_-_Create_an_image_of_isolated_cells_of_gut_bacteria_on_a_white_background_with_a_color_scheme_that_is_glass-like_and_aesthetically_pleasing._The_depict.png",
-            "mainhcard": "Week 2",
-            "subhcard": "<p><strong>Digestive System Support<\/strong><\/p>",
-            "textcard": "<p>The Probiotic and Prebiotic Blend begins to positively influence your gut health, aiding in digestion and nutrient absorption.<\/p>"
-          }
-        },
-        "5a27ef83-1b03-4f19-9ff0-adad71fdfbd9": {
-          "type": "card-image",
-          "settings": {
-            "imgcard": "shopify:\/\/shop_images\/1dcfb9b2d7888b53b8252afe1f15c0dac784921a-1776x1776.webp",
-            "mainhcard": "Day 30",
-            "subhcard": "<p><strong>Physical Endurance Boost<\/strong><\/p>",
-            "textcard": "<p>A month into your routine, the benefits of Beetroot Powder and Cordyceps become more evident, potentially enhancing your physical endurance and recovery.<\/p>"
-          }
-        },
-        "e0459d8e-ad4e-408b-906c-a9775298eaea": {
-          "type": "card-image",
-          "settings": {
-            "imgcard": "shopify:\/\/shop_images\/DALL_E_2024-01-15_18.33.55_-_Create_an_image_in_the_same_glass-like_and_aesthetically_pleasing_style_depicting_the_concept_of_peak_hormonal_balance_particularly_focusing_on_regu.png",
-            "mainhcard": "Day 60",
-            "subhcard": "",
-            "textcard": "<p><strong>Balanced Hormonal Health<\/strong><br\/>After two months, ingredients like Fenugreek and the absence of estrogenic compounds contribute to maintaining a healthy hormonal balance, crucial for men's health.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "a5a7783d-cfd4-44b9-9cc4-accedcb65161",
-        "d447c100-7bad-401a-a64f-e33249b37443",
-        "830a6128-c8aa-4bb7-b3f1-50c04d817567",
-        "982789a6-85f0-4094-b59f-2e50e8caf2ce",
-        "5a27ef83-1b03-4f19-9ff0-adad71fdfbd9",
-        "e0459d8e-ad4e-408b-906c-a9775298eaea"
-      ],
-      "settings": {
-        "padd-top": 40,
-        "padd-bot": 40,
-        "secheading": "<h2>Use Metamix Daily and You Will Begin To See<\/h2>",
-        "secsubheading": ""
       }
     },
     "fa29ec10-4697-4581-af5c-83af7c1ffbef": {
@@ -473,6 +348,59 @@
         "disable_bottom_spacing": false
       }
     },
+    "e2bcbf37-e737-4897-b537-292703633aaa": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/Male-icon.png",
+            "heading": "Testosterone Decline",
+            "text": "<p>Modern Men have 20% Less Testosterone. Blame junk food and couch marathons.<\/p>"
+          }
+        },
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/vegetable.png",
+            "heading": "Veggie Deficit",
+            "text": "<p>80% of Men Fall Short on Veggies. It's more than health; it's about maintaining that masculine edge.<\/p>"
+          }
+        },
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-08-19_at_3.29.27_PM.png",
+            "heading": "Hidden Estrogen Boosters",
+            "text": "<p>Beware of Common Greens: They're often packed with soy, alfalfa, and flaxseed – sneaky estrogen boosters.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-1",
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2",
+        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "xlarge",
+        "heading_size": "small",
+        "mobile_swipe": false,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#ffffff",
+        "color_text": "#dedede",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "eafca1d4-05cf-4432-afce-a9c35d9df8d9": {
       "type": "product-display-with-text-v2",
       "blocks": {
@@ -498,7 +426,7 @@
       ],
       "settings": {
         "section_background": "#ffffff",
-        "heading": "Each Scoop contains...",
+        "heading": "Benefits Of Each Scoop",
         "text_color": "#000000",
         "icon_left1": "shopify:\/\/shop_images\/Premium_Ingredient.png",
         "heading_left1": "PREMIUM INGREDIENTS",
@@ -506,7 +434,7 @@
         "icon_left2": "shopify:\/\/shop_images\/edition-2.png",
         "heading_left2": "RESEARCH-BACKED FORMULA",
         "text_left2": "Formulated based on scientific research.",
-        "image_middle": "shopify:\/\/shop_images\/mockup_new_logo_copy_36a268df-61fb-44c2-981a-a2626a331e2e.png",
+        "image_middle": "shopify:\/\/shop_images\/stick_front_copy.png",
         "icon_right1": "shopify:\/\/shop_images\/edition-3.png",
         "heading_right1": "100% TRANSPARENCY",
         "text_right1": "Trust is built on truth. That's why we lay everything out in the open. Every ingredient, every percentage, no secrets.",
@@ -526,6 +454,80 @@
         "button_text_two": "Ingredients information",
         "button_link_two": "shopify:\/\/pages\/nutritional-facts",
         "side_panel": ""
+      }
+    },
+    "d21acdf2-7cd2-49b8-b2d4-301ba365ab92": {
+      "type": "sliding-images-videos",
+      "blocks": {
+        "a5a7783d-cfd4-44b9-9cc4-accedcb65161": {
+          "type": "card-image",
+          "settings": {
+            "imgcard": "shopify:\/\/shop_images\/0a2ad8cb36abf32aa8aa05096a00fec023792b49-1080x1080_46be3643-083f-4560-a897-102f60d6fa5e.webp",
+            "videocard": "shopify:\/\/files\/videos\/Blood-colorgraded-2_zgyrs2.mp4",
+            "mainhcard": "Hour 1",
+            "subhcard": "<p><strong>Immediate Nutrient Uptake<\/strong><\/p>",
+            "textcard": "<p>As soon as you consume LVRG Metamix, the nutrients begin to absorb into your bloodstream. Organic greens and adaptogens start working to balance and energize your body.<\/p>"
+          }
+        },
+        "d447c100-7bad-401a-a64f-e33249b37443": {
+          "type": "card-image",
+          "settings": {
+            "imgcard": "shopify:\/\/shop_images\/DALL_E_2024-01-09_16.24.09_-_A_high-quality_animation-style_image_showing_the_inside_of_the_brain_with_neurons_and_brain_cells_in_a_detailed_and_dynamic_environment._The_image_sh.png",
+            "mainhcard": "Day 1",
+            "subhcard": "<p><strong>Enhanced Cognitive Function<\/strong><\/p>",
+            "textcard": "<p>Within a day, ingredients like Lion's Mane and Bacopa Monnieri begin to support brain function, potentially enhancing focus and mental clarity.<\/p>"
+          }
+        },
+        "830a6128-c8aa-4bb7-b3f1-50c04d817567": {
+          "type": "card-image",
+          "settings": {
+            "imgcard": "shopify:\/\/shop_images\/Screenshot_2024-01-09_at_4.28.19_PM.png",
+            "mainhcard": "Week 1",
+            "subhcard": "<p><strong>Stress Response Improvement<\/strong><\/p>",
+            "textcard": "<p>With regular intake, adaptogens like Ashwagandha and Rhodiola Rosea start to modulate your stress response, leading to improved resilience and mood.<\/p>"
+          }
+        },
+        "982789a6-85f0-4094-b59f-2e50e8caf2ce": {
+          "type": "card-image",
+          "settings": {
+            "imgcard": "shopify:\/\/shop_images\/DALL_E_2024-01-15_18.31.25_-_Create_an_image_of_isolated_cells_of_gut_bacteria_on_a_white_background_with_a_color_scheme_that_is_glass-like_and_aesthetically_pleasing._The_depict.png",
+            "mainhcard": "Week 2",
+            "subhcard": "<p><strong>Digestive System Support<\/strong><\/p>",
+            "textcard": "<p>The Probiotic and Prebiotic Blend begins to positively influence your gut health, aiding in digestion and nutrient absorption.<\/p>"
+          }
+        },
+        "5a27ef83-1b03-4f19-9ff0-adad71fdfbd9": {
+          "type": "card-image",
+          "settings": {
+            "imgcard": "shopify:\/\/shop_images\/1dcfb9b2d7888b53b8252afe1f15c0dac784921a-1776x1776.webp",
+            "mainhcard": "Day 30",
+            "subhcard": "<p><strong>Physical Endurance Boost<\/strong><\/p>",
+            "textcard": "<p>A month into your routine, the benefits of Beetroot Powder and Cordyceps become more evident, potentially enhancing your physical endurance and recovery.<\/p>"
+          }
+        },
+        "e0459d8e-ad4e-408b-906c-a9775298eaea": {
+          "type": "card-image",
+          "settings": {
+            "imgcard": "shopify:\/\/shop_images\/DALL_E_2024-01-15_18.33.55_-_Create_an_image_in_the_same_glass-like_and_aesthetically_pleasing_style_depicting_the_concept_of_peak_hormonal_balance_particularly_focusing_on_regu.png",
+            "mainhcard": "Day 60",
+            "subhcard": "",
+            "textcard": "<p><strong>Balanced Hormonal Health<\/strong><br\/>After two months, ingredients like Fenugreek and the absence of estrogenic compounds contribute to maintaining a healthy hormonal balance, crucial for men's health.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a5a7783d-cfd4-44b9-9cc4-accedcb65161",
+        "d447c100-7bad-401a-a64f-e33249b37443",
+        "830a6128-c8aa-4bb7-b3f1-50c04d817567",
+        "982789a6-85f0-4094-b59f-2e50e8caf2ce",
+        "5a27ef83-1b03-4f19-9ff0-adad71fdfbd9",
+        "e0459d8e-ad4e-408b-906c-a9775298eaea"
+      ],
+      "settings": {
+        "padd-top": 40,
+        "padd-bot": 40,
+        "secheading": "<h2>Use Metamix Daily and You Will Begin To See<\/h2>",
+        "secsubheading": ""
       }
     },
     "58d44722-ab46-46eb-92b2-8febe4505129": {
@@ -874,7 +876,7 @@
         "2512dc58-21cb-4c51-ac9f-898793854193"
       ],
       "settings": {
-        "heading": "",
+        "heading": "Only The Best Ingredients",
         "sub-heading": "",
         "icon1": "shopify:\/\/shop_images\/p-1.png",
         "label1": "Plant-Based, Vegan",
@@ -1175,10 +1177,10 @@
     "image_with_text_x98j84",
     "image_with_text_EfTXJm",
     "1b2ac1d1-0347-4418-9a68-1529f48b220a",
-    "e2bcbf37-e737-4897-b537-292703633aaa",
-    "d21acdf2-7cd2-49b8-b2d4-301ba365ab92",
     "fa29ec10-4697-4581-af5c-83af7c1ffbef",
+    "e2bcbf37-e737-4897-b537-292703633aaa",
     "eafca1d4-05cf-4432-afce-a9c35d9df8d9",
+    "d21acdf2-7cd2-49b8-b2d4-301ba365ab92",
     "58d44722-ab46-46eb-92b2-8febe4505129",
     "bd0b8c83-eda9-4d71-93b1-4b953ee8970b",
     "a740cc50-cf54-48d4-b324-08d381a7e2d0",
