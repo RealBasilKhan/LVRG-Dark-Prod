@@ -85,13 +85,22 @@
             "link": "",
             "outline_text": false
           }
+        },
+        "text_pnxiii": {
+          "type": "text",
+          "settings": {
+            "text": "GLUTEN FREE",
+            "link": "",
+            "outline_text": false
+          }
         }
       },
       "block_order": [
         "template--20762913046826__ee862f90-7ce2-4b34-b5fd-c5593d5894e8-text-1",
         "template--20762913046826__ee862f90-7ce2-4b34-b5fd-c5593d5894e8-text-2",
         "template--20762913046826__ee862f90-7ce2-4b34-b5fd-c5593d5894e8-text-3",
-        "039650f2-3824-43b4-855d-d3d7fdc807e1"
+        "039650f2-3824-43b4-855d-d3d7fdc807e1",
+        "text_pnxiii"
       ],
       "settings": {
         "height": "height-auto",
