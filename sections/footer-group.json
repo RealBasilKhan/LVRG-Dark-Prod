@@ -11,7 +11,7 @@
             "column_size": "small",
             "text_alignment": "left",
             "title": "",
-            "image": "shopify://shop_images/LVRG_New_logo_file.png",
+            "image": "shopify:\/\/shop_images\/LVRG_New_logo_file.png",
             "text": "",
             "text_size": "small",
             "button_text": "",
@@ -40,7 +40,7 @@
           "settings": {
             "column_size": "large",
             "title": "Become a Part of the Movement",
-            "text": "<p>Subscribe to be part of a community where modern men thrive and excel.</p>"
+            "text": "<p>Subscribe to be part of a community where modern men thrive and excel.<\/p>"
           }
         },
         "text_QzQpP3": {
@@ -49,7 +49,7 @@
             "column_size": "small",
             "text_alignment": "left",
             "title": "Company Info",
-            "text": "<p>3230 Market Street</p><p>Philadelphia</p><p>Pennsylvania</p><p>19104</p><p></p>",
+            "text": "<p>3230 Market Street<\/p><p>Philadelphia<\/p><p>Pennsylvania<\/p><p>19104<\/p><p><\/p>",
             "text_size": "small",
             "button_text": "",
             "button_link": "",
@@ -73,5 +73,7 @@
       }
     }
   },
-  "order": ["footer"]
+  "order": [
+    "footer"
+  ]
 }

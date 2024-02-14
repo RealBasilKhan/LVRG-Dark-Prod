@@ -48,8 +48,8 @@
     "search_product_collection": "all",
     "search_product_collection_limit": 3,
     "lazy_loading": true,
-    "favicon": "shopify://shop_images/LVRG_Favicon.png",
-    "checkout_logo_image": "shopify://shop_images/LVRG_New_logo_file.png",
+    "favicon": "shopify:\/\/shop_images\/LVRG_Favicon.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/LVRG_New_logo_file.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#1f1f23",
@@ -57,18 +57,24 @@
     "checkout_sidebar_background_color": "#1f1f23",
     "checkout_accent_color": "#ff9450",
     "checkout_button_color": "#ff9450",
-    "search_product_list": [],
-    "content_for_index": [],
+    "search_product_list": [
+
+    ],
+    "content_for_index": [
+
+    ],
     "blocks": {
       "14060646107696862457": {
-        "type": "shopify://apps/judge-me-product-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       },
       "341186785192672687": {
-        "type": "shopify://apps/seal-subscriptions/blocks/subscription-script-append/13b25004-a140-4ab7-b5fe-29918f759699",
+        "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-script-append\/13b25004-a140-4ab7-b5fe-29918f759699",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       }
     }
   },
@@ -112,8 +118,12 @@
       "search_menu": "",
       "search_product_collection": "all",
       "search_product_collection_limit": 3,
-      "search_product_list": [],
-      "content_for_index": []
+      "search_product_list": [
+
+      ],
+      "content_for_index": [
+
+      ]
     },
     "Emerald": {
       "heading_font": "itc_stepp_n7",
@@ -164,8 +174,12 @@
       "search_product_collection": "all",
       "search_product_collection_limit": 8,
       "lazy_loading": true,
-      "search_product_list": [],
-      "content_for_index": []
+      "search_product_list": [
+
+      ],
+      "content_for_index": [
+
+      ]
     },
     "Poochy": {
       "heading_font": "itc_clearface_n7",
@@ -224,8 +238,12 @@
       "search_menu": "search",
       "search_product_collection": "all",
       "search_product_collection_limit": 3,
-      "search_product_list": [],
-      "content_for_index": []
+      "search_product_list": [
+
+      ],
+      "content_for_index": [
+
+      ]
     }
   }
 }
