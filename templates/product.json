@@ -339,6 +339,7 @@
           "type": "card-image",
           "settings": {
             "imgcard": "shopify:\/\/shop_images\/0a2ad8cb36abf32aa8aa05096a00fec023792b49-1080x1080_46be3643-083f-4560-a897-102f60d6fa5e.webp",
+            "videocard": "shopify:\/\/files\/videos\/Blood-colorgraded-2_zgyrs2.mp4",
             "mainhcard": "Hour 1",
             "subhcard": "<p><strong>Immediate Nutrient Uptake<\/strong><\/p>",
             "textcard": "<p>As soon as you consume LVRG Metamix, the nutrients begin to absorb into your bloodstream. Organic greens and adaptogens start working to balance and energize your body.<\/p>"
@@ -401,8 +402,8 @@
       "settings": {
         "padd-top": 40,
         "padd-bot": 40,
-        "secheading": "<h2>Your cells feel the benefits<\/h2><h2> before you do<\/h2>",
-        "secsubheading": "<p>Step into the journey of Mitopure and its transformative effects on your body. From<\/p><p> the first hours to one year in, chart your course towards optimal health.<\/p>"
+        "secheading": "<h2>Use Metamix Daily and You Will Begin To See<\/h2>",
+        "secsubheading": ""
       }
     },
     "fa29ec10-4697-4581-af5c-83af7c1ffbef": {
