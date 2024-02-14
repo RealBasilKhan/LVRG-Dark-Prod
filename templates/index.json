@@ -34,7 +34,7 @@
         ".image-with-text--content {\/* From https:\/\/css.glass *\/ background: rgba(117, 117, 117, 0.41); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(14.9px); -webkit-backdrop-filter: blur(14.9px); border: 1px solid rgba(117, 117, 117, 0.13);}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero.png",
+        "image": "shopify:\/\/shop_images\/Render.png",
         "use_video": false,
         "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "video_autoplay": false,
@@ -502,7 +502,6 @@
         "template--20762913046826__2be1970b-258e-417a-bb3f-e2521a22e2b9-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MAINPRODUCTPHOTO.jpg",
             "link": "",
             "heading": "",
             "text": ""
@@ -520,7 +519,6 @@
         "template--20762913046826__2be1970b-258e-417a-bb3f-e2521a22e2b9-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/productphoto2.jpg",
             "link": "",
             "heading": "",
             "text": ""
