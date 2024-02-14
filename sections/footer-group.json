@@ -19,14 +19,6 @@
             "show_social_links": false
           }
         },
-        "menu_QaYRrE": {
-          "type": "menu",
-          "settings": {
-            "column_size": "small",
-            "title": "Socials",
-            "menu": "footer"
-          }
-        },
         "d402e6d5-9d79-43ad-900a-cfaddc6cd9f8": {
           "type": "menu",
           "settings": {
@@ -46,7 +38,6 @@
       },
       "block_order": [
         "ebdaaa5c-c47c-42ac-a830-30a799694755",
-        "menu_QaYRrE",
         "d402e6d5-9d79-43ad-900a-cfaddc6cd9f8",
         "2ab8345e-9f63-4c80-b028-f4edae3633b5"
       ],
