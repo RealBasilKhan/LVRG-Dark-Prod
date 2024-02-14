@@ -914,6 +914,15 @@
         "secsubheading": "<p>Step into the journey of Mitopure and its transformative effects on your body. From<\/p><p> the first hours to one year in, chart your course towards optimal health.<\/p>"
       }
     },
+    "spacer_GXxGXj": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
     "caf6b442-01f9-4626-a023-fe54d7314439": {
       "type": "rich-text",
       "blocks": {
@@ -1181,6 +1190,7 @@
     "product-recommendations",
     "16625458859c68803a",
     "d21acdf2-7cd2-49b8-b2d4-301ba365ab92",
+    "spacer_GXxGXj",
     "caf6b442-01f9-4626-a023-fe54d7314439",
     "4228dd7b-3309-4c07-b857-0183644b0d83",
     "e80f0f18-20cc-4329-83b8-9b8f7250fafd",
