@@ -357,7 +357,7 @@
             "icon": "ruler",
             "image": "shopify:\/\/shop_images\/Male-icon.png",
             "heading": "Testosterone Decline",
-            "text": "<p>Modern Men have 20% Less Testosterone. Blame junk food and couch marathons.<\/p>"
+            "text": "<p><strong>Laser-Sharp Focus<\/strong><\/p>"
           }
         },
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2": {
@@ -429,18 +429,18 @@
         "heading": "Benefits Of Each Scoop",
         "text_color": "#000000",
         "icon_left1": "shopify:\/\/shop_images\/Premium_Ingredient.png",
-        "heading_left1": "PREMIUM INGREDIENTS",
-        "text_left1": "Top-shelf, handpicked, and backed by science. It’s not just a blend, it’s a promise of unparalleled quality.",
+        "heading_left1": "Laser-Sharp Focus",
+        "text_left1": "Stay effortlessly in the zone. Metamix fuels your mental clarity, enabling peak concentration and productivity without the fog.",
         "icon_left2": "shopify:\/\/shop_images\/edition-2.png",
         "heading_left2": "RESEARCH-BACKED FORMULA",
         "text_left2": "Formulated based on scientific research.",
         "image_middle": "shopify:\/\/shop_images\/stick_front_copy.png",
         "icon_right1": "shopify:\/\/shop_images\/edition-3.png",
         "heading_right1": "100% TRANSPARENCY",
-        "text_right1": "Trust is built on truth. That's why we lay everything out in the open. Every ingredient, every percentage, no secrets.",
-        "icon_right2": "shopify:\/\/shop_images\/edition-4.png",
-        "heading_right2": "ZERO B.S",
-        "text_right2": "We say it as it is. No fillers, no fluff, no misleading claims. Just pure, potent, and powerful nutrition.",
+        "text_right1": "Support your gut health with our prebiotic and probiotic-rich formula for smoother digestion and absorption.",
+        "icon_right2": "shopify:\/\/shop_images\/Male-icon.png",
+        "heading_right2": "Testosterone Support",
+        "text_right2": "Harness the power of adaptogens for optimal hormone health. Feel stronger, more balanced, and ready for anything",
         "button1_link": "",
         "button1_color": "#000000",
         "button1_text_color": "#ffffff",
