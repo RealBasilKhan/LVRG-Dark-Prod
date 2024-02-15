@@ -912,6 +912,7 @@
     },
     "spacer_GXxGXj": {
       "type": "spacer",
+      "disabled": true,
       "settings": {
         "spacer_mobile": 50,
         "spacer_desktop": 100,
