@@ -130,6 +130,7 @@
       "blocks": {
         "template--20762913472810__4114d5c0-9533-43dc-8c53-9684203939cf-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "All Day |Natural Energy & Focus| Without Caffiene",
             "marker_style": "style1",
@@ -165,6 +166,15 @@
     "image_with_text_x98j84": {
       "type": "image-with-text",
       "blocks": {
+        "heading_DnMcit": {
+          "type": "heading",
+          "settings": {
+            "text": "All Day |Natural Energy & Focus| Without Caffiene",
+            "marker_style": "style1",
+            "heading_size": "h3",
+            "marker_color": "#FD6262"
+          }
+        },
         "text_zW3698": {
           "type": "text",
           "settings": {
@@ -173,6 +183,7 @@
         }
       },
       "block_order": [
+        "heading_DnMcit",
         "text_zW3698"
       ],
       "settings": {
@@ -232,7 +243,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": false,
-        "layout": "image_first",
+        "layout": "text_first",
         "content_position": "text-left",
         "column_spacing": "medium",
         "color_bg": "#303239",
