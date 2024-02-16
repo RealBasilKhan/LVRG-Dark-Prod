@@ -1291,38 +1291,6 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "sliding_images_videos_hPGQBN": {
-      "type": "sliding-images-videos",
-      "blocks": {
-        "card_image_BQTyBV": {
-          "type": "card-image",
-          "settings": {
-            "videocard": "shopify:\/\/files\/videos\/Blood-colorgraded-2_zgyrs2.mp4",
-            "mainhcard": "asdsad",
-            "subhcard": "<p>dasd<\/p>",
-            "textcard": "<p>asdsadads<\/p>"
-          }
-        },
-        "card_image_Mhcipq": {
-          "type": "card-image",
-          "settings": {
-            "mainhcard": "",
-            "subhcard": "",
-            "textcard": ""
-          }
-        }
-      },
-      "block_order": [
-        "card_image_BQTyBV",
-        "card_image_Mhcipq"
-      ],
-      "settings": {
-        "padd-top": 40,
-        "padd-bot": 40,
-        "secheading": "",
-        "secsubheading": ""
-      }
     }
   },
   "order": [
@@ -1347,7 +1315,6 @@
     "caf6b442-01f9-4626-a023-fe54d7314439",
     "4228dd7b-3309-4c07-b857-0183644b0d83",
     "e80f0f18-20cc-4329-83b8-9b8f7250fafd",
-    "1663667029efc274af",
-    "sliding_images_videos_hPGQBN"
+    "1663667029efc274af"
   ]
 }
