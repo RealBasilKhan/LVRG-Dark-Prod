@@ -516,6 +516,14 @@
             "textcard": "<p>A month into your routine, the benefits of Beetroot Powder and Cordyceps become more evident, potentially enhancing your physical endurance and recovery.<\/p>"
           }
         },
+        "card_image_743ptt": {
+          "type": "card-image",
+          "settings": {
+            "mainhcard": "",
+            "subhcard": "",
+            "textcard": ""
+          }
+        },
         "e0459d8e-ad4e-408b-906c-a9775298eaea": {
           "type": "card-image",
           "settings": {
@@ -532,10 +540,11 @@
         "830a6128-c8aa-4bb7-b3f1-50c04d817567",
         "982789a6-85f0-4094-b59f-2e50e8caf2ce",
         "5a27ef83-1b03-4f19-9ff0-adad71fdfbd9",
+        "card_image_743ptt",
         "e0459d8e-ad4e-408b-906c-a9775298eaea"
       ],
       "settings": {
-        "padd-top": 40,
+        "padd-top": 0,
         "padd-bot": 40,
         "secheading": "<h2>Use Metamix Daily and You Will Begin To See<\/h2>",
         "secsubheading": ""
