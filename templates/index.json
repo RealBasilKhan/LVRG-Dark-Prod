@@ -3,16 +3,10 @@
     "859a23a4-6684-4f2e-84af-a65d4e7004df": {
       "type": "image-with-text",
       "blocks": {
-        "2cb54b61-ff99-4342-ae25-49a07d3f7833": {
-          "type": "subheading",
-          "settings": {
-            "text": "For the Modern Man Who Refuses to Settle"
-          }
-        },
         "template--20762913046826__859a23a4-6684-4f2e-84af-a65d4e7004df-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Rise with |LVRG|",
+            "text": "Elevate Your Energy and Focus Naturally",
             "marker_style": "style1",
             "heading_size": "h3",
             "marker_color": "#fd6262"
@@ -21,12 +15,11 @@
         "8291d487-4dd5-41c5-8def-7e47c6222621": {
           "type": "text",
           "settings": {
-            "text": "<p>Bypass average nutrition. Stand tall and lead with LVRG's elite blends crafted for those who demand the best.<\/p>"
+            "text": "<p>Unlock sustained energy, enhanced focus, and overall wellness without the downsides of caffeine.<\/p>"
           }
         }
       },
       "block_order": [
-        "2cb54b61-ff99-4342-ae25-49a07d3f7833",
         "template--20762913046826__859a23a4-6684-4f2e-84af-a65d4e7004df-heading-1",
         "8291d487-4dd5-41c5-8def-7e47c6222621"
       ],
@@ -123,6 +116,7 @@
     },
     "9b1db0e0-f546-4c11-bb1b-72c64fcd2dce": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/gif-2_1.gif",
         "image_parallax": false,
@@ -519,7 +513,6 @@
         "template--20762913046826__2be1970b-258e-417a-bb3f-e2521a22e2b9-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Photo4.png",
             "link": "",
             "heading": "",
             "text": ""
