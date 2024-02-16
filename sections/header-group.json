@@ -106,6 +106,90 @@
         "show_currency_switcher": true
       }
     },
+    "rich_text_qAQWyq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iKpaPz": {
+          "type": "heading",
+          "settings": {
+            "text": "The Story",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#FD6262"
+          }
+        },
+        "image_t9Lwc8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9015.heic"
+          }
+        },
+        "text_tTP4zt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hi, I'm Basil and I'm the founder of Metamix.<br\/><br\/>The I was sick of feeling run-down and fuzzy-headed, even though my doctor said my T levels were \"normal.\" But just being normal wasn't cutting it for me. I knew I could feel better, sharper, more alive. So, I started messing around with my diet, adding greens and mushroom powders, and throwing in some ashwagandha to chill out because I was downing energy drinks like water and always feeling on edge.<\/p><p><\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iKpaPz",
+        "image_t9Lwc8",
+        "text_tTP4zt"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_heading": "#ffffff",
+        "color_text": "#ffffff",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_phzQTt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LAVpaA": {
+          "type": "heading",
+          "settings": {
+            "text": "The Idea",
+            "marker_style": "style1",
+            "heading_size": "h3",
+            "marker_color": "#FD6262"
+          }
+        },
+        "text_AJReBx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Here's the thing: that mix tasted awful, like you're drinking a garden, and not in a good way. Plus, I figured out that some of the stuff I was using wasn't the best for guys like me. Some ingredients, like alfalfa in greens and reishi in mushrooms, weren't helping my cause because they mess with your hormones.<br\/><\/p><p>That's when I had my lightbulb moment. Why not make something that’s actually designed for guys, tastes good, and gets rid of the junk that's not helping us? That's how Metamix was born. I wanted something that hit the spot for health and taste without the weird side effects or feeling like I'm grazing in a field.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LAVpaA",
+        "text_AJReBx"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_5341.heic",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "content_position": "text-left",
+        "column_spacing": "medium",
+        "color_bg": "#1b1d26",
+        "color_text": "#ffffff",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "header-mobile-navigation": {
       "type": "header-mobile-navigation",
       "disabled": true,
@@ -117,12 +201,51 @@
         "color_links": "#ffffff",
         "color_bg": "#787c80"
       }
+    },
+    "rich_text_EthnbH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QgGDTz": {
+          "type": "heading",
+          "settings": {
+            "text": "The Vision",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#FD6262"
+          }
+        },
+        "text_P87GjR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Metamix is all about getting you to feel like you're firing on all cylinders, every day. It's about cutting through the noise and giving you what you need to boost your health, focus, and energy levels without any of the BS. It’s straightforward, no weird ingredients, just the good stuff to make you feel amazing and ready to take on whatever comes your way.<\/p><p>Welcome to Metamix. It’s time to feel unstoppable.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QgGDTz",
+        "text_P87GjR"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_heading": "#ffffff",
+        "color_text": "#ffffff",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
     "announcement-bar",
     "header-secondary-menu",
     "header",
-    "header-mobile-navigation"
+    "rich_text_qAQWyq",
+    "image_with_text_phzQTt",
+    "header-mobile-navigation",
+    "rich_text_EthnbH"
   ]
 }
