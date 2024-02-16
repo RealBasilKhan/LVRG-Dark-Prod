@@ -38,15 +38,16 @@
           "settings": {
             "icon_1_icon": "ruler",
             "icon_1_image": "shopify:\/\/shop_images\/clipart1271742.png",
-            "icon_1_text": "Support Testosterone *",
+            "icon_1_text": "Promotes Competitive Drive & Supports Testosterone*",
             "icon_2_icon": "box",
             "icon_2_image": "shopify:\/\/shop_images\/icon.png",
-            "icon_2_text": "*",
+            "icon_2_text": "Laser Sharp Clarity and Focus*",
             "icon_3_icon": "star",
             "icon_3_image": "shopify:\/\/shop_images\/rocket-ship.png",
             "icon_3_text": "All Day Energy Without The Crash*",
             "icon_4_icon": "washing",
-            "icon_4_text": ""
+            "icon_4_image": "shopify:\/\/shop_images\/meditation_3663335.png",
+            "icon_4_text": "Relieves Stress and Fatigue*"
           }
         },
         "quantity": {
