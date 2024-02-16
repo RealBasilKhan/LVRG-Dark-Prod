@@ -480,14 +480,6 @@
             "textcard": "<p>As soon as you consume LVRG Metamix, the nutrients begin to absorb into your bloodstream. Organic greens and adaptogens start working to balance and energize your body.<\/p>"
           }
         },
-        "card_image_7xPep6": {
-          "type": "card-image",
-          "settings": {
-            "mainhcard": "",
-            "subhcard": "",
-            "textcard": ""
-          }
-        },
         "d447c100-7bad-401a-a64f-e33249b37443": {
           "type": "card-image",
           "settings": {
@@ -508,7 +500,6 @@
         },
         "982789a6-85f0-4094-b59f-2e50e8caf2ce": {
           "type": "card-image",
-          "disabled": true,
           "settings": {
             "imgcard": "shopify:\/\/shop_images\/DALL_E_2024-01-15_18.31.25_-_Create_an_image_of_isolated_cells_of_gut_bacteria_on_a_white_background_with_a_color_scheme_that_is_glass-like_and_aesthetically_pleasing._The_depict.png",
             "mainhcard": "Week 2",
@@ -537,7 +528,6 @@
       },
       "block_order": [
         "a5a7783d-cfd4-44b9-9cc4-accedcb65161",
-        "card_image_7xPep6",
         "d447c100-7bad-401a-a64f-e33249b37443",
         "830a6128-c8aa-4bb7-b3f1-50c04d817567",
         "982789a6-85f0-4094-b59f-2e50e8caf2ce",
