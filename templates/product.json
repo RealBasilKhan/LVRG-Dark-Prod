@@ -1084,6 +1084,16 @@
     "4228dd7b-3309-4c07-b857-0183644b0d83": {
       "type": "comparison-table",
       "blocks": {
+        "table_row_ABxJhm": {
+          "type": "table_row",
+          "settings": {
+            "row_title": "No Caffeine",
+            "product1_row_radio": "tick",
+            "product2_row_radio": "tick",
+            "product3_row_radio": "cross",
+            "product4_row_radio": "tick"
+          }
+        },
         "09112ab2-7a1d-47c0-b6a8-c05515bf9d20": {
           "type": "table_row",
           "settings": {
@@ -1136,6 +1146,7 @@
         }
       },
       "block_order": [
+        "table_row_ABxJhm",
         "09112ab2-7a1d-47c0-b6a8-c05515bf9d20",
         "7e2386e4-795c-4363-ae77-3f235ac1029a",
         "6a31708c-2934-42d6-93ef-e096e5e90082",
