@@ -20,13 +20,6 @@
             "inventory_notice_base": 20
           }
         },
-        "text_LT6yVU": {
-          "type": "text",
-          "settings": {
-            "text": "Energy, Focus & Testosterone Support",
-            "text_style": "subheading"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -109,7 +102,6 @@
       },
       "block_order": [
         "b51da28f-975f-4f51-a8ce-ebd872a18326",
-        "text_LT6yVU",
         "title",
         "3209aea5-2573-4044-a863-a0a6498a31e4",
         "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b",
