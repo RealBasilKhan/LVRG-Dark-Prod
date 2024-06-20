@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "breadcrumbs": {
@@ -1303,6 +1312,21 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "17189275826f153f38": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_KxbfNx": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_KxbfNx"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -1327,6 +1351,7 @@
     "caf6b442-01f9-4626-a023-fe54d7314439",
     "4228dd7b-3309-4c07-b857-0183644b0d83",
     "e80f0f18-20cc-4329-83b8-9b8f7250fafd",
-    "1663667029efc274af"
+    "1663667029efc274af",
+    "17189275826f153f38"
   ]
 }
