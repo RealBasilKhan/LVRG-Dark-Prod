@@ -71,6 +71,11 @@
             "show_gift_card_recipient": false
           }
         },
+        "delivery_timer_text_based_timer_3iKafc": {
+          "type": "shopify:\/\/apps\/delivery-timer\/blocks\/text_based_timer\/bace9725-6846-4fad-8461-027a1ac43ad8",
+          "settings": {
+          }
+        },
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
           "settings": {
@@ -116,6 +121,7 @@
         "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b",
         "quantity",
         "buy_buttons",
+        "delivery_timer_text_based_timer_3iKafc",
         "0b3e272b-c86a-4dba-946c-c6912251371c",
         "386f7e4a-6127-4141-928b-9cb4614ee18c",
         "d56924f2-0137-4e3b-8c33-49b1f28391c6",
