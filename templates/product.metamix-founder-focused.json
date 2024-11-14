@@ -14,6 +14,42 @@
       "disabled": true,
       "settings": {}
     },
+    "rich_text_phr3kr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JUxGmk": {
+          "type": "heading",
+          "settings": {
+            "text": "78% of Men Report Low Energy by Midday",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#FD6262"
+          }
+        },
+        "text_6Q6XFm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Here’s Why Metamix Is the All-In-One Solution for Sustained Energy, Focus, and Peak Performance—Without the Jitters or Crashes.</strong></p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JUxGmk",
+        "text_6Q6XFm"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_heading": "",
+        "color_text": "#ffffff",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "main-product": {
       "type": "main-product",
       "blocks": {
@@ -1326,6 +1362,7 @@
   },
   "order": [
     "breadcrumbs",
+    "rich_text_phr3kr",
     "main-product",
     "4114d5c0-9533-43dc-8c53-9684203939cf",
     "image_with_text_x98j84",
