@@ -50,6 +50,68 @@
         "disable_bottom_spacing": true
       }
     },
+    "multicolumn_xJXGVm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UwFWaU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-11-13_at_10.21.20_PM_1be138c5-f3a6-4fef-b29b-a167317bc98d.png",
+            "image_full_width": false,
+            "image_link": "",
+            "title": "Years ago, I struggled with constant low energy and brain fog.",
+            "text": "<p>I felt like I was just getting through the day, not truly making the most of it. <br/><br/>Despite pushing myself, I kept running into the same problems:<strong><br/><br/>❌  Drained by Midday<br/><br/>❌  Scattered Focus<br/><br/>❌  Unpredictable Mood</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NFW9cD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Before-after_founder_3f1594e5-1bdd-4006-bffa-e3f837541d3c.png",
+            "image_full_width": false,
+            "image_link": "",
+            "title": "I hid it well...",
+            "text": "<p>but deep down, I knew I wasn’t reaching my potential. <br/><br/>Every day felt like a battle to find the focus and energy I needed to keep up with my goals.<br/><br/>At 25, I decided I was done with just “getting by.” <br/><br/>I was determined to take control of my energy, focus, and health—once and for all. I tried everything on the market:</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rXbMbc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/s1_tried_img_528x308_84912a19-42b3-4187-99fe-875c8686a9ec.webp",
+            "image_full_width": false,
+            "image_link": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UwFWaU",
+        "column_NFW9cD",
+        "column_rXbMbc"
+      ],
+      "settings": {
+        "heading": "Hi, I’m Basil, the founder of Metamix.",
+        "marker_style": "style1",
+        "description": "<p>Why I Created Metamix: The Ultimate Supplement for Self-Improvement</p>",
+        "columns_desktop": 4,
+        "mobile_swipe": false,
+        "image_ratio": "adapt",
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "color_heading": "#ffffff",
+        "marker_color": "#FD6262",
+        "color_text": "#ffffff",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "main-product": {
       "type": "main-product",
       "blocks": {
@@ -1363,6 +1425,7 @@
   "order": [
     "breadcrumbs",
     "rich_text_phr3kr",
+    "multicolumn_xJXGVm",
     "main-product",
     "4114d5c0-9533-43dc-8c53-9684203939cf",
     "image_with_text_x98j84",
