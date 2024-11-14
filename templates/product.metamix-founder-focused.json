@@ -59,7 +59,7 @@
             "image": "shopify://shop_images/Screenshot_2024-11-13_at_10.21.20_PM_1be138c5-f3a6-4fef-b29b-a167317bc98d.png",
             "image_full_width": false,
             "image_link": "",
-            "title": "Years ago, I struggled with constant low energy and brain fog.",
+            "title": "A year ago, I felt constantly drained, unfocused, and unmotivated.",
             "text": "<p>I felt like I was just getting through the day, not truly making the most of it. <br/><br/>Despite pushing myself, I kept running into the same problems:<strong><br/><br/>❌  Drained by Midday<br/><br/>❌  Scattered Focus<br/><br/>❌  Unpredictable Mood</strong></p>",
             "link_label": "",
             "link": ""
@@ -72,7 +72,19 @@
             "image_full_width": false,
             "image_link": "",
             "title": "I hid it well...",
-            "text": "<p>but deep down, I knew I wasn’t reaching my potential. <br/><br/>Every day felt like a battle to find the focus and energy I needed to keep up with my goals.<br/><br/>At 24, I decided I was done with just “getting by.” <br/><br/>I was determined to take control of my energy, focus, and health—once and for all. I tried everything on the market:</p>",
+            "text": "<p>but deep down, I knew I wasn’t reaching my potential. <br/><br/>Every day felt like a battle to find the focus and energy I needed to keep up with my goals.<br/><br/>At 24, I decided I was done with just “getting by.” <br/><br/>I was determined to take control of my energy, focus, and health, once and for all, <br/><br/>so I started by getting my Testosterone checked..</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VUn7Yi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/testosterone_344_273_23983.gif",
+            "image_full_width": true,
+            "image_link": "",
+            "title": "My Doctor Said My T Levels Were Normal. But ‘Normal’ Wasn’t Enough",
+            "text": "<p>I got my testosterone levels checked.</p><p>My doctor told me my T levels were “normal” at around 300. <br/><br/>But here’s the thing: men’s testosterone levels have dropped 20% in the last few decades, meaning today’s “normal” is yesterday’s <em>low.</em></p><p>My so-called “normal” T levels left me with constant fatigue, brain fog, and a lack of motivation to do more than just <em>get by.</em><br/><br/>I tried everything on the market:</p>",
             "link_label": "",
             "link": ""
           }
@@ -84,7 +96,7 @@
             "image_full_width": true,
             "image_link": "",
             "title": "Column",
-            "text": "<p>❌ Energy drinks<br/><br/>❌ Greens Drinks<br/><br/>❌ Mushroom Powders</p><p>❌ Coffee</p><p>❌ Caffeine supplements<br/><br/></p><p>But they all led to the same result—quick boosts, followed by crashes and jitters. <br/><br/>None of them truly supported the self-improvement journey I was committed to.</p>",
+            "text": "<p>❌ Energy drinks<br/>❌ Greens Drinks<br/>❌ Mushroom Powders<br/>❌ Coffee<br/>❌ Caffeine supplements<br/><br/>But they all led to the same result, quick boosts, followed by crashes and jitters.<br/><br/>None of them truly supported the self-improvement journey I was committed to.</p>",
             "link_label": "",
             "link": ""
           }
@@ -93,6 +105,7 @@
       "block_order": [
         "column_UwFWaU",
         "column_NFW9cD",
+        "column_VUn7Yi",
         "column_rXbMbc"
       ],
       "settings": {
