@@ -50,6 +50,124 @@
         "disable_bottom_spacing": true
       }
     },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "b51da28f-975f-4f51-a8ce-ebd872a18326": {
+          "type": "inventory_level",
+          "settings": {
+            "show_inventory_notice": "always",
+            "show_inventory_count": "low",
+            "inventory_notice_pulse": true,
+            "inventory_notice_bar": false,
+            "inventory_notice_threshold": 10,
+            "inventory_notice_base": 20
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "3209aea5-2573-4044-a863-a0a6498a31e4": {
+          "type": "text",
+          "settings": {
+            "text": "Unlock All-Day Energy & Mental Clarity, Naturally",
+            "text_style": "subheading"
+          }
+        },
+        "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b": {
+          "type": "icon_list",
+          "settings": {
+            "icon_1_icon": "ruler",
+            "icon_1_image": "shopify://shop_images/clipart1271742.png",
+            "icon_1_text": "Promotes Competitive Drive & Supports Testosterone*",
+            "icon_2_icon": "box",
+            "icon_2_image": "shopify://shop_images/icon.png",
+            "icon_2_text": "Laser Sharp Clarity and Focus*",
+            "icon_3_icon": "star",
+            "icon_3_image": "shopify://shop_images/rocket-ship.png",
+            "icon_3_text": "All Day Energy Without The Crash*",
+            "icon_4_icon": "washing",
+            "icon_4_image": "shopify://shop_images/meditation_3663335.png",
+            "icon_4_text": "Relieves Stress and Fatigue*"
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "delivery_timer_text_based_timer_3iKafc": {
+          "type": "shopify://apps/delivery-timer/blocks/text_based_timer/bace9725-6846-4fad-8461-027a1ac43ad8",
+          "settings": {}
+        },
+        "386f7e4a-6127-4141-928b-9cb4614ee18c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "open": false,
+            "content": "<p>Product Ships Same Day. <br/><br/>LVRG Guarantee: </p><p>Not Satisfied? You Get Your Money Back, No Returns Needed. <br/><br/>If Metamix doesn't meet your expectations within 60 days of receipt, just email us at basil@uselvrg.com. Keep the product, and we'll refund you, no questions asked.</p>",
+            "page": ""
+          }
+        },
+        "d56924f2-0137-4e3b-8c33-49b1f28391c6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How To Use?",
+            "open": false,
+            "content": "<p>For optimal use of LVRG Metamix, simply mix one scoop with 8-12 ounces of water, or your preferred beverage, each morning or early in the afternoon. <br/><br/>This ensures you harness the full benefits of the supplement during your most active hours. </p>",
+            "page": ""
+          }
+        },
+        "019bda93-d256-470c-ad9f-1d998696cf0a": {
+          "type": "side_panel",
+          "settings": {
+            "side_panel_1_label": "Nutritional Information",
+            "side_panel_1_icon": "star",
+            "side_panel_1_page": "nutritional-facts",
+            "side_panel_2_label": "",
+            "side_panel_2_icon": "box",
+            "side_panel_2_page": "",
+            "side_panel_3_label": "",
+            "side_panel_3_icon": "washing",
+            "side_panel_3_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "b51da28f-975f-4f51-a8ce-ebd872a18326",
+        "title",
+        "3209aea5-2573-4044-a863-a0a6498a31e4",
+        "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b",
+        "quantity",
+        "buy_buttons",
+        "delivery_timer_text_based_timer_3iKafc",
+        "386f7e4a-6127-4141-928b-9cb4614ee18c",
+        "d56924f2-0137-4e3b-8c33-49b1f28391c6",
+        "019bda93-d256-470c-ad9f-1d998696cf0a"
+      ],
+      "custom_css": [
+        ".product--icon-list li {font-size: 15px;}"
+      ],
+      "settings": {
+        "enable_sticky_add_to_cart": true,
+        "show_taxes_included": false,
+        "thumbnail_position": "left",
+        "media_aspect_ratio": "square",
+        "display_captions": false,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false
+      }
+    },
     "multicolumn_xJXGVm": {
       "type": "multicolumn",
       "blocks": {
@@ -96,7 +214,7 @@
             "image_full_width": true,
             "image_link": "",
             "title": "Column",
-            "text": "<p>❌ Energy drinks<br/>❌ Greens Drinks<br/>❌ Mushroom Powders<br/>❌ Coffee<br/>❌ Caffeine supplements<br/><br/>But they all led to the same result, quick boosts, followed by crashes and jitters.<br/><br/>None of them truly supported the self-improvement journey I was committed to.</p>",
+            "text": "<p>❌ Energy drinks<br/>❌ Greens Drinks<br/>❌ Mushroom Powders<br/>❌ Coffee<br/>❌ Caffeine supplements<br/><br/>But they all led to the same result, quick boosts, followed by crashes and jitters.<br/><br/>None of them truly supported the self-improvement journey I was committed to.<br/><br/>That’s when it hit me: why wasn’t there a supplement built specifically for men like me? A solution that:</p><ul><li><strong>Supports all-day energy and focus</strong>—without relying on caffeine or artificial stimulants.</li><li><strong>Is free of hormone-disrupting fillers</strong> or ingredients that could throw off my natural balance.</li><li><strong>Actually tastes good</strong> so I could look forward to taking it every day.</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -172,129 +290,6 @@
         "color_border": "#e2e2e2",
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
-      }
-    },
-    "main-product": {
-      "type": "main-product",
-      "blocks": {
-        "b51da28f-975f-4f51-a8ce-ebd872a18326": {
-          "type": "inventory_level",
-          "settings": {
-            "show_inventory_notice": "always",
-            "show_inventory_count": "low",
-            "inventory_notice_pulse": true,
-            "inventory_notice_bar": false,
-            "inventory_notice_threshold": 10,
-            "inventory_notice_base": 20
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "show_products_rating": true
-          }
-        },
-        "3209aea5-2573-4044-a863-a0a6498a31e4": {
-          "type": "text",
-          "settings": {
-            "text": "Unlock All-Day Energy & Mental Clarity, Naturally",
-            "text_style": "subheading"
-          }
-        },
-        "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b": {
-          "type": "icon_list",
-          "settings": {
-            "icon_1_icon": "ruler",
-            "icon_1_image": "shopify://shop_images/clipart1271742.png",
-            "icon_1_text": "Promotes Competitive Drive & Supports Testosterone*",
-            "icon_2_icon": "box",
-            "icon_2_image": "shopify://shop_images/icon.png",
-            "icon_2_text": "Laser Sharp Clarity and Focus*",
-            "icon_3_icon": "star",
-            "icon_3_image": "shopify://shop_images/rocket-ship.png",
-            "icon_3_text": "All Day Energy Without The Crash*",
-            "icon_4_icon": "washing",
-            "icon_4_image": "shopify://shop_images/meditation_3663335.png",
-            "icon_4_text": "Relieves Stress and Fatigue*"
-          }
-        },
-        "quantity": {
-          "type": "quantity",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
-          }
-        },
-        "delivery_timer_text_based_timer_3iKafc": {
-          "type": "shopify://apps/delivery-timer/blocks/text_based_timer/bace9725-6846-4fad-8461-027a1ac43ad8",
-          "settings": {}
-        },
-        "0b3e272b-c86a-4dba-946c-c6912251371c": {
-          "type": "description",
-          "settings": {}
-        },
-        "386f7e4a-6127-4141-928b-9cb4614ee18c": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "open": false,
-            "content": "<p>Product Ships Same Day. <br/><br/>LVRG Guarantee: </p><p>Not Satisfied? You Get Your Money Back, No Returns Needed. <br/><br/>If Metamix doesn't meet your expectations within 60 days of receipt, just email us at basil@uselvrg.com. Keep the product, and we'll refund you, no questions asked.</p>",
-            "page": ""
-          }
-        },
-        "d56924f2-0137-4e3b-8c33-49b1f28391c6": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How To Use?",
-            "open": false,
-            "content": "<p>For optimal use of LVRG Metamix, simply mix one scoop with 8-12 ounces of water, or your preferred beverage, each morning or early in the afternoon. <br/><br/>This ensures you harness the full benefits of the supplement during your most active hours. </p>",
-            "page": ""
-          }
-        },
-        "019bda93-d256-470c-ad9f-1d998696cf0a": {
-          "type": "side_panel",
-          "settings": {
-            "side_panel_1_label": "Nutritional Information",
-            "side_panel_1_icon": "star",
-            "side_panel_1_page": "nutritional-facts",
-            "side_panel_2_label": "",
-            "side_panel_2_icon": "box",
-            "side_panel_2_page": "",
-            "side_panel_3_label": "",
-            "side_panel_3_icon": "washing",
-            "side_panel_3_page": ""
-          }
-        }
-      },
-      "block_order": [
-        "b51da28f-975f-4f51-a8ce-ebd872a18326",
-        "title",
-        "3209aea5-2573-4044-a863-a0a6498a31e4",
-        "af23fa8c-20a0-4fe4-9f2b-de6a5ff4794b",
-        "quantity",
-        "buy_buttons",
-        "delivery_timer_text_based_timer_3iKafc",
-        "0b3e272b-c86a-4dba-946c-c6912251371c",
-        "386f7e4a-6127-4141-928b-9cb4614ee18c",
-        "d56924f2-0137-4e3b-8c33-49b1f28391c6",
-        "019bda93-d256-470c-ad9f-1d998696cf0a"
-      ],
-      "custom_css": [
-        ".product--icon-list li {font-size: 15px;}"
-      ],
-      "settings": {
-        "enable_sticky_add_to_cart": true,
-        "show_taxes_included": false,
-        "thumbnail_position": "left",
-        "media_aspect_ratio": "square",
-        "display_captions": false,
-        "hide_variants": false,
-        "lightbox": true,
-        "enable_video_looping": false
       }
     },
     "4114d5c0-9533-43dc-8c53-9684203939cf": {
@@ -376,33 +371,59 @@
         "disable_bottom_spacing": false
       }
     },
-    "1b2ac1d1-0347-4418-9a68-1529f48b220a": {
-      "type": "rich-text",
+    "eafca1d4-05cf-4432-afce-a9c35d9df8d9": {
+      "type": "product-display-with-text-v2",
       "blocks": {
-        "template--20688426926378__1b2ac1d1-0347-4418-9a68-1529f48b220a-heading-1": {
-          "type": "heading",
+        "f89eed25-672c-47da-879c-f3049d657152": {
+          "type": "side_panel",
           "settings": {
-            "text": "| 3 Staggering Facts |",
-            "marker_style": "style1",
-            "size": "h1",
-            "marker_color": "#fd6262"
+            "button_text_one": "Nutritional information",
+            "title_one": "Product information",
+            "content_one": "Nutritional Information",
+            "image_one": "shopify://shop_images/Supplement_Facts.png",
+            "button_text_two": "",
+            "title_two": "",
+            "content_two": "Nutritional Information",
+            "image_two": "shopify://shop_images/Supplement_Label_f53c71ef-7248-4aa2-90f5-d39bc03f2a5d.webp"
           }
         }
       },
       "block_order": [
-        "template--20688426926378__1b2ac1d1-0347-4418-9a68-1529f48b220a-heading-1"
+        "f89eed25-672c-47da-879c-f3049d657152"
       ],
-      "disabled": true,
+      "custom_css": [
+        ".custom-btn:hover {border: 1px solid #e27624; padding: 13px 29px !important;}"
+      ],
       "settings": {
-        "text_width": "large",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#ffffff",
-        "color_text": "#2c2d2e",
-        "color_links": "#2c2d2e",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
+        "section_background": "#ffffff",
+        "heading": "Benefits Of Metamix",
+        "text_color": "#000000",
+        "icon_left1": "shopify://shop_images/brain-emoji-1024x798-spi2i3dv.png",
+        "heading_left1": "Laser-Sharp Focus",
+        "text_left1": "Stay effortlessly in the zone. Metamix fuels your mental clarity, enabling peak concentration and productivity without the fog.",
+        "icon_left2": "shopify://shop_images/Pngtree_battery_charge_indicator_graphics_5431978.png",
+        "heading_left2": "All Day Energy",
+        "text_left2": "Power through your day, every day. Experience a surge of clean, natural energy that keeps you going strong, without any jitters.",
+        "image_middle": "shopify://shop_images/stick_front_copy.png",
+        "icon_right1": "shopify://shop_images/gut.png",
+        "heading_right1": "No More Bloating",
+        "text_right1": "Support your gut health with our prebiotic and probiotic-rich formula for smoother digestion and absorption.",
+        "icon_right2": "shopify://shop_images/Male-icon.png",
+        "heading_right2": "Testosterone Support",
+        "text_right2": "Harness the power of adaptogens for optimal hormone health. Feel stronger, more balanced, and ready for anything",
+        "button1_link": "",
+        "button1_color": "#000000",
+        "button1_text_color": "#ffffff",
+        "button1_text": "Button 1",
+        "button2_link": "",
+        "button2_color": "#000000",
+        "button2_text_color": "#ffffff",
+        "button2_text": "Button 2",
+        "button_text_one": "Nutritional information",
+        "button_link_one": "shopify://pages/nutritional-facts",
+        "button_text_two": "Ingredients information",
+        "button_link_two": "shopify://pages/nutritional-facts",
+        "side_panel": ""
       }
     },
     "fa29ec10-4697-4581-af5c-83af7c1ffbef": {
@@ -531,61 +552,6 @@
         "color_text": "#dedede",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
-      }
-    },
-    "eafca1d4-05cf-4432-afce-a9c35d9df8d9": {
-      "type": "product-display-with-text-v2",
-      "blocks": {
-        "f89eed25-672c-47da-879c-f3049d657152": {
-          "type": "side_panel",
-          "settings": {
-            "button_text_one": "Nutritional information",
-            "title_one": "Product information",
-            "content_one": "Nutritional Information",
-            "image_one": "shopify://shop_images/Supplement_Facts.png",
-            "button_text_two": "",
-            "title_two": "",
-            "content_two": "Nutritional Information",
-            "image_two": "shopify://shop_images/Supplement_Label_f53c71ef-7248-4aa2-90f5-d39bc03f2a5d.webp"
-          }
-        }
-      },
-      "block_order": [
-        "f89eed25-672c-47da-879c-f3049d657152"
-      ],
-      "custom_css": [
-        ".custom-btn:hover {border: 1px solid #e27624; padding: 13px 29px !important;}"
-      ],
-      "settings": {
-        "section_background": "#ffffff",
-        "heading": "Benefits Of Metamix",
-        "text_color": "#000000",
-        "icon_left1": "shopify://shop_images/brain-emoji-1024x798-spi2i3dv.png",
-        "heading_left1": "Laser-Sharp Focus",
-        "text_left1": "Stay effortlessly in the zone. Metamix fuels your mental clarity, enabling peak concentration and productivity without the fog.",
-        "icon_left2": "shopify://shop_images/Pngtree_battery_charge_indicator_graphics_5431978.png",
-        "heading_left2": "All Day Energy",
-        "text_left2": "Power through your day, every day. Experience a surge of clean, natural energy that keeps you going strong, without any jitters.",
-        "image_middle": "shopify://shop_images/stick_front_copy.png",
-        "icon_right1": "shopify://shop_images/gut.png",
-        "heading_right1": "No More Bloating",
-        "text_right1": "Support your gut health with our prebiotic and probiotic-rich formula for smoother digestion and absorption.",
-        "icon_right2": "shopify://shop_images/Male-icon.png",
-        "heading_right2": "Testosterone Support",
-        "text_right2": "Harness the power of adaptogens for optimal hormone health. Feel stronger, more balanced, and ready for anything",
-        "button1_link": "",
-        "button1_color": "#000000",
-        "button1_text_color": "#ffffff",
-        "button1_text": "Button 1",
-        "button2_link": "",
-        "button2_color": "#000000",
-        "button2_text_color": "#ffffff",
-        "button2_text": "Button 2",
-        "button_text_one": "Nutritional information",
-        "button_link_one": "shopify://pages/nutritional-facts",
-        "button_text_two": "Ingredients information",
-        "button_link_two": "shopify://pages/nutritional-facts",
-        "side_panel": ""
       }
     },
     "d21acdf2-7cd2-49b8-b2d4-301ba365ab92": {
@@ -1438,15 +1404,14 @@
   "order": [
     "breadcrumbs",
     "rich_text_phr3kr",
-    "multicolumn_xJXGVm",
-    "image_with_text_EfTXJm",
     "main-product",
+    "multicolumn_xJXGVm",
     "4114d5c0-9533-43dc-8c53-9684203939cf",
+    "image_with_text_EfTXJm",
     "image_with_text_x98j84",
-    "1b2ac1d1-0347-4418-9a68-1529f48b220a",
+    "eafca1d4-05cf-4432-afce-a9c35d9df8d9",
     "fa29ec10-4697-4581-af5c-83af7c1ffbef",
     "e2bcbf37-e737-4897-b537-292703633aaa",
-    "eafca1d4-05cf-4432-afce-a9c35d9df8d9",
     "d21acdf2-7cd2-49b8-b2d4-301ba365ab92",
     "rich_text_FaAYRV",
     "gallery_7nizBc",
