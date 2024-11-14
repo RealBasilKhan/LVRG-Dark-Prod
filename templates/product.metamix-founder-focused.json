@@ -72,7 +72,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "I hid it well...",
-            "text": "<p>but deep down, I knew I wasn’t reaching my potential. <br/><br/>Every day felt like a battle to find the focus and energy I needed to keep up with my goals.<br/><br/>At 25, I decided I was done with just “getting by.” <br/><br/>I was determined to take control of my energy, focus, and health—once and for all. I tried everything on the market:</p>",
+            "text": "<p>but deep down, I knew I wasn’t reaching my potential. <br/><br/>Every day felt like a battle to find the focus and energy I needed to keep up with my goals.<br/><br/>At 24, I decided I was done with just “getting by.” <br/><br/>I was determined to take control of my energy, focus, and health—once and for all. I tried everything on the market:</p>",
             "link_label": "",
             "link": ""
           }
@@ -80,11 +80,11 @@
         "column_rXbMbc": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/s1_tried_img_528x308_84912a19-42b3-4187-99fe-875c8686a9ec.webp",
-            "image_full_width": false,
+            "image": "shopify://shop_images/Get_Some_Greens__42888.webp",
+            "image_full_width": true,
             "image_link": "",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>❌ Energy drinks</p><p>❌ Coffee</p><p>❌ Caffeine supplements</p><p>But they all led to the same result—quick boosts, followed by crashes and jitters. <br/><br/>None of them truly supported the self-improvement journey I was committed to.</p>",
             "link_label": "",
             "link": ""
           }
