@@ -1,19 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "main-product": {
       "type": "main-product",
@@ -46,23 +45,22 @@
           "type": "icon_list",
           "settings": {
             "icon_1_icon": "ruler",
-            "icon_1_image": "shopify:\/\/shop_images\/clipart1271742.png",
+            "icon_1_image": "shopify://shop_images/clipart1271742.png",
             "icon_1_text": "Promotes Competitive Drive & Supports Testosterone*",
             "icon_2_icon": "box",
-            "icon_2_image": "shopify:\/\/shop_images\/icon.png",
+            "icon_2_image": "shopify://shop_images/icon.png",
             "icon_2_text": "Laser Sharp Clarity and Focus*",
             "icon_3_icon": "star",
-            "icon_3_image": "shopify:\/\/shop_images\/rocket-ship.png",
+            "icon_3_image": "shopify://shop_images/rocket-ship.png",
             "icon_3_text": "All Day Energy Without The Crash*",
             "icon_4_icon": "washing",
-            "icon_4_image": "shopify:\/\/shop_images\/meditation_3663335.png",
+            "icon_4_image": "shopify://shop_images/meditation_3663335.png",
             "icon_4_text": "Relieves Stress and Fatigue*"
           }
         },
         "quantity": {
           "type": "quantity",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -72,21 +70,19 @@
           }
         },
         "delivery_timer_text_based_timer_3iKafc": {
-          "type": "shopify:\/\/apps\/delivery-timer\/blocks\/text_based_timer\/bace9725-6846-4fad-8461-027a1ac43ad8",
-          "settings": {
-          }
+          "type": "shopify://apps/delivery-timer/blocks/text_based_timer/bace9725-6846-4fad-8461-027a1ac43ad8",
+          "settings": {}
         },
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "386f7e4a-6127-4141-928b-9cb4614ee18c": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping & Returns",
             "open": false,
-            "content": "<p>Product Ships Same Day. <br\/><br\/>LVRG Guarantee: <\/p><p>Not Satisfied? You Get Your Money Back, No Returns Needed. <br\/><br\/>If Metamix doesn't meet your expectations within 60 days of receipt, just email us at basil@uselvrg.com. Keep the product, and we'll refund you, no questions asked.<\/p>",
+            "content": "<p>Product Ships Same Day. <br/><br/>LVRG Guarantee: </p><p>Not Satisfied? You Get Your Money Back, No Returns Needed. <br/><br/>If Metamix doesn't meet your expectations within 60 days of receipt, just email us at basil@uselvrg.com. Keep the product, and we'll refund you, no questions asked.</p>",
             "page": ""
           }
         },
@@ -95,7 +91,7 @@
           "settings": {
             "heading": "How To Use?",
             "open": false,
-            "content": "<p>For optimal use of LVRG Metamix, simply mix one scoop with 8-12 ounces of water, or your preferred beverage, each morning or early in the afternoon. <br\/><br\/>This ensures you harness the full benefits of the supplement during your most active hours. <\/p>",
+            "content": "<p>For optimal use of LVRG Metamix, simply mix one scoop with 8-12 ounces of water, or your preferred beverage, each morning or early in the afternoon. <br/><br/>This ensures you harness the full benefits of the supplement during your most active hours. </p>",
             "page": ""
           }
         },
@@ -158,7 +154,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Ditch the temporary caffeine highs and inevitable crashes. Discover Metamix®—a natural blend of greens, mushrooms, and adaptogens for sustained energy and focus without the side effects.<\/p>",
+            "text": "<p>Ditch the temporary caffeine highs and inevitable crashes. Discover Metamix®—a natural blend of greens, mushrooms, and adaptogens for sustained energy and focus without the side effects.</p>",
             "size": "text-size-regular"
           }
         }
@@ -194,7 +190,7 @@
         "text_zW3698": {
           "type": "text",
           "settings": {
-            "text": "<p>Most of us lean on caffeine to kickstart our day, only to hit a wall by afternoon. The energy dips, the focus fades, and the jitters kick in, leaving us searching for more. It's a cycle that's hard to break and hard on your body.<\/p>"
+            "text": "<p>Most of us lean on caffeine to kickstart our day, only to hit a wall by afternoon. The energy dips, the focus fades, and the jitters kick in, leaving us searching for more. It's a cycle that's hard to break and hard on your body.</p>"
           }
         }
       },
@@ -203,9 +199,9 @@
         "text_zW3698"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Copy_of_Blue_White_Modern_Line_Chart_Graph.png",
+        "image": "shopify://shop_images/Copy_of_Blue_White_Modern_Line_Chart_Graph.png",
         "use_video": false,
-        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
         "height": "adapt",
         "desktop_image_width": "large",
@@ -242,7 +238,7 @@
         "text_qkd7V8": {
           "type": "text",
           "settings": {
-            "text": "<p>While others offer quick fixes, Metamix® focuses on your long-term well-being. Our scientifically backed formula supports gut health, optimizes hormones, and delivers essential nutrients, ensuring not just all-day energy but a foundation for overall health.<\/p>"
+            "text": "<p>While others offer quick fixes, Metamix® focuses on your long-term well-being. Our scientifically backed formula supports gut health, optimizes hormones, and delivers essential nutrients, ensuring not just all-day energy but a foundation for overall health.</p>"
           }
         }
       },
@@ -252,9 +248,9 @@
         "text_qkd7V8"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC00785.jpg",
+        "image": "shopify://shop_images/DSC00785.jpg",
         "use_video": false,
-        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -341,7 +337,7 @@
           "type": "button",
           "settings": {
             "button_text": "Add To Cart",
-            "button_link": "shopify:\/\/products\/metamix"
+            "button_link": "shopify://products/metamix"
           }
         }
       },
@@ -354,11 +350,11 @@
       ],
       "disabled": true,
       "custom_css": [
-        ".image-with-text--content--inner .button {background: #f4e588; background: linear-gradient(135deg, #f4e588, #e26c5a); margin-top: 15px; width: 100%; color: #ffff; transition: background 0.3s ease; \/* Smooth transition for the hover effect *\/}",
-        ".image-with-text--content--inner .button:hover {\/* * Darken the colors for hover effect *\/ background: linear-gradient(135deg, #e4d578, #d25b4a);}"
+        ".image-with-text--content--inner .button {background: #f4e588; background: linear-gradient(135deg, #f4e588, #e26c5a); margin-top: 15px; width: 100%; color: #ffff; transition: background 0.3s ease; /* Smooth transition for the hover effect */}",
+        ".image-with-text--content--inner .button:hover {/* * Darken the colors for hover effect */ background: linear-gradient(135deg, #e4d578, #d25b4a);}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image.jpg",
+        "image": "shopify://shop_images/Image.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -382,27 +378,27 @@
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/Male-icon.png",
+            "image": "shopify://shop_images/Male-icon.png",
             "heading": "Testosterone Decline",
-            "text": "<p><strong>Laser-Sharp Focus<\/strong><\/p>"
+            "text": "<p><strong>Laser-Sharp Focus</strong></p>"
           }
         },
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/vegetable.png",
+            "image": "shopify://shop_images/vegetable.png",
             "heading": "Veggie Deficit",
-            "text": "<p>80% of Men Fall Short on Veggies. It's more than health; it's about maintaining that masculine edge.<\/p>"
+            "text": "<p>80% of Men Fall Short on Veggies. It's more than health; it's about maintaining that masculine edge.</p>"
           }
         },
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-08-19_at_3.29.27_PM.png",
+            "image": "shopify://shop_images/Screenshot_2023-08-19_at_3.29.27_PM.png",
             "heading": "Hidden Estrogen Boosters",
-            "text": "<p>Beware of Common Greens: They're often packed with soy, alfalfa, and flaxseed – sneaky estrogen boosters.<\/p>"
+            "text": "<p>Beware of Common Greens: They're often packed with soy, alfalfa, and flaxseed – sneaky estrogen boosters.</p>"
           }
         }
       },
@@ -412,9 +408,7 @@
         "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "text_alignment": "center",
         "icon_position": "top",
@@ -437,11 +431,11 @@
             "button_text_one": "Nutritional information",
             "title_one": "Product information",
             "content_one": "Nutritional Information",
-            "image_one": "shopify:\/\/shop_images\/Supplement_Facts.png",
+            "image_one": "shopify://shop_images/Supplement_Facts.png",
             "button_text_two": "",
             "title_two": "",
             "content_two": "Nutritional Information",
-            "image_two": "shopify:\/\/shop_images\/Supplement_Label_f53c71ef-7248-4aa2-90f5-d39bc03f2a5d.webp"
+            "image_two": "shopify://shop_images/Supplement_Label_f53c71ef-7248-4aa2-90f5-d39bc03f2a5d.webp"
           }
         }
       },
@@ -455,17 +449,17 @@
         "section_background": "#ffffff",
         "heading": "Benefits Of Metamix",
         "text_color": "#000000",
-        "icon_left1": "shopify:\/\/shop_images\/brain-emoji-1024x798-spi2i3dv.png",
+        "icon_left1": "shopify://shop_images/brain-emoji-1024x798-spi2i3dv.png",
         "heading_left1": "Laser-Sharp Focus",
         "text_left1": "Stay effortlessly in the zone. Metamix fuels your mental clarity, enabling peak concentration and productivity without the fog.",
-        "icon_left2": "shopify:\/\/shop_images\/Pngtree_battery_charge_indicator_graphics_5431978.png",
+        "icon_left2": "shopify://shop_images/Pngtree_battery_charge_indicator_graphics_5431978.png",
         "heading_left2": "All Day Energy",
         "text_left2": "Power through your day, every day. Experience a surge of clean, natural energy that keeps you going strong, without any jitters.",
-        "image_middle": "shopify:\/\/shop_images\/stick_front_copy.png",
-        "icon_right1": "shopify:\/\/shop_images\/gut.png",
+        "image_middle": "shopify://shop_images/stick_front_copy.png",
+        "icon_right1": "shopify://shop_images/gut.png",
         "heading_right1": "No More Bloating",
         "text_right1": "Support your gut health with our prebiotic and probiotic-rich formula for smoother digestion and absorption.",
-        "icon_right2": "shopify:\/\/shop_images\/Male-icon.png",
+        "icon_right2": "shopify://shop_images/Male-icon.png",
         "heading_right2": "Testosterone Support",
         "text_right2": "Harness the power of adaptogens for optimal hormone health. Feel stronger, more balanced, and ready for anything",
         "button1_link": "",
@@ -477,9 +471,9 @@
         "button2_text_color": "#ffffff",
         "button2_text": "Button 2",
         "button_text_one": "Nutritional information",
-        "button_link_one": "shopify:\/\/pages\/nutritional-facts",
+        "button_link_one": "shopify://pages/nutritional-facts",
         "button_text_two": "Ingredients information",
-        "button_link_two": "shopify:\/\/pages\/nutritional-facts",
+        "button_link_two": "shopify://pages/nutritional-facts",
         "side_panel": ""
       }
     },
@@ -489,56 +483,56 @@
         "a5a7783d-cfd4-44b9-9cc4-accedcb65161": {
           "type": "card-image",
           "settings": {
-            "imgcard": "shopify:\/\/shop_images\/0a2ad8cb36abf32aa8aa05096a00fec023792b49-1080x1080.webp",
-            "videocard": "shopify:\/\/files\/videos\/Blood-colorgraded-2_zgyrs2.mp4",
+            "imgcard": "shopify://shop_images/0a2ad8cb36abf32aa8aa05096a00fec023792b49-1080x1080.webp",
+            "videocard": "shopify://files/videos/Blood-colorgraded-2_zgyrs2.mp4",
             "mainhcard": "Hour 1",
-            "subhcard": "<p><strong>Immediate Nutrient Uptake<\/strong><\/p>",
-            "textcard": "<p>As soon as you consume LVRG Metamix, the nutrients begin to absorb into your bloodstream. Organic greens and adaptogens start working to balance and energize your body.<\/p>"
+            "subhcard": "<p><strong>Immediate Nutrient Uptake</strong></p>",
+            "textcard": "<p>As soon as you consume LVRG Metamix, the nutrients begin to absorb into your bloodstream. Organic greens and adaptogens start working to balance and energize your body.</p>"
           }
         },
         "d447c100-7bad-401a-a64f-e33249b37443": {
           "type": "card-image",
           "settings": {
-            "imgcard": "shopify:\/\/shop_images\/DALL_E_2024-01-09_16.24.09_-_A_high-quality_animation-style_image_showing_the_inside_of_the_brain_with_neurons_and_brain_cells_in_a_detailed_and_dynamic_environment._The_image_sh.png",
+            "imgcard": "shopify://shop_images/DALL_E_2024-01-09_16.24.09_-_A_high-quality_animation-style_image_showing_the_inside_of_the_brain_with_neurons_and_brain_cells_in_a_detailed_and_dynamic_environment._The_image_sh.png",
             "mainhcard": "Day 1",
-            "subhcard": "<p><strong>Enhanced Cognitive Function<\/strong><\/p>",
-            "textcard": "<p>Within a day, ingredients like Lion's Mane and Bacopa Monnieri begin to support brain function, potentially enhancing focus and mental clarity.<\/p>"
+            "subhcard": "<p><strong>Enhanced Cognitive Function</strong></p>",
+            "textcard": "<p>Within a day, ingredients like Lion's Mane and Bacopa Monnieri begin to support brain function, potentially enhancing focus and mental clarity.</p>"
           }
         },
         "830a6128-c8aa-4bb7-b3f1-50c04d817567": {
           "type": "card-image",
           "settings": {
-            "imgcard": "shopify:\/\/shop_images\/New_Project_1.jpg",
+            "imgcard": "shopify://shop_images/New_Project_1.jpg",
             "mainhcard": "Week 1",
-            "subhcard": "<p><strong>Stress Response Improvement<\/strong><\/p>",
-            "textcard": "<p>With regular intake, adaptogens like Ashwagandha and Rhodiola Rosea start to modulate your stress response, leading to improved resilience and mood.<\/p>"
+            "subhcard": "<p><strong>Stress Response Improvement</strong></p>",
+            "textcard": "<p>With regular intake, adaptogens like Ashwagandha and Rhodiola Rosea start to modulate your stress response, leading to improved resilience and mood.</p>"
           }
         },
         "982789a6-85f0-4094-b59f-2e50e8caf2ce": {
           "type": "card-image",
           "settings": {
-            "imgcard": "shopify:\/\/shop_images\/DALL_E_2024-01-15_18.31.25_-_Create_an_image_of_isolated_cells_of_gut_bacteria_on_a_white_background_with_a_color_scheme_that_is_glass-like_and_aesthetically_pleasing._The_depict.png",
+            "imgcard": "shopify://shop_images/DALL_E_2024-01-15_18.31.25_-_Create_an_image_of_isolated_cells_of_gut_bacteria_on_a_white_background_with_a_color_scheme_that_is_glass-like_and_aesthetically_pleasing._The_depict.png",
             "mainhcard": "Week 2",
-            "subhcard": "<p><strong>Digestive System Support<\/strong><\/p>",
-            "textcard": "<p>The Probiotic and Prebiotic Blend begins to positively influence your gut health, aiding in digestion and nutrient absorption.<\/p>"
+            "subhcard": "<p><strong>Digestive System Support</strong></p>",
+            "textcard": "<p>The Probiotic and Prebiotic Blend begins to positively influence your gut health, aiding in digestion and nutrient absorption.</p>"
           }
         },
         "5a27ef83-1b03-4f19-9ff0-adad71fdfbd9": {
           "type": "card-image",
           "settings": {
-            "imgcard": "shopify:\/\/shop_images\/New_Project.jpg",
+            "imgcard": "shopify://shop_images/New_Project.jpg",
             "mainhcard": "Day 30",
-            "subhcard": "<p><strong>Physical Endurance Boost<\/strong><\/p>",
-            "textcard": "<p>A month into your routine, the benefits of Beetroot Powder and Cordyceps become more evident, potentially enhancing your physical endurance and recovery.<\/p>"
+            "subhcard": "<p><strong>Physical Endurance Boost</strong></p>",
+            "textcard": "<p>A month into your routine, the benefits of Beetroot Powder and Cordyceps become more evident, potentially enhancing your physical endurance and recovery.</p>"
           }
         },
         "e0459d8e-ad4e-408b-906c-a9775298eaea": {
           "type": "card-image",
           "settings": {
-            "imgcard": "shopify:\/\/shop_images\/DALL_E_2024-01-15_18.33.55_-_Create_an_image_in_the_same_glass-like_and_aesthetically_pleasing_style_depicting_the_concept_of_peak_hormonal_balance_particularly_focusing_on_regu.png",
+            "imgcard": "shopify://shop_images/DALL_E_2024-01-15_18.33.55_-_Create_an_image_in_the_same_glass-like_and_aesthetically_pleasing_style_depicting_the_concept_of_peak_hormonal_balance_particularly_focusing_on_regu.png",
             "mainhcard": "Day 60",
             "subhcard": "",
-            "textcard": "<p><strong>Balanced Hormonal Health<\/strong><br\/>After two months, ingredients like Fenugreek and the absence of estrogenic compounds contribute to maintaining a healthy hormonal balance, crucial for men's health.<\/p>"
+            "textcard": "<p><strong>Balanced Hormonal Health</strong><br/>After two months, ingredients like Fenugreek and the absence of estrogenic compounds contribute to maintaining a healthy hormonal balance, crucial for men's health.</p>"
           }
         }
       },
@@ -553,7 +547,7 @@
       "settings": {
         "padd-top": 0,
         "padd-bot": 40,
-        "secheading": "<h2>Use Metamix Daily and You Will Begin To See<\/h2>",
+        "secheading": "<h2>Use Metamix Daily and You Will Begin To See</h2>",
         "secsubheading": ""
       }
     },
@@ -591,7 +585,7 @@
         "image_ABfqY4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-15_at_12.08.04_PM.png",
+            "image": "shopify://shop_images/Screenshot_2024-02-15_at_12.08.04_PM.png",
             "enable_gallery_video": false,
             "enable_hover_play": false,
             "subheading": "",
@@ -608,7 +602,7 @@
         "image_J39KVF": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-15_at_12.07.27_PM.png",
+            "image": "shopify://shop_images/Screenshot_2024-02-15_at_12.07.27_PM.png",
             "enable_gallery_video": false,
             "enable_hover_play": false,
             "subheading": "",
@@ -625,7 +619,7 @@
         "image_Jt9rH6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-15_at_12.07.08_PM.png",
+            "image": "shopify://shop_images/Screenshot_2024-02-15_at_12.07.08_PM.png",
             "enable_gallery_video": false,
             "enable_hover_play": false,
             "subheading": "",
@@ -642,7 +636,7 @@
         "image_LqHwkn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-15_at_11.59.11_AM.png",
+            "image": "shopify://shop_images/Screenshot_2024-02-15_at_11.59.11_AM.png",
             "enable_gallery_video": false,
             "enable_hover_play": false,
             "subheading": "",
@@ -783,7 +777,7 @@
         ".custom-btn:hover {border: 1px solid #e27624; padding: 19px 0 !important;}"
       ],
       "settings": {
-        "arrow": "shopify:\/\/shop_images\/Arrow-down.png",
+        "arrow": "shopify://shop_images/Arrow-down.png",
         "heading": "BACKED BY INGREDIENTS WITH SCIENTIFIC STUDIES SHOWN TO",
         "stat1": "39",
         "desc1": "Improvement in cognitive function",
@@ -801,7 +795,7 @@
         "mobile_button": "VIEW NUTRITION FACTS",
         "popup_title": "Product information",
         "popup_content": "Nutritional Information",
-        "popup_image": "shopify:\/\/shop_images\/Supplement_Fact_Adjusted_Formula.png"
+        "popup_image": "shopify://shop_images/Supplement_Fact_Adjusted_Formula.png"
       }
     },
     "a740cc50-cf54-48d4-b324-08d381a7e2d0": {
@@ -811,26 +805,26 @@
           "type": "tab",
           "settings": {
             "tab-title": "Greens & Veggies",
-            "card-image1": "shopify:\/\/shop_images\/Spirulina.png",
+            "card-image1": "shopify://shop_images/Spirulina.png",
             "card-title1": "Organic Spirulina",
-            "card-desc1": "<p>Blue-Green Powerhouse, Energize Every Cell<\/p>",
-            "what-is-it1": "<p>A blue-green algae rich in protein, vitamins, and minerals.<\/p>",
-            "what-is-does1": "<p>- Supercharges energy levels for peak daily performance.<br\/>- Detoxifies heavy metals, especially arsenic, for a cleaner system.<br\/>- Strengthens immunity, so you're prepared for whatever life throws.<\/p>",
-            "card-image2": "shopify:\/\/shop_images\/Moringa.png",
+            "card-desc1": "<p>Blue-Green Powerhouse, Energize Every Cell</p>",
+            "what-is-it1": "<p>A blue-green algae rich in protein, vitamins, and minerals.</p>",
+            "what-is-does1": "<p>- Supercharges energy levels for peak daily performance.<br/>- Detoxifies heavy metals, especially arsenic, for a cleaner system.<br/>- Strengthens immunity, so you're prepared for whatever life throws.</p>",
+            "card-image2": "shopify://shop_images/Moringa.png",
             "card-title2": "Organic Moringa",
-            "card-desc2": "<p>Green Nutrient Powerhouse, Elevate Your Health<\/p>",
-            "what-is-it2": "<p>Organic Moringa, also known as the \"Miracle Tree,\" is a nutrient-rich plant renowned for its exceptional health benefits.<\/p>",
-            "what-is-does2": "<p>- Supercharges your daily energy levels, keeping you at your peak performance.- Efficiently detoxifies, particularly removing heavy metals like arsenic, promoting a cleaner system.- Strengthens your immune system, ensuring you're ready for life's challenges.<\/p>",
-            "card-image3": "shopify:\/\/shop_images\/spinach_6bf2709b-a3ca-4016-9df5-720e85e523d4.png",
+            "card-desc2": "<p>Green Nutrient Powerhouse, Elevate Your Health</p>",
+            "what-is-it2": "<p>Organic Moringa, also known as the \"Miracle Tree,\" is a nutrient-rich plant renowned for its exceptional health benefits.</p>",
+            "what-is-does2": "<p>- Supercharges your daily energy levels, keeping you at your peak performance.- Efficiently detoxifies, particularly removing heavy metals like arsenic, promoting a cleaner system.- Strengthens your immune system, ensuring you're ready for life's challenges.</p>",
+            "card-image3": "shopify://shop_images/spinach_6bf2709b-a3ca-4016-9df5-720e85e523d4.png",
             "card-title3": "Organic Spinach",
-            "card-desc3": "<p>Iron-Packed Energy, Strengthen Every Step<\/p>",
-            "what-is-it3": "<p>A leafy green vegetable loaded with vitamins and minerals.<\/p>",
-            "what-is-does3": "<p>- Fortifies bone health, keeping you strong and upright.<br\/>- Boosts eye health, ensuring clear vision for every challenge.<br\/>- Enhances energy, giving the push when it's most needed.<\/p>",
-            "card-image4": "shopify:\/\/shop_images\/kale_5101e751-ec1f-4709-a3e3-b3f5e53aa586.png",
+            "card-desc3": "<p>Iron-Packed Energy, Strengthen Every Step</p>",
+            "what-is-it3": "<p>A leafy green vegetable loaded with vitamins and minerals.</p>",
+            "what-is-does3": "<p>- Fortifies bone health, keeping you strong and upright.<br/>- Boosts eye health, ensuring clear vision for every challenge.<br/>- Enhances energy, giving the push when it's most needed.</p>",
+            "card-image4": "shopify://shop_images/kale_5101e751-ec1f-4709-a3e3-b3f5e53aa586.png",
             "card-title4": "Organic Kale",
-            "card-desc4": "<p>Nutrient-Rich Boost, Elevate Every Bite<\/p>",
-            "what-is-it4": "<p>A superfood, packed with antioxidants, vitamins, and minerals.<\/p>",
-            "what-is-does4": "<p>- Strengthens bones, the very foundation of your strength.<br\/>- Enhances skin and hair health, ensuring you look as good as you feel.<br\/>- Provides potent antioxidants, equipping you against external stressors.<\/p>",
+            "card-desc4": "<p>Nutrient-Rich Boost, Elevate Every Bite</p>",
+            "what-is-it4": "<p>A superfood, packed with antioxidants, vitamins, and minerals.</p>",
+            "what-is-does4": "<p>- Strengthens bones, the very foundation of your strength.<br/>- Enhances skin and hair health, ensuring you look as good as you feel.<br/>- Provides potent antioxidants, equipping you against external stressors.</p>",
             "card-title5": "",
             "card-desc5": "",
             "what-is-it5": "",
@@ -853,31 +847,31 @@
           "type": "tab",
           "settings": {
             "tab-title": "Mushrooms",
-            "card-image1": "shopify:\/\/shop_images\/Lions-Mane_23164b03-528c-4ea2-a387-ad45375218d0.png",
+            "card-image1": "shopify://shop_images/Lions-Mane_23164b03-528c-4ea2-a387-ad45375218d0.png",
             "card-title1": "Organic Lion's Mane",
-            "card-desc1": "<p>Boost Brainpower, Naturally<\/p>",
-            "what-is-it1": "<p>A white, shaggy mushroom known for its cognitive enhancing properties.<\/p>",
-            "what-is-does1": "<p>- Elevates cognitive function, so you're always the smartest in the room.<br\/>- Boosts nerve health, ensuring precision in every action.<br\/>- Enhances mood, giving you the confidence to face any challenge head-on.<\/p>",
-            "card-image2": "shopify:\/\/shop_images\/Cordyceps_2bb9f1d2-de9c-4f41-9e0d-b75afa8f6c9d.png",
+            "card-desc1": "<p>Boost Brainpower, Naturally</p>",
+            "what-is-it1": "<p>A white, shaggy mushroom known for its cognitive enhancing properties.</p>",
+            "what-is-does1": "<p>- Elevates cognitive function, so you're always the smartest in the room.<br/>- Boosts nerve health, ensuring precision in every action.<br/>- Enhances mood, giving you the confidence to face any challenge head-on.</p>",
+            "card-image2": "shopify://shop_images/Cordyceps_2bb9f1d2-de9c-4f41-9e0d-b75afa8f6c9d.png",
             "card-title2": "Organic Cordyceps",
-            "card-desc2": "<p>Push Limits, Unleash Stamina<\/p>",
-            "what-is-it2": "<p>A rare fungus that thrives in high-altitude regions, once reserved for royalty.<\/p>",
-            "what-is-does2": "<p>- Fuels energy and stamina, ensuring you're never left behind.<br\/>- Optimizes lung efficiency, perfect for those intense cardio sessions.<br\/>- Elevates libido, keeping your intimate moments passionate.<\/p>",
-            "card-image3": "shopify:\/\/shop_images\/Turkey_Tail.png",
+            "card-desc2": "<p>Push Limits, Unleash Stamina</p>",
+            "what-is-it2": "<p>A rare fungus that thrives in high-altitude regions, once reserved for royalty.</p>",
+            "what-is-does2": "<p>- Fuels energy and stamina, ensuring you're never left behind.<br/>- Optimizes lung efficiency, perfect for those intense cardio sessions.<br/>- Elevates libido, keeping your intimate moments passionate.</p>",
+            "card-image3": "shopify://shop_images/Turkey_Tail.png",
             "card-title3": "Organic Turkey Tail",
-            "card-desc3": "<p>Guard Up, Shield & Conquer<\/p>",
-            "what-is-it3": "<p>A mushroom known for its immune-boosting polysaccharides.<\/p>",
-            "what-is-does3": "<p>- Supports gut health, a crucial aspect of your daily vitality.<br\/>- Fortifies immune defenses, keeping you ahead in health.<br\/>- Enhances overall vitality, ensuring you always feel your best.<\/p>",
-            "card-image4": "shopify:\/\/shop_images\/Chaga_Mushroom_72fe4a1b-9764-4ba3-8672-ded47a6cb1a1.png",
+            "card-desc3": "<p>Guard Up, Shield & Conquer</p>",
+            "what-is-it3": "<p>A mushroom known for its immune-boosting polysaccharides.</p>",
+            "what-is-does3": "<p>- Supports gut health, a crucial aspect of your daily vitality.<br/>- Fortifies immune defenses, keeping you ahead in health.<br/>- Enhances overall vitality, ensuring you always feel your best.</p>",
+            "card-image4": "shopify://shop_images/Chaga_Mushroom_72fe4a1b-9764-4ba3-8672-ded47a6cb1a1.png",
             "card-title4": "Organic Chaga",
-            "card-desc4": "<p>Battle Ready, Combat Stress<\/p>",
-            "what-is-it4": "<p>Often called the ‘King of Mushrooms’, revered for its immune benefits.<\/p>",
-            "what-is-does4": "<p>- Boosts immune system strength, ensuring you're always ready.<br\/>- Fights inflammation, ensuring your body's smooth function.<br\/>- Supports intestinal health, a cornerstone of overall wellness.<\/p>",
-            "card-image5": "shopify:\/\/shop_images\/King_Trumpet.png",
+            "card-desc4": "<p>Battle Ready, Combat Stress</p>",
+            "what-is-it4": "<p>Often called the ‘King of Mushrooms’, revered for its immune benefits.</p>",
+            "what-is-does4": "<p>- Boosts immune system strength, ensuring you're always ready.<br/>- Fights inflammation, ensuring your body's smooth function.<br/>- Supports intestinal health, a cornerstone of overall wellness.</p>",
+            "card-image5": "shopify://shop_images/King_Trumpet.png",
             "card-title5": "Organic King Trumpet",
-            "card-desc5": "<p>Peak Antioxidant, Battle & Triumph<\/p>",
-            "what-is-it5": "<p>A mushroom known for its antioxidant properties.<\/p>",
-            "what-is-does5": "<p>- Supports heart health, keeping pace with your ambitions.<br\/>- Boosts immune defenses, ensuring you're shielded from challenges.<br\/>- Fosters respiratory health, so every breath powers your mission.<\/p>",
+            "card-desc5": "<p>Peak Antioxidant, Battle & Triumph</p>",
+            "what-is-it5": "<p>A mushroom known for its antioxidant properties.</p>",
+            "what-is-does5": "<p>- Supports heart health, keeping pace with your ambitions.<br/>- Boosts immune defenses, ensuring you're shielded from challenges.<br/>- Fosters respiratory health, so every breath powers your mission.</p>",
             "card-title6": "",
             "card-desc6": "",
             "what-is-it6": "",
@@ -896,35 +890,35 @@
           "type": "tab",
           "settings": {
             "tab-title": "Adaptogens & Anabolic",
-            "card-image1": "shopify:\/\/shop_images\/ashwagandha_acf470f4-0410-4512-8b9e-05f1fa97a5d6.png",
+            "card-image1": "shopify://shop_images/ashwagandha_acf470f4-0410-4512-8b9e-05f1fa97a5d6.png",
             "card-title1": "KSM-666 Ashwagandha",
-            "card-desc1": "<p>Master Stress, Rule Calmly<\/p>",
-            "what-is-it1": "<p>A potent adaptogenic herb widely recognized in Ayurveda for rejuvenating properties.<\/p>",
-            "what-is-does1": "<p>- Empowers stress resilience, so you remain unshaken in high-pressure scenarios.<br\/>- Balances hormones, giving you a steady mood and sharper focus.<br\/>- Enhances muscle recovery and growth, sculpting you for greatness.<\/p>",
-            "card-image2": "shopify:\/\/shop_images\/maca_8eb852b1-2208-4527-ad2b-50648d9e333f.png",
+            "card-desc1": "<p>Master Stress, Rule Calmly</p>",
+            "what-is-it1": "<p>A potent adaptogenic herb widely recognized in Ayurveda for rejuvenating properties.</p>",
+            "what-is-does1": "<p>- Empowers stress resilience, so you remain unshaken in high-pressure scenarios.<br/>- Balances hormones, giving you a steady mood and sharper focus.<br/>- Enhances muscle recovery and growth, sculpting you for greatness.</p>",
+            "card-image2": "shopify://shop_images/maca_8eb852b1-2208-4527-ad2b-50648d9e333f.png",
             "card-title2": "Maca",
-            "card-desc2": "<p>Charge Up, Dominate the Day<\/p>",
-            "what-is-it2": "<p>A powerful Peruvian root, often called 'Peruvian ginseng' for its energizing properties.<\/p>",
-            "what-is-does2": "<p>- Boosts energy and endurance, turning you into an unstoppable force.<br\/>- Elevates libido and fertility, bringing passion into every facet of life.<br\/>- Fortifies cognitive function, so you think faster and sharper.<\/p>",
-            "card-image3": "shopify:\/\/shop_images\/tongkat_f6b236be-cd3a-4675-9db5-ddbd6e93a289.png",
+            "card-desc2": "<p>Charge Up, Dominate the Day</p>",
+            "what-is-it2": "<p>A powerful Peruvian root, often called 'Peruvian ginseng' for its energizing properties.</p>",
+            "what-is-does2": "<p>- Boosts energy and endurance, turning you into an unstoppable force.<br/>- Elevates libido and fertility, bringing passion into every facet of life.<br/>- Fortifies cognitive function, so you think faster and sharper.</p>",
+            "card-image3": "shopify://shop_images/tongkat_f6b236be-cd3a-4675-9db5-ddbd6e93a289.png",
             "card-title3": "Tongkat Ali (Eurycoma Longifolia)",
-            "card-desc3": "<p>Alpha Drive, Peak Performance<\/p>",
-            "what-is-it3": "<p>A Southeast Asian herb, renowned for its testosterone-enhancing capabilities.<\/p>",
-            "what-is-does3": "<p>- Supercharges testosterone levels, sculpting your physique and drive.<br\/>- Amplifies muscle strength and mass, ensuring you dominate in and out of the gym.<br\/>- Elevates mood and vitality, making every day a peak performance day.<\/p>",
-            "card-image4": "shopify:\/\/shop_images\/Fenugreek.png",
+            "card-desc3": "<p>Alpha Drive, Peak Performance</p>",
+            "what-is-it3": "<p>A Southeast Asian herb, renowned for its testosterone-enhancing capabilities.</p>",
+            "what-is-does3": "<p>- Supercharges testosterone levels, sculpting your physique and drive.<br/>- Amplifies muscle strength and mass, ensuring you dominate in and out of the gym.<br/>- Elevates mood and vitality, making every day a peak performance day.</p>",
+            "card-image4": "shopify://shop_images/Fenugreek.png",
             "card-title4": "Fenugreek",
-            "card-desc4": "<p>Boost & Build, Command Presence<\/p>",
-            "what-is-it4": "<p>A Mediterranean herb, traditionally used to enhance masculinity and virility.<\/p>",
-            "what-is-does4": "<p>- Optimizes testosterone levels, boosting your energy, mood, and drive.<br\/>- Supports healthy glucose metabolism, ensuring consistent energy.<br\/>- Enhances libido, making sure your desire matches your drive.<\/p>",
-            "card-image5": "shopify:\/\/shop_images\/Shilajit.png",
+            "card-desc4": "<p>Boost & Build, Command Presence</p>",
+            "what-is-it4": "<p>A Mediterranean herb, traditionally used to enhance masculinity and virility.</p>",
+            "what-is-does4": "<p>- Optimizes testosterone levels, boosting your energy, mood, and drive.<br/>- Supports healthy glucose metabolism, ensuring consistent energy.<br/>- Enhances libido, making sure your desire matches your drive.</p>",
+            "card-image5": "shopify://shop_images/Shilajit.png",
             "card-title5": "Shilajit",
-            "card-desc5": "<p><strong>Nature's Mineral Elixir, Elevate Your Wellness<\/strong><\/p>",
-            "what-is-it5": "<p>Shilajit, often referred to as \"Conqueror of Mountains\" in Sanskrit, is a rare and potent substance derived from the heart of the Himalayas.<\/p>",
-            "what-is-does5": "<p>- natural energy booster, revitalizing your stamina for peak daily performance.<\/p><p>-Aids in detoxifying your body, helping eliminate toxins and promoting a cleaner, rejuvenated system.<\/p><p>-Has been known to enhance vitality and support overall well-being.<\/p>",
-            "card-image6": "shopify:\/\/shop_images\/Rhodiola_Rosea_2.png",
+            "card-desc5": "<p><strong>Nature's Mineral Elixir, Elevate Your Wellness</strong></p>",
+            "what-is-it5": "<p>Shilajit, often referred to as \"Conqueror of Mountains\" in Sanskrit, is a rare and potent substance derived from the heart of the Himalayas.</p>",
+            "what-is-does5": "<p>- natural energy booster, revitalizing your stamina for peak daily performance.</p><p>-Aids in detoxifying your body, helping eliminate toxins and promoting a cleaner, rejuvenated system.</p><p>-Has been known to enhance vitality and support overall well-being.</p>",
+            "card-image6": "shopify://shop_images/Rhodiola_Rosea_2.png",
             "card-title6": "Rhodiola Rosea",
-            "card-desc6": "<p><strong>Nature's Energy Enhancer, Ignite Your Vitality<\/strong><\/p>",
-            "what-is-it6": "<p>-A natural energy booster, helping you achieve peak daily performance and keeping you energized throughout the day.<\/p><p>- Known for its adaptogenic properties, which can help your body better cope with stress and anxiety, promoting mental and emotional well-being.<\/p><p>-May enhance cognitive function, sharpening your mental focus and alertness.<\/p>",
+            "card-desc6": "<p><strong>Nature's Energy Enhancer, Ignite Your Vitality</strong></p>",
+            "what-is-it6": "<p>-A natural energy booster, helping you achieve peak daily performance and keeping you energized throughout the day.</p><p>- Known for its adaptogenic properties, which can help your body better cope with stress and anxiety, promoting mental and emotional well-being.</p><p>-May enhance cognitive function, sharpening your mental focus and alertness.</p>",
             "what-is-does6": "",
             "card-title7": "",
             "card-desc7": "",
@@ -940,16 +934,16 @@
           "type": "tab",
           "settings": {
             "tab-title": "Gut Health",
-            "card-image1": "shopify:\/\/shop_images\/probiotics.png",
+            "card-image1": "shopify://shop_images/probiotics.png",
             "card-title1": "Probiotic Blend",
-            "card-desc1": "<p>Gut's Frontline, Lead from Within<\/p>",
-            "what-is-it1": "<p>Beneficial gut bacteria that play an essential role in digestion and overall health.<\/p>",
-            "what-is-does1": "<p>- Fortifies gut health, ensuring optimal nutrient absorption and energy.<br\/>- Bolsters immune defenses, making sure you're always ready to lead.<br\/>- Enhances digestion, so your gut supports your grind.<\/p>",
-            "card-image2": "shopify:\/\/shop_images\/Resistant_Dextrin_16814004-fc60-40f1-b53f-18ea3a4b61ef.png",
+            "card-desc1": "<p>Gut's Frontline, Lead from Within</p>",
+            "what-is-it1": "<p>Beneficial gut bacteria that play an essential role in digestion and overall health.</p>",
+            "what-is-does1": "<p>- Fortifies gut health, ensuring optimal nutrient absorption and energy.<br/>- Bolsters immune defenses, making sure you're always ready to lead.<br/>- Enhances digestion, so your gut supports your grind.</p>",
+            "card-image2": "shopify://shop_images/Resistant_Dextrin_16814004-fc60-40f1-b53f-18ea3a4b61ef.png",
             "card-title2": "Resistant Dextrin",
-            "card-desc2": "<p>Gut Power, Rule Your Digestion<\/p>",
-            "what-is-it2": "<p>A natural fiber that promotes the growth of beneficial gut bacteria.<\/p>",
-            "what-is-does2": "<p>- Supports healthy gut bacteria, ensuring your digestion runs smoothly.<br\/>- Optimizes nutrient absorption, so you're always fueled for action.<br\/>- Enhances satiety, supporting your weight management goals.<\/p>",
+            "card-desc2": "<p>Gut Power, Rule Your Digestion</p>",
+            "what-is-it2": "<p>A natural fiber that promotes the growth of beneficial gut bacteria.</p>",
+            "what-is-does2": "<p>- Supports healthy gut bacteria, ensuring your digestion runs smoothly.<br/>- Optimizes nutrient absorption, so you're always fueled for action.<br/>- Enhances satiety, supporting your weight management goals.</p>",
             "card-title3": "",
             "card-desc3": "",
             "what-is-it3": "",
@@ -980,16 +974,16 @@
           "type": "tab",
           "settings": {
             "tab-title": "Brain and Muscle Boosters",
-            "card-image1": "shopify:\/\/shop_images\/bocopa_monnieri_7f9a93f3-017a-4b45-8f45-0fef814367a8.png",
+            "card-image1": "shopify://shop_images/bocopa_monnieri_7f9a93f3-017a-4b45-8f45-0fef814367a8.png",
             "card-title1": "Bacopa Monnieri",
-            "card-desc1": "<p>Brain's Iron Grip, Seize Clarity<\/p>",
-            "what-is-it1": "<p>A traditional Ayurvedic herb known for its potential to boost brain function.<\/p>",
-            "what-is-does1": "<p>- Sharpens memory and focus, ensuring you're always on top of your game.<br\/>- Reduces stress and anxiety, so you lead with calm and confidence.<br\/>- Boosts cognitive function, making complex tasks feel like a breeze.<\/p>",
-            "card-image2": "shopify:\/\/shop_images\/Beetroot.png",
+            "card-desc1": "<p>Brain's Iron Grip, Seize Clarity</p>",
+            "what-is-it1": "<p>A traditional Ayurvedic herb known for its potential to boost brain function.</p>",
+            "what-is-does1": "<p>- Sharpens memory and focus, ensuring you're always on top of your game.<br/>- Reduces stress and anxiety, so you lead with calm and confidence.<br/>- Boosts cognitive function, making complex tasks feel like a breeze.</p>",
+            "card-image2": "shopify://shop_images/Beetroot.png",
             "card-title2": "Beetroot Powder",
-            "card-desc2": "<p><strong>Vibrant Red Energy Boost, Fuel Your Active Lifestyle<\/strong><\/p>",
-            "what-is-it2": "<p>Beetroot Powder, derived from the nutrient-rich beetroot vegetable, is a vibrant and natural source of energy and health benefits.<\/p>",
-            "what-is-does2": "<p>- Natural energy booster, providing sustained vitality for your active lifestyle, whether it's during workouts or daily tasks.<\/p><p>- May support cardiovascular health by promoting healthy blood pressure and circulation, contributing to a strong and healthy heart.<\/p><p>- Rich in antioxidants, Beetroot Powder helps combat oxidative stress, supporting overall well-being.<\/p><ul><li><strong>Performance and Recovery:<\/strong> It aids in enhancing exercise performance and may help in post-workout recovery, making it an ideal addition to your fitness routine.<\/li><\/ul>",
+            "card-desc2": "<p><strong>Vibrant Red Energy Boost, Fuel Your Active Lifestyle</strong></p>",
+            "what-is-it2": "<p>Beetroot Powder, derived from the nutrient-rich beetroot vegetable, is a vibrant and natural source of energy and health benefits.</p>",
+            "what-is-does2": "<p>- Natural energy booster, providing sustained vitality for your active lifestyle, whether it's during workouts or daily tasks.</p><p>- May support cardiovascular health by promoting healthy blood pressure and circulation, contributing to a strong and healthy heart.</p><p>- Rich in antioxidants, Beetroot Powder helps combat oxidative stress, supporting overall well-being.</p><ul><li><strong>Performance and Recovery:</strong> It aids in enhancing exercise performance and may help in post-workout recovery, making it an ideal addition to your fitness routine.</li></ul>",
             "card-title3": "",
             "card-desc3": "",
             "what-is-it3": "",
@@ -1027,17 +1021,17 @@
       "settings": {
         "heading": "Only The Best Ingredients",
         "sub-heading": "",
-        "icon1": "shopify:\/\/shop_images\/p-1.png",
+        "icon1": "shopify://shop_images/p-1.png",
         "label1": "Plant-Based, Vegan",
-        "icon2": "shopify:\/\/shop_images\/p-2.png",
+        "icon2": "shopify://shop_images/p-2.png",
         "label2": "Gluten Free",
-        "icon3": "shopify:\/\/shop_images\/p-3.png",
+        "icon3": "shopify://shop_images/p-3.png",
         "label3": "Dairy Free",
-        "icon4": "shopify:\/\/shop_images\/p-4.png",
+        "icon4": "shopify://shop_images/p-4.png",
         "label4": "Nut Free",
-        "icon5": "shopify:\/\/shop_images\/p-5.png",
+        "icon5": "shopify://shop_images/p-5.png",
         "label5": "No Artificial Colors, Flavors",
-        "icon6": "shopify:\/\/shop_images\/p-6.png",
+        "icon6": "shopify://shop_images/p-6.png",
         "label6": "0 Sugar"
       }
     },
@@ -1046,7 +1040,7 @@
       "disabled": true,
       "settings": {
         "heading": "You may also like",
-        "description": "<p>Combine your style with these products<\/p>",
+        "description": "<p>Combine your style with these products</p>",
         "mobile_swipe": true,
         "product_limit": 4,
         "columns_desktop": 4,
@@ -1056,8 +1050,7 @@
     },
     "16625458859c68803a": {
       "type": "apps",
-      "settings": {
-      }
+      "settings": {}
     },
     "spacer_GXxGXj": {
       "type": "spacer",
@@ -1169,18 +1162,16 @@
         "c54f8bc0-e153-40a5-8fee-f3d61bdb3b4a",
         "540aaec7-3408-4d54-a9b6-64b7ab053fbb"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "table_heading": "",
-        "product1_pic": "shopify:\/\/shop_images\/stick_front_copy.png",
+        "product1_pic": "shopify://shop_images/stick_front_copy.png",
         "product1_title": "LVRG Metamix",
-        "product2_pic": "shopify:\/\/shop_images\/Metamix_Landing_Page_AG_Comparison_Chart_Deskop_copy.png",
+        "product2_pic": "shopify://shop_images/Metamix_Landing_Page_AG_Comparison_Chart_Deskop_copy.png",
         "product2_title": "Greens",
-        "product3_pic": "shopify:\/\/shop_images\/20007234-rise-cacao-for-target-1000x1000.png",
+        "product3_pic": "shopify://shop_images/20007234-rise-cacao-for-target-1000x1000.png",
         "product3_title": "Mushroom Coffee",
-        "product4_pic": "shopify:\/\/shop_images\/Test-HD-Hardcore-Testosterone-Booster-for-Men-Dual-Action-Muscle-Building-and-Thermogenic-Formula-90-Capsules_88315f2b-fee1-45de-882d-bcf8d547f7d4_1.bb7e868d03e2f9b5d401baf0415fd018.webp",
+        "product4_pic": "shopify://shop_images/Test-HD-Hardcore-Testosterone-Booster-for-Men-Dual-Action-Muscle-Building-and-Thermogenic-Formula-90-Capsules_88315f2b-fee1-45de-882d-bcf8d547f7d4_1.bb7e868d03e2f9b5d401baf0415fd018.webp",
         "product4_title": "Test-Booster",
         "background_color": "#1f1f23",
         "font_color": "#ffffff",
@@ -1190,10 +1181,23 @@
     "e80f0f18-20cc-4329-83b8-9b8f7250fafd": {
       "type": "guarantee",
       "settings": {
-        "badge": "shopify:\/\/shop_images\/medal.png",
+        "badge": "shopify://shop_images/medal.png",
         "heading": "Man-to-Man Guarantee",
         "text": "Gentlemen, at LVRG, we don't mince words. Dive into a bag of our blend, put it to the test. If you're not feeling the LVRG difference, shoot us an email at support@uselvrg.com and we'll refund you, no returns necessary."
       }
+    },
+    "17189275826f153f38": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_KxbfNx": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_KxbfNx"
+      ],
+      "settings": {}
     },
     "1663667029efc274af": {
       "type": "collapsible-content",
@@ -1203,7 +1207,7 @@
           "settings": {
             "heading": "What Benefits can I expect?",
             "open": false,
-            "content": "<p>Metamix is designed to be more than just a supplement — it's a holistic approach to daily well-being. You can look forward to a blend that supports your journey towards enhanced daily vitality, contributing to a sense of improved energy and mental clarity. It's crafted to complement your wellness routine, offering a nutritional boost that aligns with your lifestyle. <\/p>",
+            "content": "<p>Metamix is designed to be more than just a supplement — it's a holistic approach to daily well-being. You can look forward to a blend that supports your journey towards enhanced daily vitality, contributing to a sense of improved energy and mental clarity. It's crafted to complement your wellness routine, offering a nutritional boost that aligns with your lifestyle. </p>",
             "page": ""
           }
         },
@@ -1213,7 +1217,7 @@
           "settings": {
             "heading": "WHY SHOULD I CHOOSE METAMIX OVER ENERGY DRINKS?",
             "open": false,
-            "content": "<p>Energy drinks? Those fleeting boosts? Mushroom-Greens Metamix is a sustainable power source, without the crash. Plus, it's packed with nature's best, sans the artificial junk.<\/p>",
+            "content": "<p>Energy drinks? Those fleeting boosts? Mushroom-Greens Metamix is a sustainable power source, without the crash. Plus, it's packed with nature's best, sans the artificial junk.</p>",
             "page": ""
           }
         },
@@ -1222,7 +1226,7 @@
           "settings": {
             "heading": "How much should I take daily?",
             "open": false,
-            "content": "<p>One scoop, and you're set. Blend it, shake it, drink it. Daily.<\/p>",
+            "content": "<p>One scoop, and you're set. Blend it, shake it, drink it. Daily.</p>",
             "page": ""
           }
         },
@@ -1232,7 +1236,7 @@
           "settings": {
             "heading": "IS THE METAMIX ORGANIC?",
             "open": false,
-            "content": "<p>Every bit of it. Pure, organic, and clean.<\/p>",
+            "content": "<p>Every bit of it. Pure, organic, and clean.</p>",
             "page": ""
           }
         },
@@ -1241,7 +1245,7 @@
           "settings": {
             "heading": "Can women use it?",
             "open": false,
-            "content": "<p>While crafted with men in mind, it's beneficial for everyone. So, ladies, feel free to dive in.<\/p>",
+            "content": "<p>While crafted with men in mind, it's beneficial for everyone. So, ladies, feel free to dive in.</p>",
             "page": ""
           }
         },
@@ -1251,7 +1255,7 @@
           "settings": {
             "heading": "WHAT INSPIRED THE CREATION OF THIS METAMIX?",
             "open": false,
-            "content": "<p>A desire to cater to the modern man's unique nutritional needs, with no compromises.<\/p>",
+            "content": "<p>A desire to cater to the modern man's unique nutritional needs, with no compromises.</p>",
             "page": ""
           }
         },
@@ -1261,7 +1265,7 @@
           "settings": {
             "heading": "CAN IT CAUSE ANY DIGESTIVE DISCOMFORT?",
             "open": false,
-            "content": "<p>While our mix is gentle on most stomachs, always start with a smaller portion to test the waters.<\/p>",
+            "content": "<p>While our mix is gentle on most stomachs, always start with a smaller portion to test the waters.</p>",
             "page": ""
           }
         },
@@ -1270,7 +1274,7 @@
           "settings": {
             "heading": "How can I be sure Metamix will work for me?",
             "open": false,
-            "content": "<p>Metamix is thoughtfully formulated with ingredients that are recognized in scientific studies for their contributions to men's wellness. This blend is designed with a focus on supporting mental focus and energy levels, while also considering overall hormonal wellness. While individual experiences can vary, Metamix is crafted to offer noticeable contributions to your daily wellness routine<\/p>",
+            "content": "<p>Metamix is thoughtfully formulated with ingredients that are recognized in scientific studies for their contributions to men's wellness. This blend is designed with a focus on supporting mental focus and energy levels, while also considering overall hormonal wellness. While individual experiences can vary, Metamix is crafted to offer noticeable contributions to your daily wellness routine</p>",
             "page": ""
           }
         },
@@ -1279,7 +1283,7 @@
           "settings": {
             "heading": "How quickly will I notice results with Metamix?",
             "open": false,
-            "content": "<p>Some users may start to notice a difference within a few days, while for others, it could take a little longer, possibly a couple of weeks. Consistency is important when using Metamix, as regular use can contribute to experiencing its full potential benefits. Remember, individual responses can vary, and it's always beneficial to maintain a balanced lifestyle alongside any supplement regimen.<\/p>",
+            "content": "<p>Some users may start to notice a difference within a few days, while for others, it could take a little longer, possibly a couple of weeks. Consistency is important when using Metamix, as regular use can contribute to experiencing its full potential benefits. Remember, individual responses can vary, and it's always beneficial to maintain a balanced lifestyle alongside any supplement regimen.</p>",
             "page": ""
           }
         },
@@ -1288,7 +1292,7 @@
           "settings": {
             "heading": "How much does shipping cost and when will I receive my order?",
             "open": false,
-            "content": "<p>Shipping costs vary based on your location and selected shipping speed. Our standard processing time is same day or 1-2 business days after placing your order (For holidays). For exact shipping prices, complete the checkout process with your shipping information, and available carriers and prices for your location will be provided.<\/p>",
+            "content": "<p>Shipping costs vary based on your location and selected shipping speed. Our standard processing time is same day or 1-2 business days after placing your order (For holidays). For exact shipping prices, complete the checkout process with your shipping information, and available carriers and prices for your location will be provided.</p>",
             "page": ""
           }
         }
@@ -1318,21 +1322,6 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "17189275826f153f38": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_KxbfNx": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_KxbfNx"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -1345,6 +1334,7 @@
     "fa29ec10-4697-4581-af5c-83af7c1ffbef",
     "e2bcbf37-e737-4897-b537-292703633aaa",
     "eafca1d4-05cf-4432-afce-a9c35d9df8d9",
+    "17189275826f153f38",
     "d21acdf2-7cd2-49b8-b2d4-301ba365ab92",
     "rich_text_FaAYRV",
     "gallery_7nizBc",
@@ -1357,7 +1347,6 @@
     "caf6b442-01f9-4626-a023-fe54d7314439",
     "4228dd7b-3309-4c07-b857-0183644b0d83",
     "e80f0f18-20cc-4329-83b8-9b8f7250fafd",
-    "1663667029efc274af",
-    "17189275826f153f38"
+    "1663667029efc274af"
   ]
 }
