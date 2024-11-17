@@ -503,56 +503,18 @@
         "disable_bottom_spacing": false
       }
     },
-    "e2bcbf37-e737-4897-b537-292703633aaa": {
-      "type": "text-with-icons",
+    "17189275826f153f38": {
+      "type": "apps",
       "blocks": {
-        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-1": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify://shop_images/Male-icon.png",
-            "heading": "Testosterone Decline",
-            "text": "<p><strong>Laser-Sharp Focus</strong></p>"
-          }
-        },
-        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify://shop_images/vegetable.png",
-            "heading": "Veggie Deficit",
-            "text": "<p>80% of Men Fall Short on Veggies. It's more than health; it's about maintaining that masculine edge.</p>"
-          }
-        },
-        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify://shop_images/Screenshot_2023-08-19_at_3.29.27_PM.png",
-            "heading": "Hidden Estrogen Boosters",
-            "text": "<p>Beware of Common Greens: They're often packed with soy, alfalfa, and flaxseed – sneaky estrogen boosters.</p>"
-          }
+        "judge_me_reviews_review_widget_KxbfNx": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
-        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-1",
-        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-2",
-        "template--20688426926378__e2bcbf37-e737-4897-b537-292703633aaa-icon-3"
+        "judge_me_reviews_review_widget_KxbfNx"
       ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "text_alignment": "center",
-        "icon_position": "top",
-        "icon_size": "xlarge",
-        "heading_size": "small",
-        "mobile_swipe": false,
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#ffffff",
-        "color_text": "#dedede",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
+      "settings": {}
     },
     "d21acdf2-7cd2-49b8-b2d4-301ba365ab92": {
       "type": "sliding-images-videos",
@@ -1386,19 +1348,6 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "17189275826f153f38": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_KxbfNx": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_KxbfNx"
-      ],
-      "settings": {}
     }
   },
   "order": [
@@ -1409,9 +1358,9 @@
     "4114d5c0-9533-43dc-8c53-9684203939cf",
     "image_with_text_x98j84",
     "image_with_text_EfTXJm",
+    "17189275826f153f38",
     "eafca1d4-05cf-4432-afce-a9c35d9df8d9",
     "fa29ec10-4697-4581-af5c-83af7c1ffbef",
-    "e2bcbf37-e737-4897-b537-292703633aaa",
     "d21acdf2-7cd2-49b8-b2d4-301ba365ab92",
     "rich_text_FaAYRV",
     "gallery_7nizBc",
@@ -1424,7 +1373,6 @@
     "caf6b442-01f9-4626-a023-fe54d7314439",
     "4228dd7b-3309-4c07-b857-0183644b0d83",
     "e80f0f18-20cc-4329-83b8-9b8f7250fafd",
-    "1663667029efc274af",
-    "17189275826f153f38"
+    "1663667029efc274af"
   ]
 }
